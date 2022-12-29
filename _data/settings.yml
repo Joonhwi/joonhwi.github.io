@@ -10,23 +10,23 @@ description: Clancy is a elegant portfolio theme for Jekyll.
 # Menu Settings
 menu__settings:
   menu__items:
-    - title: 'Home'
-      url: '/'
-    - title: 'Blog'
-      url: '/blog/'
     - title: 'About'
-      url: '/about/'
-    - title: 'Contact'
-      url: '/contact/'
-    - title: 'Elements'
-      url: '/elements/'
+      url: '/'
+    # - title: 'Blog'
+    #   url: '/blog/'
+    # - title: 'About'
+    #   url: '/about/'
+    # - title: 'Contact'
+    #   url: '/contact/'
+    # - title: 'Elements'
+    #   url: '/elements/'
 
 
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hello, my name’s Jason. I’m a Designer & Photographer based in San Francisco.
-  hero__description: I'm a freelance designer and photographer. For almost five years I have been working with clients from a variety of clients to create pieces that meet their goals. I invite you to navigate my portfolio to know a bit more about me and my work.
+  hero__title: Joonhwi
+  hero__description: 
 
 
 #-------------------------------
