@@ -16,8 +16,8 @@ permalink: /physics/
 
 {% for paper in site.data.papers %}
 <div class="row">
-  <div class="col-md-10" style="font-size:11px; float:left"> {{ paper.title }} </div>
-  <div class="col-md-2" style="font-size:11px; text-align:right"> <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a> </div>
+  <div class="col-md-10" style="float:left"> {{ paper.title }} </div>
+  <div class="col-md-2" style="text-align:right"> <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a> </div>
 </div>
 {% endfor %}
 
@@ -27,8 +27,8 @@ permalink: /physics/
 
 {% for paper in site.data.papers-prehistory %}
 <div class="row">
-  <div class="col-md-10" style="font-size:11px; float:left"> {{ paper.title }} </div>
-  <div class="col-md-2" style="font-size:11px; text-align:right"> <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a> </div>
+  <div class="col-md-10" style="float:left"> {{ paper.title }} </div>
+  <div class="col-md-2" style="text-align:right"> <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a> </div>
 </div>
 {% endfor %}
 
