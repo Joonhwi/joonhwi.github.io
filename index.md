@@ -13,12 +13,19 @@
             Scattering Amplitudes,
             Twistor Theory,
             Interplay between Geometry and Physics -->
+            <!-- <br>
+            <a href="https://scholar.google.com/citations?user=A15RZN4AAAAJ">Google Scholar</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://inspirehep.net/authors/1926101">InspireHEP</a> -->
+            California Institute of Technology,
+            <br>
+            Pasadena, CA, USA 91106
             <br> &nbsp; <br>
         </div>
     </div>
     <br>
     <!-- I am a student working on theoretical high-energy physics. -->
-    I am a graduate student at <a href="https://pma.caltech.edu/people/joonhwi-kim">California Institute of Technology </a>,
+    I am a graduate student at <a href="https://pma.caltech.edu/people/joonhwi-kim">Caltech</a>,
     working on <em>Scattering Amplitudes</em>.
     <!-- My curiosity points toward understanding the true nature of spacetime. -->
     In a sense, I 
