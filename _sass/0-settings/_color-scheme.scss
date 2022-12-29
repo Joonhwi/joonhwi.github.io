@@ -15,7 +15,7 @@
   //
   // --brand-color: #5e3aee;
   --brand-color: #FF6E1E;
-  --selection-color: var(--light-yellow);
+  --selection-color: var(--gamma-yellow);
 
   --background-color: var(--white);
   --background-alt-color: var(--light-blue);
@@ -47,13 +47,14 @@
   --gray: #cccccc;
   // --dark: #111016;
   --dark: #0e0e0e;
+  --gamma-yellow: #ffd94e;
+  --light-yellow: #ffeeb1;
   --schutz: #7cb5ff;
   --lime: rgb(192, 249, 146);
-  --light-yellow: #ffeeb1;
   //
   // --brand-color: #ea301f;
-  --brand-color: var(--light-yellow);
-  --selection-color: var(--light-yellow);
+  --brand-color: var(--gamma-yellow);
+  --selection-color: var(--gamma-yellow);
   --link: #ea301f;
 
   --background-color: var(--dark);
