@@ -98,6 +98,14 @@
       color: var(--link-color);
     }
   }
+  &.nav__link--current {
+    // color: var(--brand-color);
+    color: var(--heading-font-color);
+
+    &::after {
+      content: none;
+    }
+  }
 }
 
 .main-nav__box {
@@ -162,7 +170,7 @@
       letter-spacing: -1px;
       color: var(--heading-font-color);
     }
-    
+
     a {
       text-decoration: none;
       color: var(--heading-font-color);
