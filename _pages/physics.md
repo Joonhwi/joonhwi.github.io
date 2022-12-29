@@ -6,31 +6,37 @@ permalink: /physics/
 
 ## Publications
 
+<div class="container">
 <p style="text-align:center">
   <a href="https://scholar.google.com/citations?user=A15RZN4AAAAJ">Google Scholar</a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://inspirehep.net/authors/1926101">InspireHEP</a>
 </p>
+</div>
 
 <br>
 
+<div class="container">
 {% for paper in site.data.papers %}
 <div class="row">
   <div class="col-md-10" style="float:left"> {{ paper.title }} </div>
   <div class="col-md-2" style="text-align:right"> <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a> </div>
 </div>
 {% endfor %}
+</div>
 
 <br>
 
 ## "Prehistory"
 
+<div class="container">
 {% for paper in site.data.papers-prehistory %}
 <div class="row">
   <div class="col-md-10" style="float:left"> {{ paper.title }} </div>
   <div class="col-md-2" style="text-align:right"> <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a> </div>
 </div>
 {% endfor %}
+</div>
 
 ***
 
