@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row" style="margin: 3px">
         <div class="col-md-3 col-lg-3 col-0">
-            <img src="/images/amiti22-8a-square-med.jpg" style="max-height:300px; object-fit: contain">
+            <img src="/images/amiti22-8a-square-med.jpg" style="max-height:2000px; object-fit: contain">
         </div>
         <div class="col-md-3 col-lg-8 col-11">
             <h3> Joonhwi Kim </h3>
