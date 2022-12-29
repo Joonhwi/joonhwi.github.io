@@ -41,14 +41,15 @@ permalink: /physics/
 
 ***
 
-# Seminars
+# Seminars etc.
 
 {% capture datenow %}{{'now' | date: '%s'}}{% endcapture %}
 {% for talk in site.data.talks %}
 {% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %}
   {% if talkdate < datenow and talk.type == "seminar" %}
   <div class="row">
-     <div class="col-11"> {{ talk.date | date: "%m/%Y" }}: {% if talk.link != nil %} <a href="{{ talk.link }}">{{ talk.name }}</a>{% else %}{{ talk.name }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }} {% endif %} </div>  
+     <div class="col-11"> {{ talk.date | date: "%m/%Y" }}: 
+     {% if talk.topic != nil %}{{ talk.topic }}, {% endif %}{% if talk.topic != nil %}{% if talk.link != nil %} <a href="{{ talk.link }}">{{ talk.name }}</a>{% else %}{{ talk.name }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }} {% endif %} </div>  
     {% if talk.video != nil %}
     <div class="col-1" style="text-align:right">(<a href="{{ talk.video }}">video</a>)</div>
     {% endif %}
