@@ -34,10 +34,10 @@
     a “relativist” learning how to rethink the very notion of spacetime
     and gravity
     from scattering amplitudes in quantum field theory.
-    Currently, my main interests are
+    Specifically, my current interests are
     <em>color-kinematics duality</em> and
     <em>twistor theory</em>.
-    More generally, I 
+    In general, I 
     am
     <!-- have always been -->
     interested in geometrical approaches to physics.
