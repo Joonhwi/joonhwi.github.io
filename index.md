@@ -6,22 +6,34 @@
         </div>
         <div class="col-md-3 col-lg-10" style="float:left">
             <h3> Joonhwi Kim </h3>
-            Graduate student at
-            <a href="https://pma.caltech.edu/people/joonhwi-kim">California Institute of Technology </a> 
-            <br>
+            <!-- Graduate student at
+            <a href="https://pma.caltech.edu/people/joonhwi-kim">California Institute of Technology </a>  -->
+            <!-- <br>
             Research interests:
             Scattering Amplitudes,
             Twistor Theory,
-            Interplay between Geometry and Physics
+            Interplay between Geometry and Physics -->
             <br> &nbsp; <br>
         </div>
     </div>
     <br>
-    <!-- I am a graduate student working on theoretical high-energy physics. 
-    I am interested in twistor theory  -->
+    <!-- I am a student working on theoretical high-energy physics. -->
+    I am a graduate student at <a href="https://pma.caltech.edu/people/joonhwi-kim">California Institute of Technology </a>,
+    working on <em>Scattering Amplitudes</em>.
+    <!-- My curiosity points toward understanding the true nature of spacetime. -->
+    In a sense, I 
+    <!-- identify myself as -->
+    am
+    a ``relativist'' learning how to rethink the notion of spacetime
+    and gravity 
+    from scattering amplitudes in quantum field theory.
+    For now, my main interests are
+    <em>color-kinematics duality</em> and
+    <em>twistor theory</em>.
+    In general, I am interested in geometrical approaches to physics.
+    <!-- as a person who thinks with geometrical intution -->
+    <!-- More generally, I am interested in geometrical approaches to physics. -->
 </div>
-
-***
 
 <div class="container">
   <p style="text-align:center">
