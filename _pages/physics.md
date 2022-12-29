@@ -4,7 +4,7 @@ title: Physics
 permalink: /physics/
 ---
 
-## Publications
+<h2 style="color:--brand-color">Publications</h2>
 
 <div class="container">
 <p style="text-align:center">
@@ -13,8 +13,6 @@ permalink: /physics/
   <a href="https://inspirehep.net/authors/1926101">InspireHEP</a>
 </p>
 </div>
-
-<br>
 
 ### 2021~
 
