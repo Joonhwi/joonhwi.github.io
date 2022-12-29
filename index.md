@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="col-xs-5 col-sm-2 col-md-2 col-lg-2">
-            <img src="/images/amiti22-8a-med.jpg" style="object-fit:contain">
+            <img src="/images/amiti22-8a-med.jpg">
         </div>
         <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
         </div>
