@@ -1,0 +1,572 @@
+- date: 2023-04-15
+  name: APS April Meeting
+  type: conference
+  link: https://april.aps.org
+  institution: Plenary talk 
+  location: Minneapolis
+  video: 
+
+- date: 2023-02-17
+  name: EPP Theory Seminar
+  type: seminar
+  link: https://epp.slac.stanford.edu/event-categories/epp-theory-seminars
+  institution: SLAC 
+  location:
+  video: 
+
+- date: 2023-01-17
+  name: High Energy Physics Seminar
+  type: seminar
+  link: https://physics.nyu.edu/events.html?EventsPage=hep
+  institution: NYU 
+  location: New York
+  video: 
+
+- date: 2023-01-17
+  name: High Energy Theory Seminar
+  type: seminar
+  link: https://physics.tamu.edu/events/categories/lectures/het/
+  institution: Texas A&M University
+  location: College Station
+  video: 
+
+- date: 2022-12-19
+  name: KIAS String Seminars
+  type: seminar
+  link: https://www.kias.re.kr/kias/activities/seminars/view.do?seqno=PGN1720221206-0002&menuNo=404003
+  institution: Korea Institute for Advance Study 
+  location: Seoul
+  video: 
+
+- date: 2022-12-02
+  name: Équations différentielles motiviques et au–delà
+  type: seminar
+  link: https://indico.math.cnrs.fr/category/603/
+  institution: Institut Henri Poincaré
+  location: Paris
+  video: 
+
+- date: 2022-11-28
+  name: Séminaire de Physique Théorique
+  type: seminar
+  link: https://indico.math.cnrs.fr/category/71/
+  institution: IHES
+  location: Paris
+  video: 
+
+- date: 2022-09-28
+  name: Back to the Swamp
+  type: conference
+  link: https://members.ift.uam-csic.es/marchesano/back-to-the-swamp/
+  institution: IFT
+  location: Madrid
+  video: #https://www.youtube.com/watch?v=D9Xd_HyNTaM
+
+- date: 2022-09-24
+  name: Celestial Holography Group Meeting 
+  type: seminar
+  link: 
+  institution: Harvard
+  location: Cambridge, MA
+  video: 
+
+- date: 2022-08-12
+  name: Amplitudes 2022
+  type: conference
+  link: https://indico.cern.ch/event/1101193/
+  institution: Charles University
+  location: Prague
+  video: https://youtu.be/SC6WE4wPhqw?t=23755
+
+- date: 2022-08-03
+  name: "Bohr-100: Current Themes in Theoretical Physics"
+  type: conference
+  link: https://indico.nbi.ku.dk/event/1669/  
+  institution: Niels Bohr Institute
+  location: Copenhaguen
+  video: 
+
+- date: 2022-05-19
+  name: Amplitudes Meets Cosmology 2022
+  type: conference
+  link: https://www.simonsfoundation.org/event/amplitudes-meet-cosmology-2022/
+  institution: Gleneagles Hotel
+  location: Scotland
+  video: 
+
+- date: 2022-05-17
+  name: Quantum Encounters
+  type: seminar
+  link: https://seminars.ihes.fr/quantum/
+  institution: IHES, Paris
+  location: Virtual #, via Zoom
+  video: 
+
+- date: 2022-05-11
+  name: All Things EFT 
+  type: seminar
+  link: https://sites.google.com/view/all-things-eft
+  institution: 
+  location: Virtual
+  video: https://youtu.be/Ab5rQQ4345U
+
+- date: 2022-05-04
+  name: Possible and Impossible in Effective Field Theory 
+  type: workshop
+  link: https://www.ias.edu/possible-and-impossible-effective-field-theory-s-matrix-swampland
+  institution: Institute for Advance Study
+  location: Princeton
+  video: 
+
+- date: 2022-05-03
+  name: Quantum Gravity Seminar 
+  type: seminar
+  link: 
+  institution: Max Planck Institute for Gravitational Physics (AEI), Potsdam
+  location: Virtual
+  video: 
+
+- date: 2022-04-19
+  name: Storming the Gravitational Wave Frontier 
+  type: conference
+  link: https://www.kitp.ucsb.edu/activities/gwaves-c22
+  institution: KITP 
+  location: Santa Barbara
+  video: https://online.kitp.ucsb.edu/online/gwaves-c22/parramartinez/
+
+- date: 2022-04-13
+  name: Special Seminar
+  type: seminar
+  link: https://pitp.phas.ubc.ca/upcoming/index.html
+  institution: Pacific Insitute for Theoretical Physics, UBC
+  location: Vancouver
+  video: 
+
+- date: 2022-04-12
+  name: YOUNGST@RS - Color-Kinematics
+  type: conference
+  link: https://indico.mitp.uni-mainz.de/event/296/
+  institution: Mainz Institute for Theoretical Physics
+  location: Virtual
+  video: https://youtu.be/om2mZYQ6WZE
+
+- date: 2022-04-11
+  name: Theory Seminar 
+  type: seminar
+  link: Max Planck Institut für Physik
+  institution: Max Planck Institut für Physik, Munich
+  location: Virtual
+  video: 
+
+- date: 2022-04-10
+  name: APS April Meeting
+  type: conference
+  link: https://meetings.aps.org/Meeting/APR22/Session/L01
+  institution: Plenary Talk
+  location: New York, Virtual
+  video: 
+
+- date: 2022-04-07
+  name: High Energy and Gravity Seminar
+  type: seminar
+  link: https://www.kitp.ucsb.edu/strings/seminars
+  institution: KITP
+  location: Santa Barbara
+  video: 
+
+- date: 2022-04-04
+  name: Swampland Seminar 
+  type: seminar
+  link: https://hetg.physics.harvard.edu/seminar-schedule
+  institution:
+  location: Virtual
+  video: https://youtu.be/bPA0VU2luaA
+ 
+- date: 2022-03-24
+  name: Astrophysics Seminar 
+  type: seminar
+  link: https://www.ias.edu/sns/astrophysics/astrophysics-seminars
+  institution: Institute for Advance Study
+  location: Princeton
+  video: https://www.ias.edu/video/collider-tools-classical-gravity
+
+- date: 2022-03-21
+  name: HET Seminar
+  type: seminar
+  link: https://phy.princeton.edu/events/het-seminar-julio-parra-martinez-caltech-causality-constraints-corrections-einstein-gravity
+  institution: Princeton University
+  location: Princeton
+  video: 
+
+- date: 2022-03-10
+  name: Joint Theory Seminar
+  type: seminar
+  link: 
+  institution: Niels Bohr Institute, Copenhagen
+  location: Virtual
+  video: 
+
+- date: 2022-03-05
+  name: California Amplitudes Meeting
+  type: workshop
+  link: https://qmap.ucdavis.edu/events/ca-amplitudes-meeting-2022
+  institution: UC Davis
+  location: Davis
+  video: 
+
+- date: 2022-03-02
+  name: Colloquium
+  type: seminar
+  link: https://phas.ubc.ca/seminar-black-hole-collider-physics
+  institution: University of British Columbia
+  location: Zoom
+  video: 
+
+- date: 2022-02-23
+  name: Colloquium
+  type: seminar
+  link: https://lsa.umich.edu/physics/news-events/all-events.detail.html/92464-21691706.html
+  institution: University of Michigan 
+  location: Ann Arbor
+  video: 
+
+- date: 2022-02-07
+  name: Quantum Spacetime Seminars
+  type: seminar
+  link: http://qst.theory.tifr.res.in/StringTheoryStud/Seminars.php
+  institution: Tata Institute of Fundamental Research, Mumbai
+  location: Virtual
+  video: 
+
+- date: 2022-02-01
+  name: Particle Physics Seminar
+  type: seminar
+  link: https://het.ucsd.edu/seminars.html
+  institution: UC San Diego
+  location: Virtual
+  video: 
+
+- date: 2022-01-11
+  name: Amplitudes Meeting
+  type: seminar
+  link: 
+  institution: Institute for Advanced Study, Princeton
+  location: Virtual
+  video: 
+
+- date: 2021-11-30
+  name: HET Seminar
+  type: seminar
+  link: https://lsa.umich.edu/physics/news-events/all-events.detail.html/89154-21660700.html
+  institution: University of Michigan
+  location: Ann Arbor
+  video: 
+
+- date: 2021-11-17
+  name: Theory Seminar
+  type: seminar
+  link: 
+  institution: Carnegie Mellon University
+  location: Pittsburgh
+  video: 
+
+- date: 2021-06-03
+  name: Amplitudes Journal Club
+  type: seminar
+  link: 
+  institution: Durham University 
+  location: Virtual
+  video: 
+
+- date: 2021-05-21
+  name: RADCOR+LoopFest 2021
+  type: conference
+  link: https://indico.cern.ch/event/958085/
+  institution: Florida State University 
+  location: Virtual
+  video: https://fsu-my.sharepoint.com/:v:/g/personal/cff02_fsu_edu/EQXYiH0T8mFIjmO6wBgxQG4BnZrSr9_J5SddhZCXOe6xPA?e=VbEKnL
+
+- date: 2021-04-27
+  name: Particle Theory Seminar
+  type: seminar
+  link: 
+  institution: U. Chicago 
+  location: Virtual
+  video: 
+
+- date: 2021-04-27
+  name: TH String Theory Seminar
+  type: seminar
+  link: https://indico.cern.ch/event/1008832/
+  institution: CERN 
+  location: Virtual
+  video: 
+
+- date: 2021-04-27
+  name: Gravitational scattering, inspiral, and radiation
+  type: lectures
+  link: https://agenda.infn.it/event/26511/timetable/#20210419
+  institution: Galileo Galilei Institute
+  location: Virtual
+  video: https://www.youtube.com/watch?v=xAUHiBu5jUA&list=PL2Qie6Sz_Y_SDX7r32yYTIW_FztSE5rdM&index=1
+
+- date: 2021-03-10
+  name: EPP Theory Seminar
+  type: seminar
+  link: https://theory.slac.stanford.edu/events/epp-theory-seminar-julio-parra-martinez-collider-tools-for-classical-gravity
+  institution: SLAC 
+  location: Virtual
+  video: 
+
+- date: 2021-03-03
+  name: Particle Physics Theory Seminar
+  type: seminar
+  link: https://www.ph.ed.ac.uk/events/2021/81260-classical-dynamics-from-semiclassical-scattering
+  institution: Edinburgh University 
+  location: Virtual
+  video: https://ed-ac-uk.zoom.us/rec/share/x0L-pWlbTmGFtRHXFHZ2OvV8P2_KOosRZEgw-O-bgj76ngxLk36_US8kSsV1SWOS.bJ9hDBR-2q3jp4Tc
+
+- date: 2021-02-16
+  name: High Energy Physics Seminar
+  type: seminar
+  link: 
+  institution: CP3, UC Louvain
+  location: Virtual
+  video: https://agenda.irmp.ucl.ac.be/event/4212/attachments/2615/3403/zoom_0.mp4
+
+- date: 2021-02-01
+  name: High Energy Theory Seminar
+  type: seminar
+  link: https://het.physics.columbia.edu/events/julio-parra-martinez-caltech
+  institution: Columbia University, New York
+  location: Virtual
+  video: 
+
+- date: 2021-01-15
+  name: Amplitudes Journal Club
+  type: seminar
+  link: 
+  institution: UCLA
+  location: Virtual
+  video: 
+
+- date: 2020-12-01
+  name: QCD Meets Gravity 2020
+  type: conference
+  link: https://indico.desy.de/event/27454/overview
+  institution: Northwestern University
+  location: Virtual
+  video: https://www.youtube.com/watch?v=nhfTtENCxWM
+
+
+- date: 2020-11-25
+  name: High Energy Theory Informal Meeting
+  type: seminar
+  link: https://www.theory.caltech.edu/seminars/high-energy-theory-informal-meeting
+  institution: Caltech
+  location: Virtual
+  video: 
+
+- date: 2020-10-29
+  name: EFT methods from Bound States to Binary Systems
+  type: conference
+  link: https://indico.dfa.unipd.it/event/11/overview
+  institution: Universita' degli Studi di Padova
+  location: Virtual
+  video: https://indico.dfa.unipd.it/event/11/contributions/14/attachments/17/134/10.EFTMBS20_Parra-Martinez.mp4
+
+- date: 2020-06-03
+  name: Particle Seminar
+  type: seminar
+  link: https://www-theory.lbl.gov/wordpress/?event=julio-parra-martinez
+  institution: LBL/UC Berkeley
+  location: Virtual
+  video: 
+
+- date: 2020-05-12
+  name: Amplitudes 2020
+  type: conference
+  link: https://indico.cern.ch/event/908370/
+  institution: Brown University
+  location: Virtual
+  video: https://indico.cern.ch/event/908370/contributions/3855572/attachments/2037244/3411399/go
+
+- date: 2020-05-06
+  name: LoopFest XIX
+  type: conference
+  link: https://indico.cern.ch/event/866125/overview
+  institution: University of Pittsburgh
+  location: Cancelled due to Covid-19
+  video: 
+
+- date: 2020-02-11
+  name: TEP Seminar
+  type: seminar
+  link: http://bhaumik-institute.physics.ucla.edu/seminars-and-colloquia
+  institution: UCLA
+  location: Los Angeles
+  video: 
+
+- date: 2019-12-11
+  name: QCD Meets Gravity 2019
+  type: conference
+  link: http://bhaumik-institute.physics.ucla.edu/QCD%20Meets%20Gravity%202019
+  institution: UCLA
+  location: Los Angeles
+  video: 
+
+- date: 2019-11-11
+  name: Amplitudes Group Meeting
+  type: seminar
+  link: 
+  institution: Brown University
+  location: Providence
+  video: 
+
+- date: 2019-10-17
+  name: From Scattering to Expansion
+  type: conference
+  link: https://indico.desy.de/indico/event/24148/overview
+  institution: Northwestern University
+  location: Evanston
+  video: 
+
+- date: 2019-09-11
+  name: Quantum Matter Seminar
+  type: seminar
+  link: https://cmsa.fas.harvard.edu/event_category/quantum-matter-seminar/
+  institution: CMSA Harvard
+  location: Cambridge, MA
+  video: https://youtu.be/HnoFDRJhYbE
+
+- date: 2019-09-06
+  name: EEP Theory Seminar
+  type: seminar
+  link: https://theory.slac.stanford.edu/events/epp-theory-seminar-julio-parra-martinez-universality-the-classical-limit-gravitational
+  institution: SLAC
+  location:
+  video: 
+
+- date: 2019-08-11
+  name: Off-term Seminar
+  type: seminar
+  link: 
+  institution: ETH
+  location: Zurich
+  video: 
+      
+- date: 2019-06-26
+  name: "IGC@25: Multimessenger Universe"
+  type: conference
+  link: https://igc.psu.edu/os/events/igc25/
+  institution: ICG, Penn State
+  location:
+  video: 
+
+- date: 2019-06-01
+  name: California Amplitudes Meeting
+  type: workshop
+  link: https://qmap.ucdavis.edu/events/events-past-events/california-amplitudes-meeting
+  institution: QMAP, UC Davis
+  location:
+  video: 
+
+- date: 2019-04-10
+  name: Brown Bag Seminar
+  type: seminar
+  link: https://lsa.umich.edu/lctp/news-events/all-events/seminars/seminar-history/past-brown-bag-seminar-series/winter-2019.html
+  institution: University of Michigan
+  location: Ann Arbor
+  video: 
+    
+- date: 2018-11-11
+  name: Fields and Strings Seminar
+  type: seminar
+  link: 
+  institution: QMAP, UC Davis
+  location: Zurich
+  video: 
+
+- date: 2018-09-11
+  name: Supergravity and M/Superstring Theory in the Ultraviolet and Double Copy
+  type: conference
+  link: http://gravity.psu.edu/events/superstring_supergravity/index_sstu.shtml
+  institution: Penn State
+  location:
+  video: 
+
+- date: 2018-06-11
+  name: Amplitudes Summer School, Gong Show
+  type: conference
+  link: http://qmap.ucdavis.edu/events/events-past-events/amplitudes-summer-school
+  institution: QMAP, UC Davis
+  location:
+  video: 
+
+- date: 2018-04-11
+  name: California Amplitudes Meeting
+  type: workshop
+  link: https://sites.google.com/site/calamps2018/home
+  institution: SLAC
+  location: 
+  video: 
+
+- date: 2018-03-11
+  name: 34th Pacific Coast Gravity Meeting
+  type: conference
+  link: http://www.tapir.caltech.edu/~pcgm34/
+  institution: Caltech 
+  location: Pasadena
+  video: 
+
+- date: 2017-12-11
+  name: QCD Meets Gravity 2017
+  type: conference
+  link: http://bhaumik-institute.physics.ucla.edu/qcdmg2017_schedule.html
+  institution: UCLA
+  location: Los Angeles
+  video: 
+
+- date: 2017-07-11
+  name: String Theory Seminar
+  type: seminar
+  link: 
+  institution: Max Planck Institute for Gravitational Physics (AEI)
+  location: Potsdam
+  video: 
+
+- date: 2017-06-11
+  name: "Scattering Amplitudes: from Gauge Theory to Gravity"
+  type: workshop
+  link: https://www.kitp.ucsb.edu/activities/scamp17
+  institution: KITP
+  location: Santa Barbara
+  video: http://online.itp.ucsb.edu/online/scamp17/parramartinez
+
+- date: 2016-12-11
+  name: Recent Developments in Fields, Strings, and Gravity, Gong Show
+  type: conference
+  link: http://qmap.ucdavis.edu/events/events-past-events/fsg2016/events-fsg2016-program
+  institution: QMAP, UC Davis
+  location: 
+  video: 
+
+- date: 2016-10-11
+  name: California Amplitudes Meeting
+  type: workshop
+  link: https://bhaumik-institute.physics.ucla.edu/california-amplitudes-2016
+  institution: UCLA
+  location: Los Angeles
+  video: 
+
+- date: 2016-06-11
+  name: California Amplitudes Meeting
+  type: workshop
+  link: http://qmap.ucdavis.edu/events/events-past-events/amplitudes-meeting
+  institution: QMAP, UC Davis
+  location: 
+  video: 
+      
+    
+
+
