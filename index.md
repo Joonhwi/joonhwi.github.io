@@ -1,9 +1,9 @@
 <div class="container">
     <div class="row" style="margin: 3px">
-        <div class="col-md-3 col-lg-3">
+        <div class="col-md-3 col-lg-3 col-0">
             <img src="/images/amiti22-8a-square-med.jpg" style="max-height:2000px; object-fit: contain">
         </div>
-        <div class="col-md-3 col-lg-8">
+        <div class="col-md-3 col-lg-8 col-11">
             <h3> Joonhwi Kim </h3>
             Graduate student at
             <a href="https://pma.caltech.edu/people/joonhwi-kim">California Institute of Technology </a> <br>
