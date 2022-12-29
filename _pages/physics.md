@@ -21,8 +21,8 @@ permalink: /physics/
 <div class="container">
 {% for paper in site.data.papers %}
 <div class="row">
-  <div class="col-md-11" style="float:left">[{{ paper.no }}] {{ paper.title }} </div>
-  <div class="col-md-2" style="text-align:right"> <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a> </div>
+  <div class="col-md-11" style="float:left; font-size:-1">[{{ paper.no }}] {{ paper.title }} </div>
+  <div class="col-md-2" style="text-align:right; font-size:-1"> <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a> </div>
 </div>
 {% endfor %}
 </div>
@@ -34,8 +34,8 @@ permalink: /physics/
 <div class="container">
 {% for paper in site.data.papers-prehistory %}
 <div class="row">
-  <div class="col-md-11" style="float:left">[{{ paper.no }}] {{ paper.title }} </div>
-  <div class="col-md-2" style="text-align:right"> <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a> </div>
+  <div class="col-md-11" style="float:left; font-size:-1">[{{ paper.no }}] {{ paper.title }} </div>
+  <div class="col-md-2" style="text-align:right; font-size:-1"> <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a> </div>
 </div>
 {% endfor %}
 </div>
