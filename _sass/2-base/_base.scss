@@ -18,7 +18,8 @@ body {
 
 *::selection {
   // color: var(--white);
-  color: var(--text-color);
+  // color: var(--text-color);
+  color: #000000;
   background-color: var(--selection-color);
 }
 
