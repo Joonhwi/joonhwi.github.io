@@ -168,7 +168,7 @@ li {
 
 ***
 
-## Youtube Embed
+<!-- ## Youtube Embed
 
 <p><iframe src="https://www.youtube.com/embed/hRXd0MMsixI" frameborder="0" allowfullscreen></iframe></p>
 
@@ -178,4 +178,4 @@ li {
 
 <p><iframe src="https://player.vimeo.com/video/147264547?title=0&byline=0" width="640" height="360" frameborder="0" allowfullscreen></iframe></p>
 
-***
+*** -->
