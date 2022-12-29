@@ -24,7 +24,7 @@
     In a sense, I 
     <!-- identify myself as -->
     am
-    a "relativist" learning how to rethink the very notion of spacetime
+    a “relativist” learning how to rethink the very notion of spacetime
     and gravity
     from scattering amplitudes in quantum field theory.
     For now, my main interests are
