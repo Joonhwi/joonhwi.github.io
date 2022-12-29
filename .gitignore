@@ -1,4 +1,5 @@
-_sass
 _site
 .sass-cache
-feed.xml
+.jekyll-cache
+.jekyll-metadata
+.DS_Store
