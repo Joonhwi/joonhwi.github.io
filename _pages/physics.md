@@ -4,7 +4,8 @@ title: Physics
 permalink: /physics/
 ---
 
-<h2 style="color:--brand-color">Publications</h2>
+## Publications
+<!-- <h2 style="color:--brand-color">Publications</h2> -->
 
 <div class="container">
 <p style="text-align:center">
