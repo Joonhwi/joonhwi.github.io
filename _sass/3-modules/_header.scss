@@ -77,7 +77,7 @@
           }
 
           &.nav__link--current {
-            color: var(--heading-font-color);
+            color: var(--brand-color);
 
             &::after {
               content: none;
@@ -146,8 +146,7 @@
       font-size: 36px;
       font-weight: 700;
       letter-spacing: -1px;
-      // color: var(--heading-font-color);
-      color: rgb(0, 255, 255);
+      color: var(--heading-font-color);
     }
   }
 
@@ -181,7 +180,7 @@
         &::after {
           transform: scaleX(1);
           transition: none;
-          background: var(--heading-font-color);
+          background: var(--brand-color);
         }
       }
 
@@ -204,7 +203,7 @@
         transform: scaleX(0);
         will-change: transform;
         transition: all 0.25s;
-        background: var(--link-color);
+        background: var(--text-color);
       }
     }
   }
@@ -214,8 +213,7 @@
   display: flex;
   align-items: center;
   font-size: 21px;
-  color: var(--heading-font-color);
-  // !!!
+  color: var(--text-color);
   cursor: pointer;
 
   .nav__icon {
