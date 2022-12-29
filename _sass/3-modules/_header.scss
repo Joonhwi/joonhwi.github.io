@@ -77,7 +77,7 @@
           }
 
           &.nav__link--current {
-            color: var(--heading-font-color);
+            color: var(--brand-color);
 
             &::after {
               content: none;
@@ -85,6 +85,16 @@
           }
         }
       }
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--heading-font-color);
+
+    &:hover {
+      text-decoration: none;
+      color: var(--heading-font-color);
     }
   }
 }
@@ -115,10 +125,30 @@
     .ion-md-close {
       transition: $global-transition;
     }
+
+    a {
+      text-decoration: none;
+      color: var(--heading-font-color);
+  
+      &:hover {
+        text-decoration: none;
+        color: var(--heading-font-color);
+      }
+    }
   }
 
   .nav__title {
     display: none;
+
+    a {
+      text-decoration: none;
+      color: var(--heading-font-color);
+  
+      &:hover {
+        text-decoration: none;
+        color: var(--heading-font-color);
+      }
+    }
   }
 
   @media only screen and (max-width: $desktop) {
@@ -180,7 +210,7 @@
         &::after {
           transform: scaleX(1);
           transition: none;
-          background: var(--heading-font-color);
+          background: var(--brand-color);
         }
       }
 
@@ -203,8 +233,18 @@
         transform: scaleX(0);
         will-change: transform;
         transition: all 0.25s;
-        background: var(--heading-font-color);
+        background: var(--link-color);
       }
+    }
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--heading-font-color);
+
+    &:hover {
+      text-decoration: none;
+      color: var(--heading-font-color);
     }
   }
 }
@@ -213,7 +253,7 @@
   display: flex;
   align-items: center;
   font-size: 21px;
-  color: var(--heading-font-color);
+  color: var(--link-color);
   cursor: pointer;
 
   .nav__icon {
