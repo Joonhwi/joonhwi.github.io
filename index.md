@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-4 col-lg-4">
-            <img src="/images/amiti22-8a-low.jpg" style="max-height:300px">
+            <img src="/images/amiti22-8a-square-med.jpg" style="max-height:300px">
         </div>
         <div class="col-md-1 col-lg-1">
         </div>
