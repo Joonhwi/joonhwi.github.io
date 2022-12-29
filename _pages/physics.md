@@ -26,8 +26,6 @@ permalink: /physics/
 {% endfor %}
 </div>
 
-<br>
-
 #### "Prehistory"
 
 <div class="container">
