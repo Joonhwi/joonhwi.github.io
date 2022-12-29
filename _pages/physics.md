@@ -54,7 +54,7 @@ permalink: /physics/
     <div class="col-1" style="text-align:right">(<a href="{{ talk.video }}">video</a>)</div>
     {% endif %}
     {% if talk.file != nil %}
-    <div class="col-1" style="text-align:right">(<a href="{{ talk.video }}">file</a>)</div>
+    <div class="col-1" style="text-align:right">(<a href="{{ talk.file }}">file</a>)</div>
     {% endif %}
   </div>
   {% endif %}
