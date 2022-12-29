@@ -43,6 +43,7 @@ permalink: /physics/
 
 # Seminars etc.
 
+<div class="container">
 {% capture datenow %}{{'now' | date: '%s'}}{% endcapture %}
 {% for talk in site.data.talks %}
 {% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %}
@@ -59,6 +60,7 @@ permalink: /physics/
   </div>
   {% endif %}
 {% endfor %}
+</div>
 
 ***
 
