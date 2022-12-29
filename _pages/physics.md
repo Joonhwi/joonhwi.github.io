@@ -4,7 +4,7 @@ title: Physics
 permalink: /physics/
 ---
 
-## Publications
+# Publications
 <!-- <h2 style="color:--brand-color">Publications</h2> -->
 
 <div class="container">
@@ -37,6 +37,35 @@ permalink: /physics/
   <div class="col-md-2" style="text-align:right; font-size:-1; letter-spacing:-0.5px"> <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a> </div>
 </div>
 {% endfor %}
+</div>
+
+***
+
+# Seminars
+
+{% capture datenow %}{{'now' | date: '%s'}}{% endcapture %}
+{% for talk in site.data.talks %}
+{% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %}
+  {% if talkdate < datenow and talk.type == "seminar" %}
+  <div class="row">
+     <div class="col-11"> {{ talk.date | date: "%m/%Y" }}: {% if talk.link != nil %} <a href="{{ talk.link }}">{{ talk.name }}</a>{% else %}{{ talk.name }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }} {% endif %} </div>  
+    {% if talk.video != nil %}
+    <div class="col-1" style="text-align:right">(<a href="{{ talk.video }}">video</a>)</div>
+    {% endif %}
+    {% if talk.file != nil %}
+    <div class="col-1" style="text-align:right">(<a href="{{ talk.video }}">file</a>)</div>
+    {% endif %}
+  </div>
+  {% endif %}
+{% endfor %}
+
+***
+
+<div class="container">
+  <div class="row">
+      <div class="col-6">  </div>
+      <div class="col-6" style="text-align:right">  Updated: 12/29/2022 </div>
+  </div>
 </div>
 
 ***

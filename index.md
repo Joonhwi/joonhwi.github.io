@@ -37,10 +37,12 @@
     Specifically, my current interests are
     <em>color-kinematics duality</em> and
     <em>twistor theory</em>.
+    <!-- Perturbative syntax .. physical reality at the syntactic level -->
     More generally, I
     am
     <!-- have always been -->
-    interested in the interplay between geometry and physics.
+    interested in geometrical approaches to physics.
+    <!-- interested in the interplay between geometry and physics. -->
     <!-- as a person who thinks with geometrical intution -->
     <!-- More generally, I am interested in geometrical approaches to physics. -->
 </div>
