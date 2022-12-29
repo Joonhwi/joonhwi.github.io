@@ -95,7 +95,7 @@
 
     &:hover {
       text-decoration: none;
-      color: var(--brand-color);
+      color: var(--link-color);
     }
   }
 }
@@ -161,6 +161,16 @@
       font-weight: 700;
       letter-spacing: -1px;
       color: var(--heading-font-color);
+
+      a {
+        text-decoration: none;
+        color: var(--heading-font-color);
+    
+        &:hover {
+          text-decoration: underline;
+          color: var(--link-color);
+        }
+      }
     }
   }
 
