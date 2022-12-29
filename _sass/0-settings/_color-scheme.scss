@@ -1,8 +1,6 @@
 /* Color Scheme */
 
 :root {
-  // --brand-color: #5e3aee;
-  --brand-color: #FF6E1E;
   --white: #fff;
   --light-gray: #f0f0f0;
   --light-blue: #f8f6fb;
@@ -12,8 +10,12 @@
   --dark-blue: #1e2740;
   --cal: #FF6E1E;
   --gamma-yellow: #ffd94e;
+  --light-yellow: #ffeeb1;
   --schutz: #7cb5ff;
-  --selection-color: var(--brand-color);
+  //
+  // --brand-color: #5e3aee;
+  --brand-color: #FF6E1E;
+  --selection-color: var(--light-yellow);
 
   --background-color: var(--white);
   --background-alt-color: var(--light-blue);
@@ -40,15 +42,17 @@
 }
 
 :root[dark] {
-  // --brand-color: #ea301f;
-  --brand-color: rgb(124, 181, 255);
   --white: #fff;
   --light-gray: #f0f0f0;
   --gray: #cccccc;
   // --dark: #111016;
   --dark: #0e0e0e;
+  --schutz: #7cb5ff;
+  //
+  // --brand-color: #ea301f;
+  --brand-color: var(--schutz);
+  --selection-color: var(--schutz);
   --link: #ea301f;
-  --selection-color: var(--brand-color);
 
   --background-color: var(--dark);
   --background-alt-color: #18181d;
