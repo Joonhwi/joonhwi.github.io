@@ -136,11 +136,14 @@ img,
 }
 
 a {
-  text-decoration: underline;
+  // text-decoration: underline;
+  text-decoration: none;
   color: var(--link-color);
   transition: $global-transition;
 
   &:hover {
+    // 
+    text-decoration: underline;
     color: var(--link-color-hover);
   }
 }
