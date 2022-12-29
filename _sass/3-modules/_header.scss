@@ -77,7 +77,8 @@
           }
 
           &.nav__link--current {
-            color: var(--brand-color);
+            // color: var(--brand-color);
+            color: var(--heading-font-color);
 
             &::after {
               content: none;
@@ -117,9 +118,10 @@
     cursor: pointer;
 
     &:hover {
+      // X icon
       .ion-md-close {
         transform: rotate(90deg);
-        color: rgb(14, 207, 255);
+        color: var(--link-color);
       }
     }
 
