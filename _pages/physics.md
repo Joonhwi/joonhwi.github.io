@@ -19,7 +19,7 @@ permalink: /physics/
 <div class="container">
 {% for paper in site.data.papers %}
 <div class="row">
-  <div class="col-md-11" style="float:left; font-size:-1; letter-spacing:-1px">[{{ paper.no }}] {{ paper.title }} </div>
+  <div class="col-md-11" style="float:left; font-size:-1; letter-spacing:-1px">[{{ paper.noo }}] {{ paper.title }} </div>
   <div class="col-md-2" style="text-align:right; font-size:-1; letter-spacing:-1px"> <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a> </div>
 </div>
 {% endfor %}
