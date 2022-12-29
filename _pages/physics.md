@@ -4,30 +4,33 @@ title: Physics
 permalink: /physics/
 ---
 
-A paragraph looks like this — Globally incubate standards compliant channels before scalable benefits. Quickly disseminate superior deliverables whereas web-enabled applications. Quickly drive clicks-and-mortar catalysts for change before vertical architectures. Credibly reintermediate backend ideas for cross-platform models. Continually reintermediate integrated processes through technically sound intellectual capital. Holistically foster superior methodologies.
+## Publications
 
-***
+<p style="text-align:center">
+  <a href="https://scholar.google.com/citations?user=A15RZN4AAAAJ">Google Scholar</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://inspirehep.net/authors/1926101">InspireHEP</a>
+</p>
 
-## Headings by default:
+<br>
 
-# H1 Default styles for headings
-## H2 Default styles for headings
-### H3 Default styles for headings
-#### H4 Default styles for headings
-##### H5 Default styles for headings
-###### H6 Default styles for headings
+{% for paper in site.data.papers %}
+<div class="row">
+  <div class="col-md-10 col-0"> {{ paper.title }} </div>
+  <div class="col-md-2 col-12" style="text-align:right"> <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a> </div>
+</div>
+{% endfor %}
 
-***
+<br>
 
-## Lists
+## "Prehistory"
 
-### Ordered list example:
-
-1. Poutine drinking vinegar bitters.
-2. Coloring book distillery fanny pack.
-3. Venmo biodiesel gentrify enamel pin meditation.
-4. Jean shorts shaman listicle pickled portland.
-5. Salvia mumblecore brunch iPhone migas.
+{% for paper in site.data.papers-prehistory %}
+<div class="row">
+  <div class="col-md-10 col-0"> {{ paper.title }} </div>
+  <div class="col-md-2 col-12" style="text-align:right"> <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a> </div>
+</div>
+{% endfor %}
 
 ***
 
