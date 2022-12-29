@@ -13,7 +13,7 @@
     I am a graduate student interested in 
 </div>
 
-<div class="container>
+<div class="container">
   <p style="text-align:center">
     <a href="https://scholar.google.com/citations?user=A15RZN4AAAAJ">Google Scholar</a>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
