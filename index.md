@@ -8,13 +8,20 @@
             <h3> Joonhwi Kim </h3>
             Graduate student at
             <a href="https://pma.caltech.edu/people/joonhwi-kim">California Institute of Technology </a> 
+            <br>
+            Research interests:
+            Scattering Amplitudes,
+            Twistor Theory,
+            Interplay between Geometry and Physics
             <br> &nbsp; <br>
         </div>
     </div>
     <br>
-    I am a graduate student working on theoretical high-energy physics. 
-    I am interested in twistor theory 
+    <!-- I am a graduate student working on theoretical high-energy physics. 
+    I am interested in twistor theory  -->
 </div>
+
+***
 
 <div class="container">
   <p style="text-align:center">
