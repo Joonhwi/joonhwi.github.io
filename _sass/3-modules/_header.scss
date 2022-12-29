@@ -77,8 +77,7 @@
           }
 
           &.nav__link--current {
-            // color: var(--heading-font-color);
-            color: rgb(0, 225, 255);
+            color: var(--heading-font-color);
 
             &::after {
               content: none;
