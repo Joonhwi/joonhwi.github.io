@@ -25,12 +25,12 @@
     <!-- identify myself as -->
     am
     a ``relativist'' learning how to rethink the very notion of spacetime
-    and gravity 
+    and gravity
     from scattering amplitudes in quantum field theory.
     For now, my main interests are
     <em>color-kinematics duality</em> and
     <em>twistor theory</em>.
-    In general, I am interested in geometrical approaches to physics.
+    More generally, I am interested in geometrical approaches to physics.
     <!-- as a person who thinks with geometrical intution -->
     <!-- More generally, I am interested in geometrical approaches to physics. -->
 </div>
