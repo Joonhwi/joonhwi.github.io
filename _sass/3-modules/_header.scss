@@ -94,7 +94,7 @@
 
     &:hover {
       text-decoration: none;
-      color: var(--heading-font-color);
+      color: var(--brand-color);
     }
   }
 }
@@ -125,30 +125,10 @@
     .ion-md-close {
       transition: $global-transition;
     }
-
-    a {
-      text-decoration: none;
-      color: var(--heading-font-color);
-  
-      &:hover {
-        text-decoration: none;
-        color: var(--heading-font-color);
-      }
-    }
   }
 
   .nav__title {
     display: none;
-
-    a {
-      text-decoration: none;
-      color: var(--heading-font-color);
-  
-      &:hover {
-        text-decoration: none;
-        color: var(--heading-font-color);
-      }
-    }
   }
 
   @media only screen and (max-width: $desktop) {
@@ -235,16 +215,6 @@
         transition: all 0.25s;
         background: var(--link-color);
       }
-    }
-  }
-  
-  a {
-    text-decoration: none;
-    color: var(--heading-font-color);
-
-    &:hover {
-      text-decoration: none;
-      color: var(--heading-font-color);
     }
   }
 }
