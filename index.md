@@ -2,7 +2,6 @@
     <div class="row" style="margin: 3px">
         <div class="col-md-4 col-lg-4">
             <img src="/images/amiti22-8a-square-med.jpg" style="max-height:300px">
-            &nbsp;&nbsp;&nbsp;
         </div>
         <div class="col-md-4 col-lg-8">
             <font size = "+2">
