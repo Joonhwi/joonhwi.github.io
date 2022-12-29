@@ -41,6 +41,7 @@
   --light-gray: #f0f0f0;
   --gray: #9e9e9e;
   --dark: #111016;
+  --light-blue: #69beff;
 
   --background-color: var(--dark);
   --background-alt-color: #18181d;
@@ -50,8 +51,8 @@
   
   --heading-font-color: var(--light-gray);
 
-  --link-color: var(--cal);
-  --link-color-hover: var(--cal);
+  --link-color: var(--light-blue);
+  --link-color-hover: var(--light-blue);
 
   --button-color: var(--white);
   --button-background-color: var(--brand-color);
