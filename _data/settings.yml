@@ -1,6 +1,6 @@
 #-------------------------------
 # Site Settings
-title: Joonhwi @ Caltech
+title: Joonhwi@Caltech
 logo: '/images/AurH clear.png'
 author: Joonhwi Kim
 description: Joonhwi's personal website
@@ -10,12 +10,12 @@ description: Joonhwi's personal website
 # Menu Settings
 menu__settings:
   menu__items:
-    - title: 'About'
+    - title: 'Home'
       url: '/'
     # - title: 'Blog'
     #   url: '/blog/'
-    # - title: 'About'
-    #   url: '/about/'
+    - title: 'About'
+      url: '/about/'
     # - title: 'Contact'
     #   url: '/contact/'
     # - title: 'Elements'
