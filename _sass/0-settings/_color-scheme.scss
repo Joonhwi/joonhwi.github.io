@@ -48,10 +48,11 @@
   // --dark: #111016;
   --dark: #0e0e0e;
   --schutz: #7cb5ff;
+  --lime: rgb(192, 249, 146);
   //
   // --brand-color: #ea301f;
-  --brand-color: var(--schutz);
-  --selection-color: var(--schutz);
+  --brand-color: var(--lime);
+  --selection-color: var(--lime);
   --link: #ea301f;
 
   --background-color: var(--dark);
