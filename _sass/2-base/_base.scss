@@ -17,7 +17,8 @@ body {
 }
 
 *::selection {
-  color: var(--white);
+  // color: var(--white);
+  color: var(--text-color);
   background-color: var(--brand-color);
 }
 
