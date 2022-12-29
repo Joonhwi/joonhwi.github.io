@@ -55,7 +55,8 @@
   // --brand-color: #ea301f;
   --brand-color: var(--gamma-yellow);
   --selection-color: var(--gamma-yellow);
-  --link: #ea301f;
+  // --link: #ea301f;
+  --link: var(--gamma-yellow);
 
   --background-color: var(--dark);
   --background-alt-color: #18181d;
