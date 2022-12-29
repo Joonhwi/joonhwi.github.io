@@ -4,9 +4,7 @@
             <img src="/images/amiti22-8a-square-med.jpg" style="max-height:300px">
         </div>
         <div class="col-md-4 col-lg-8">
-            <font size = "+2">
-                <b> Joonhwi Kim </b>
-            </font> <br>
+            <h3> Joonhwi Kim </h3>
             Graduate student at
             <a href="https://pma.caltech.edu/people/joonhwi-kim">California Institute of Technology </a> <br>
         </div>
