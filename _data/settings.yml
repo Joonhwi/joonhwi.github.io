@@ -87,8 +87,8 @@ mailchimp:
 #-------------------------------
 # Footer Settings
 social:
-- {icon: "/images/icon-gs.png", color: "#55acee", label: Google Scholar, link: "https://scholar.google.com/citations?user=A15RZN4AAAAJ"}
-- {icon: "/images/icon-inspire.png", color: "#55acee", label: INSPIRE, link: "https://inspirehep.net/authors/1926101"}
+- {image: "/images/icon-gs.png", color: "#55acee", label: Google Scholar, link: "https://scholar.google.com/citations?user=A15RZN4AAAAJ"}
+- {image: "/images/icon-inspire.png", color: "#55acee", label: INSPIRE, link: "https://inspirehep.net/authors/1926101"}
 
 # Example of adding a new link to the footer section - {icon: "ion-logo-github", color: "#24292e, label: Github, link: "https://github.com"}
 # Other icons can be found at https://ionicons.com/v4/
