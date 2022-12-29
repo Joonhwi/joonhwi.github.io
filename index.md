@@ -12,7 +12,8 @@
         </div>
     </div>
     <br>
-    I am a graduate student interested in 
+    I am a graduate student working on theoretical high-energy physics. 
+    I am interested in twistor theory 
 </div>
 
 <div class="container">
