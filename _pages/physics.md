@@ -19,7 +19,7 @@ permalink: /physics/
 <div class="container">
 {% for paper in site.data.papers %}
 <div class="row">
-  <div class="col-md-11" style="float:left"> {{ paper.title }} </div>
+  <div class="col-md-11" style="float:left">[{{ paper.no }}] {{ paper.title }} </div>
   <div class="col-md-2" style="text-align:right"> <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a> </div>
 </div>
 {% endfor %}
@@ -32,7 +32,7 @@ permalink: /physics/
 <div class="container">
 {% for paper in site.data.papers-prehistory %}
 <div class="row">
-  <div class="col-md-11" style="float:left"> {{ paper.title }} </div>
+  <div class="col-md-11" style="float:left">[{{ paper.no }}] {{ paper.title }} </div>
   <div class="col-md-2" style="text-align:right"> <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a> </div>
 </div>
 {% endfor %}
