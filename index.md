@@ -2,10 +2,9 @@
     <div class="row">
         <div class="col-md-4 col-lg-4">
             <img src="/images/amiti22-8a-square-med.jpg" style="max-height:300px">
+            &nbsp;&nbsp;&nbsp;
         </div>
-        <div class="col-md-1 col-lg-1">
-        </div>
-        <div class="col-md-8 col-lg-8">
+        <div class="col-md-4 col-lg-8">
             <font size = "+2">
                 <b> Joonhwi Kim </b>
             </font> <br>
