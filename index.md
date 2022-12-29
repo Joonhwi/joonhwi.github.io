@@ -30,7 +30,7 @@
     For now, my main interests are
     <em>color-kinematics duality</em> and
     <em>twistor theory</em>.
-    More generally, I am interested in geometrical approaches to physics.
+    More generally, I have been interested in geometrical approaches to physics.
     <!-- as a person who thinks with geometrical intution -->
     <!-- More generally, I am interested in geometrical approaches to physics. -->
 </div>
