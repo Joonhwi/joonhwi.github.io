@@ -52,12 +52,15 @@
   --light-yellow: #ffeeb1;
   --schutz: #7cb5ff;
   --lime: rgb(192, 249, 146);
+  --checker-red: #ea301f;
+  --mint: #00d0ff;
   //
   // --brand-color: #ea301f;
   --brand-color: var(--gamma-yellow);
-  --selection-color: #181c60;
+  // --selection-color: #181c60;
+  --selection-color: rgb(88, 95, 141);
   // --link: #ea301f;
-  --link: var(--gamma-yellow);
+  --link: var(--mint);
 
   --background-color: var(--black);
   --background-alt-color: #18181d;
