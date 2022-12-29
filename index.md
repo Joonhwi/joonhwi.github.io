@@ -3,18 +3,12 @@ layout: default
 --- 
 <div class="row">
 <div class="col-4 col-sm-4 col-md-5">
-<img src="/images/julio.jpg">  
+<img src="/images/amiti22-8a-med.jpg">  
 </div>
 <div class="col-8 col-sm-8 col-md-4">
-Julio Parra-Martinez <br> 
-California Institute of Technology, <br> 
-1200 East California Boulevard,  <br>
-Pasadena, California 91125, <br>
-United States <br>
-<!--
-<br>
-Office: PAB 4-737 <br>
--->
+Joonhwi Kim <br>
+<a href="https://pma.caltech.edu/people/joonhwi-kim">California Institute of Technology </a> <br> 
+Pasadena, CA, USA <br>
 <a href="/contact/index.html">Contact </a>
 </div>
 <div class="col-4 col-sm-4 col-md-3">
