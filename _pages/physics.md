@@ -28,7 +28,7 @@ permalink: /physics/
     {% if paper.released!=0 %}<a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>{% else %}arXiv:{{ paper.arxivnumber }}{% endif %}
   </div>
 </div>
-<hr>
+<hr style="visibility:hidden">
 {% endfor %}
 </div>
 
@@ -44,7 +44,7 @@ permalink: /physics/
     {% if paper.released!=0 %}<a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>{% else %}arXiv:{{ paper.arxivnumber }}{% endif %}
   </div>
 </div>
-<hr>
+<hr style="visibility:hidden">
 {% endfor %}
 </div>
 
@@ -78,7 +78,7 @@ permalink: /physics/
     </div>
     {% endif %}
   </div>
-  <hr>
+  <hr style="visibility:hidden">
   {% endif %}
 {% endfor %}
 </div>
@@ -101,7 +101,7 @@ permalink: /physics/
       09/2021 -
     </div>
   </div>
-  <hr>
+  <hr style="visibility:hidden">
   <div class="row">
     <div class="col-8"> 
       <b>
@@ -115,7 +115,7 @@ permalink: /physics/
       03/2017 - 02/2021
     </div>
   </div>
-  <hr>
+  <hr style="visibility:hidden">
   <div class="row">
     <div class="col-8"> 
       <b>
