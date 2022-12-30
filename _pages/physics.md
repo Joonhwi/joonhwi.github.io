@@ -31,6 +31,7 @@ permalink: /physics/
 <hr style="visibility:hidden"/>
 {% endfor %}
 </div>
+<hr style="visibility:hidden"/>
 
 #### "Prehistory"
 
@@ -48,7 +49,7 @@ permalink: /physics/
 {% endfor %}
 </div>
 
-<br>***<br>
+***
 
 ## Seminars etc.
 
@@ -83,7 +84,7 @@ permalink: /physics/
 {% endfor %}
 </div>
 
-<br>***<br>
+***
 
 ## Education
 
@@ -130,7 +131,7 @@ permalink: /physics/
   </div>
 </div>
 
-<br>***<br>
+***
 
 <div class="container">
   <div class="row">
