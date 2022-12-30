@@ -48,7 +48,7 @@ permalink: /physics/
 {% endfor %}
 </div>
 
-***
+<br>***<br>
 
 ## Seminars etc.
 
@@ -83,7 +83,7 @@ permalink: /physics/
 {% endfor %}
 </div>
 
-***
+<br>***<br>
 
 ## Education
 
@@ -130,7 +130,7 @@ permalink: /physics/
   </div>
 </div>
 
-***
+<br>***<br>
 
 <div class="container">
   <div class="row">
