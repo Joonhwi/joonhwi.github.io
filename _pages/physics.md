@@ -4,6 +4,7 @@ title: Physics
 permalink: /physics/
 ---
 
+
 ## Publications
 <!-- <h2 style="color:--brand-color">Publications</h2> -->
 
@@ -27,7 +28,7 @@ permalink: /physics/
     {% if paper.released!=0 %}<a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>{% else %}arXiv:{{ paper.arxivnumber }}{% endif %}
   </div>
 </div>
-<br>
+<hr>
 {% endfor %}
 </div>
 
@@ -43,7 +44,7 @@ permalink: /physics/
     {% if paper.released!=0 %}<a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>{% else %}arXiv:{{ paper.arxivnumber }}{% endif %}
   </div>
 </div>
-<br>
+<hr>
 {% endfor %}
 </div>
 
@@ -77,7 +78,7 @@ permalink: /physics/
     </div>
     {% endif %}
   </div>
-  <br>
+  <hr>
   {% endif %}
 {% endfor %}
 </div>
@@ -100,7 +101,7 @@ permalink: /physics/
       09/2021 -
     </div>
   </div>
-  <br>
+  <hr>
   <div class="row">
     <div class="col-8"> 
       <b>
@@ -114,7 +115,7 @@ permalink: /physics/
       03/2017 - 02/2021
     </div>
   </div>
-  <br>
+  <hr>
   <div class="row">
     <div class="col-8"> 
       <b>
