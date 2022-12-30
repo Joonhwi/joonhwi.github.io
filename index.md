@@ -1,6 +1,6 @@
 <div class="container">
   <div style="float:left">
-    <img src="/images/amiti22-8a-square-med.jpg" style="max-height:240px">
+    <img src="/images/amiti22-8a-square-qual3.jpg" style="max-height:240px">
     &nbsp;
     <hr style="visibility:hidden">
   </div>
