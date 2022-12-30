@@ -20,7 +20,7 @@
   twistor theory,
   and quantum field theoretic approaches to general relativity.
   Ultimately, I want to understand how quantum physics reshapes the notion of spacetime.
-  Generally, I am interested in geometrical approaches to physics.
+  I am generally interested in geometrical approaches to physics.
 </div>
 
 <div class="container">
