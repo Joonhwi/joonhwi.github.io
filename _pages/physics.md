@@ -4,7 +4,7 @@ title: Physics
 permalink: /physics/
 ---
 
-# Publications
+## Publications
 <!-- <h2 style="color:--brand-color">Publications</h2> -->
 
 <div class="container">
@@ -51,7 +51,7 @@ permalink: /physics/
 
 ***
 
-# Seminars etc.
+## Seminars etc.
 
 <div class="container">
 {% capture datenow %}{{'now' | date: '%s'}}{% endcapture %}
@@ -86,7 +86,7 @@ permalink: /physics/
 
 ***
 
-# Education
+## Education
 
 <div class="container">
   <div class="row">

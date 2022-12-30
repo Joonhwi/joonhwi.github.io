@@ -25,7 +25,6 @@
     I am generally interested in geometrical approaches to physics.
   </p>
 </div>
-<br style="line-height: 10px">
 
 <div class="container">
   <p style="text-align:center">
