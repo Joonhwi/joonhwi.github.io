@@ -9,6 +9,7 @@ permalink: /physics/
 <!-- <h2 style="color:--brand-color">Publications</h2> -->
 
 <div class="container">
+<hr style="visibility:hidden"/>
 <p style="text-align:center">
   <a href="https://scholar.google.com/citations?user=A15RZN4AAAAJ">Google Scholar</a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -137,7 +138,9 @@ permalink: /physics/
 <div class="container">
   <div class="row">
       <div class="col-6">  </div>
-      <div class="col-6" style="text-align:right">  Updated: 12/29/2022 </div>
+      <div class="col-6" style="text-align:right">
+        Last Updated: 12/31/2022
+      </div>
   </div>
 </div>
 

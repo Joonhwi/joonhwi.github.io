@@ -1,17 +1,20 @@
 <div class="container">
-  <!-- <div class="row"> -->
-    <div style="float:left">
-      <img src="/images/amiti22-8a-square-qual3.jpg" style="max-width:240px; min-width:200px; margin:0px 10px 10px 0px">
+  <div class="row">
+    <div class="container">
+      <div style="float:left">
+        <img src="/images/amiti22-8a-square-qual3.jpg" style="max-width:240px; min-width:200px; margin:0px 10px 10px 0px">
+      </div>
+      <div style="col-4">
+        <b>Joonhwi Kim                    </b>
+        <br>
+        California Institute of Technology
+        <br>
+        Pasadena, CA, USA 91106           
+      </div>
     </div>
-    <div style="col-4">
-      <b>Joonhwi Kim                    </b>
-      <br>
-      California Institute of Technology
-      <br>
-      Pasadena, CA, USA 91106           
-    </div>
-  <!-- </div> -->
+  </div>
 </div>
+
 <div class="container">
   <br clear="all">
   <p>
