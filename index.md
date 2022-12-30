@@ -1,14 +1,15 @@
 <div class="container">
-    <div>
+    <div class="square">
+      <div>
         <img src="/images/amiti22-8a-square-med.jpg" style="max-height:300px">
-        &nbsp;
-        <p>
-          Joonhwi Kim
-          <br>
-          California Institute of Technology
-          <br>
-          Pasadena, CA, USA 91106
-        </p>
+      </div>
+      <p>
+        Joonhwi Kim
+        <br>
+        California Institute of Technology
+        <br>
+        Pasadena, CA, USA 91106
+      </p>
     </div>
     <br>
     <!-- I am a student working on theoretical high-energy physics. -->
