@@ -9,13 +9,13 @@ permalink: /physics/
 <!-- <h2 style="color:--brand-color">Publications</h2> -->
 
 <div class="container">
-<hr style="visibility:hidden"/>
 <p style="text-align:center">
   <a href="https://scholar.google.com/citations?user=A15RZN4AAAAJ">Google Scholar</a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://inspirehep.net/authors/1926101">InspireHEP</a>
 </p>
 </div>
+<hr style="visibility:hidden; margin-bottom: -5px"/>
 
 #### 2021~
 
