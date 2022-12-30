@@ -1,7 +1,11 @@
 <div class="container">
     <div>
-        <img src="/images/amiti22-8a-square-med.jpg" style="max-height:300px">
-          This text appears to the right of the image.
+        <img src="/images/amiti22-8a-square-med.jpg" style="max-height:300px" margin=10px>
+        Joonhwi Kim
+        <br>
+        California Institute of Technology
+        <br>
+        Pasadena, CA, USA 91106
     </div>
     <br>
     <!-- I am a student working on theoretical high-energy physics. -->
