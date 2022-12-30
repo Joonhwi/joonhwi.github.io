@@ -5,11 +5,13 @@
     <hr style="visibility:hidden">
   </div>
   <div style="row">
-    <b>Joonhwi Kim</b>
-    <br>
-    California Institute of Technology
-    <br>
-    Pasadena, CA, USA 91106
+    <div class="col-4">
+      <b>Joonhwi Kim</b>
+      <br>
+      California Institute of Technology
+      <br>
+      Pasadena, CA, USA 91106
+    </div>
   </div>
   <br clear="all">
   <p>
