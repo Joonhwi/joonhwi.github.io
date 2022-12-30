@@ -4,7 +4,7 @@
       <img src="/images/amiti22-8a-square-qual3.jpg" style="max-height:240px; margin:0px 5px 5px 0px">
       <hr style="visibility:hidden">
     </div>
-    <div style="width:400px">
+    <div style="width:500px">
       <b>Joonhwi Kim</b>
       <br>
       California Institute of Technology
