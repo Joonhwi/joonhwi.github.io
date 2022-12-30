@@ -28,7 +28,7 @@ permalink: /physics/
     {% if paper.released!=0 %}<a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>{% else %}arXiv:{{ paper.arxivnumber }}{% endif %}
   </div>
 </div>
-<hr style="visibility:hidden">
+<hr style="visibility:hidden"/>
 {% endfor %}
 </div>
 
@@ -44,11 +44,11 @@ permalink: /physics/
     {% if paper.released!=0 %}<a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>{% else %}arXiv:{{ paper.arxivnumber }}{% endif %}
   </div>
 </div>
-<hr style="visibility:hidden">
+<hr style="visibility:hidden"/>
 {% endfor %}
 </div>
 
-<br><hr><br>
+<br>***<br>
 
 ## Seminars etc.
 
@@ -78,12 +78,12 @@ permalink: /physics/
     </div>
     {% endif %}
   </div>
-  <hr style="visibility:hidden">
+  <hr style="visibility:hidden"/>
   {% endif %}
 {% endfor %}
 </div>
 
-<br><hr><br>
+<br>***<br>
 
 ## Education
 
@@ -101,7 +101,7 @@ permalink: /physics/
       09/2021 ~
     </div>
   </div>
-  <hr style="visibility:hidden">
+  <hr style="visibility:hidden"/>
   <div class="row">
     <div class="col-8"> 
       <b>
@@ -115,7 +115,7 @@ permalink: /physics/
       03/2017 ~ 02/2021
     </div>
   </div>
-  <hr style="visibility:hidden">
+  <hr style="visibility:hidden"/>
   <div class="row">
     <div class="col-8"> 
       <b>
@@ -130,7 +130,7 @@ permalink: /physics/
   </div>
 </div>
 
-<br><hr><br>
+<br>***<br>
 
 <div class="container">
   <div class="row">
