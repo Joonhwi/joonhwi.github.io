@@ -1,11 +1,13 @@
 <div class="container">
-  <div style="float:left">
-    <img src="/images/amiti22-8a-square-qual3.jpg" style="max-height:240px">
-    &nbsp;
-    <hr style="visibility:hidden">
-  </div>
   <div style="row">
-    <div class="col-5">
+    <div class="col-4">
+      <div style="float:left">
+        <img src="/images/amiti22-8a-square-qual3.jpg" style="max-height:240px">
+        &nbsp;
+        <hr style="visibility:hidden">
+      </div>
+    </div>
+    <div class="col-6">
       <b>Joonhwi Kim</b>
       <br>
       California Institute of Technology
