@@ -105,7 +105,7 @@ permalink: /physics/
       09/2021 -
     </div>
   </div>
-  <br>
+  <br style="line-height: 5px">
   <div class="row">
     <div class="col-8"> 
       <b>
@@ -119,7 +119,7 @@ permalink: /physics/
       03/2017 - 02/2021
     </div>
   </div>
-  <br>
+  <br style="line-height: 5px">
   <div class="row">
     <div class="col-8"> 
       <b>
