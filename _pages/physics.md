@@ -15,7 +15,7 @@ permalink: /physics/
 </p>
 </div>
 
-#### <em>2021~</em>
+#### 2021~
 
 <div class="container">
 {% for paper in site.data.papers %}
@@ -32,7 +32,7 @@ permalink: /physics/
 
 <br>
 
-#### <em>"Prehistory"</em>
+#### "Prehistory"
 
 <div class="container">
 {% for paper in site.data.papers-prehistory %}
