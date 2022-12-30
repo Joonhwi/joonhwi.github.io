@@ -1,27 +1,7 @@
 <div class="container">
-    <div class="row" style="margin: 1px">
-        <div class="col-md-5">
-            <img src="/images/amiti22-8a-square-med.jpg" style="max-height:300px">
-            <br> &nbsp; <br>
-        </div>
-        <div class="col-md-15" style="float:left">
-            <h3> Joonhwi Kim </h3>
-            <!-- Graduate student at
-            <a href="https://pma.caltech.edu/people/joonhwi-kim">California Institute of Technology </a>  -->
-            <!-- <br>
-            Research interests:
-            Scattering Amplitudes,
-            Twistor Theory,
-            Interplay between Geometry and Physics -->
-            <!-- <br>
-            <a href="https://scholar.google.com/citations?user=A15RZN4AAAAJ">Google Scholar</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://inspirehep.net/authors/1926101">InspireHEP</a> -->
-            California Institute of Technology,
-            <br>
-            Pasadena, CA, USA 91106
-            <br> &nbsp; <br>
-        </div>
+    <div>
+        <img src="/images/amiti22-8a-square-med.jpg" style="max-height:300px">
+          This text appears to the right of the image.
     </div>
     <br>
     <!-- I am a student working on theoretical high-energy physics. -->
