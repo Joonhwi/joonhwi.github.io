@@ -1,7 +1,8 @@
 <div class="container">
-  <div style="float:left; clear:left">
+  <div style="float:left; clear:both">
     <img src="/images/amiti22-8a-square-med.jpg" style="max-height:300px">
     &nbsp;
+    <hr style="height:5px; visibility:hidden;" />
   </div>
   <p>
     <b>Joonhwi Kim</b>
@@ -11,6 +12,8 @@
     Pasadena, CA, USA 91106
   </p>
 </div>
+
+<hr style="height:10px; visibility:hidden;" />
 
 <div class="container">
   <p>
