@@ -11,7 +11,6 @@
     Pasadena, CA, USA 91106
   </p>
 </div>
-<br style="line-height: 10px">
 
 ***
 
