@@ -2,6 +2,7 @@
   <div style="float:left">
     <img src="/images/amiti22-8a-square-qual3.jpg" style="max-height:240px">
     &nbsp;
+    <br>
     <hr style="visibility:hidden">
   </div>
   <div style="row">
