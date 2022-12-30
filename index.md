@@ -14,6 +14,7 @@
   </div>
   <br>
 </div>
+<br>
 
 <div class="container">
   <!-- I am a graduate student at Caltech, working on Scattering Amplitudes. In a sense, I am a “relativist” learning how to rethink the very notion of spacetime and gravity from amplitudes in quantum field theory. Specifically, my current interests are color-kinematics duality and twistor theory. More generally, I am interested in geometrical approaches to physics. -->
@@ -26,6 +27,7 @@
   Ultimately, I want to understand how quantum physics reshapes the notion of spacetime.
   I am generally interested in geometrical approaches to physics.
 </div>
+<br>
 
 <div class="container">
   <p style="text-align:center">

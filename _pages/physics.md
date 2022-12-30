@@ -80,3 +80,19 @@ permalink: /physics/
 </div>
 
 ***
+
+# Education
+
+<div class="container">
+  <div class="row">
+    <div class="col-11"> 
+      s
+    </div>  
+    <div class="col-1" style="text-align:right">
+      s
+    </div>
+  </div>
+</div>
+
+
+
