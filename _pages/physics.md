@@ -61,7 +61,7 @@ permalink: /physics/
       ({{ talk.date | date: "%m/%Y" }})
     </div>
     <div class="col-11"> 
-      {% if talk.topic != nil %}<b>{{ talk.topic }}</b>. {% endif %}{% if talk.link != nil %} <a href="{{ talk.link }}">{{ talk.name }}</a>{% else %}{{ talk.name }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }} {% endif %}
+      {% if talk.topic != nil %}<em>{{ talk.topic }}</em>. {% endif %}{% if talk.link != nil %} <a href="{{ talk.link }}">{{ talk.name }}</a>{% else %}{{ talk.name }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }} {% endif %}
     </div>  
     {% if talk.video != nil %}
     <div class="col-1" style="text-align:right">
@@ -99,12 +99,13 @@ permalink: /physics/
       California Institute of Technology
       </b>
       <br>
-      Pasadena, CA, USA
+      <div style="font-size=-1">Pasadena, CA, USA</div>
     </div>  
     <div class="col-3" style="text-align:right">
       09/2021 -
     </div>
   </div>
+  <br>
   <div class="row">
     <div class="col-8"> 
       <b>
@@ -112,19 +113,20 @@ permalink: /physics/
       Seoul National University
       </b>
       <br>
-      Seoul, Korea
+      <div style="font-size=-1">Seoul, Korea</div>
     </div>  
     <div class="col-3" style="text-align:right">
       03/2017 - 02/2021
     </div>
   </div>
+  <br>
   <div class="row">
     <div class="col-8"> 
       <b>
       Seoul Science High School for the Gifted
       </b>
       <br>
-      Seoul, Korea
+      <div style="font-size=-1">Seoul, Korea</div>
     </div>  
     <div class="col-3" style="text-align:right">
       03/2014 - 02/2017
