@@ -5,7 +5,7 @@
       &nbsp;
     </div>
     <p>
-      Joonhwi Kim
+      <b>Joonhwi Kim</b>
       <br>
       California Institute of Technology
       <br>
