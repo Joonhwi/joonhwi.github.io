@@ -1,5 +1,5 @@
 <div class="container">
-  <div style="float:left; clear:both">
+  <div style="float:left">
     <img src="/images/amiti22-8a-square-med.jpg" style="max-height:300px">
     &nbsp;
     <hr style="height:-10px; visibility:hidden;" />
@@ -13,8 +13,7 @@
   </p>
 </div>
 
-<hr style="height:10px; visibility:hidden;" />
-
+<br clear="all">
 <div class="container">
   <p>
     <!-- I am a graduate student at Caltech, working on Scattering Amplitudes. In a sense, I am a “relativist” learning how to rethink the very notion of spacetime and gravity from amplitudes in quantum field theory. Specifically, my current interests are color-kinematics duality and twistor theory. More generally, I am interested in geometrical approaches to physics. -->
