@@ -21,7 +21,8 @@
     and quantum field theoretic approaches to general relativity.
     Ultimately, I want to understand how quantum physics reshapes the notion of spacetime.
     <!-- Broadly speaking,  -->
-    I am generally interested in geometrical approaches to physics.
+    <!-- I am generally interested in geometrical approaches to physics. -->
+    Generally, I am interested in geometrical approaches to physics.
   </p>
 </div>
 
