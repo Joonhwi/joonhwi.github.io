@@ -15,7 +15,7 @@ permalink: /physics/
   <a href="https://inspirehep.net/authors/1926101">InspireHEP</a>
 </p>
 </div>
-<hr style="visibility:hidden; margin-bottom: -5px"/>
+<div style="margin-top:-30px;">
 
 #### 2021~
 
@@ -50,7 +50,9 @@ permalink: /physics/
 {% endfor %}
 </div>
 
+<hr style="visibility:hidden"/>
 ***
+<hr style="visibility:hidden"/>
 
 ## Seminars etc.
 
@@ -85,7 +87,9 @@ permalink: /physics/
 {% endfor %}
 </div>
 
+<hr style="visibility:hidden"/>
 ***
+<hr style="visibility:hidden"/>
 
 ## Education
 
@@ -133,7 +137,9 @@ permalink: /physics/
   <hr style="visibility:hidden"/>
 </div>
 
+<hr style="visibility:hidden"/>
 ***
+<hr style="visibility:hidden"/>
 
 <br>
 <div class="container">
