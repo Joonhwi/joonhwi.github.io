@@ -15,7 +15,7 @@
 
 ***
 
-<div>
+<div class="container">
   <p>
     <!-- I am a graduate student at Caltech, working on Scattering Amplitudes. In a sense, I am a “relativist” learning how to rethink the very notion of spacetime and gravity from amplitudes in quantum field theory. Specifically, my current interests are color-kinematics duality and twistor theory. More generally, I am interested in geometrical approaches to physics. -->
     I am a graduate student at <a href="https://pma.caltech.edu/people/joonhwi-kim">Caltech</a>,
