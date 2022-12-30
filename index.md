@@ -1,7 +1,7 @@
 <div class="container">
   <div class="row">
     <div style="float:left">
-      <img src="/images/amiti22-8a-square-qual3.jpg" style="max-width:240px; min-width:200px; margin:0px 10px 10px 10px">
+      <img src="/images/amiti22-8a-square-qual3.jpg" style="max-width:240px; min-width:200px; margin:0px 10px 10px 0px">
     </div>
     <div style="col-5">
       <b>Joonhwi Kim                    </b>
@@ -11,6 +11,8 @@
       Pasadena, CA, USA 91106           
     </div>
   </div>
+</div>
+<div class="container">
   <br clear="all">
   <p>
     <!-- I am a graduate student at Caltech, working on Scattering Amplitudes. In a sense, I am a “relativist” learning how to rethink the very notion of spacetime and gravity from amplitudes in quantum field theory. Specifically, my current interests are color-kinematics duality and twistor theory. More generally, I am interested in geometrical approaches to physics. -->
