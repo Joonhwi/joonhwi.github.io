@@ -63,7 +63,7 @@
 <div class="container">
   <p style="text-align:center">
     <b><em>
-      * This website is under development. *
-    </b></em>
+      * This website is currently under development. *
+    </em></b>
   </p>
 </div>
