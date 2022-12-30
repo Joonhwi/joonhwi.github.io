@@ -27,6 +27,7 @@ permalink: /physics/
     {% if paper.released!=0 %}<a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>{% else %}arXiv:{{ paper.arxivnumber }}{% endif %}
   </div>
 </div>
+<br style="line-height: 3px">
 {% endfor %}
 </div>
 
@@ -44,6 +45,7 @@ permalink: /physics/
     {% if paper.released!=0 %}<a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>{% else %}arXiv:{{ paper.arxivnumber }}{% endif %}
   </div>
 </div>
+<br style="line-height: 3px">
 {% endfor %}
 </div>
 
@@ -60,6 +62,7 @@ permalink: /physics/
     <div class="col-2">
       ({{ talk.date | date: "%m/%Y" }})
     </div>
+    <br>
     <div class="col-11"> 
       {% if talk.topic != nil %}<em>{{ talk.topic }}</em>. {% endif %}{% if talk.link != nil %} <a href="{{ talk.link }}">{{ talk.name }}</a>{% else %}{{ talk.name }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }} {% endif %}
     </div>  
@@ -74,6 +77,7 @@ permalink: /physics/
     </div>
     {% endif %}
   </div>
+  <br style="line-height: 3px">
   {% endif %}
 {% endfor %}
 </div>
