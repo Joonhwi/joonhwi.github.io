@@ -3,7 +3,7 @@
     <div style="float:left">
       <img src="/images/amiti22-8a-square-qual3.jpg" style="max-width:240px; min-width:200px; margin:0px 10px 10px 0px">
     </div>
-    <div style="col-5">
+    <div style="col">
       <b>Joonhwi Kim</b>
       <br>
       California Institute of Technology
