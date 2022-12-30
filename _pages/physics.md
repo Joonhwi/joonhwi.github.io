@@ -103,7 +103,7 @@ permalink: /physics/
       <div style="font-size=-1">Pasadena, CA, USA</div>
     </div>  
     <div class="col-3" style="text-align:right">
-      09/2021 -
+      09/2021 ~
     </div>
   </div>
   <hr style="visibility:hidden">
@@ -117,7 +117,7 @@ permalink: /physics/
       <div style="font-size=-1">Seoul, Korea</div>
     </div>  
     <div class="col-3" style="text-align:right">
-      03/2017 - 02/2021
+      03/2017 ~ 02/2021
     </div>
   </div>
   <hr style="visibility:hidden">
@@ -130,7 +130,7 @@ permalink: /physics/
       <div style="font-size=-1">Seoul, Korea</div>
     </div>  
     <div class="col-3" style="text-align:right">
-      03/2014 - 02/2017
+      03/2014 ~ 02/2017
     </div>
   </div>
 </div>
