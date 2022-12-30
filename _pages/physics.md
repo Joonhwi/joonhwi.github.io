@@ -31,7 +31,6 @@ permalink: /physics/
 <hr style="visibility:hidden">
 {% endfor %}
 </div>
-<br>
 
 #### "Prehistory"
 
