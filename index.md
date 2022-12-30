@@ -1,6 +1,6 @@
 <div class="container">
-  <div class="square">
-    <div>
+  <div class="container">
+    <div style="float:left; margin: 3px 3px 3px 3px">
       <img src="/images/amiti22-8a-square-med.jpg" style="max-height:300px">
     </div>
     <p>
