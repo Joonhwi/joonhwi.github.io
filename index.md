@@ -1,5 +1,5 @@
 <div class="container">
-  <div style="float:left">
+  <div style="float:left; clear:left">
     <img src="/images/amiti22-8a-square-med.jpg" style="max-height:300px">
     &nbsp;
   </div>
@@ -11,8 +11,6 @@
     Pasadena, CA, USA 91106
   </p>
 </div>
-
-***
 
 <div class="container">
   <p>
