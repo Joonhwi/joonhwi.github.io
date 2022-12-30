@@ -5,7 +5,7 @@
     <hr style="visibility:hidden">
   </div>
   <div style="row">
-    <div class="col-8">
+    <div class="col-10">
       <b>Joonhwi Kim</b>
       <br>
       California Institute of Technology
