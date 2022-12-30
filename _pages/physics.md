@@ -86,10 +86,34 @@ permalink: /physics/
 <div class="container">
   <div class="row">
     <div class="col-11"> 
-      s
+      (PhD Student)
+      California Institute of Technology
+      <br>
+      Pasadena, CA, USA
     </div>  
     <div class="col-1" style="text-align:right">
-      s
+      09/2021 -
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-11"> 
+      (BS in Physics)
+      Seoul National University
+      <br>
+      Seoul, Korea
+    </div>  
+    <div class="col-1" style="text-align:right">
+      03/2017 - 02/2021
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-11"> 
+      Seoul Science High School for the Gifted
+      <br>
+      Seoul, Korea
+    </div>  
+    <div class="col-1" style="text-align:right">
+      03/2014 - 02/2017
     </div>
   </div>
 </div>
