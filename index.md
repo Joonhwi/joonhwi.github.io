@@ -1,5 +1,5 @@
 <div class="container">
-    <div class="row" style="margin: 3px">
+    <div class="row" style="margin: 1px">
         <div class="col-md-3 col-lg-3">
             <img src="/images/amiti22-8a-square-med.jpg" style="max-height:300px">
             <br> &nbsp; <br>
