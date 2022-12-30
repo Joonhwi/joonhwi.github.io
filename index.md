@@ -1,4 +1,4 @@
-<div class="container">
+<!-- <div class="container">
   <div class="row">
     <div class="container">
       <div style="float:left">
@@ -13,6 +13,18 @@
       </div>
     </div>
   </div>
+</div> -->
+
+<div class="container">
+  <p style="text-align:center">
+    <img src="/images/amiti22-8a-square-qual3.jpg" style="max-width:240px; min-width:200px; margin:10px 10px 10px 10px">
+    <br>
+    <b> Joonhwi Kim</b>
+    <br>
+    California Institute of Technology
+    <br>
+    Pasadena, CA, USA 91106
+  </p>
 </div>
 
 <div class="container">
