@@ -1,6 +1,6 @@
 <div class="container">
   <div style="float:left">
-    <img src="/images/amiti22-8a-square-med.jpg" style="max-height:270px">
+    <img src="/images/amiti22-8a-square-med.jpg" style="max-height:250px">
     &nbsp;
     <br style="height:-10px">
   </div>
