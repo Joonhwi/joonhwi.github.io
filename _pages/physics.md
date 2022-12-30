@@ -63,7 +63,9 @@ permalink: /physics/
       ({{ talk.date | date: "%m/%Y" }})
     </div>
     <br>
-    <div class="col-11"> 
+    <div class="col-1"> 
+    </div>
+    <div class="col-10"> 
       {% if talk.topic != nil %}<em>{{ talk.topic }}</em>.<br>{% endif %}{% if talk.link != nil %} <a href="{{ talk.link }}">{{ talk.name }}</a>{% else %}{{ talk.name }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }} {% endif %}
     </div>  
     {% if talk.video != nil %}
