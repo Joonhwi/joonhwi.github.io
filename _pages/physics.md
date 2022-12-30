@@ -84,15 +84,6 @@ permalink: /physics/
 
 ***
 
-<div class="container">
-  <div class="row">
-      <div class="col-6">  </div>
-      <div class="col-6" style="text-align:right">  Updated: 12/29/2022 </div>
-  </div>
-</div>
-
-***
-
 # Education
 
 <div class="container">
@@ -135,6 +126,15 @@ permalink: /physics/
     <div class="col-3" style="text-align:right">
       03/2014 - 02/2017
     </div>
+  </div>
+</div>
+
+***
+
+<div class="container">
+  <div class="row">
+      <div class="col-6">  </div>
+      <div class="col-6" style="text-align:right">  Updated: 12/29/2022 </div>
   </div>
 </div>
 
