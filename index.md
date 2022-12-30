@@ -59,3 +59,11 @@
     <a href="/contact/index.html">Contact </a>
   </p>
 </div>
+
+<div class="container">
+  <p style="text-align:center">
+    <b><em>
+      * This website is under development. *
+    </b></em>
+  </p>
+</div>
