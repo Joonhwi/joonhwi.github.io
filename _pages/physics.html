@@ -64,11 +64,11 @@ permalink: /physics/
 
 <h2>Seminars</h2>
 
-<div class="container">-5
+<div class="container">
 {% capture datenow %}{{'now' | date: '%s'}}{% endcapture %}
 {% for talk in site.data.talks %}
 {% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %}
-  {% if talkdate < datenow and talk.type == "seminar" %}
+{% if talkdate < datenow and talk.type == "seminar" %}
   <div class="row">
     <div class="col-xs-1">
       <span style="font-family:'Consolas'; letter-spacing:-1px"><font size="-1">
@@ -97,7 +97,7 @@ permalink: /physics/
     </div>
   </div>
   <hr style="visibility:hidden"/>
-  {% endif %}
+{% endif %}
 {% endfor %}
 </div>
 
