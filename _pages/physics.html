@@ -4,7 +4,7 @@ title: Physics
 permalink: /physics/
 ---
 
-<h4> 106 </h4>
+<h4> 107 </h4>
 
 <h2>Publications</h2>
 
@@ -64,7 +64,7 @@ permalink: /physics/
 {% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %}
 {% if talkdate < datenow and talk.type == "seminar" %}
   <div class="row">
-    <div class="col-sm-12 col-sm-push-12 col-md-10">
+    <div class="col-sm-12 col-md-10">
       <p style="word-wrap:break-word;"> 
         {% if talk.link-topic != nil %}
           <a href="{{ talk.link-topic }};"><em>{{ talk.topic }}</em></a>
@@ -80,7 +80,7 @@ permalink: /physics/
         ({% if talk.institution != nil %}{{ talk.institution }}{% endif %}{% if talk.address != nil %}, {{ talk.address }}{% endif %})
       </p>
     </div>
-    <div class="col-sm-12 col-sm-pull-12 col-md-2" style="text-align:right;">
+    <div class="col-sm-12 col-md-2" style="text-align:right;">
       <span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1.5px;">
         {{ talk.date | date: "%m/%d/%Y" }}
       </span>
