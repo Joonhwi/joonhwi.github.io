@@ -82,10 +82,8 @@ permalink: /physics/
       {% if talk.link != nil %}
         <a href="{{ talk.link }}">{{ talk.title }}</a>
       {% else %}
-        {{ talk.title }}{% endif %}
-      {% if talk.institution != nil %}
-        , {{ talk.institution }}{% endif %}
-      {% if talk.location != nil %}
+        {{ talk.title }}{% endif %}{% if talk.institution != nil %}
+        , {{ talk.institution }}{% endif %}{% if talk.location != nil %}
         , {{ talk.location }}{% endif %}
     </div>  
     {% if talk.video != nil %}
@@ -126,11 +124,7 @@ permalink: /physics/
         <span>{{ ed.address }}</span>
       </td>
       <td style="border-style:none; word-break:break-word; vertical-align:top; text-align:right">
-        {% if ed.start!=nill %}
-          {{ ed.start | date: "%m/%Y" }} ~
-        {% endif %}{% if ed.end!=nill %}
-          {{ ed.end | date: "%m/%Y" }}
-        {% endif %}
+        {% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}-{% endif %}{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}
       </td>
     </tr>
     {% endfor %}
