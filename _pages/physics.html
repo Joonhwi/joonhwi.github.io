@@ -4,7 +4,7 @@ title: Physics
 permalink: /physics/
 ---
 
-<h4> 440 </h4>
+<h4> 441 </h4>
 
 <h2>Publications</h2>
 
@@ -80,7 +80,7 @@ permalink: /physics/
       {% if talk.topic != nil %}
         <em>{{ talk.topic }}</em><br/>
       {% endif %}
-      <span span style="font-size:-1">
+      <span style="font-size:-1">
         {% if talk.link != nil %}
           <a href="{{ talk.link }}">{{ talk.title }}</a>
         {% else %}{{ talk.title }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }}{% endif %}
@@ -115,7 +115,7 @@ permalink: /physics/
         {% endif %}
         {{ ed.institution }}
         <br/>
-        <span span style="font-size:-1">{{ ed.address }}</span>
+        <span style="font-size:-1">{{ ed.address }}</span>
       </div>
       <div class="col-xs-5" style="text-align:right"> 
         <span style="font-family:'Consolas'; letter-spacing:-1px">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span style="text-align:right; font-family:'Consolas'; letter-spacing:-1px">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
