@@ -15,7 +15,7 @@ permalink: /physics/
   <a href="https://inspirehep.net/authors/1926101">InspireHEP</a>
 </p>
 </div>
-<div style="margin-top:-20px"></div>
+<div style="margin-top:-15px"></div>
 
 <!-- #### 2021~ -->
 
@@ -26,7 +26,15 @@ permalink: /physics/
     {% if paper.released!=nill %}{% if paper.listed!=nill %}[{{ paper.listed }}]{% endif %}{% endif %} {{ paper.title }} 
   </div>
   <div class="col-md-2" style="text-align:right; font-size:-1; letter-spacing:-0.5px"> 
-    {% if paper.released!=0 %}<a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>{% else %}arXiv:{{ paper.arxivnumber }}{% endif %}
+    {% if paper.released!=0 %}
+      <p style="font-family:'Courier New'">
+        <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>
+      </p>
+    {% else %}
+      <p style="font-family:'Courier New'">
+        arXiv:{{ paper.arxivnumber }}
+      </p>
+    {% endif %}
   </div>
 </div>
 <hr style="visibility:hidden"/>
