@@ -18,7 +18,7 @@ permalink: /physics/
 <div class="container">
   {% for paper in site.data.papers %}
   <div class="row">
-    <div class="col-1">
+    <div class="col-xs-1">
       {% if paper.listed!=nill %}
         [{{ paper.listed }}]
       {% endif %}
@@ -27,7 +27,7 @@ permalink: /physics/
       {{ paper.title }} 
     </div>
     <div class="clearfix visible-xs"></div>
-    <div class="col-3" style="text-align:right; font-family:'Consolas'; letter-spacing:-1px">
+    <div class="col-xs-3" style="text-align:right; font-family:'Consolas'; letter-spacing:-1px">
       {% if paper.released!=0 %}
         <span>
           <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>
@@ -71,7 +71,7 @@ permalink: /physics/
 {% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %}
   {% if talkdate < datenow and talk.type == "seminar" %}
   <div class="row">
-    <div class="col-1">
+    <div class="col-xs-1">
       <span style="font-family:'Consolas'; letter-spacing:-1px">
         {{ talk.date | date: "%m/%Y" }}
       </span>
@@ -87,7 +87,7 @@ permalink: /physics/
       </span>
     </div>  
     <div class="clearfix visible-xs"></div>
-    <div class="col-1" style="text-align:right">
+    <div class="col-xs-1" style="text-align:right">
       {% if talk.video != nil %}
         (<a href="{{ talk.video }}">video</a>)
       {% elsif talk.file != nil %}
@@ -117,7 +117,7 @@ permalink: /physics/
       <br/>
       <span style="size:-2">{{ ed.address }}</span>
     </div>
-    <div class="col-5" style="text-align:right"> 
+    <div class="col-xs-5" style="text-align:right"> 
       <span style="font-family:'Consolas'; letter-spacing:-1px">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span style="text-align:right; font-family:'Consolas'; letter-spacing:-1px">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
       <!-- {% else %}<span style="opacity:0">00/0000</span> -->
     </div>
