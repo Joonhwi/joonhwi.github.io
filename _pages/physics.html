@@ -4,7 +4,7 @@ title: Physics
 permalink: /physics/
 ---
 
-<h4> v68 </h4>
+<h4> v69 </h4>
 
 <h2>Publications</h2>
 
@@ -21,12 +21,12 @@ permalink: /physics/
   {% for paper in site.data.papers %}
   <div class="row;">
     <div class="col-xs-12 col-md-9" style="text-align:left;">
-      <span style="font-family:'Consolas'; font-stretch:ultra-condensed;">
+      <span style="font-family:'Consolas'; font-stretch:75%; letter-spacing:-1px;">
         {% if paper.listed!=nill %}{% if paper.listed>=0 %}[{{ paper.listed }}]&nbsp;{% else %}[{{ paper.listed }}]{% endif %}{% else %}[&nbsp];{% endif %}
       </span>
       {{ paper.title }}
     </div>
-    <div class="col-xs-3 col-md-3" style="text-align:right; font-family:'Consolas'; font-stretch:ultra-condensed;">
+    <div class="col-xs-3 col-md-3" style="text-align:right; font-family:'Consolas'; font-stretch:75%; letter-spacing:-1px;">
       {% if paper.released!=0 %}
           <a href="http://arxiv.org/abs/{{ paper.arxivnumber }};">arXiv:{{ paper.arxivnumber }}</a>
       {% else %}
@@ -67,7 +67,7 @@ permalink: /physics/
 {% if talkdate < datenow and talk.type == "seminar" %}
   <div class="row;">
     <div class="col-xs-1 col-md-1">
-      <span style="font-family:'Consolas'; font-stretch:ultra-condensed;">
+      <span style="font-family:'Consolas'; font-stretch:75%; letter-spacing:-1px;">
         {{ talk.date | date: "%m/%Y" }}
       </span>
     </div>
@@ -109,7 +109,7 @@ permalink: /physics/
       {{ ed.address }}
     </div>
     <div class="col-xs-5 col-md-5" style="text-align:right;">
-      <span style="font-family:'Consolas'; font-stretch:ultra-condensed;">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>
+      <span style="font-family:'Consolas'; font-stretch:75%; letter-spacing:-1px;">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>
       <!-- –<span style="font-family:'Consolas'; letter-spacing:-1px; font-size:90%">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span> -->
       <!-- {% else %}<span style="opacity:0">00/0000</span> -->
     </div>
