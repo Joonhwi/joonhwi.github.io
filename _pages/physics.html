@@ -4,7 +4,7 @@ title: Physics
 permalink: /physics/
 ---
 
-<h4> v72 </h4>
+<h4> v73 </h4>
 
 <h2>Publications</h2>
 
@@ -69,7 +69,7 @@ permalink: /physics/
         {{ talk.date | date: "%m/%Y" }}
       </span>
     </div>
-    <div class="col-10 col-xs-offset-1" style="text-align:left;">
+    <div class="col-10 col-offset-1" style="text-align:left;">
         {% if talk.topic != nil %}
           <em>{{ talk.topic }}</em><br/>
         {% endif %}
@@ -77,7 +77,6 @@ permalink: /physics/
           <a href="{{ talk.link }};">{{ talk.title }}</a>
         {% else %}{{ talk.title }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }}{% endif %}
     </div>  
-    <div class="clearfix visible-xs;"></div>
     <div class="col-1" style="text-align:right;">
       {% if talk.video != nil %}
         (<a href="{{ talk.video }};">video</a>)
