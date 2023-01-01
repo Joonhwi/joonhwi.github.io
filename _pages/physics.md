@@ -22,7 +22,7 @@ permalink: /physics/
 <div class="container">
 {% for paper in site.data.papers %}
 <div class="row">
-  <div class="col-md-11" style="float:left; letter-spacing:-0.5px">
+  <div class="col-11" style="float:left; letter-spacing:-0.5px">
     {% if paper.released!=nill %}{% if paper.listed!=nill %}[{{ paper.listed }}]{% endif %}{% endif %} {{ paper.title }} 
   </div>
   <div class="col-2" style="text-align:right; letter-spacing:-0.5px"> 
