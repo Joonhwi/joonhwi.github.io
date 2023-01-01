@@ -64,12 +64,12 @@ permalink: /physics/
 {% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %}
 {% if talkdate < datenow and talk.type == "seminar" %}
   <div class="row">
-    <div class="col-1">
+    <div class="col-2">
       <span style="font-family:'Consolas'; font-stretch:60%;  letter-spacing:-1px;">
         {{ talk.date | date: "%m/%Y" }}
       </span>
     </div>
-    <div class="col-10 col-offset-2" style="text-align:left;">
+    <div class="col-9 col-offset-5" style="text-align:left;">
         {% if talk.topic != nil %}
           <em>{{ talk.topic }}</em><br/>
         {% endif %}
