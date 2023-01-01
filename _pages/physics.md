@@ -127,14 +127,8 @@ permalink: /physics/
     <br>
     <span>{{ ed.address }}</span>
   </div>
-  <div class="col-4" style="text-align:right; font-family:'Consolas'; letter-spacing:-1px"> 
-    {% if ed.start!=nill %}
-      {{ ed.start | date: "%m/%Y" }}
-    {% endif %}
-    -
-    {% if ed.end!=nill %}
-      {{ ed.end | date: "%m/%Y" }}
-    {% endif %}
+  <div class="col-4"> 
+    <span style="text-align:right; font-family:'Consolas'; letter-spacing:-1px">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>—<span style="text-align:right; font-family:'Consolas'; letter-spacing:-1px">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
   </div>
   <hr style="visibility:hidden"/>
 </div>
