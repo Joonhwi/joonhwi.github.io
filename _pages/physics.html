@@ -4,7 +4,7 @@ title: Physics
 permalink: /physics/
 ---
 
-<h4> 87b </h4>
+<h4> 88b </h4>
 
 <h2>Publications</h2>
 
@@ -76,19 +76,19 @@ permalink: /physics/
         (<a href="{{ talk.file }};">file</a>)
       {% endif %}
     </div>
-    <div class="row">
-      <div class="col-2">
-      </div>
-      <div class="col-10 col-offset-3" style="text-align:left;">
-        <p style="word-break: normal;">
-          {% if talk.topic != nil %}
-            <em>{{ talk.topic }}</em><br/>
-          {% endif %}
-          {% if talk.link != nil %}
-            <a href="{{ talk.link }};">{{ talk.title }}</a>
-          {% else %}{{ talk.title }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }}{% endif %}
-        </p>
-      </div>
+  </div>
+  <div class="row">
+    <div class="col-2">
+    </div>
+    <div class="col-10 col-offset-3" style="text-align:left;">
+      <p style="word-break: normal;">
+        {% if talk.topic != nil %}
+          <em>{{ talk.topic }}</em><br/>
+        {% endif %}
+        {% if talk.link != nil %}
+          <a href="{{ talk.link }};">{{ talk.title }}</a>
+        {% else %}{{ talk.title }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }}{% endif %}
+      </p>
     </div>
   </div>
   <hr style="visibility:hidden"/>
