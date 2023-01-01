@@ -69,7 +69,7 @@ permalink: /physics/
         {{ talk.date | date: "%m/%d/%Y" }}
       </span>
     </div>
-    <div class="col-xs-11 col-sm-push-12 col-xs-offset-0 col-md-9 col-md-offset-3" style="text-align:left;">
+    <div class="col-xs-11 col-xs-push-12 col-xs-offset-0 col-md-9 col-md-offset-3" style="text-align:left;">
       <p style="word-break: normal;">
         {% if talk.topic != nil %}
           <em>{{ talk.topic }}</em><br/>
@@ -79,7 +79,7 @@ permalink: /physics/
         {% else %}{{ talk.title }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }}{% endif %}
       </p>
     </div>  
-    <div class="col-xs-1 col-sm-pull-1 col-md-1" style="text-align:right;">
+    <div class="col-xs-1 col-xs-pull-1 col-md-1" style="text-align:right;">
       {% if talk.video != nil %}
         (<a href="{{ talk.video }};">video</a>)
       {% elsif talk.file != nil %}
