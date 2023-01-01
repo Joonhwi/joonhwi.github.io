@@ -106,7 +106,14 @@ permalink: /physics/
 <div class="container;">
   {% for ed in site.data.education %}
     <div class="row;">
-      a
+      <div class="col-xs-12 col-md-7">
+        {% if ed.degree!=nill %}
+          {{ ed.degree }},
+        {% endif %}
+        {{ ed.institution }}
+        <br/>
+        <span style="font-size:90%">{{ ed.address }}</span>
+      </div>
     </div>
     <hr style="visibility:hidden"/>
   {% endfor %}
