@@ -69,16 +69,32 @@ permalink: /physics/
     <div class="col-1"> 
     </div>
     <div class="col-10"> 
-      {% if talk.topic != nil %}<em>{{ talk.topic }}</em>.<br>{% endif %}{% if talk.link != nil %} <a href="{{ talk.link }}">{{ talk.name }}</a>{% else %}{{ talk.name }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }} {% endif %}
+      {% if talk.topic != nil %}
+        <em>{{ talk.topic }}</em><br>
+      {% endif %}
+      {% if talk.link != nil %}
+        <a href="{{ talk.link }}">{{ talk.title }}</a>
+      {% else %}
+        {{ talk.title }}
+      {% endif %}
+      {% if talk.institution != nil %}
+        , {{ talk.institution }}
+      {% endif %}
+      {% if talk.location != nil %}
+        , {{ talk.location }}
+      {% endif %}
     </div>  
     {% if talk.video != nil %}
     <div class="col-1" style="text-align:right">
       (<a href="{{ talk.video }}">video</a>)
     </div>
-    {% endif %}
-    {% if talk.file != nil %}
+    {% elsif talk.file != nil %}
     <div class="col-1" style="text-align:right">
       (<a href="{{ talk.file }}">file</a>)
+    </div>
+    {% else %}
+    <div class="col-1" style="text-align:right">
+      &nbsp;
     </div>
     {% endif %}
   </div>
