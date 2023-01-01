@@ -116,7 +116,8 @@ permalink: /physics/
 <div class="container">
 {% for ed in site.data.education %}
 <div class="row">
-  <div class="col-md-8" style="float:left">
+  <!-- <div class="col-md-8" style="float:left"> -->
+  <div class="col-md-8">
     {% if ed.degree!=nill %}
       ({{ ed.degree }})
     {% endif %}
@@ -142,15 +143,12 @@ permalink: /physics/
 
 <br>
 <div class="container">
-  <div class="row">
-      <div class="col-6">  </div>
-      <div class="col-6" style="text-align:right">
-        Last Updated
-        <span style="text-align:right; font-family:'Consolas'; letter-spacing:-1px">
-          {{ 'now' | date: "%d/%m/%Y"}}
-        </span>
-      </div>
-  </div>
+  <p style="text-align:right">
+    Last Updated
+    <span style="text-align:right; font-family:'Consolas'; letter-spacing:-1px">
+      {{ 'now' | date: "%d/%m/%Y"}}
+    </span>
+  </p>
 </div>
 
 
