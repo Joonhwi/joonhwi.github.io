@@ -69,7 +69,12 @@ permalink: /physics/
         (<a href="{{ talk.link-topic }};"><em>{{ talk.topic }}</em></a>)
       {% endif %}
       <br/>
-      {% if talk.link-event != nil %}<a href="{{ talk.link-event }};">{{ talk.event }}</a>{% else %}{{ talk.event }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.address != nil %}, {{ talk.address }}{% endif %}
+      {% if talk.link-event != nil %}
+        <a href="{{ talk.link-event }};">{{ talk.event }}</a>
+      {% else %}
+        {{ talk.event }}
+      {% endif %}
+      ({% if talk.institution != nil %}{{ talk.institution }}{% endif %}{% if talk.address != nil %}, {{ talk.address }}{% endif %})
     </div>
   </div>
   <div class="col-2" style="text-align:right;">
