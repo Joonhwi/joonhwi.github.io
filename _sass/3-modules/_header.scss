@@ -79,6 +79,7 @@
           &.nav__link--current {
             // color: var(--brand-color);
             color: var(--heading-font-color);
+            text-decoration: underline;
 
             &::after {
               content: none;
@@ -176,7 +177,7 @@
       color: var(--heading-font-color);
   
       &:hover {
-        text-decoration: underline;
+        // text-decoration: underline;
         color: var(--link-color);
       }
     }
