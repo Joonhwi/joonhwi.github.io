@@ -75,14 +75,13 @@ permalink: /physics/
         {{ talk.date | date: "%m/%Y" }}
       </span>
     </div>
-    <div class="col-9"> 
+    <div class="col-9 col-sm-10"> 
       {% if talk.topic != nil %}
         <em>{{ talk.topic }}</em><br/>
       {% endif %}
       {% if talk.link != nil %}
         <a href="{{ talk.link }}">{{ talk.title }}</a>
-      {% else %}
-        {{ talk.title }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }}{% endif %}
+      {% else %}{{ talk.title }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }}{% endif %}
     </div>  
     {% if talk.video != nil %}
     <div class="col-1" style="text-align:right">
@@ -110,7 +109,7 @@ permalink: /physics/
 {% for ed in site.data.education %}
 <div class="container">
   <div class="row">
-    <div class="col-7">
+    <div class="col-7 col-sm-12">
       {% if ed.degree!=nill %}
         ({{ ed.degree }})
       {% endif %}
