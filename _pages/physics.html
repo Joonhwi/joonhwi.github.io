@@ -105,7 +105,8 @@ permalink: /physics/
       {% endif %}
       {{ ed.institution }}
       <br/>
-      <span style="font-size:90%">{{ ed.address }}</span>
+      <!-- <span style="font-size:90%">{{ ed.address }}</span> -->
+      {{ ed.address }}
     </div>
     <div class="col-xs-5" style="text-align:right;">
       <span style="font-family:'Consolas'; font-stretch:semi-condensed;">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>
