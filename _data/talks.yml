@@ -1,27 +1,26 @@
-- date: 2022-12-01
+- type: "seminar"
+  date: 2022-12-01
   topic: "Yang-Mills as Quantized Gravity: Color-Kinematics Duality from Non-commutative Geometry"
-  title: Ma148 final presentation
-  type: seminar
-  link: 
-  institution: Caltech
-  location:
-  video: 
-  file:
+  link-topic: 
+  event: "Ma148 final presentation"
+  link-event: 
+  institution: "Caltech"
+  address: "Pasadena, CA, USA"
 
-- date: 2022-10-25
+- type: "seminar"
+  date: 2022-10-25
   topic: "Twistor Theory: a “Quantum Particle Theory” Perspective"
-  title: Graduate student journal club
-  type: seminar
-  link: 
-  institution: Caltech
-  location:
-  video: 
-  file: "/files/(221025) Twistor Theory QPT.pdf"
+  link-topic: "/files/(221025) Twistor Theory QPT.pdf"
+  event: "Graduate student journal club"
+  link-event: 
+  institution: "Caltech"
+  address: "Pasadena, CA, USA"
 
-# - date: 2022-08-12
-#   title: Amplitudes 2022
-#   type: conference
-#   link: https://indico.cern.ch/event/1101193/
-#   institution: Charles University
-#   location: Prague
-#   video: https://youtu.be/SC6WE4wPhqw?t=23755
+# - type: "conference"
+#   date: 2022-08-12
+#   topic: "Quantizing the Nonlinear Graviton"
+#   link-topic: "https://youtu.be/SC6WE4wPhqw?t=23755"
+#   event: "Amplitudes 2022"
+#   link-event: "https://indico.cern.ch/event/1101193/"
+#   institution: "Charles University"
+#   address: "Prague"
