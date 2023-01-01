@@ -117,7 +117,7 @@ permalink: /physics/
 {% for ed in site.data.education %}
 <div class="row">
   <!-- <div class="col-md-8" style="float:left"> -->
-  <div class="col-md-8">
+  <div class="col-11">
     {% if ed.degree!=nill %}
       ({{ ed.degree }})
     {% endif %}
@@ -125,7 +125,7 @@ permalink: /physics/
     <br>
     <span>{{ ed.address }}</span>
   </div>
-  <div class="col-3" style="text-align:right; font-family:'Consolas'; letter-spacing:-1px"> 
+  <div class="col-1" style="text-align:right; font-family:'Consolas'; letter-spacing:-1px"> 
     {% if ed.start!=nill %}
       {{ ed.start | date: "%m/%Y" }} ~
     {% endif %}{% if ed.end!=nill %}
