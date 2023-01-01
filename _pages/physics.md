@@ -129,6 +129,7 @@ permalink: /physics/
     </tr>
     {% endfor %}
   </table>
+</div>
 
 <!-- {% for ed in site.data.education %}
 <div class="row">
