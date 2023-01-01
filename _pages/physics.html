@@ -4,7 +4,7 @@ title: Physics
 permalink: /physics/
 ---
 
-<h4> 445 </h4>
+<h4> 446 </h4>
 
 <h2>Publications</h2>
 
@@ -21,13 +21,13 @@ permalink: /physics/
   {% for paper in site.data.papers %}
   <div class="row">
     <div class="col-xs-12 col-md-9" style="text-align:left">
-      <span style="font-family:'Consolas'; letter-spacing:-2px; word-break:break-word">
+      <span style="font-family:'Consolas'; font-size:-1; letter-spacing:-2px; word-break:break-word">
         {% if paper.listed!=nill %}{% if paper.listed>=0 %}[{{ paper.listed }}]&nbsp;{% else %}[{{ paper.listed }}]{% endif %}{% else %}[&nbsp];{% endif %}
       </span>
       {{ paper.title }}
     </div>
     <div class="clearfix visible-xs"></div>
-    <div class="col-xs-3" style="text-align:right; font-family:'Consolas'; letter-spacing:-1px">
+    <div class="col-xs-3" style="text-align:right; font-family:'Consolas'; font-size:-1; letter-spacing:-1px">
       {% if paper.released!=0 %}
         <span>
           <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>
@@ -72,7 +72,7 @@ permalink: /physics/
   {% if talkdate < datenow and talk.type == "seminar" %}
   <div class="row">
     <div class="col-xs-1">
-      <span style="font-family:'Consolas'; letter-spacing:-1px">
+      <span style="font-family:'Consolas'; font-size:-1; letter-spacing:-1px">
         {{ talk.date | date: "%m/%Y" }}
       </span>
     </div>
@@ -120,7 +120,7 @@ permalink: /physics/
         <span style="font-size:-1">{{ ed.address }}</span>
       </div>
       <div class="col-xs-5" style="text-align:right"> 
-        <span style="font-family:'Consolas'; letter-spacing:-1px">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span style="text-align:right; font-family:'Consolas'; letter-spacing:-1px">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
+        <span style="font-family:'Consolas'; font-size:-1; letter-spacing:-1px">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span style="text-align:right; font-family:'Consolas'; font-size:-1; letter-spacing:-1px">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
         <!-- {% else %}<span style="opacity:0">00/0000</span> -->
       </div>
     </div>
@@ -134,7 +134,7 @@ permalink: /physics/
 <div class="container">
   <p style="text-align:right">
     Last Updated:
-    <span style="text-align:right; font-family:'Consolas'; letter-spacing:-1px">
+    <span style="text-align:right; font-family:'Consolas'; font-size:-1; letter-spacing:-1px">
       {{ 'now' | date: "%d/%m/%Y"}}
     </span>
   </p>
