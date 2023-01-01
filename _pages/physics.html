@@ -6,11 +6,97 @@ permalink: /physics/
 
 <h4> v73 </h4>
 
+<h2>Publications</h2>
+
+<div class="container;">
+  <p style="text-align:center;">
+    <a href="https://scholar.google.com/citations?user=A15RZN4AAAAJ;">Google Scholar</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://inspirehep.net/authors/1926101;">InspireHEP</a>
+  </p>
+</div>
+<div style="margin-top:-16px;"></div>
+
+<div class="container;">
+  {% for paper in site.data.papers %}
+  <div class="row;">
+    <div class="col-9" style="text-align:left;">
+      <span style="font-family:'Consolas'; font-stretch:75%; letter-spacing:-1px; font-size:95%;">{% if paper.listed!=nill %}{% if paper.listed>=0 %}[{{ paper.listed }}]&nbsp;{% else %}[{{ paper.listed }}]{% endif %}{% else %}[&nbsp];{% endif %}</span>
+      {{ paper.title }}
+    </div>
+    <div class="col-3" style="text-align:right; font-family:'Consolas'; font-stretch:75%; letter-spacing:-1px; font-size:95%;">
+      {% if paper.released!=0 %}
+          <a href="http://arxiv.org/abs/{{ paper.arxivnumber }};">arXiv:{{ paper.arxivnumber }}</a>
+      {% else %}
+          arXiv:{{ paper.arxivnumber }}
+      {% endif %}
+    </div>
+  </div>
+  <hr style="visibility:hidden"/>
+  {% endfor %}
+</div>
+<hr style="visibility:hidden"/>
+
+<!-- #### "Prehistory"
+
+<div class="container;">
+{% for paper in site.data.papers-prehistory %}
+<div class="row;">
+  <div class="col-md-11" style="float:left;">
+    {% if paper.released!=nill %}{% if paper.listed!=nill %}[{{ paper.listed }}]{% endif %}{% endif %} {{ paper.title }} 
+  </div>
+  <div class="col-md-2" style="text-align:right;">
+    {% if paper.released!=0 %}<a href="http://arxiv.org/abs/{{ paper.arxivnumber }};">arXiv:{{ paper.arxivnumber }}</a>{% else %}arXiv:{{ paper.arxivnumber }}{% endif %}
+  </div>
+</div>
+<hr style="visibility:hidden"/>
+{% endfor %}
+</div> -->
+<!-- font-size:-5 -->
+
+<hr style="visibility:hidden"/><hr/><hr style="visibility:hidden"/>
+
+<h2>Seminars</h2>
+
+<div class="container;">
+{% capture datenow %}{{'now' | date: '%s'}}{% endcapture %}
+{% for talk in site.data.talks %}
+{% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %}
+{% if talkdate < datenow and talk.type == "seminar" %}
+  <div class="row;">
+    <div class="col-1">
+      <span style="font-family:'Consolas'; font-stretch:75%; letter-spacing:-1px; font-size:95%;">
+        {{ talk.date | date: "%m/%Y" }}
+      </span>
+    </div>
+    <div class="col-10 col-offset-1" style="text-align:left;">
+        {% if talk.topic != nil %}
+          <em>{{ talk.topic }}</em><br/>
+        {% endif %}
+        {% if talk.link != nil %}
+          <a href="{{ talk.link }};">{{ talk.title }}</a>
+        {% else %}{{ talk.title }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }}{% endif %}
+    </div>  
+    <div class="col-1" style="text-align:right;">
+      {% if talk.video != nil %}
+        (<a href="{{ talk.video }};">video</a>)
+      {% elsif talk.file != nil %}
+        (<a href="{{ talk.file }};">file</a>)
+      {% endif %}
+    </div>
+  </div>
+  <hr style="visibility:hidden"/>
+{% endif %}
+{% endfor %}
+</div>
+
+<hr style="visibility:hidden"/><hr/><hr style="visibility:hidden"/>
 
 <h2>Education</h2>
 
 <div class="container;">
   {% for ed in site.data.education %}
+  <div class="row">
     <div class="col-7">
       {% if ed.degree!=nill %}
         {{ ed.degree }},
@@ -24,6 +110,7 @@ permalink: /physics/
       <span style="font-family:'Consolas'; font-stretch:75%; letter-spacing:-1px; font-size:95%;">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span style="font-family:'Consolas'; font-stretch:75%; letter-spacing:-1px; font-size:95%;">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
       <!-- {% else %}<span style="opacity:0">00/0000</span> -->
     </div>
+  </div>
   {% endfor %}
 </div>
 
