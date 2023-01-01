@@ -4,7 +4,7 @@ title: Physics
 permalink: /physics/
 ---
 
-<h4> 455 </h4>
+<h4> x60 </h4>
 
 <h2>Publications</h2>
 
@@ -20,13 +20,13 @@ permalink: /physics/
 <div class="container;">
   {% for paper in site.data.papers %}
   <div class="row;">
-    <div class="col-xs-12 col-md-9" style="text-align:left; float:left;">
+    <div class="col-xs-12 col-md-9" style="text-align:left;">
       <span style="font-family:'Consolas'; letter-spacing:-1px; font-size:95%;">
         {% if paper.listed!=nill %}{% if paper.listed>=0 %}[{{ paper.listed }}]&nbsp;{% else %}[{{ paper.listed }}]{% endif %}{% else %}[&nbsp];{% endif %}
       </span>
       {{ paper.title }}
     </div>
-    <div class="col-xs-3" style="text-align:right; float:left; font-family:'Consolas'; letter-spacing:-1px; font-size:95%;">
+    <div class="col-xs-3" style="text-align:right; font-family:'Consolas'; letter-spacing:-1px; font-size:95%;">
       {% if paper.released!=0 %}
         <span>
           &nbsp;<a href="http://arxiv.org/abs/{{ paper.arxivnumber }};">arXiv:{{ paper.arxivnumber }}</a>
@@ -114,9 +114,7 @@ permalink: /physics/
       <span style="font-size:90%">{{ ed.address }}</span>
     </div>
     <div class="col-xs-5" style="text-align:right"> 
-      <span style="font-family:'Consolas'; letter-spacing:-1px; font-size:90%">
-        b
-      </span>
+      <span style="font-family:'Consolas'; letter-spacing:-1px; font-size:90%">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span style="font-family:'Consolas'; letter-spacing:-1px; font-size:90%">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
       <!-- {% else %}<span style="opacity:0">00/0000</span> -->
     </div>
   {% endfor %}
