@@ -74,8 +74,7 @@ permalink: /physics/
     <div class="col-2">
       ({{ talk.date | date: "%m/%Y" }})
     </div>
-    <br>
-    <div class="col-10"> 
+    <div class="col-9"> 
       {% if talk.topic != nil %}
         <em>{{ talk.topic }}</em><br>
       {% endif %}
@@ -87,15 +86,15 @@ permalink: /physics/
         , {{ talk.location }}{% endif %}
     </div>  
     {% if talk.video != nil %}
-    <div class="col-2" style="text-align:right">
+    <div class="col-1" style="text-align:right">
       (<a href="{{ talk.video }}">video</a>)
     </div>
     {% elsif talk.file != nil %}
-    <div class="col-2" style="text-align:right">
+    <div class="col-1" style="text-align:right">
       (<a href="{{ talk.file }}">file</a>)
     </div>
     {% else %}
-    <div class="col-2" style="text-align:right">
+    <div class="col-1" style="text-align:right">
       &nbsp;
     </div>
     {% endif %}
