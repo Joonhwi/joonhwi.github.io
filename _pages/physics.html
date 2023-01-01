@@ -4,7 +4,7 @@ title: Physics
 permalink: /physics/
 ---
 
-<h4> 104 </h4>
+<h4> 105 </h4>
 
 <h2>Publications</h2>
 
@@ -66,7 +66,9 @@ permalink: /physics/
   <div class="row">
     <div class="col-xs-12 col-xs-push-12 col-md-10">
       {% if talk.link-topic != nil %}
-        (<a href="{{ talk.link-topic }};"><em>{{ talk.topic }}</em></a>)
+        <a href="{{ talk.link-topic }};"><em>{{ talk.topic }}</em></a>
+      {% else %}
+        {{ talk.topic }}
       {% endif %}
       <br/>
       {% if talk.link-event != nil %}
