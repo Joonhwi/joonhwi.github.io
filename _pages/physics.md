@@ -22,10 +22,10 @@ permalink: /physics/
 <div class="container">
 {% for paper in site.data.papers %}
 <div class="row">
-  <div class="col-11" style="float:left; letter-spacing:-0.5px">
+  <div class="col-11" style="float:left">
     {% if paper.released!=nill %}{% if paper.listed!=nill %}[{{ paper.listed }}]{% endif %}{% endif %} {{ paper.title }} 
   </div>
-  <div class="col-2" style="text-align:right; letter-spacing:-0.5px"> 
+  <div class="col-2" style="text-align:right"> 
     {% if paper.released!=0 %}
       <span style="font-family:'Consolas'; letter-spacing:-1px">
         <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>
@@ -47,10 +47,10 @@ permalink: /physics/
 <div class="container">
 {% for paper in site.data.papers-prehistory %}
 <div class="row">
-  <div class="col-md-11" style="float:left; letter-spacing:-0.5px">
+  <div class="col-md-11" style="float:left">
     {% if paper.released!=nill %}{% if paper.listed!=nill %}[{{ paper.listed }}]{% endif %}{% endif %} {{ paper.title }} 
   </div>
-  <div class="col-md-2" style="text-align:right; letter-spacing:-0.5px">
+  <div class="col-md-2" style="text-align:right">
     {% if paper.released!=0 %}<a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>{% else %}arXiv:{{ paper.arxivnumber }}{% endif %}
   </div>
 </div>
@@ -116,7 +116,7 @@ permalink: /physics/
 <div class="container">
 {% for ed in site.data.education %}
 <div class="row">
-  <div class="col-md-8" style="float:left; letter-spacing:-0.5px">
+  <div class="col-md-8" style="float:left">
     {% if ed.degree!=nill %}
       ({{ ed.degree }})
     {% endif %}
