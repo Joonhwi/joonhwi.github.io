@@ -82,9 +82,9 @@ permalink: /physics/
       {% else %}
         {{ talk.title }}
       {% endif %}{% if talk.institution != nil %}
-        , {{ talk.institution }}
+        \b, {{ talk.institution }}
       {% endif %}{% if talk.location != nil %}
-        , {{ talk.location }}
+        \b, {{ talk.location }}
       {% endif %}
     </div>  
     {% if talk.video != nil %}
