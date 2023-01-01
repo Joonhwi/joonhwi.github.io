@@ -26,6 +26,7 @@ permalink: /physics/
     <div class="col-xs-11 col-md-8" style="text-align:left">
       {{ paper.title }} 
     </div>
+    <div class="clearfix visible-xs"></div>
     <div class="col-3" style="text-align:right; font-family:'Consolas'; letter-spacing:-1px">
       {% if paper.released!=0 %}
         <span>
@@ -85,6 +86,7 @@ permalink: /physics/
         {% else %}{{ talk.title }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }}{% endif %}
       </span>
     </div>  
+    <div class="clearfix visible-xs"></div>
     {% if talk.video != nil %}
     <div class="col-1" style="text-align:right">
       (<a href="{{ talk.video }}">video</a>)
@@ -113,7 +115,7 @@ permalink: /physics/
   <div class="row">
     <div class="col-xs-12 col-md-7">
       {% if ed.degree!=nill %}
-        {{ ed.degree }},
+        {{ ed.degree }},<br/>
       {% endif %}
       {{ ed.institution }}
       <br/>
