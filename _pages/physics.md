@@ -27,13 +27,13 @@ permalink: /physics/
   </div>
   <div class="col-md-2" style="text-align:right; font-size:-1; letter-spacing:-0.5px"> 
     {% if paper.released!=0 %}
-      <p style="font-family:'Courier New'">
+      <span style="font-family:'Courier New'">
         <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>
-      </p>
+      </span>
     {% else %}
-      <p style="font-family:'Courier New'">
+      <span style="font-family:'Courier New'">
         arXiv:{{ paper.arxivnumber }}
-      </p>
+      </span>
     {% endif %}
   </div>
 </div>
@@ -79,16 +79,13 @@ permalink: /physics/
     <div class="col-10"> 
       {% if talk.topic != nil %}
         <em>{{ talk.topic }}</em><br>
-      {% endif %}
-      {% if talk.link != nil %}
+      {% endif %}{% if talk.link != nil %}
         <a href="{{ talk.link }}">{{ talk.title }}</a>
       {% else %}
         {{ talk.title }}
-      {% endif %}
-      {% if talk.institution != nil %}
+      {% endif %}{% if talk.institution != nil %}
         , {{ talk.institution }}
-      {% endif %}
-      {% if talk.location != nil %}
+      {% endif %}{% if talk.location != nil %}
         , {{ talk.location }}
       {% endif %}
     </div>  
