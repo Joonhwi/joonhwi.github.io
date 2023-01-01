@@ -4,7 +4,7 @@ title: Physics
 permalink: /physics/
 ---
 
-<h4> 448 </h4>
+<h4> 449 </h4>
 
 <h2>Publications</h2>
 
@@ -21,20 +21,19 @@ permalink: /physics/
   {% for paper in site.data.papers %}
   <div class="row">
     <div class="col-xs-12 col-md-9" style="text-align:left; float:left">
-      <span style="font-family:'Consolas'; font-size:-5; letter-spacing:-2px; word-break:break-word">
+      <span style="font-family:'Consolas'; font-size:-5; letter-spacing:-1px; word-break:break-word">
         {% if paper.listed!=nill %}{% if paper.listed>=0 %}[{{ paper.listed }}]&nbsp;{% else %}[{{ paper.listed }}]{% endif %}{% else %}[&nbsp];{% endif %}
       </span>
       {{ paper.title }}
     </div>
-    <div class="clearfix visible-xs"></div>
     <div class="col-xs-3" style="text-align:right; float:left; font-family:'Consolas'; font-size:-5; letter-spacing:-1px">
       {% if paper.released!=0 %}
         <span>
-          <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>
+          &nbsp;<a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>
         </span>
       {% else %}
         <span>
-          arXiv:{{ paper.arxivnumber }}
+          &nbsp;arXiv:{{ paper.arxivnumber }}
         </span>
       {% endif %}
     </div>
