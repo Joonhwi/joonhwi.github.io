@@ -22,10 +22,10 @@ permalink: /physics/
 <div class="container">
 {% for paper in site.data.papers %}
 <div class="row">
-  <div class="col-11" style="float:left">
+  <div class="col-11">
     {% if paper.released!=nill %}{% if paper.listed!=nill %}[{{ paper.listed }}]{% endif %}{% endif %} {{ paper.title }} 
   </div>
-  <div class="col-2" style="text-align:right"> 
+  <div class="col-2"> 
     {% if paper.released!=0 %}
       <span style="font-family:'Consolas'; letter-spacing:-1px">
         <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>
@@ -146,7 +146,7 @@ permalink: /physics/
       <div class="col-6">  </div>
       <div class="col-6" style="text-align:right">
         Last Updated
-        <span style="text-align:right; font-family:'Consolas'; letter-spacing:-1px"> >
+        <span style="text-align:right; font-family:'Consolas'; letter-spacing:-1px">
           {{ 'now' | date: "%d/%m/%Y"}}
         </span>
       </div>
