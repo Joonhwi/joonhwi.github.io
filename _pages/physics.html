@@ -20,11 +20,11 @@ permalink: /physics/
 <!-- <div class="container">
   {% for paper in site.data.papers %}
   <div class="row">
-    <div class="col-xs-12 col-md-9" style="text-align:left;">
+    <div class="col-sm-12 col-md-9" style="text-align:left;">
       <span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">{% if paper.listed!=nill %}{% if paper.listed>=0 %}[{{ paper.listed }}]&nbsp;{% else %}[{{ paper.listed }}]{% endif %}{% else %}[&nbsp];{% endif %}</span>
       {{ paper.title }}
     </div>
-    <div class="col-xs-12 col-md-3" style="text-align:right; font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px; word-break:break-all;">
+    <div class="col-sm-12 col-md-3" style="text-align:right; font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px; word-break:break-all;">
       {% if paper.released!=0 %}
         <a href="http://arxiv.org/abs/{{ paper.arxivnumber }};">arXiv:{{ paper.arxivnumber }}</a>
       {% else %}
@@ -40,13 +40,13 @@ permalink: /physics/
 <div class="container">
   {% for paper in site.data.papers %}
   <div class="row">
-    <div class="col-xs-1 col-md-1" style="text-align:left;">
+    <div class="col-sm-1 col-md-1" style="text-align:left;">
       {% if paper.listed!=nill %}{% if paper.listed>=0 %}[{{ paper.listed }}]&nbsp;{% else %}[{{ paper.listed }}]{% endif %}{% else %}[&nbsp];{% endif %}
     </div>
-    <div class="col-xs-11 col-md-8" style="word-wrap:break-word;">
-      <span>{{ paper.title }}</span>
+    <div class="col-sm-11 col-md-8" style="text-align:left; word-wrap:break-word;">
+      {{ paper.title }}
     </div>
-    <div class="col-xs-12 col-md-3" style="text-align:right; font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px; word-break:break-all;">
+    <div class="col-sm-12 col-md-3" style="text-align:right; font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px; word-break:break-all;">
       {% if paper.released!=0 %}
         <a href="http://arxiv.org/abs/{{ paper.arxivnumber }};">arXiv:{{ paper.arxivnumber }}</a>
       {% else %}
@@ -116,7 +116,7 @@ permalink: /physics/
 <div class="container">
   {% for ed in site.data.education %}
     <div class="row">
-      <div class="col-xs-12 col-md-7">
+      <div class="col-sm-12 col-md-7">
         {% if ed.degree!=nill %}
           {{ ed.degree }},
         {% endif %}
@@ -125,7 +125,7 @@ permalink: /physics/
         ({{ ed.address }})
       </div>
       <!--  -->
-      <div class="col-xs-12 col-md-5" style="text-align:right;">
+      <div class="col-sm-12 col-md-5" style="text-align:right;">
         <span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
         <!-- {% else %}<span style="opacity:0">00/0000</span> -->
       </div>
