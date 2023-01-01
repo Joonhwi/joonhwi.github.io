@@ -27,11 +27,11 @@ permalink: /physics/
   </div>
   <div class="col-md-2" style="text-align:right; font-size:-1; letter-spacing:-0.5px"> 
     {% if paper.released!=0 %}
-      <span style="font-family:'Monaco'; letter-spacing:-2px">
+      <span style="font-family:'Courier New'; letter-spacing:-2px">
         <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>
       </span>
     {% else %}
-      <span style="font-family:'Monaco'; letter-spacing:-2px">
+      <span style="font-family:'Courier New'; letter-spacing:-2px">
         arXiv:{{ paper.arxivnumber }}
       </span>
     {% endif %}
