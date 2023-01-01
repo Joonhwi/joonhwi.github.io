@@ -125,9 +125,9 @@ permalink: /physics/
   </div>
   <div class="col-3" style="text-align:right; font-family:'Consolas'; letter-spacing:-2px"> 
     {% if ed.start!=nill %}
-      {{ ed.start }} ~
+      {{ ed.start | date: "%m/%Y" }} ~
     {% endif %}{% if ed.end!=nill %}
-      {{ ed.end }}
+      {{ ed.end | date: "%m/%Y" }}
     {% endif %}
   </div>
   <hr style="visibility:hidden"/>
