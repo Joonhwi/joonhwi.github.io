@@ -88,9 +88,7 @@ permalink: /physics/
       {% if talk.link != nil %}
         <a href="{{ talk.link }}">{{ talk.title }}</a>
       {% else %}
-        {{ talk.title }}{% endif %}{% if talk.institution != nil %}
-        , {{ talk.institution }}{% endif %}{% if talk.location != nil %}
-        , {{ talk.location }}{% endif %}
+        {{ talk.title }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }}{% endif %}
     </div>  
     {% if talk.video != nil %}
     <div class="col-1" style="text-align:right">
