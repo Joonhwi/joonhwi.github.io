@@ -1,0 +1,15 @@
+- degree: "PhD student"
+  institution: "California Institute of Technology"
+  address: "Pasadena, CA, USA"
+  start: 2022-09-22
+  end:
+- degree: "BS in Physics"
+  institution: "Seoul National University"
+  address: "Seoul, Korea"
+  start: 2022-09-22
+  end:
+- degree:
+  institution: "Seoul Science High School for the Gifted"
+  address: "Seoul, Korea"
+  start: 2022-09-22
+  end:

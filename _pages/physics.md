@@ -27,11 +27,11 @@ permalink: /physics/
   </div>
   <div class="col-md-2" style="text-align:right; font-size:-1; letter-spacing:-0.5px"> 
     {% if paper.released!=0 %}
-      <span style="font-family:'Courier New'; letter-spacing:-2px">
+      <span style="font-family:'Consolas'; letter-spacing:-2px">
         <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>
       </span>
     {% else %}
-      <span style="font-family:'Courier New'; letter-spacing:-2px">
+      <span style="font-family:'Consolas'; letter-spacing:-2px">
         arXiv:{{ paper.arxivnumber }}
       </span>
     {% endif %}
@@ -113,41 +113,26 @@ permalink: /physics/
 ## Education
 
 <div class="container">
-  <div class="row">
-    <div class="col-8"> 
-      (PhD Student)
-      California Institute of Technology
-      <br>
-      <div style="font-size=-1">Pasadena, CA, USA</div>
-    </div>  
-    <div class="col-3" style="text-align:right">
-      09/2021 ~
-    </div>
+{% for ed in site.data.education %}
+<div class="row">
+  <div class="col-md-8" style="float:left; font-size:-1; letter-spacing:-0.5px">
+    {% if ed.degree!=nill %}
+      ({{ ed.degree }})
+    {% endif %}
+    {{ ed.institution }}
+    <br>
+    <span style="font-size=-1">{{ ed.address }}</span>
+  </div>
+  <div class="col-3" style="text-align:right; font-family:'Consolas'; letter-spacing:-2px"> 
+    {% if ed.start!=nill %}
+      {{ ed.start }} ~
+    {% endif %}{% if ed.end!=nill %}
+      {{ ed.end }}
+    {% endif %}
   </div>
   <hr style="visibility:hidden"/>
-  <div class="row">
-    <div class="col-8"> 
-      (BS in Physics)
-      Seoul National University
-      <br>
-      <div style="font-size=-1">Seoul, Korea</div>
-    </div>  
-    <div class="col-3" style="text-align:right">
-      03/2017 ~ 02/2021
-    </div>
-  </div>
-  <hr style="visibility:hidden"/>
-  <div class="row">
-    <div class="col-8"> 
-      Seoul Science High School for the Gifted
-      <br>
-      <div style="font-size=-1">Seoul, Korea</div>
-    </div>  
-    <div class="col-3" style="text-align:right">
-      03/2014 ~ 02/2017
-    </div>
-  </div>
-  <hr style="visibility:hidden"/>
+</div>
+{% endfor %}
 </div>
 
 <hr style="visibility:hidden"/>
