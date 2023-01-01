@@ -117,10 +117,8 @@ permalink: /physics/
 <div class="container">
   <div class="row">
     <div class="col-8"> 
-      <b>
       (PhD Student)
       California Institute of Technology
-      </b>
       <br>
       <div style="font-size=-1">Pasadena, CA, USA</div>
     </div>  
@@ -131,10 +129,8 @@ permalink: /physics/
   <hr style="visibility:hidden"/>
   <div class="row">
     <div class="col-8"> 
-      <b>
       (BS in Physics)
       Seoul National University
-      </b>
       <br>
       <div style="font-size=-1">Seoul, Korea</div>
     </div>  
@@ -145,9 +141,7 @@ permalink: /physics/
   <hr style="visibility:hidden"/>
   <div class="row">
     <div class="col-8"> 
-      <b>
       Seoul Science High School for the Gifted
-      </b>
       <br>
       <div style="font-size=-1">Seoul, Korea</div>
     </div>  
