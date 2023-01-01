@@ -18,7 +18,7 @@ permalink: /physics/
 <div class="container">
 {% for paper in site.data.papers %}
 <div class="row">
-  <div class="col-9">
+  <div class="col-1">
     {% if paper.listed!=nill %}
       [
       <span style="font-family:'Consolas'; letter-spacing:-1px">
@@ -26,6 +26,8 @@ permalink: /physics/
       </span>
       ]
     {% endif %}
+  </div>
+  <div class="col-8 col-sm-11">
     {{ paper.title }} 
   </div>
   <div class="col-3" style="text-align:right; font-family:'Consolas'; letter-spacing:-1px">
