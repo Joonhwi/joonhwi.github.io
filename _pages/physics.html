@@ -23,7 +23,7 @@ permalink: /physics/
       [{{ paper.listed }}]
     {% endif %}
   </div>
-  <div class="col-xs-11 col-md-8">
+  <div class="col-8 col-xs-11">
     {{ paper.title }} 
   </div>
   <div class="col-3" style="text-align:right; font-family:'Consolas'; letter-spacing:-1px">
@@ -67,7 +67,7 @@ permalink: /physics/
 <div class="container">
 {% capture datenow %}{{'now' | date: '%s'}}{% endcapture %}
 {% for talk in site.data.talks %}
-{% capture talkdate %}{{ talk.date | date: '%s'}}{% 9endcapture %}
+{% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %}
   {% if talkdate < datenow and talk.type == "seminar" %}
   <div class="row">
     <div class="col-2">
@@ -75,7 +75,7 @@ permalink: /physics/
         {{ talk.date | date: "%m/%Y" }}
       </span>
     </div>
-    <div class="col-xs-10 col-md-9"> 
+    <div class="col-9 col-xs-10"> 
       {% if talk.topic != nil %}
         <em>{{ talk.topic }}</em><br/>
       {% endif %}
@@ -109,7 +109,7 @@ permalink: /physics/
 {% for ed in site.data.education %}
 <div class="container">
   <div class="row">
-    <div class="col-xs-12 col-md-7">
+    <div class="col-7 col-xs-12">
       {% if ed.degree!=nill %}
         ({{ ed.degree }})
       {% endif %}
