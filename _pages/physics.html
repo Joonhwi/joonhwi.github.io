@@ -26,9 +26,9 @@ permalink: /physics/
     </div>
     <div class="col-3" style="text-align:right; font-family:'Consolas'; font-stretch:60%;  letter-spacing:-1px;">
       {% if paper.released!=0 %}
-          <a href="http://arxiv.org/abs/{{ paper.arxivnumber }};">arXiv:{{ paper.arxivnumber }}</a>
+        <a href="http://arxiv.org/abs/{{ paper.arxivnumber }};">arXiv:{{ paper.arxivnumber }}</a>
       {% else %}
-          arXiv:{{ paper.arxivnumber }}
+        arXiv:{{ paper.arxivnumber }}
       {% endif %}
     </div>
   </div>
@@ -109,7 +109,8 @@ permalink: /physics/
       </p>
     </div>
     <div class="col-5" style="text-align:right;">
-      <span style="font-family:'Consolas'; font-stretch:60%;  letter-spacing:-1px;">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span style="font-family:'Consolas'; font-stretch:60%;  letter-spacing:-1px;">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
+      {% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}–{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}
+      <!-- <span style="font-family:'Consolas'; font-stretch:60%;  letter-spacing:-1px;">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span style="font-family:'Consolas'; font-stretch:60%;  letter-spacing:-1px;">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span> -->
       <!-- {% else %}<span style="opacity:0">00/0000</span> -->
     </div>
   </div>
