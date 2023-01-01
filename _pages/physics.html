@@ -21,9 +21,7 @@ permalink: /physics/
   {% for paper in site.data.papers %}
   <div class="row;">
     <div class="col-xs-12 col-md-9" style="text-align:left;">
-      <span style="font-family:'Consolas'; font-stretch:75%; letter-spacing:-1px;">
-        {% if paper.listed!=nill %}{% if paper.listed>=0 %}[{{ paper.listed }}]&nbsp;{% else %}[{{ paper.listed }}]{% endif %}{% else %}[&nbsp];{% endif %}
-      </span>
+      <span style="font-family:'Consolas'; font-stretch:75%; letter-spacing:-1px;">{% if paper.listed!=nill %}{% if paper.listed>=0 %}[{{ paper.listed }}]&nbsp;{% else %}[{{ paper.listed }}]{% endif %}{% else %}[&nbsp];{% endif %}</span>
       {{ paper.title }}
     </div>
     <div class="col-xs-3 col-md-3" style="text-align:right; font-family:'Consolas'; font-stretch:75%; letter-spacing:-1px;">
