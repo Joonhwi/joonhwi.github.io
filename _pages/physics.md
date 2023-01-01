@@ -23,7 +23,12 @@ permalink: /physics/
 {% for paper in site.data.papers %}
 <div class="row">
   <div class="col-9">
-    {% if paper.released!=nill %}{% if paper.listed!=nill %}[{{ paper.listed }}]{% endif %}{% endif %} {{ paper.title }} 
+    {% if paper.listed!=nill %}
+      <span style="font-family:'Consolas'; letter-spacing:-1px">
+        [{{ paper.listed }}]
+      </span>
+    {% endif %}
+    {{ paper.title }} 
   </div>
   <div class="col-3" style="text-align:right; font-family:'Consolas'; letter-spacing:-1px">
     {% if paper.released!=0 %}
@@ -71,10 +76,12 @@ permalink: /physics/
 {% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %}
   {% if talkdate < datenow and talk.type == "seminar" %}
   <div class="row">
-    <div class="col-2">
-      ({{ talk.date | date: "%m/%Y" }})
+    <div class="col-1">
+      <span style="font-family:'Consolas'; letter-spacing:-1px">
+        {{ talk.date | date: "%m/%Y" }}
+      </span>
     </div>
-    <div class="col-9"> 
+    <div class="col-10"> 
       {% if talk.topic != nil %}
         <em>{{ talk.topic }}</em><br>
       {% endif %}
@@ -122,8 +129,10 @@ permalink: /physics/
   </div>
   <div class="col-4" style="text-align:right; font-family:'Consolas'; letter-spacing:-1px"> 
     {% if ed.start!=nill %}
-      {{ ed.start | date: "%m/%Y" }} ~
-    {% endif %}{% if ed.end!=nill %}
+      {{ ed.start | date: "%m/%Y" }}
+    {% endif %}
+    -
+    {% if ed.end!=nill %}
       {{ ed.end | date: "%m/%Y" }}
     {% endif %}
   </div>
