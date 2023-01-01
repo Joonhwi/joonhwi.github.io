@@ -4,7 +4,7 @@ title: Physics
 permalink: /physics/
 ---
 
-<h4> 436 </h4>
+<h4> 437 </h4>
 
 <h2>Publications</h2>
 
@@ -22,7 +22,7 @@ permalink: /physics/
   <div class="row">
     <div class="col-xs-12 col-md-9" style="text-align:left; word-wrap:break-word">
       <span style="font-family:'Consolas'; letter-spacing:-1px">
-        [{% if paper.listed!=nill %}{{ paper.listed }}{% else %}&nbsp;{% endif %}]
+        [{% if paper.listed!=nill %}{% if paper.listed>=0 %}{{ paper.listed }}{% else %}{{ paper.listed }}&nbsp;{% endif %}{% else %}&nbsp;{% endif %}]
       </span>
       &nbsp;
       {{ paper.title }}
