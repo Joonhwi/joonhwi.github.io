@@ -4,7 +4,7 @@ title: Physics
 permalink: /physics/
 ---
 
-<h4> v61 </h4>
+<h4> v62 </h4>
 
 <h2>Publications</h2>
 
@@ -29,11 +29,11 @@ permalink: /physics/
     <div class="col-xs-3" style="text-align:right; font-family:'Consolas'; letter-spacing:-1px; font-size:95%;">
       {% if paper.released!=0 %}
         <span>
-          &nbsp;<a href="http://arxiv.org/abs/{{ paper.arxivnumber }};">arXiv:{{ paper.arxivnumber }}</a>
+          <a href="http://arxiv.org/abs/{{ paper.arxivnumber }};">arXiv:{{ paper.arxivnumber }}</a>
         </span>
       {% else %}
         <span>
-          &nbsp;arXiv:{{ paper.arxivnumber }}
+          arXiv:{{ paper.arxivnumber }}
         </span>
       {% endif %}
     </div>
