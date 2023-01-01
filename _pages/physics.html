@@ -4,7 +4,7 @@ title: Physics
 permalink: /physics/
 ---
 
-<h4> 90c </h4>
+<h4> 101 </h4>
 
 <h2>Publications</h2>
 
@@ -69,40 +69,17 @@ permalink: /physics/
         {{ talk.date | date: "%m/%d/%Y" }}
       </span>
     </div>
-    {% if talk.video != nil %}
-      <div class="col-9">
-        {% if talk.topic != nil %}
-          <em>{{ talk.topic }}</em><br/>
+    <div class="col-10">
+      {% if talk.topic != nil %}
+        {% if talk.video != nil %}
+          (<a href="{{ talk.video }};"><em>{{ talk.topic }}</em></a>)
+        {% elsif talk.file != nil %}
+          (<a href="{{ talk.file }};"><em>{{ talk.topic }}</em></a>)
         {% endif %}
-        {% if talk.link != nil %}
-          <a href="{{ talk.link }};">{{ talk.title }}</a>
-        {% else %}{{ talk.title }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }}{% endif %}
-      </div>
-      <div class="col-1">
-        (<a href="{{ talk.video }};">video</a>)
-      </div>
-    {% elsif talk.file != nil %}
-      <div class="col-9">
-        {% if talk.topic != nil %}
-          <em>{{ talk.topic }}</em><br/>
-        {% endif %}
-        {% if talk.link != nil %}
-          <a href="{{ talk.link }};">{{ talk.title }}</a>
-        {% else %}{{ talk.title }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }}{% endif %}
-      </div>
-      <div class="col-1">
-        (<a href="{{ talk.file }};">file</a>)
-      </div>
-    {% else %}
-      <div class="col-10">
-        {% if talk.topic != nil %}
-          <em>{{ talk.topic }}</em><br/>
-        {% endif %}
-        {% if talk.link != nil %}
-          <a href="{{ talk.link }};">{{ talk.title }}</a>
-        {% else %}{{ talk.title }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }}{% endif %}
-      </div>
-    {% endif %}
+        <br/>
+      {% endif %}
+      {% if talk.link != nil %}<a href="{{ talk.link }};">{{ talk.title }}</a>{% else %}{{ talk.title }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }}{% endif %}
+    </div>
   </div>
   <hr style="visibility:hidden"/>
 {% endif %}
