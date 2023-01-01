@@ -80,6 +80,10 @@
             // color: var(--brand-color);
             color: var(--heading-font-color);
             text-decoration: underline;
+            
+            &:hover {
+              color: var(--link-color);
+            }
 
             &::after {
               content: none;
