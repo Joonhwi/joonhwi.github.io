@@ -20,9 +20,11 @@ permalink: /physics/
 <div class="row">
   <div class="col-9">
     {% if paper.listed!=nill %}
+      [
       <span style="font-family:'Consolas'; letter-spacing:-1px">
-        [{{ paper.listed }}]
+        {{ paper.listed }}
       </span>
+      ]
     {% endif %}
     {{ paper.title }} 
   </div>
@@ -119,7 +121,7 @@ permalink: /physics/
       <span>{{ ed.address }}</span>
     </div>
     <div class="col-5" style="text-align:right"> 
-      <span style="font-family:'Consolas'; letter-spacing:-1px">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span style="text-align:right; font-family:'Consolas'; letter-spacing:-1px">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% else %}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{% endif %}</span>
+      <span style="font-family:'Consolas'; letter-spacing:-1px">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span style="text-align:right; font-family:'Consolas'; letter-spacing:-1px">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% else %}⠀⠀⠀⠀⠀⠀⠀;{% endif %}</span>
     </div>
     <hr style="visibility:hidden"/>
   </div>
