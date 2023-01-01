@@ -22,10 +22,10 @@ permalink: /physics/
 <div class="container">
 {% for paper in site.data.papers %}
 <div class="row">
-  <div class="col-10">
+  <div class="col-9">
     {% if paper.released!=nill %}{% if paper.listed!=nill %}[{{ paper.listed }}]{% endif %}{% endif %} {{ paper.title }} 
   </div>
-  <div class="col-4" style="text-align:right; font-family:'Consolas'; letter-spacing:-1px">
+  <div class="col-3" style="text-align:right; font-family:'Consolas'; letter-spacing:-1px">
     {% if paper.released!=0 %}
       <span>
         <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>
@@ -87,15 +87,15 @@ permalink: /physics/
         , {{ talk.location }}{% endif %}
     </div>  
     {% if talk.video != nil %}
-    <div class="col-1" style="text-align:right">
+    <div class="col-2" style="text-align:right">
       (<a href="{{ talk.video }}">video</a>)
     </div>
     {% elsif talk.file != nil %}
-    <div class="col-1" style="text-align:right">
+    <div class="col-2" style="text-align:right">
       (<a href="{{ talk.file }}">file</a>)
     </div>
     {% else %}
-    <div class="col-1" style="text-align:right">
+    <div class="col-2" style="text-align:right">
       &nbsp;
     </div>
     {% endif %}
@@ -113,7 +113,7 @@ permalink: /physics/
 
 {% for ed in site.data.education %}
 <div class="row">
-  <div class="col-5">
+  <div class="col-8">
     {% if ed.degree!=nill %}
       ({{ ed.degree }})
     {% endif %}
@@ -121,7 +121,7 @@ permalink: /physics/
     <br>
     <span>{{ ed.address }}</span>
   </div>
-  <div class="col-5" style="text-align:right; font-family:'Consolas'; letter-spacing:-1px"> 
+  <div class="col-4" style="text-align:right; font-family:'Consolas'; letter-spacing:-1px"> 
     {% if ed.start!=nill %}
       {{ ed.start | date: "%m/%Y" }} ~
     {% endif %}{% if ed.end!=nill %}
@@ -131,7 +131,6 @@ permalink: /physics/
   <hr style="visibility:hidden"/>
 </div>
 {% endfor %}
-</div>
 
 <hr style="visibility:hidden"/>
 ***
