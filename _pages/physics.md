@@ -17,7 +17,7 @@ permalink: /physics/
 </div>
 <div style="margin-top:-20px"></div>
 
-#### 2021~
+<!-- #### 2021~ -->
 
 <div class="container">
 {% for paper in site.data.papers %}
@@ -34,7 +34,7 @@ permalink: /physics/
 </div>
 <hr style="visibility:hidden"/>
 
-#### "Prehistory"
+<!-- #### "Prehistory"
 
 <div class="container">
 {% for paper in site.data.papers-prehistory %}
@@ -52,7 +52,7 @@ permalink: /physics/
 
 <hr style="visibility:hidden"/>
 ***
-<hr style="visibility:hidden"/>
+<hr style="visibility:hidden"/> -->
 
 ## Seminars etc.
 
