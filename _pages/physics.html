@@ -4,7 +4,7 @@ title: Physics
 permalink: /physics/
 ---
 
-<h4> 434 </h4>
+<h4> 435 </h4>
 
 <h2>Publications</h2>
 
@@ -61,7 +61,7 @@ permalink: /physics/
 <hr style="visibility:hidden"/>
 {% endfor %}
 </div> -->
-<!-- font-size:-2 -->
+<!-- font-size:-1 -->
 
 <hr style="visibility:hidden"/><hr/><hr style="visibility:hidden"/>
 
@@ -82,11 +82,11 @@ permalink: /physics/
       {% if talk.topic != nil %}
         <em>{{ talk.topic }}</em><br/>
       {% endif %}
-      <span style="size:-2">
+      <span span style="font-size:-1">
         {% if talk.link != nil %}
           <a href="{{ talk.link }}">{{ talk.title }}</a>
         {% else %}{{ talk.title }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }}{% endif %}
-      </span>
+      </font>
     </div>  
     <div class="clearfix visible-xs"></div>
     <div class="col-xs-1" style="text-align:right">
@@ -117,7 +117,7 @@ permalink: /physics/
         {% endif %}
         {{ ed.institution }}
         <br/>
-        <span style="size:-2">{{ ed.address }}</span>
+        <span span style="font-size:-1">{{ ed.address }}</span>
       </div>
       <div class="col-xs-5" style="text-align:right"> 
         <span style="font-family:'Consolas'; letter-spacing:-1px">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span style="text-align:right; font-family:'Consolas'; letter-spacing:-1px">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
