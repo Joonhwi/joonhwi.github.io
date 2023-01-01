@@ -4,7 +4,7 @@ title: Physics
 permalink: /physics/
 ---
 
-<h1> 432 </h1>
+<h4> 433 </h4>
 
 <h2>Publications</h2>
 
@@ -108,25 +108,25 @@ permalink: /physics/
 
 <h2>Education</h2>
 
-{% for ed in site.data.education %}
 <div class="container">
-  <div class="row">
-    <div class="col-xs-12 col-md-7">
-      {% if ed.degree!=nill %}
-        {{ ed.degree }},<br/>
-      {% endif %}
-      {{ ed.institution }}
-      <br/>
-      <span style="size:-2">{{ ed.address }}</span>
-    </div>
-    <div class="col-xs-5" style="text-align:right"> 
-      <span style="font-family:'Consolas'; letter-spacing:-1px">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span style="text-align:right; font-family:'Consolas'; letter-spacing:-1px">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
-      <!-- {% else %}<span style="opacity:0">00/0000</span> -->
+  {% for ed in site.data.education %}
+    <div class="row">
+      <div class="col-xs-12 col-md-7">
+        {% if ed.degree!=nill %}
+          {{ ed.degree }},<br/>
+        {% endif %}
+        {{ ed.institution }}
+        <br/>
+        <span style="size:-2">{{ ed.address }}</span>
+      </div>
+      <div class="col-xs-5" style="text-align:right"> 
+        <span style="font-family:'Consolas'; letter-spacing:-1px">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span style="text-align:right; font-family:'Consolas'; letter-spacing:-1px">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
+        <!-- {% else %}<span style="opacity:0">00/0000</span> -->
+      </div>
     </div>
     <hr style="visibility:hidden"/>
-  </div>
+  {% endfor %}
 </div>
-{% endfor %}
 
 <hr style="visibility:hidden"/><hr/><hr style="visibility:hidden"/>
 
