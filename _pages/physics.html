@@ -4,7 +4,7 @@ title: Physics
 permalink: /physics/
 ---
 
-<h4> 449 </h4>
+<h4> 450 </h4>
 
 <h2>Publications</h2>
 
@@ -21,12 +21,12 @@ permalink: /physics/
   {% for paper in site.data.papers %}
   <div class="row">
     <div class="col-xs-12 col-md-9" style="text-align:left; float:left">
-      <span style="font-family:'Consolas'; font-size:-5; letter-spacing:-1px; word-break:break-word">
+      <span style="font-family:'Consolas'; letter-spacing:-1px; word-break:break-word"><font size="-1">
         {% if paper.listed!=nill %}{% if paper.listed>=0 %}[{{ paper.listed }}]&nbsp;{% else %}[{{ paper.listed }}]{% endif %}{% else %}[&nbsp];{% endif %}
-      </span>
+      </font></span>
       {{ paper.title }}
     </div>
-    <div class="col-xs-3" style="text-align:right; float:left; font-family:'Consolas'; font-size:-5; letter-spacing:-1px">
+    <div class="col-xs-3" style="text-align:right; float:left; font-family:'Consolas'; letter-spacing:-1px"><font size="-1">
       {% if paper.released!=0 %}
         <span>
           &nbsp;<a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>
@@ -36,7 +36,7 @@ permalink: /physics/
           &nbsp;arXiv:{{ paper.arxivnumber }}
         </span>
       {% endif %}
-    </div>
+    </font></div>
   </div>
   <hr style="visibility:hidden"/>
   {% endfor %}
@@ -71,20 +71,20 @@ permalink: /physics/
   {% if talkdate < datenow and talk.type == "seminar" %}
   <div class="row">
     <div class="col-xs-1">
-      <span style="font-family:'Consolas'; font-size:-5; letter-spacing:-1px">
+      <span style="font-family:'Consolas'; letter-spacing:-1px"><font size="-1">
         {{ talk.date | date: "%m/%Y" }}
-      </span>
+      </font></span>
     </div>
     <div class="col-xs-11 col-md-10 col-xs-offset-1"> 
       <p style="text-align:left; word-break:break-word">
         {% if talk.topic != nil %}
           <em>{{ talk.topic }}</em><br/>
         {% endif %}
-        <span style="font-size:-5">
+        <span style="font-size:-5"><font size="-1">
           {% if talk.link != nil %}
             <a href="{{ talk.link }}">{{ talk.title }}</a>
           {% else %}{{ talk.title }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }}{% endif %}
-        </font>
+        </font></span>
       </p>
     </div>  
     <div class="clearfix visible-xs"></div>
@@ -116,10 +116,12 @@ permalink: /physics/
         {% endif %}
         {{ ed.institution }}
         <br/>
-        <span style="font-size:-5">{{ ed.address }}</span>
+        <font size="-1">{{ ed.address }}</font>
       </div>
       <div class="col-xs-5" style="text-align:right"> 
-        <span style="font-family:'Consolas'; font-size:-5; letter-spacing:-1px">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span style="text-align:right; font-family:'Consolas'; font-size:-5; letter-spacing:-1px">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
+        <span style="font-family:'Consolas'; letter-spacing:-1px"><font size="-1">
+          {% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span style="font-family:'Consolas'; letter-spacing:-1px">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}
+        </font></span>
         <!-- {% else %}<span style="opacity:0">00/0000</span> -->
       </div>
     </div>
@@ -133,7 +135,7 @@ permalink: /physics/
 <div class="container">
   <p style="text-align:right">
     Last Updated:
-    <span style="text-align:right; font-family:'Consolas'; font-size:-5; letter-spacing:-1px">
+    <span style="font-family:'Consolas'; letter-spacing:-1px">
       {{ 'now' | date: "%d/%m/%Y"}}
     </span>
   </p>
