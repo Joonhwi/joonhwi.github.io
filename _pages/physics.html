@@ -4,7 +4,7 @@ title: Physics
 permalink: /physics/
 ---
 
-<h4> 86b </h4>
+<h4> 87b </h4>
 
 <h2>Publications</h2>
 
@@ -64,22 +64,12 @@ permalink: /physics/
 {% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %}
 {% if talkdate < datenow and talk.type == "seminar" %}
   <div class="row">
-    <div class="col-xs-11 col-md-2">
+    <div class="col-2">
       <span style="font-family:'Consolas'; font-stretch:50%; letter-spacing:-1px;">
         {{ talk.date | date: "%m/%d/%Y" }}
       </span>
     </div>
-    <div class="col-xs-11 col-xs-push-12 col-xs-offset-0 col-md-9 col-md-offset-3" style="text-align:left;">
-      <p style="word-break: normal;">
-        {% if talk.topic != nil %}
-          <em>{{ talk.topic }}</em><br/>
-        {% endif %}
-        {% if talk.link != nil %}
-          <a href="{{ talk.link }};">{{ talk.title }}</a>
-        {% else %}{{ talk.title }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }}{% endif %}
-      </p>
-    </div>  
-    <div class="col-xs-1 col-xs-pull-1 col-md-1" style="text-align:right;">
+    <div class="col-10" style="text-align:right;">
       {% if talk.video != nil %}
         (<a href="{{ talk.video }};">video</a>)
       {% elsif talk.file != nil %}
@@ -87,6 +77,20 @@ permalink: /physics/
       {% else %}
         &nbsp;
       {% endif %}
+    </div>
+    <div class="row">
+      <div class="col-2">
+      </div>
+      <div class="col-10 col-offset-3" style="text-align:left;">
+        <p style="word-break: normal;">
+          {% if talk.topic != nil %}
+            <em>{{ talk.topic }}</em><br/>
+          {% endif %}
+          {% if talk.link != nil %}
+            <a href="{{ talk.link }};">{{ talk.title }}</a>
+          {% else %}{{ talk.title }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }}{% endif %}
+        </p>
+      </div>
     </div>
   </div>
   <hr style="visibility:hidden"/>
@@ -132,6 +136,3 @@ permalink: /physics/
     </font>
   </p>
 </div>
-
-
-
