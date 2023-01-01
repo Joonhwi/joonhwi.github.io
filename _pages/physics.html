@@ -4,7 +4,7 @@ title: Physics
 permalink: /physics/
 ---
 
-<h4> 442 </h4>
+<h4> 443 </h4>
 
 <h2>Publications</h2>
 
@@ -76,15 +76,17 @@ permalink: /physics/
         {{ talk.date | date: "%m/%Y" }}
       </span>
     </div>
-    <div class="col-xs-10 col-xs-offset-2" style="text-align:left; word-wrap:break-word"> 
-      {% if talk.topic != nil %}
-        <em>{{ talk.topic }}</em><br/>
-      {% endif %}
-      <span style="font-size:-1">
-        {% if talk.link != nil %}
-          <a href="{{ talk.link }}">{{ talk.title }}</a>
-        {% else %}{{ talk.title }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }}{% endif %}
-      </font>
+    <div class="col-xs-11 col-md-10 col-xs-offset-1"> 
+      <p style="text-align:left; word-wrap:break-word">
+        {% if talk.topic != nil %}
+          <em>{{ talk.topic }}</em><br/>
+        {% endif %}
+        <span style="font-size:-1">
+          {% if talk.link != nil %}
+            <a href="{{ talk.link }}">{{ talk.title }}</a>
+          {% else %}{{ talk.title }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }}{% endif %}
+        </font>
+      </p>
     </div>  
     <div class="clearfix visible-xs"></div>
     <div class="col-xs-1" style="text-align:right">
