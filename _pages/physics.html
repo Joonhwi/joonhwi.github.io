@@ -4,7 +4,7 @@ title: Physics
 permalink: /physics/
 ---
 
-<h4> v74 </h4>
+<h4> a75 </h4>
 
 <h2>Publications</h2>
 
@@ -98,13 +98,7 @@ permalink: /physics/
   {% for ed in site.data.education %}
   <div class="row">
     <div class="col-7">
-      {% if ed.degree!=nill %}
-        {{ ed.degree }},
-      {% endif %}
-      {{ ed.institution }}
-      <br/>
-      <!-- <span style="font-size:90%">{{ ed.address }}</span> -->
-      {{ ed.address }}
+      a
     </div>
     <div class="col-5" style="text-align:right;">
       <span style="font-family:'Consolas'; font-stretch:60%;  letter-spacing:-1px;">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span style="font-family:'Consolas'; font-stretch:60%;  letter-spacing:-1px;">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
