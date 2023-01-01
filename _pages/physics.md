@@ -78,7 +78,7 @@ permalink: /physics/
   <div class="row">
     <div class="col-1">
       <span style="font-family:'Consolas'; letter-spacing:-1px">
-        {{ talk.date | date: "%m/%Y" }}
+        {{ talk.date | date: "%m/%Y" }}&nbsp;&nbsp;
       </span>
     </div>
     <div class="col-10"> 
