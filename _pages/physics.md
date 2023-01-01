@@ -114,9 +114,30 @@ permalink: /physics/
 ## Education
 
 <div class="container">
-{% for ed in site.data.education %}
+  <table style="border-spacing:0px; padding-left:0px; padding-right:0px; padding-bottom:3px; margin:0px" width="100%">
+    {% for ed in site.data.education %}
+    <tr>
+      <td style="border-style:none; word-break:break-word; vertical-align:top; text-align:left">
+        {% if ed.degree!=nill %}
+          ({{ ed.degree }})
+        {% endif %}
+        {{ ed.institution }}
+        <br>
+        <span>{{ ed.address }}</span>
+      </td>
+      <td style="border-style:none; word-break:break-word; vertical-align:top; text-align:right">
+        {% if ed.start!=nill %}
+          {{ ed.start | date: "%m/%Y" }} ~
+        {% endif %}{% if ed.end!=nill %}
+          {{ ed.end | date: "%m/%Y" }}
+        {% endif %}
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+
+<!-- {% for ed in site.data.education %}
 <div class="row">
-  <!-- <div class="col-md-8" style="float:left"> -->
   <div class="col-11">
     {% if ed.degree!=nill %}
       ({{ ed.degree }})
@@ -135,7 +156,7 @@ permalink: /physics/
   <hr style="visibility:hidden"/>
 </div>
 {% endfor %}
-</div>
+</div> -->
 
 <hr style="visibility:hidden"/>
 ***
