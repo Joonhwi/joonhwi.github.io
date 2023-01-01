@@ -4,11 +4,11 @@ title: Physics
 permalink: /physics/
 ---
 
-<h4> v73 </h4>
+<h4> v74 </h4>
 
 <h2>Publications</h2>
 
-<div class="container;">
+<div class="container">
   <p style="text-align:center;">
     <a href="https://scholar.google.com/citations?user=A15RZN4AAAAJ;">Google Scholar</a>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -17,9 +17,9 @@ permalink: /physics/
 </div>
 <div style="margin-top:-16px;"></div>
 
-<div class="container;">
+<div class="container">
   {% for paper in site.data.papers %}
-  <div class="row;">
+  <div class="row">
     <div class="col-9" style="text-align:left;">
       <span style="font-family:'Consolas'; font-stretch:75%; letter-spacing:-1px; font-size:95%;">{% if paper.listed!=nill %}{% if paper.listed>=0 %}[{{ paper.listed }}]&nbsp;{% else %}[{{ paper.listed }}]{% endif %}{% else %}[&nbsp];{% endif %}</span>
       {{ paper.title }}
@@ -39,9 +39,9 @@ permalink: /physics/
 
 <!-- #### "Prehistory"
 
-<div class="container;">
+<div class="container">
 {% for paper in site.data.papers-prehistory %}
-<div class="row;">
+<div class="row">
   <div class="col-md-11" style="float:left;">
     {% if paper.released!=nill %}{% if paper.listed!=nill %}[{{ paper.listed }}]{% endif %}{% endif %} {{ paper.title }} 
   </div>
@@ -58,12 +58,12 @@ permalink: /physics/
 
 <h2>Seminars</h2>
 
-<div class="container;">
+<div class="container">
 {% capture datenow %}{{'now' | date: '%s'}}{% endcapture %}
 {% for talk in site.data.talks %}
 {% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %}
 {% if talkdate < datenow and talk.type == "seminar" %}
-  <div class="row;">
+  <div class="row">
     <div class="col-1">
       <span style="font-family:'Consolas'; font-stretch:75%; letter-spacing:-1px; font-size:95%;">
         {{ talk.date | date: "%m/%Y" }}
@@ -94,7 +94,7 @@ permalink: /physics/
 
 <h2>Education</h2>
 
-<div class="container;">
+<div class="container">
   {% for ed in site.data.education %}
   <div class="row">
     <div class="col-7">
@@ -117,7 +117,7 @@ permalink: /physics/
 <hr style="visibility:hidden"/><hr/><hr style="visibility:hidden"/>
 
 <br/>
-<div class="container;">
+<div class="container">
   <p style="text-align:right;">
     Last Updated:
     <font style="font-family:'Consolas'; letter-spacing:-1px;">
