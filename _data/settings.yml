@@ -1,11 +1,7 @@
 #-------------------------------
 # Site Settings
 title: Joonhwi@Caltech
-<<<<<<< HEAD
 logo: '/images/AurH clear-square (min).png'
-=======
-logo: '/images/AurH clear (min).png'
->>>>>>> parent of 0cfea8e (Update settings.yml)
 author: Joonhwi Kim
 description: Joonhwi's personal website
 
