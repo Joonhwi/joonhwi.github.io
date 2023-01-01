@@ -22,10 +22,10 @@ permalink: /physics/
 <div class="container">
 {% for paper in site.data.papers %}
 <div class="row">
-  <div class="col-11">
+  <div class="col-10">
     {% if paper.released!=nill %}{% if paper.listed!=nill %}[{{ paper.listed }}]{% endif %}{% endif %} {{ paper.title }} 
   </div>
-  <div class="col-1" style="text-align:right; font-family:'Consolas'; letter-spacing:-1px">
+  <div class="col-4" style="text-align:right; font-family:'Consolas'; letter-spacing:-1px">
     {% if paper.released!=0 %}
       <span>
         <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>
@@ -75,7 +75,7 @@ permalink: /physics/
       ({{ talk.date | date: "%m/%Y" }})
     </div>
     <br>
-    <div class="col-11"> 
+    <div class="col-10"> 
       {% if talk.topic != nil %}
         <em>{{ talk.topic }}</em><br>
       {% endif %}
@@ -111,35 +111,9 @@ permalink: /physics/
 
 ## Education
 
-<div class="container">
-  <table style="border-spacing:0px; padding-left:0px; padding-right:0px; padding-bottom:3px; margin:0px" width="100%">
-    {% for ed in site.data.education %}
-    <tr>
-      <td style="border-style:none; word-break:break-word; vertical-align:top; text-align:left">
-        {% if ed.degree!=nill %}
-          ({{ ed.degree }})
-        {% endif %}
-        {{ ed.institution }}
-        <br>
-        <span>{{ ed.address }}</span>
-      </td>
-      <td style="border-style:none; word-break:break-word; vertical-align:top; text-align:right">
-        {% if ed.start!=nill %}
-          {{ ed.start | date: "%m/%Y" }}
-        {% endif %}
-        -
-        {% if ed.end!=nill %}
-          {{ ed.end | date: "%m/%Y" }}
-        {% endif %}
-      </td>
-    </tr>
-    {% endfor %}
-  </table>
-</div>
-
-<!-- {% for ed in site.data.education %}
+{% for ed in site.data.education %}
 <div class="row">
-  <div class="col-11">
+  <div class="col-5">
     {% if ed.degree!=nill %}
       ({{ ed.degree }})
     {% endif %}
@@ -157,7 +131,7 @@ permalink: /physics/
   <hr style="visibility:hidden"/>
 </div>
 {% endfor %}
-</div> -->
+</div>
 
 <hr style="visibility:hidden"/>
 ***
