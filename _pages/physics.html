@@ -70,18 +70,20 @@ permalink: /physics/
 {% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %}
   {% if talkdate < datenow and talk.type == "seminar" %}
   <div class="row">
-    <div class="col-2">
+    <div class="col-1">
       <span style="font-family:'Consolas'; letter-spacing:-1px">
         {{ talk.date | date: "%m/%Y" }}
       </span>
     </div>
-    <div class="col-xs-10 col-md-9"> 
+    <div class="col-xs-11 col-md-10"> 
       {% if talk.topic != nil %}
         <em>{{ talk.topic }}</em><br/>
       {% endif %}
-      {% if talk.link != nil %}
-        <a href="{{ talk.link }}">{{ talk.title }}</a>
-      {% else %}{{ talk.title }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }}{% endif %}
+      <span style="size:-1">
+        {% if talk.link != nil %}
+          <a href="{{ talk.link }}">{{ talk.title }}</a>
+        {% else %}{{ talk.title }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.location != nil %}, {{ talk.location }}{% endif %}
+      </span>
     </div>  
     {% if talk.video != nil %}
     <div class="col-1" style="text-align:right">
@@ -115,7 +117,7 @@ permalink: /physics/
       {% endif %}
       {{ ed.institution }}
       <br/>
-      <span>{{ ed.address }}</span>
+      <span style="size:-1">{{ ed.address }}</span>
     </div>
     <div class="col-5" style="text-align:right"> 
       <span style="font-family:'Consolas'; letter-spacing:-1px">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span style="text-align:right; font-family:'Consolas'; letter-spacing:-1px">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% else %}<span style="opacity:0">00/0000</span>{% endif %}</span>
