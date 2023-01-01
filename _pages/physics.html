@@ -64,11 +64,6 @@ permalink: /physics/
 {% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %}
 {% if talkdate < datenow and talk.type == "seminar" %}
   <div class="row">
-    <div class="col-2">
-      <span style="font-family:'Consolas'; font-stretch:40%; letter-spacing:-1px;">
-        {{ talk.date | date: "%m/%d/%Y" }}
-      </span>
-    </div>
     <div class="col-10">
       {% if talk.link-topic != nil %}
         (<a href="{{ talk.link-topic }};"><em>{{ talk.topic }}</em></a>)
@@ -76,6 +71,11 @@ permalink: /physics/
       <br/>
       {% if talk.link-event != nil %}<a href="{{ talk.link-event }};">{{ talk.event }}</a>{% else %}{{ talk.event }}{% endif %}{% if talk.institution != nil %}, {{ talk.institution }}{% endif %}{% if talk.address != nil %}, {{ talk.address }}{% endif %}
     </div>
+  </div>
+  <div class="col-2" style="text-align:right;">
+    <span style="font-family:'Consolas'; font-stretch:40%; letter-spacing:-1px;">
+      {{ talk.date | date: "%m/%d/%Y" }}
+    </span>
   </div>
   <hr style="visibility:hidden"/>
 {% endif %}
