@@ -4,7 +4,7 @@ title: Physics
 permalink: /physics/
 ---
 
-<span>124</span>
+<span>125</span>
 
 <h2>Publications</h2>
 
@@ -23,12 +23,12 @@ permalink: /physics/
     <div class="col-sm-12 col-md-9" style="text-align:left;">
       {% if paper.listed!=nill %}
         {% if paper.listed>=0 %}
-          [<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">{{ paper.listed }}</span>]&nbsp;
+          [<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">{{ paper.listed }}</span>]<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">&nbsp;</span>
         {% else %}
           [<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">{{ paper.listed }}</span>]
         {% endif %}
       {% else %}
-        [&nbsp;]
+        [<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">&nbsp;</span>]
       {% endif %}
       {{ paper.title }}
     </div>
