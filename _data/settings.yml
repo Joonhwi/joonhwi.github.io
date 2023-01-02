@@ -113,3 +113,9 @@ disqus-identifier: anvodstudio-demo # add your shortname for Disqus Comment. For
 #-------------------------------
 # Google Analytics
 google-analytics: # Add your identifier. For example UA-99631805-1.
+
+
+#-------------------------------
+# link Info
+pflink-gs: "https://scholar.google.com/citations?user=A15RZN4AAAAJ;"
+pflink-inspire: "https://inspirehep.net/authors/1926101;"
