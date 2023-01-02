@@ -22,7 +22,9 @@ permalink: /physics/
   <div class="row">
     <div class="col-sm-12 col-md-9" style="text-align:left;">
       {% if paper.listed!=nill %}
-        {% if paper.listed>=0 %}
+        {% if paper.listed>=10 %}
+          [<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">{{ paper.listed }}</span>]
+        {% elsif paper.listed>=0 %}
           [<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">{{ paper.listed }}</span>]<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">&nbsp;</span>
         {% else %}
           [<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">{{ paper.listed }}</span>]
