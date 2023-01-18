@@ -61,16 +61,17 @@ permalink: /physics/
       &nbsp;{{ paper.title }}
     </div>
     <div class="col-sm-12 col-md-3" style="text-align:right; font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px; word-break:break-all;">
-      <!-- <a href="#" id="arxivnumberscript" data=paper.arxivnumber></a>
+      v1
+      <a href="#" id="arxivnumberscript" data=paper.arxivnumber></a>
       <script>
         var aa = $('#arxivnumberscript').attr('data');
-        if(aa.endsWith('*')){
-          document.write('arXiv:{{ paper.arxivnumber }}');
-        } else{
-          document.write('<a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>');
-        }
-      </script> -->
-      x
+        // if(aa.endsWith('*')){
+        //   document.write('arXiv:{{ paper.arxivnumber }}');
+        // } else{
+        //   document.write('<a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>');
+        // }
+        document.write(aa);
+      </script>
     </div>
   </div>
   <hr style="visibility:hidden"/>
