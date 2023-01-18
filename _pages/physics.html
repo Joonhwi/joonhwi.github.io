@@ -64,14 +64,12 @@ permalink: /physics/
       <p id="arxivdisplay"></p>
     </div>
     <script>
-      var el = document.getElementById('arxivdisplay');
       var content;
       if(paper.arxivnumber.endsWith('*')){
-        content = 'arXiv:{{ paper.arxivnumber }}'
+        document.getElementById('arxivdisplay') = 'arXiv:{{ paper.arxivnumber }}'
       } else{
-        content = '<a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>'
+        document.getElementById('arxivdisplay') = '<a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>'
       }
-      el.insertAdjacentHTML('afterbegin', content);
   </script>
   </div>
   <hr style="visibility:hidden"/>
