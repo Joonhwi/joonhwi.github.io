@@ -62,12 +62,11 @@ permalink: /physics/
     </div>
     <div class="col-sm-12 col-md-3" style="text-align:right; font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px; word-break:break-all;">
       <script>
-        // if(paper.released.endsWith('*')){
-        //   document.body.innerHTML = 'arXiv:{{ paper.arxivnumber }}';
-        // } else{
-        //   document.body.innerHTML = '<a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>';
-        // }
-        document.body.innerHTML = 'aaa';
+        if(paper.arxivnumber.endsWith('*')){
+          document.body.innerHTML = 'arXiv:{{ paper.arxivnumber }}';
+        } else{
+          document.body.innerHTML = '<a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>';
+        }
       </script>
     </div>
   </div>
