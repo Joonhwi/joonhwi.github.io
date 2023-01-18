@@ -60,11 +60,14 @@ permalink: /physics/
       {% endif %}
       &nbsp;{{ paper.title }}
     </div>
+    <script>
+      const not_released = paper.arxivnumber.endsWith('*');
+    </script>
     <div class="col-sm-12 col-md-3" style="text-align:right; font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px; word-break:break-all;">
-      {% if paper.released!=0 %}
-        <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>
-      {% else %}
+      {% if not_released %}
         arXiv:{{ paper.arxivnumber }}
+      {% else %}
+        <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>
       {% endif %}
     </div>
   </div>
