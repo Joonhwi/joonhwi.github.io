@@ -61,11 +61,13 @@ permalink: /physics/
       &nbsp;{{ paper.title }}
     </div>
     <div class="col-sm-12 col-md-3" style="text-align:right; font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px; word-break:break-all;">
-      {% if paper.released!=0 %}
-        <a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>
-      {% else %}
-        arXiv:{{ paper.arxivnumber }}
-      {% endif %}
+      <script>
+        if(paper.released.endsWith('*')){
+          document.write('arXiv:{{ paper.arxivnumber }}')
+        } else{
+          document.write('<a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>')
+        }
+      </script>
     </div>
   </div>
   <hr style="visibility:hidden"/>
