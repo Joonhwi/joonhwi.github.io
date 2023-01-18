@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Joonhwi | Physics
+title: Physics
 permalink: /physics/
 ---
 
@@ -9,7 +9,7 @@ permalink: /physics/
 <div class="container">
   <div class="row align-items-bottom">
     <div class="col-sm-12 col-md-6">
-      <h3 style="margin-bottom:-11.5px;">Publications3</h3>
+      <h3 style="margin-bottom:-11.5px;">Publications</h3>
     </div>
     <div class="col-sm-11 col-md-6" style="text-align:right;">
       <p style="font-size:95%; margin-top:14.35px; margin-bottom:14.5px;">
@@ -61,16 +61,12 @@ permalink: /physics/
       &nbsp;{{ paper.title }}
     </div>
     <div class="col-sm-12 col-md-3" style="text-align:right; font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px; word-break:break-all;">
-      v2
-      <!-- <a href="#" id="arxivnumberscript" data=paper.arxivnumber></a> -->
       <script>
-        // var aa = $('#arxivnumberscript').attr('data');
-        // if(aa.endsWith('*')){
-        //   document.write('arXiv:{{ paper.arxivnumber }}');
-        // } else{
-        //   document.write('<a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>');
-        // }
-        document.write(aa);
+        if(paper.released.endsWith('*')){
+          document.body.innerHTML = 'arXiv:{{ paper.arxivnumber }}';
+        } else{
+          document.body.innerHTML = '<a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>';
+        }
       </script>
     </div>
   </div>
