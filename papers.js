@@ -1,20 +1,32 @@
 var papers = [
   {
-    title: "Worldline QFT with Phase Space Actions",
-    codename: "feynmanbracket",
+    title: "Covariantly Conserved Quantities of Kerr Probe up to All Orders in Spin",
+    codename: "ambikerr-yano",
     arxivnumber: "240*.*****",
     released: -1
   },
   {
-    title: "Covariantly Conserved Quantities of Kerr Probe up to All Orders in Spin",
-    codename: "ambikerr-yano",
-    arxivnumber: "230*.*****",
+    title: "Covariant Symplectic Perturbation Theory in Massive Twistor Space",
+    codename: "ambikerr2",
+    arxivnumber: "240*.*****",
+    released: 0
+  },
+  {
+    title: "Symplectic Perturbation Theory: Covariant Scheme",
+    codename: "spt",
+    arxivnumber: "240*.*****",
+    released: 0
+  },
+  {
+    title: "Worldline QFT with Phase Space Actions",
+    codename: "feynmanbracket",
+    arxivnumber: "2312.*****",
     released: -1
   },
   {
     title: "Quaternionic Approach to 6d Three-Point Amplitudes",
     codename: "quaternionic",
-    arxivnumber: "230*.*****",
+    arxivnumber: "2312.*****",
     released: -1
   },
   {
@@ -30,16 +42,10 @@ var papers = [
     released: -1
   },
   {
-    title: "Covariant Symplectic Perturbation Theory in Massive Twistor Space",
-    codename: "ambikerr2",
-    arxivnumber: "230*.*****",
-    released: 0
-  },
-  {
-    title: "Symplectic Perturbation Theory: Covariant Scheme",
-    codename: "spt",
-    arxivnumber: "230*.*****",
-    released: 0
+    title: "Zig-Zag Form of 1PM Spinning Binary Hamiltonian",
+    codename: "binary-1pm",
+    arxivnumber: "2308.*****",
+    released: -1
   },
   {
     title: "Symplectic Perturbation Theory",
@@ -52,12 +58,6 @@ var papers = [
     codename: "feynmanbracket",
     arxivnumber: "230*.*****",
     released: 0
-  },
-  {
-    title: "Zig-Zag Form of 1PM Spinning Binary Hamiltonian",
-    codename: "binary-1pm",
-    arxivnumber: "2308.*****",
-    released: -1
   },
   {
     title: "Foundations of Curved Spinspacetime: Earth",
