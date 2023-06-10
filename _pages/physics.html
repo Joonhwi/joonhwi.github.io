@@ -5,38 +5,39 @@ permalink: /physics/
 ---
 
 <script type="text/javascript">
-  var papers = [
-    {
-      title: "The Relativistic Spherical Top as a Massive Twistor",
-      codename: "ambikerr0",
-      arxivnumber: "2102.07063",
-      released: 1
-    },
-    {
-      title: "Gilbert-Ampère Duality",
-      codename: "ga",
-      arxivnumber: "2307.*****",
-      released: 0
-    },
-    {
-      title: "Symplectic Perturbation Theory in Massive Twistor Space",
-      codename: "ambikerr1",
-      arxivnumber: "2301.06203",
-      released: 1
-    },
-    {
-      title: "Boosting Vector Calculus with the Graphical Notation",
-      codename: "graphical",
-      arxivnumber: "1911.00892",
-      released: 1
-    },
-    {
-      title: "Thermodynamic Identities with Sunray Diagrams",
-      codename: "sunray",
-      arxivnumber: "1912.11485",
-      released: 1
-    }
-  ];
+  import { papers } from './papers.js'
+  // var papers = [
+  //   {
+  //     title: "The Relativistic Spherical Top as a Massive Twistor",
+  //     codename: "ambikerr0",
+  //     arxivnumber: "2102.07063",
+  //     released: 1
+  //   },
+  //   {
+  //     title: "Gilbert-Ampère Duality",
+  //     codename: "ga",
+  //     arxivnumber: "2307.*****",
+  //     released: 0
+  //   },
+  //   {
+  //     title: "Symplectic Perturbation Theory in Massive Twistor Space",
+  //     codename: "ambikerr1",
+  //     arxivnumber: "2301.06203",
+  //     released: 1
+  //   },
+  //   {
+  //     title: "Boosting Vector Calculus with the Graphical Notation",
+  //     codename: "graphical",
+  //     arxivnumber: "1911.00892",
+  //     released: 1
+  //   },
+  //   {
+  //     title: "Thermodynamic Identities with Sunray Diagrams",
+  //     codename: "sunray",
+  //     arxivnumber: "1912.11485",
+  //     released: 1
+  //   }
+  // ];
   papers.sort((a, b) => parseFloat(b.arxivnumber) - parseFloat(a.arxivnumber));
   for(var i=0,len=papers.length; i<len; i++){
       papers[i].listed = len-i-3;
