@@ -1,24 +1,55 @@
-- title: "Symplectic Perturbation Theory for Classical Particles"
-  arxivnumber: "2302.*****"
+- title: "Covariant Symplectic Perturbation Theory in Massive Twistor Space"
+  codename: ambikerr2
+  arxivnumber: "230*.*****"
+  listed: 8
+  released: 0
+- title: "Symplectic Perturbation Theory: Covariant Scheme"
+  codename: spt
+  arxivnumber: "230*.*****"
+  listed: 7
+  released: 0
+- title: "Symplectic Perturbation Theory"
+  codename: spt
+  arxivnumber: "230*.*****"
+  listed: 6
+  released: 0
+- title: "Non-Canonical Poisson Brackets Revisited"
+  codename: feynmanbracket
+  arxivnumber: "230*.*****"
+  listed: 5
+  released: 0
+- title: "Foundations of Curved Spinspacetime: Earth"
+  codename: sst-earth
+  arxivnumber: "230*.*****"
+  listed: 4
+  released: 0
+- title: "The Kerr Action from Orbit-Spin Duality"
+  codename: sodual
+  arxivnumber: "2307.*****"
   listed: 3
   released: 0
-- title: "An Ambitwistor for Kerr II: Heavenly Portal to Complex Spacetime"
-  arxivnumber: "2302.*****"
+- title: "Gilbert-Ampère Duality"
+  codename: ga
+  arxivnumber: "2307.*****"
   listed: 2
   released: 0
-- title: "An Ambitwistor for Kerr I: Zig-Zag Symplectic Perturbation Theory"
+- title: "Symplectic Perturbation Theory in Massive Twistor Space"
+  codename: ambikerr1
   arxivnumber: "2301.06203"
   listed: 1
   released: 1
 - title: "The Relativistic Spherical Top as a Massive Twistor"
+  codename: ambikerr0
   arxivnumber: "2102.07063"
   listed: 0
   released: 1
 - title: "Thermodynamic Identities with Sunray Diagrams"
+  codename: sunray
   arxivnumber: "1912.11485"
   listed: -1
   released: 1
 - title: "Boosting Vector Calculus with the Graphical Notation"
+  codename: graphical
   arxivnumber: "1911.00892"
   listed: -2
   released: 1
