@@ -36,18 +36,6 @@ var papers = [
     released: -1
   },
   {
-    title: "Spinspacetime for Binaries",
-    codename: "binary-sst",
-    arxivnumber: "230*.*****",
-    released: -1
-  },
-  {
-    title: "Zig-Zag Form of 1PM Spinning Binary Hamiltonian",
-    codename: "binary-1pm",
-    arxivnumber: "2308.*****",
-    released: -1
-  },
-  {
     title: "Symplectic Perturbation Theory",
     codename: "spt",
     arxivnumber: "230*.*****",
@@ -58,6 +46,18 @@ var papers = [
     codename: "feynmanbracket",
     arxivnumber: "230*.*****",
     released: 0
+  },
+  {
+    title: "Zig-Zag Form of 1PM Spinning Binary Hamiltonian",
+    codename: "binary-1pm",
+    arxivnumber: "2308.*****",
+    released: -1
+  },
+  {
+    title: "Spinspacetime for Binaries",
+    codename: "binary-sst",
+    arxivnumber: "230*.*****",
+    released: -1
   },
   {
     title: "Foundations of Curved Spinspacetime: Earth",
