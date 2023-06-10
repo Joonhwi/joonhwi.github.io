@@ -69,7 +69,7 @@ permalink: /physics/
         tempstring2 += `arXiv:` + paper.arxivnumber;
     }
     else{
-        tempstring2 += `<a href="http://arxiv.org/abs/' + paper.arxivnumber + '">arXiv:` + paper.arxivnumber + `</a>`;
+        tempstring2 += `<a href="http://arxiv.org/abs/` + paper.arxivnumber + `">arXiv:` + paper.arxivnumber + `</a>`;
     }
     tempstring2 += `</div>`;
     htmlstring += (tempstring1+tempstring2);
