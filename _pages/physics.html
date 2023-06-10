@@ -29,22 +29,22 @@ permalink: /physics/
     var tempstring1 = `<div class="col-sm-12 col-md-9" style="text-align:left;">`;
     if(listing!=null){
       if(listing<0){
-        tempstring1 += `[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">` + listing + `</span>]` + emptyspace.repeat(padding-1);
+        tempstring1 += emptyspace.repeat(padding-1) + `[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">` + listing + `</span>]`;
       }
       else if(listing<10){
-        tempstring1 += `[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">` + listing + `</span>]` + emptyspace.repeat(padding);
+        tempstring1 += emptyspace.repeat(padding  ) + `[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">` + listing + `</span>]`;
       }
       else if(listing<100){
-          tempstring1 += `[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">` + listing + `</span>]` + emptyspace.repeat(padding-1);
+        tempstring1 += emptyspace.repeat(padding-1) + `[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">` + listing + `</span>]`;
       } 
       else if(listing<1000){
-          tempstring1 += `[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">` + listing + `</span>]` + emptyspace.repeat(padding-2);
+        tempstring1 += emptyspace.repeat(padding-2) + `[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">` + listing + `</span>]`;
       } 
       else if(listing<10000){
-          tempstring1 += `[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">` + listing + `</span>]` + emptyspace.repeat(padding-3);
+        tempstring1 += emptyspace.repeat(padding-3) + `[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">` + listing + `</span>]`;
       } 
       else{
-          tempstring1 += `[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">` + listing + `</span>]`;
+        tempstring1 += `[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">` + listing + `</span>]`;
       }
     }
     else{
