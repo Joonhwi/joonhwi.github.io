@@ -24,12 +24,6 @@ var papers = [
     released: -1
   },
   {
-    title: "Zig-Zag Form of 1PM Spinning Binary Hamiltonian",
-    codename: "binary-1pm",
-    arxivnumber: "230*.*****",
-    released: -1
-  },
-  {
     title: "Covariant Symplectic Perturbation Theory in Massive Twistor Space",
     codename: "ambikerr2",
     arxivnumber: "230*.*****",
@@ -54,9 +48,15 @@ var papers = [
     released: 0
   },
   {
+    title: "Zig-Zag Form of 1PM Spinning Binary Hamiltonian",
+    codename: "binary-1pm",
+    arxivnumber: "2308.*****",
+    released: -1
+  },
+  {
     title: "Foundations of Curved Spinspacetime: Earth",
     codename: "sst-earth",
-    arxivnumber: "230*.*****",
+    arxivnumber: "2308.*****",
     released: 0
   },
   {
