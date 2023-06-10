@@ -4,37 +4,160 @@ title: Physics
 permalink: /physics/
 ---
 
-<head>
-  ...
-  <script type="text/javascript">
-      function sortList(ul){
-          var new_ul = ul.cloneNode(false);
-          var lis = [];
-          for(var i = ul.childNodes.length; i--;){
-              if(ul.childNodes[i].nodeName === 'LI')
-                  lis.push(ul.childNodes[i]);
-          }
-          lis.sort(function(a, b){
-             return parseInt(b.childNodes[0].data , 10) - parseInt(a.childNodes[0].data , 10);
-          });
-          for(var i = 0; i < lis.length; i++)
-              new_ul.appendChild(lis[i]);
-          ul.parentNode.replaceChild(new_ul, ul);
+<script type="text/javascript">
+    var papers = [
+      {
+        title: "The Relativistic Spherical Top as a Massive Twistor",
+        codename: "ambikerr0",
+        arxivnumber: "2102.07063",
+        released: 1
+      },
+      {
+        title: "Gilbert-Ampère Duality",
+        codename: "ga",
+        arxivnumber: "2307.*****",
+        released: 0
+      },
+      {
+        title: "Symplectic Perturbation Theory in Massive Twistor Space",
+        codename: "ambikerr1",
+        arxivnumber: "2301.06203",
+        released: 1
+      },
+      {
+        title: "Boosting Vector Calculus with the Graphical Notation",
+        codename: "graphical",
+        arxivnumber: "1911.00892",
+        released: 1
+      },
+      {
+        title: "Thermodynamic Identities with Sunray Diagrams",
+        codename: "sunray",
+        arxivnumber: "1912.11485",
+        released: 1
       }
-  </script>
-</head>
-<body>
-  ...
-  <ul class="list">
-      <li id="alpha">32</li>
-      <li id="beta">170</li>
-      <li id="delta">28</li>
-  </ul>
-  <script type="text/javascript">
-      !function(){
-          var uls = document.getElementsByTagName('ul');
-          sortList( uls[uls.length - 1] );
-      }();
-  </script>
-  ...
-</body>
+    ];
+    papers.sort((a, b) => parseFloat(b.arxivnumber) - parseFloat(a.arxivnumber));
+    for(var i=0,len=papers.length; i<len; i++){
+        papers[i].listed = len-i-3;
+    }
+    
+    htmlstring = '<div class="row">'
+    papers.forEach(myfunction)
+    function myfunction(paper){
+      var tempstring1 = '<div class="col-sm-12 col-md-9" style="text-align:left;">';
+        tempstring1 += '{% if paper.listed!=nill %}';
+          tempstring1 += '{% if paper.listed>=10 %}';
+            tempstring1 += '[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">{{ paper.listed }}</span>]';
+          tempstring1 += '{% elsif paper.listed>=0 %}';
+            tempstring1 += '[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">{{ paper.listed }}</span>]<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">&nbsp;</span>';
+          tempstring1 += '{% else %}';
+            tempstring1 += '[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">{{ paper.listed }}</span>]';
+          tempstring1 += '{% endif %}';
+        tempstring1 += '{% else %}';
+          tempstring1 += '[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">&nbsp;</span>]';
+        tempstring1 += '{% endif %}';
+        tempstring1 += '&nbsp;{{ paper.title }}';
+      tempstring1 += '</div>';
+      var tempstring2 = '<div class="col-sm-12 col-md-3" style="text-align:right; font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px; word-break:break-all;">';
+        tempstring2 += '{% if paper.released==0 %}';
+          tempstring2 += 'arXiv:{{ paper.arxivnumber }}';
+        tempstring2 += '{% else %}';
+          tempstring2 += '<a href="http://arxiv.org/abs/{{ paper.arxivnumber }}">arXiv:{{ paper.arxivnumber }}</a>';
+        tempstring2 += '{% endif %}';
+      tempstring2 += '</div>';
+      htmlstring += (tempstring1+tempstring2);
+    }
+    htmlstring += '</div>'
+    $('.paperstable').html(htmlstring);
+</script>
+
+<!-- <span>146</span> -->
+
+<div class="container">
+  <div class="row align-items-bottom">
+    <div class="col-sm-12 col-md-6">
+      <h3 style="margin-bottom:-11.5px;">Publications</h3>
+    </div>
+    <div class="col-sm-11 col-md-6" style="text-align:right;">
+      <p style="font-size:95%; margin-top:14.35px; margin-bottom:14.5px;">
+        <a href={{ site.data.settings.pflink-gs | escape }}>Google Scholar</a>
+        |
+        <a href={{ site.data.settings.pflink-inspire | escape }}>InspireHEP</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="paperstable">
+  </div>
+</div>
+
+<hr style="visibility:hidden"/><hr/><hr style="visibility:hidden"/>
+
+<h3>Seminars</h3>
+
+<div class="container">
+{% capture datenow %}{{'now' | date: '%s'}}{% endcapture %}
+{% for talk in site.data.talks %}
+{% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %}
+{% if talkdate < datenow and talk.type == "seminar" %}
+  <div class="row">
+    <div class="col-sm-11 col-md-10" style="word-wrap:break-word; max-width:540px;">
+      {% if talk.link-topic!=nil %}
+        <a href="{{ talk.link-topic }}"><em>{{ talk.topic }}</em></a>
+      {% else %}
+        <em>{{ talk.topic }}</em>
+      {% endif %}
+      <br/>
+      {% if talk.link-event!=nil %}<a href="{{ talk.link-event }}">{{ talk.event }}</a>{% else %}{{ talk.event }}{% endif %}{% if talk.institution!=nill %}, {{ talk.institution }}{% endif %}
+      <!-- {% if talk.address!=nil %}
+        ({{ talk.address }})
+      {% endif %} -->
+    </div>
+    <div class="col-sm-12 col-md-2" style="text-align:right;">
+      <span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">
+        {{ talk.date | date: "%m/%d/%Y" }}
+      </span>
+    </div>
+  </div>
+  <hr style="visibility:hidden"/>
+{% endif %}
+{% endfor %}
+</div>
+
+<hr style="visibility:hidden"/><hr/><hr style="visibility:hidden"/>
+
+<h3>Education</h3>
+
+<div class="container">
+  {% for ed in site.data.education %}
+    <div class="row">
+      <div class="col-sm-12 col-md-7">
+        {% if ed.degree!=nill %}
+          {{ ed.degree }},
+        {% endif %}
+        {{ ed.institution }}
+        <!-- <span style="font-size:90%">{{ ed.address }}</span> -->
+        ({{ ed.address }})
+      </div>
+      <div class="col-sm-12 col-md-5" style="text-align:right">
+        <span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
+      </div>
+    </div>
+    <hr style="visibility:hidden"/>
+  {% endfor %}
+</div>
+
+<hr style="visibility:hidden"/><hr/><hr style="visibility:hidden"/>
+
+<br/>
+<div class="container">
+  <p style="text-align:right;">
+    Last Updated:
+    <font style="font-family:'Consolas'; font-stretch:25%;  letter-spacing:-1px;">
+      {{ 'now' | date: "%d/%m/%Y"}}
+    </font>
+  </p>
+</div>
