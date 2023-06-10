@@ -3,31 +3,31 @@ var papers = [
     title: "Covariantly Conserved Quantities of Kerr Probe up to All Orders in Spin",
     codename: "ambikerr-yano",
     arxivnumber: "230*.*****",
-    released: 0
+    released: -1
   },
   {
     title: "Quaternionic Approach to 6d Three-Point Amplitudes",
     codename: "quaternionic",
     arxivnumber: "230*.*****",
-    released: 0
+    released: -1
   },
   {
     title: "Twistors for Binaries",
     codename: "binary-twistor",
     arxivnumber: "230*.*****",
-    released: 0
+    released: -1
   },
   {
     title: "Spinspacetime for Binaries",
     codename: "binary-sst",
     arxivnumber: "230*.*****",
-    released: 0
+    released: -1
   },
   {
     title: "Zig-Zag Form of 1PM Spinning Binary Hamiltonian",
     codename: "binary-1pm",
     arxivnumber: "230*.*****",
-    released: 0
+    released: -1
   },
   {
     title: "Covariant Symplectic Perturbation Theory in Massive Twistor Space",
