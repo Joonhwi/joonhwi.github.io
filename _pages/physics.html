@@ -28,7 +28,7 @@ permalink: /physics/
   htmlstring = `<div class="row">`
   papers.forEach(myfunction)
   function myfunction(paper,i){
-    if(!reveal){
+    if(!reveal && papers.released<=0){
       return;
     }
 
