@@ -6,16 +6,10 @@ var papers = [
     released: -1
   },
   {
-    title: "Covariant Symplectic Perturbation Theory in Massive Twistor Space",
-    codename: "ambikerr2",
-    arxivnumber: "240*.*****",
-    released: 0
-  },
-  {
-    title: "Symplectic Perturbation Theory: Covariant Scheme",
-    codename: "spt",
-    arxivnumber: "240*.*****",
-    released: 0
+    title: "Twistors for Binaries",
+    codename: "binary-twistor",
+    arxivnumber: "2401.*****",
+    released: -1
   },
   {
     title: "Worldline QFT with Phase Space Actions",
@@ -30,10 +24,16 @@ var papers = [
     released: -1
   },
   {
-    title: "Twistors for Binaries",
-    codename: "binary-twistor",
-    arxivnumber: "230*.*****",
-    released: -1
+    title: "Covariant Symplectic Perturbation Theory in Massive Twistor Space",
+    codename: "ambikerr2",
+    arxivnumber: "240*.*****",
+    released: 0
+  },
+  {
+    title: "Symplectic Perturbation Theory: Covariant Scheme",
+    codename: "spt",
+    arxivnumber: "240*.*****",
+    released: 0
   },
   {
     title: "Symplectic Perturbation Theory",
