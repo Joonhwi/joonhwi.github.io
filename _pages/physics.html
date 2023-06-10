@@ -73,9 +73,7 @@ permalink: /physics/
     htmlstring += (tempstring1+tempstring2);
   }
   htmlstring += '</div>'
-  $('.paperstable').html(htmlstring);
-  
-  console.log(htmlstring);
+  document.getElementById("paperlist").innerHTML = htmlstring;
 </script>
 
 <!-- <span>146</span> -->
@@ -95,9 +93,7 @@ permalink: /physics/
   </div>
 </div>
 
-<div class="container">
-  <div class="paperstable">
-  </div>
+<div class="container" id="paperlist">
 </div>
 
 <hr style="visibility:hidden"/><hr/><hr style="visibility:hidden"/>
