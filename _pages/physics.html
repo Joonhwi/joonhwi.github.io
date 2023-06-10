@@ -29,7 +29,7 @@ permalink: /physics/
   papers.forEach(myfunction)
   function myfunction(paper,i){
     if(!reveal){
-      continue;
+      return;
     }
 
     var serial = plen-i-3;
