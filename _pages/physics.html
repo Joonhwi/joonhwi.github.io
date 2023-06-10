@@ -7,7 +7,7 @@ permalink: /physics/
 <script type="text/javascript" src="/papers.js"></script>
 
 <script type="text/javascript">
-  papers.sort((a, b) => parseFloat(b.arxivnumber) - parseFloat(a.arxivnumber));
+  papers.sort((a, b) => parseFloat(b.arxivnumber.replaceAll('*',"z")) - parseFloat(a.arxivnumber.replaceAll('*',"z")));
   for(var i=0,len=papers.length; i<len; i++){
       papers[i].listed = len-i-3;
   }
