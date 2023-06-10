@@ -8,8 +8,10 @@ permalink: /physics/
 
 <script type="text/javascript">
   papers.sort((a, b) => parseFloat(b.arxivnumber.replaceAll('*',"z")) - parseFloat(a.arxivnumber.replaceAll('*',"z")));
+  for(var i=0,len=papers.length; i<len; i++){
+      papers[i].listed = len-i-3;
+  }
   
-  const plen = papers.length;
   const emptyspace = `<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">&nbsp;</span>`;
   var padding = 0;
   if(papers.length-3 < 10){
@@ -24,27 +26,26 @@ permalink: /physics/
 
   htmlstring = `<div class="row">`
   papers.forEach(myfunction)
-  function myfunction(paper,i){
-    var listing = plen-i-3;
+  function myfunction(paper){
     var tempstring1 = `<div class="col-sm-12 col-md-9" style="text-align:left;">`;
-    if(listing!=null){
-      if(listing<0){
-        tempstring1 += `[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">` + listing + `</span>]` + emptyspace.repeat(padding-1);
+    if(paper.listed!=null){
+      if(paper.listed<0){
+        tempstring1 += `[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">` + paper.listed + `</span>]` + emptyspace.repeat(padding-1);
       }
-      else if(listing<10){
-        tempstring1 += `[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">` + listing + `</span>]` + emptyspace.repeat(padding);
+      else if(paper.listed<10){
+        tempstring1 += `[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">` + paper.listed + `</span>]` + emptyspace.repeat(padding);
       }
-      else if(listing<100){
-          tempstring1 += `[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">` + listing + `</span>]` + emptyspace.repeat(padding-1);
+      else if(paper.listed<100){
+          tempstring1 += `[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">` + paper.listed + `</span>]` + emptyspace.repeat(padding-1);
       } 
-      else if(listing<1000){
-          tempstring1 += `[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">` + listing + `</span>]` + emptyspace.repeat(padding-2);
+      else if(paper.listed<1000){
+          tempstring1 += `[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">` + paper.listed + `</span>]` + emptyspace.repeat(padding-2);
       } 
-      else if(listing<10000){
-          tempstring1 += `[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">` + listing + `</span>]` + emptyspace.repeat(padding-3);
+      else if(paper.listed<10000){
+          tempstring1 += `[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">` + paper.listed + `</span>]` + emptyspace.repeat(padding-3);
       } 
       else{
-          tempstring1 += `[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">` + listing + `</span>]`;
+          tempstring1 += `[<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">` + paper.listed + `</span>]`;
       }
     }
     else{
