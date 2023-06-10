@@ -7,7 +7,7 @@ permalink: /physics/
 <script type="text/javascript" src="/papers.js"></script>
 
 <script type="text/javascript">
-  papers.sort((a, b) => parseFloat(b.arxivnumber.replaceAll('*',"z")) - parseFloat(a.arxivnumber.replaceAll('*',"z")));
+  papers.sort((a, b) => b.arxivnumber - a.arxivnumber);
   
   const plen = papers.length;
   const emptyspace = `<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">&nbsp;</span>`;
