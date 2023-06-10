@@ -28,6 +28,10 @@ permalink: /physics/
   htmlstring = `<div class="row">`
   papers.forEach(myfunction)
   function myfunction(paper,i){
+    if(!reveal){
+      continue;
+    }
+
     var serial = plen-i-3;
 
     var tempstring1 = `<div class="col-sm-12 col-md-9" style="text-align:left;">`;
@@ -56,11 +60,7 @@ permalink: /physics/
     }
     tempstring2 += `</div>`;
 
-    if(paper.released>=0){
-      htmlstring += (tempstring1+tempstring2+`<hr style="visibility:hidden"/>`);
-    } else if(reveal){
-      htmlstring += (tempstring1+tempstring2+`<hr style="visibility:hidden"/>`);
-    }
+    htmlstring += (tempstring1+tempstring2+`<hr style="visibility:hidden"/>`);
   }
   htmlstring += `</div>`
 </script>
