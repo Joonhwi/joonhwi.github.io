@@ -1,5 +1,11 @@
 var papers = [
   {
+    title: "Worldline QFT with Phase Space Actions",
+    codename: "feynmanbracket",
+    arxivnumber: "240*.*****",
+    released: -1
+  },
+  {
     title: "Covariantly Conserved Quantities of Kerr Probe up to All Orders in Spin",
     codename: "ambikerr-yano",
     arxivnumber: "230*.*****",
