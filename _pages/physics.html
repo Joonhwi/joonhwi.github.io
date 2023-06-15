@@ -12,6 +12,7 @@ permalink: /physics/
 <script type="text/javascript">
   papers.sort((a, b) => b.arxivnumber - a.arxivnumber);
   
+  const countfrom = 1;
   const plen = papers.length;
   const emptyspace = `<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">&nbsp;</span>`;
   var padding = 0;
@@ -32,7 +33,7 @@ permalink: /physics/
       return;
     }
 
-    var serial = plen-i-3;
+    var serial = plen-i+countfrom-1;
 
     var tempstring1 = `<div class="col-sm-12 col-md-9" style="text-align:left;">`;
     if(serial<0){
