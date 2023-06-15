@@ -1,6 +1,6 @@
 - type: "seminar"
   date: 2022-12-01
-  topic: "Yang-Mills as “Quantized” Gravity: Color-Kinematics Duality from Non-commutative Geometry"
+  topic: "Yang-Mills as “Quantized” Gravity: Color-Kinematics Duality from Non-Commutative Geometry"
   link-topic: 
   event: "Ma148 final presentation"
   link-event: 
@@ -10,7 +10,7 @@
 - type: "seminar"
   date: 2022-10-25
   topic: "Twistor Theory: a “Quantum Particle Theory” Perspective"
-  link-topic: "/files/(221025) Twistor Theory QPT.pdf"
+  link-topic: # "/files/(221025) Twistor Theory QPT.pdf"
   event: "Graduate student journal club"
   link-event: 
   institution: "Caltech"
