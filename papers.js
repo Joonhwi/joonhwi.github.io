@@ -1,50 +1,62 @@
 var papers = [
   {
-    title: "Covariantly Conserved Quantities of Kerr Probe up to All Orders in Spin",
-    codename: "ambikerr-yano",
-    arxivnumber: "240*.*****",
-    released: -1
-  },
-  {
-    title: "Twistors for Binaries",
-    codename: "binary-twistor",
-    arxivnumber: "2401.*****",
-    released: -1
-  },
-  {
     title: "Worldline QFT with Phase Space Actions",
     codename: "feynmanbracket",
-    arxivnumber: "2312.*****",
+    arxivnumber: "24**.*****",
     released: -1
   },
   {
     title: "Quaternionic Approach to 6d Three-Point Amplitudes",
     codename: "quaternionic",
-    arxivnumber: "2312.*****",
+    arxivnumber: "****.*****",
+    released: -1
+  },
+  {
+    title: "Covariantly Conserved Quantities of Kerr Probe up to All Orders in Spin",
+    codename: "ambikerr-yano",
+    arxivnumber: "24**.*****",
+    released: -1
+  },
+  {
+    title: "Twistors for Binaries",
+    codename: "binary-twistor",
+    arxivnumber: "240*.*****",
+    released: -1
+  },
+  {
+    title: "Spinspacetime for Binaries",
+    codename: "binary-sst",
+    arxivnumber: "240*.*****",
     released: -1
   },
   {
     title: "Covariant Symplectic Perturbation Theory in Massive Twistor Space",
     codename: "ambikerr2",
-    arxivnumber: "240*.*****",
+    arxivnumber: "2308.*****",
     released: 0
   },
   {
     title: "Symplectic Perturbation Theory: Covariant Scheme",
     codename: "spt",
-    arxivnumber: "240*.*****",
+    arxivnumber: "2308.*****",
     released: 0
   },
   {
     title: "Symplectic Perturbation Theory",
     codename: "spt",
-    arxivnumber: "230*.*****",
+    arxivnumber: "2308.*****",
     released: 0
   },
   {
     title: "Non-Canonical Poisson Brackets Revisited",
     codename: "feynmanbracket",
-    arxivnumber: "230*.*****",
+    arxivnumber: "2308.*****",
+    released: 0
+  },
+  {
+    title: "Foundations of Curved Spinspacetime: Earth",
+    codename: "sst-earth",
+    arxivnumber: "2308.*****",
     released: 0
   },
   {
@@ -52,18 +64,6 @@ var papers = [
     codename: "binary-1pm",
     arxivnumber: "2308.*****",
     released: -1
-  },
-  {
-    title: "Spinspacetime for Binaries",
-    codename: "binary-sst",
-    arxivnumber: "230*.*****",
-    released: -1
-  },
-  {
-    title: "Foundations of Curved Spinspacetime: Earth",
-    codename: "sst-earth",
-    arxivnumber: "2308.*****",
-    released: 0
   },
   {
     title: "The Kerr Action from Orbit-Spin Duality",
