@@ -54,16 +54,16 @@ var papers = [
     released: 0
   },
   {
-    title: "Foundations of Curved Spinspacetime: Earth",
-    codename: "sst-earth",
+    title: "Zig-Zag Form of 1PM Spinning Binary Hamiltonian",
+    codename: "binary-1pm",
     arxivnumber: "2308.*****",
     released: 0
   },
   {
-    title: "Zig-Zag Form of 1PM Spinning Binary Hamiltonian",
-    codename: "binary-1pm",
+    title: "Foundations of Curved Spinspacetime: Earth",
+    codename: "sst-earth",
     arxivnumber: "2308.*****",
-    released: -1
+    released: 0
   },
   {
     title: "The Kerr Action from Orbit-Spin Duality",
