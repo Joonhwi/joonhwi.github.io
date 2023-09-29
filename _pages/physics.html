@@ -191,7 +191,7 @@ permalink: /physics/
 <div class="container">
   {% for ed in site.data.education %}
     <div class="row">
-      <div class="col-8">
+      <div class="col-9">
         {% if ed.degree!=nill %}
           {{ ed.degree }},
         {% endif %}
@@ -199,7 +199,7 @@ permalink: /physics/
         <!-- <span style="font-size:90%">{{ ed.address }}</span> -->
         ({{ ed.address }})
       </div>
-      <div class="col-4" style="text-align:right">
+      <div class="col-3" style="text-align:right">
         <span class="Date">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span class="Date">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
       </div>
     </div>
