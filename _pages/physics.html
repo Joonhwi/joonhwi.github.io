@@ -65,12 +65,16 @@ permalink: /physics/
     tempstring2 += `</p>`;
 
     tempstring = ``;
-    tempstring += `<div class="row">`;
-      tempstring += `<div class="col-12 col-md-1">`;
-        tempstring += tempstring0 + `&nbsp`+ `&nbsp`;
-      tempstring += `</div>`;
-      tempstring += `<div class="col-12 col-md-8">`;
-        tempstring += tempstring1;
+    tempstring += `<div class="row align-items-top">`;
+      tempstring += `<div class="col-12 col-md-9">`;
+        tempstring += `<div class="row align-items-top">`;
+          tempstring += `<div class="col-1">`;
+            tempstring += tempstring0 + `&nbsp`;
+          tempstring += `</div>`;
+          tempstring += `<div class="col-11">`;
+            tempstring += tempstring1;
+          tempstring += `</div>`;
+        tempstring += `</div>`;
       tempstring += `</div>`;
       tempstring += `<div class="col-12 col-md-3">`;
         tempstring += tempstring2;
@@ -95,7 +99,7 @@ permalink: /physics/
 <div class="container">
   <div class="row align-items-bottom">
     <div class="col-sm-12 col-md-6">
-      <h3 style="margin-bottom:-11.5px;">Publications38</h3>
+      <h3 style="margin-bottom:-11.5px;">Publications39</h3>
     </div>
     <div class="col-sm-11 col-md-6" style="text-align:right;">
       <p style="font-size:95%; margin-top:14.35px; margin-bottom:14.5px;">
@@ -107,7 +111,7 @@ permalink: /physics/
   </div>
 </div>
 
-<div class="container col-12" id="paperlist">
+<div class="container" id="paperlist">
 <script type="text/javascript">
   document.getElementById("paperlist").innerHTML = htmlstring;
 </script>
