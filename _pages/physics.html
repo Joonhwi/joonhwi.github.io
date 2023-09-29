@@ -111,7 +111,7 @@ permalink: /physics/
   </div>
 </div>
 
-<div class="container-fluid" id="paperlist">
+<div class="container" id="paperlist">
 <script type="text/javascript">
   document.getElementById("paperlist").innerHTML = htmlstring;
 </script>
@@ -121,7 +121,7 @@ permalink: /physics/
 
 <h3>Talks</h3>
 
-<div class="container-fluid">
+<div class="container">
 {% capture datenow %}{{'now' | date: '%s'}}{% endcapture %}
 {% for talk in site.data.seminars %}
 {% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %}
@@ -154,7 +154,7 @@ permalink: /physics/
 
 <h3>Seminars</h3>
 
-<div class="container-fluid">
+<div class="container">
 {% capture datenow %}{{'now' | date: '%s'}}{% endcapture %}
 {% for talk in site.data.seminars %}
 {% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %}
@@ -187,7 +187,7 @@ permalink: /physics/
 
 <h3>Education</h3>
 
-<div class="container-fluid">
+<div class="container">
   {% for ed in site.data.education %}
     <div class="row">
       <div class="col-7">
