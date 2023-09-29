@@ -36,17 +36,17 @@ permalink: /physics/
 
     var tempstring1 = `<div class="col-sm-12 col-md-8" style="text-align:left; word-wrap=break-word;">`;
     if(serial<0){
-      tempstring1 += emptyspace.repeat(padding-1) + `[<span style="font-family:'Consolas'; font-stretch:40%; letter-spacing:-2px;">` + serial + `</span>]`;
+      tempstring1 += emptyspace.repeat(padding-1) + `<span style="font-family:'Consolas'; font-stretch:40%; letter-spacing:-2px;">[` + serial + `]</span>`;
     } else if(serial<10){
-      tempstring1 += emptyspace.repeat(padding  ) + `[<span style="font-family:'Consolas'; font-stretch:40%; letter-spacing:-2px;">` + serial + `</span>]`;
+      tempstring1 += emptyspace.repeat(padding  ) + `<span style="font-family:'Consolas'; font-stretch:40%; letter-spacing:-2px;">[` + serial + `]</span>`;
     } else if(serial<100){
-      tempstring1 += emptyspace.repeat(padding-1) + `[<span style="font-family:'Consolas'; font-stretch:40%; letter-spacing:-2px;">` + serial + `</span>]`;
+      tempstring1 += emptyspace.repeat(padding-1) + `<span style="font-family:'Consolas'; font-stretch:40%; letter-spacing:-2px;">[` + serial + `]</span>`;
     } else if(serial<1000){
-      tempstring1 += emptyspace.repeat(padding-2) + `[<span style="font-family:'Consolas'; font-stretch:40%; letter-spacing:-2px;">` + serial + `</span>]`;
+      tempstring1 += emptyspace.repeat(padding-2) + `<span style="font-family:'Consolas'; font-stretch:40%; letter-spacing:-2px;">[` + serial + `]</span>`;
     } else if(serial<10000){
-      tempstring1 += emptyspace.repeat(padding-3) + `[<span style="font-family:'Consolas'; font-stretch:40%; letter-spacing:-2px;">` + serial + `</span>]`;
+      tempstring1 += emptyspace.repeat(padding-3) + `<span style="font-family:'Consolas'; font-stretch:40%; letter-spacing:-2px;">[` + serial + `]</span>`;
     } else{
-      tempstring1 += `[<span style="font-family:'Consolas'; font-stretch:40%; letter-spacing:-2px;">` + serial + `</span>]`;
+      tempstring1 += `<span style="font-family:'Consolas'; font-stretch:40%; letter-spacing:-2px;">[` + serial + `]</span>`;
     }
     tempstring1 +=  emptyspace;
     tempstring1 += `&nbsp;` + paper.title;
