@@ -83,11 +83,6 @@
             &::after {
               content: none;
             }
-            // No color when hovering on current
-            &:hover {
-              text-decoration: none;
-              color: var(--heading-font-color);
-            }
           }
         }
       }
@@ -223,6 +218,11 @@
           transform: scaleX(1);
           transition: none;
           background: var(--heading-font-color);
+        }
+        // No color when hovering on current
+        &::hover {
+          text-decoration: none;
+          color: var(--heading-font-color);
         }
       }
 
