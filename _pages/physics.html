@@ -72,12 +72,14 @@ permalink: /physics/
           tempstring += `<div class="fixed">`;
             tempstring += tempstring0 + `&nbsp` + `&nbsp`;
           tempstring += `</div>`;
-          tempstring += `<div class="col-10">`;
+          // tempstring += `<div class="col-10">`;
+          tempstring += `<div class="col">`;
             tempstring += tempstring1;
           tempstring += `</div>`;
         tempstring += `</div>`;
       tempstring += `</div>`;
-      tempstring += `<div class="col-2" style="text-align:right;">`;
+      // tempstring += `<div class="col-2" style="text-align:right;">`;
+      tempstring += `<div class="fixed" style="text-align:right;">`;
         tempstring += tempstring2;
       tempstring += `</div>`;
           // tempstring += `<div style="display:inline-block; vertical-align: top;">`;
@@ -191,7 +193,7 @@ permalink: /physics/
 <div class="container">
   {% for ed in site.data.education %}
     <div class="row">
-      <div class="col-7">
+      <div class="col-8">
         {% if ed.degree!=nill %}
           {{ ed.degree }},
         {% endif %}
@@ -199,7 +201,7 @@ permalink: /physics/
         <!-- <span style="font-size:90%">{{ ed.address }}</span> -->
         ({{ ed.address }})
       </div>
-      <div class="col-5" style="text-align:right">
+      <div class="col-4" style="text-align:right">
         <span class="ConsolasCond">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span class="ConsolasCond">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
       </div>
     </div>
