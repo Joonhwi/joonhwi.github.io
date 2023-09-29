@@ -55,6 +55,7 @@
   --lime: rgb(192, 249, 146);
   --checker-red: #ea301f;
   --mint: #00c5f1;
+  --mblue: #0072dc;
   --dark-gray: hsl(191, 6%, 36%);
   --deep-gray: #0e0e10;
   //
@@ -63,7 +64,7 @@
   // --selection-color: #181c60;
   // --selection-color: rgb(7, 5, 81);
   --selection-color: var(--black);
-  --selection-text-color: var(--gamma-yellow);
+  --selection-text-color: var(--mblue);
   // --link: #ea301f;
   --link: var(--mint);
 
