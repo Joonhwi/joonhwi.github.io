@@ -52,7 +52,7 @@ permalink: /physics/
 
     var tempstring1 = ``;
     tempstring1 += `<span style="text-align:left; word-wrap:break-word;">`; //  word-break:break-all;
-    tempstring1 += `&nbsp;` + paper.title;
+    tempstring1 += paper.title; // `&nbsp;` + 
     tempstring1 += `</span>`;
 
     var tempstring2 = ``;
@@ -65,14 +65,16 @@ permalink: /physics/
     tempstring2 += `</span>`;
 
     tempstring = ``;
-    tempstring += `<div class="col-1 col-md-1" style="text-align:left">`;
-      tempstring += tempstring0;
-    tempstring += `</div>`;
-    tempstring += `<div class="col-11 col-md-8" style="text-align:left">`;
-      tempstring += tempstring1;
-    tempstring += `</div>`;
-    tempstring += `<div class="col-12 col-md-3" style="text-align:right">`;
-      tempstring += tempstring2;
+    tempstring += `<div class="row justify-content-start">`
+      tempstring += `<div class="col-1 col-md-1" style="text-align:left">`;
+        tempstring += tempstring0;
+      tempstring += `</div>`;
+      tempstring += `<div class="col-11 col-md-8" style="text-align:left">`;
+        tempstring += tempstring1;
+      tempstring += `</div>`;
+      tempstring += `<div class="col-12 col-md-3" style="text-align:right">`;
+        tempstring += tempstring2;
+      tempstring += `</div>`;
     tempstring += `</div>`;
 
     tempstring += `<hr style="visibility:hidden"/>`
