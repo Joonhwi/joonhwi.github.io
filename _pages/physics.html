@@ -174,7 +174,7 @@ permalink: /physics/
       {% endif %} -->
     </div>
     <div class="col-2" style="text-align:right;">
-      <span class="ConsolasCond">
+      <span class="Date">
         {{ talk.date | date: "%m/%d/%Y" }}
       </span>
     </div>
@@ -200,7 +200,7 @@ permalink: /physics/
         ({{ ed.address }})
       </div>
       <div class="col-4" style="text-align:right">
-        <span class="ConsolasCond">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span class="ConsolasCond">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
+        <span class="Date">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span class="Date">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
       </div>
     </div>
     <hr style="visibility:hidden"/>
@@ -213,7 +213,7 @@ permalink: /physics/
 <div class="container">
   <p style="text-align:right;">
     Last Updated:
-    <font class="ConsolasCond">
+    <font class="Date">
       {{ 'now' | date: "%m/%d/%Y"}}
     </font>
   </p>
