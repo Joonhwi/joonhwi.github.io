@@ -36,17 +36,17 @@ permalink: /physics/
 
     var tempstring0 = ``;
     if(serial<0){
-      tempstring0 += emptyspace.repeat(padding-1) + `<span style="font-family:Azeret; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring0 += emptyspace.repeat(padding-1) + `<span class="Azeret" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     } else if(serial<10){
-      tempstring0 += emptyspace.repeat(padding  ) + `<span style="font-family:Azeret; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring0 += emptyspace.repeat(padding  ) + `<span class="Azeret" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     } else if(serial<100){
-      tempstring0 += emptyspace.repeat(padding-1) + `<span style="font-family:Azeret; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring0 += emptyspace.repeat(padding-1) + `<span class="Azeret" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     } else if(serial<1000){
-      tempstring0 += emptyspace.repeat(padding-2) + `<span style="font-family:Azeret; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring0 += emptyspace.repeat(padding-2) + `<span class="Azeret" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     } else if(serial<10000){
-      tempstring0 += emptyspace.repeat(padding-3) + `<span style="font-family:Azeret; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring0 += emptyspace.repeat(padding-3) + `<span class="Azeret" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     } else{
-      tempstring0 += `<span style="font-family:Azeret; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring0 += `<span class="Azeret" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     }
     tempstring0 +=  emptyspace;
 
@@ -56,7 +56,7 @@ permalink: /physics/
     tempstring1 += `</span>`;
 
     var tempstring2 = ``;
-    tempstring2 += `<span style="text-align:right; font-family:Azeret; font-stretch:50%; letter-spacing:-1px;">`;
+    tempstring2 += `<span class="Azeret" style="text-align:right; font-stretch:50%; letter-spacing:-1px;">`;
     if(paper.released<=0){
         tempstring2 += `arXiv:` + paper.arxivnumber;
     } else{
@@ -129,7 +129,7 @@ permalink: /physics/
       {% endif %} -->
     </div>
     <div class="col-sm-12 col-md-2" style="text-align:right;">
-      <span style="font-family:Azeret; font-stretch:25%; letter-spacing:-1px;">
+      <span class="Azeret" style="font-stretch:25%; letter-spacing:-1px;">
         {{ talk.date | date: "%m/%d/%Y" }}
       </span>
     </div>
@@ -163,7 +163,7 @@ permalink: /physics/
       {% endif %} -->
     </div>
     <div class="col-sm-12 col-md-2" style="text-align:right;">
-      <span style="font-family:Azeret; font-stretch:25%; letter-spacing:-1px;">
+      <span class="Azeret" style="font-stretch:25%; letter-spacing:-1px;">
         {{ talk.date | date: "%m/%d/%Y" }}
       </span>
     </div>
@@ -189,7 +189,7 @@ permalink: /physics/
         ({{ ed.address }})
       </div>
       <div class="col-sm-12 col-md-5" style="text-align:right">
-        <span style="font-family:Azeret; font-stretch:25%; letter-spacing:-1px;">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span style="font-family:Azeret; font-stretch:25%; letter-spacing:-1px;">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
+        <span class="Azeret" style="font-stretch:25%; letter-spacing:-1px;">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span class="Azeret" style="font-stretch:25%; letter-spacing:-1px;">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
       </div>
     </div>
     <hr style="visibility:hidden"/>
@@ -202,7 +202,7 @@ permalink: /physics/
 <div class="container">
   <p style="text-align:right;">
     Last Updated:
-    <font style="font-family:Azeret; font-stretch:25%;  letter-spacing:-1px;">
+    <font class="Azeret" style="font-stretch:25%;  letter-spacing:-1px;">
       {{ 'now' | date: "%m/%d/%Y"}}
     </font>
   </p>
