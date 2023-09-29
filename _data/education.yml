@@ -1,12 +1,12 @@
 - degree: "PhD student"
   institution: "California Institute of Technology"
-  address: "Pasadena, CA, USA"
+  address: "Pasadena,&nbsp;CA,&nbsp;USA"
   start: 2021-09-27
   end:
 
 - degree: "BS in Physics"
   institution: "Seoul National University"
-  address: "Seoul, Korea"
+  address: "Seoul,&nbsp;Korea"
   start: 2017-03-02
   end: 2021-02-26
 
