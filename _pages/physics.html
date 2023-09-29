@@ -35,6 +35,7 @@ permalink: /physics/
     var serial = plen-i+countfrom-1;
 
     var tempstring1 = ``;
+    tempstring1 += `<style> div.a{ word-wrap: break-word; } </style>`;
     tempstring1 += `<div class="row">`;
     tempstring1 += `<div class="col-sm-1" style="text-align:left">`;
     if(serial<0){
@@ -52,7 +53,7 @@ permalink: /physics/
     }
     tempstring1 +=  emptyspace;
     tempstring1 += `</div>`;
-    tempstring1 += `<div class="col-sm-11 col-md-8" style="text-align:left">`;
+    tempstring1 += `<div class="a col-sm-11 col-md-8" style="text-align:left">`;
     tempstring1 += `&nbsp;` + paper.title;
     tempstring1 += `</div>`;
     tempstring1 += `</div>`;
