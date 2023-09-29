@@ -34,7 +34,7 @@ permalink: /physics/
 
     var serial = plen-i+countfrom-1;
 
-    var tempstring1 = `<div class="col-sm-12 col-md-8" style="text-align:left; word-wrap=break-word;">`;
+    var tempstring1 = `<div class="col-sm-1 col-md-1" style="text-align:left">`;
     if(serial<0){
       tempstring1 += emptyspace.repeat(padding-1) + `<span style="font-family:'Consolas'; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     } else if(serial<10){
@@ -49,10 +49,13 @@ permalink: /physics/
       tempstring1 += `<span style="font-family:'Consolas'; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     }
     tempstring1 +=  emptyspace;
+    tempstring1 += `</div>`;
+    
+    tempstring1 += `<div class="col-sm-8 col-md-8" style="text-align:left; word-wrap=break-word;">`;
     tempstring1 += `&nbsp;` + paper.title;
     tempstring1 += `</div>`;
 
-    var tempstring2 = `<div class="col-sm-12 col-md-3" style="text-align:right; font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px; word-break:break-all;">`;
+    var tempstring2 = `<div class="col-sm-10 col-md-3" style="text-align:right; font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px; word-break:break-all;">`;
     if(paper.released<=0){
         tempstring2 += `arXiv:` + paper.arxivnumber;
     } else{
