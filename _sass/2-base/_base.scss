@@ -254,8 +254,13 @@ table td {
 
 
 
-
-
-.Azeret { 
+@font-face { 
   font-family: Azeret;
+  src: url('fonts/AzeretMono-Light.ttf') format('truetype'); 
+}
+.Azeret {
+    font-family: Azeret;
+}
+.Consolas {
+    font-family: Consolas;
 }
