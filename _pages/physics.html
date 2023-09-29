@@ -13,7 +13,7 @@ permalink: /physics/
   
   const countfrom = -2;
   const plen = papers.length;
-  const emptyspace = `<span style="font-family:'Courier'; font-stretch:25%; letter-spacing:-1px;">&nbsp;</span>`;
+  const emptyspace = `<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">&nbsp;</span>`;
   var padding = 0;
   // if(papers.length-3 < 10){
   //   padding += 1;
@@ -35,30 +35,29 @@ permalink: /physics/
     var serial = plen-i+countfrom-1;
 
     var tempstring1 = ``;
-    tempstring1 += `<style> div.break{ word-wrap: break-word; } </style>`;
     tempstring1 += `<div class="row">`;
     tempstring1 += `<div class="col-sm-1" style="text-align:left">`;
     if(serial<0){
-      tempstring1 += emptyspace.repeat(padding-1) + `<span style="font-family:'Courier'; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring1 += emptyspace.repeat(padding-1) + `<span style="font-family:'Consolas'; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     } else if(serial<10){
-      tempstring1 += emptyspace.repeat(padding  ) + `<span style="font-family:'Courier'; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring1 += emptyspace.repeat(padding  ) + `<span style="font-family:'Consolas'; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     } else if(serial<100){
-      tempstring1 += emptyspace.repeat(padding-1) + `<span style="font-family:'Courier'; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring1 += emptyspace.repeat(padding-1) + `<span style="font-family:'Consolas'; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     } else if(serial<1000){
-      tempstring1 += emptyspace.repeat(padding-2) + `<span style="font-family:'Courier'; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring1 += emptyspace.repeat(padding-2) + `<span style="font-family:'Consolas'; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     } else if(serial<10000){
-      tempstring1 += emptyspace.repeat(padding-3) + `<span style="font-family:'Courier'; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring1 += emptyspace.repeat(padding-3) + `<span style="font-family:'Consolas'; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     } else{
-      tempstring1 += `<span style="font-family:'Courier'; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring1 += `<span style="font-family:'Consolas'; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     }
     tempstring1 +=  emptyspace;
     tempstring1 += `</div>`;
-    tempstring1 += `<div class="break col-sm-11 col-md-8" style="text-align:left">`;
+    tempstring1 += `<div class="col-sm-11 col-md-8" style="text-align:left; word-wrap:break-word;">`;
     tempstring1 += `&nbsp;` + paper.title;
     tempstring1 += `</div>`;
     tempstring1 += `</div>`;
 
-    var tempstring2 = `<div class="col-sm-12 col-md-3" style="text-align:right; font-family:'Courier'; font-stretch:50%; letter-spacing:-1px; word-break:break-all;">`;
+    var tempstring2 = `<div class="col-sm-12 col-md-3" style="text-align:right; font-family:'Consolas'; font-stretch:50%; letter-spacing:-1px; word-break:break-all;">`;
     if(paper.released<=0){
         tempstring2 += `arXiv:` + paper.arxivnumber;
     } else{
@@ -116,7 +115,7 @@ permalink: /physics/
       {% endif %} -->
     </div>
     <div class="col-sm-12 col-md-2" style="text-align:right;">
-      <span style="font-family:'Courier'; font-stretch:25%; letter-spacing:-1px;">
+      <span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">
         {{ talk.date | date: "%m/%d/%Y" }}
       </span>
     </div>
@@ -150,7 +149,7 @@ permalink: /physics/
       {% endif %} -->
     </div>
     <div class="col-sm-12 col-md-2" style="text-align:right;">
-      <span style="font-family:'Courier'; font-stretch:25%; letter-spacing:-1px;">
+      <span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">
         {{ talk.date | date: "%m/%d/%Y" }}
       </span>
     </div>
@@ -176,7 +175,7 @@ permalink: /physics/
         ({{ ed.address }})
       </div>
       <div class="col-sm-12 col-md-5" style="text-align:right">
-        <span style="font-family:'Courier'; font-stretch:25%; letter-spacing:-1px;">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span style="font-family:'Courier'; font-stretch:25%; letter-spacing:-1px;">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
+        <span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span style="font-family:'Consolas'; font-stretch:25%; letter-spacing:-1px;">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
       </div>
     </div>
     <hr style="visibility:hidden"/>
@@ -189,7 +188,7 @@ permalink: /physics/
 <div class="container">
   <p style="text-align:right;">
     Last Updated:
-    <font style="font-family:'Courier'; font-stretch:25%;  letter-spacing:-1px;">
+    <font style="font-family:'Consolas'; font-stretch:25%;  letter-spacing:-1px;">
       {{ 'now' | date: "%m/%d/%Y"}}
     </font>
   </p>
