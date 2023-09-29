@@ -102,6 +102,12 @@
     // color: var(--brand-color);
     color: var(--heading-font-color);
 
+    //
+    &:hover {
+      text-decoration: none;
+      color: var(--heading-font-color);
+    }
+
     &::after {
       content: none;
     }
