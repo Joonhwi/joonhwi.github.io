@@ -37,7 +37,7 @@ permalink: /physics/
     var tempstring1 = ``;
     tempstring1 += `<div class="col-sm-12 col-md-9" style="text-align:left">`;
     tempstring1 += `<div class="row">`;
-    tempstring1 += `<div class="col-sm-1" style="text-align:left">`;
+    tempstring1 += `<div class="col-sm-1 col-md-1" style="text-align:left">`;
     if(serial<0){
       tempstring1 += emptyspace.repeat(padding-1) + `<span style="font-family:'Azeret'; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     } else if(serial<10){
@@ -67,7 +67,7 @@ permalink: /physics/
     }
     tempstring2 += `</div>`;
 
-    htmlstring += (`<div class="row">`+tempstring1+tempstring2+`</div>`+`<hr style="visibility:hidden"/>`);
+    htmlstring += (tempstring1+tempstring2+`<hr style="visibility:hidden"/>`);
   }
   htmlstring += `</div>`
 </script>
