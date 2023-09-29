@@ -13,7 +13,7 @@ permalink: /physics/
   
   const countfrom = -2;
   const plen = papers.length;
-  const emptyspace = `<span style="font-family:Consolas; font-stretch:25%; letter-spacing:-1px;">&nbsp;</span>`;
+  const emptyspace = `<span class="Consolas">&nbsp;</span>`;
   var padding = 0;
   // if(papers.length-3 < 10){
   //   padding += 1;
@@ -36,17 +36,17 @@ permalink: /physics/
 
     var tempstring0 = ``;
     if(serial<0){
-      tempstring0 += emptyspace.repeat(padding-1) + `<span class="Consolas" style="font-size:95%; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring0 += emptyspace.repeat(padding-1) + `<span class="ConsolasCond">[` + serial + `]</span>`;
     } else if(serial<10){
-      tempstring0 += emptyspace.repeat(padding  ) + `<span class="Consolas" style="font-size:95%; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring0 += emptyspace.repeat(padding  ) + `<span class="ConsolasCond">[` + serial + `]</span>`;
     } else if(serial<100){
-      tempstring0 += emptyspace.repeat(padding-1) + `<span class="Consolas" style="font-size:95%; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring0 += emptyspace.repeat(padding-1) + `<span class="ConsolasCond">[` + serial + `]</span>`;
     } else if(serial<1000){
-      tempstring0 += emptyspace.repeat(padding-2) + `<span class="Consolas" style="font-size:95%; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring0 += emptyspace.repeat(padding-2) + `<span class="ConsolasCond">[` + serial + `]</span>`;
     } else if(serial<10000){
-      tempstring0 += emptyspace.repeat(padding-3) + `<span class="Consolas" style="font-size:95%; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring0 += emptyspace.repeat(padding-3) + `<span class="ConsolasCond">[` + serial + `]</span>`;
     } else{
-      tempstring0 += `<span class="Consolas" style="font-size:95%; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring0 += `<span class="ConsolasCond">[` + serial + `]</span>`;
     }
     tempstring0 += emptyspace;
 
@@ -56,7 +56,7 @@ permalink: /physics/
     tempstring1 += `</div>`;
 
     var tempstring2 = ``;
-    tempstring2 += `<span class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">`;
+    tempstring2 += `<span class="ConsolasCond">`;
     if(paper.released<=0){
         tempstring2 += `arXiv:` + paper.arxivnumber;
     } else{
@@ -111,7 +111,7 @@ permalink: /physics/
   </div>
 </div>
 
-<div class="container" id="paperlist">
+<div class="container-fluid" id="paperlist">
 <script type="text/javascript">
   document.getElementById("paperlist").innerHTML = htmlstring;
 </script>
@@ -121,7 +121,7 @@ permalink: /physics/
 
 <h3>Talks</h3>
 
-<div class="container">
+<div class="container-fluid">
 {% capture datenow %}{{'now' | date: '%s'}}{% endcapture %}
 {% for talk in site.data.seminars %}
 {% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %}
@@ -140,7 +140,7 @@ permalink: /physics/
       {% endif %} -->
     </div>
     <div class="col-2" style="text-align:right;">
-      <span class="Consolas" style="font-stretch:25%; letter-spacing:-1px;">
+      <span class="Consolas">
         {{ talk.date | date: "%m/%d/%Y" }}
       </span>
     </div>
@@ -154,7 +154,7 @@ permalink: /physics/
 
 <h3>Seminars</h3>
 
-<div class="container">
+<div class="container-fluid">
 {% capture datenow %}{{'now' | date: '%s'}}{% endcapture %}
 {% for talk in site.data.seminars %}
 {% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %}
@@ -173,7 +173,7 @@ permalink: /physics/
       {% endif %} -->
     </div>
     <div class="col-2" style="text-align:right;">
-      <span class="Consolas" style="font-stretch:25%; letter-spacing:-1px;">
+      <span class="Consolas">
         {{ talk.date | date: "%m/%d/%Y" }}
       </span>
     </div>
@@ -187,10 +187,10 @@ permalink: /physics/
 
 <h3>Education</h3>
 
-<div class="container">
+<div class="container-fluid">
   {% for ed in site.data.education %}
     <div class="row">
-      <div class="col-sm-12 col-md-7">
+      <div class="col-7">
         {% if ed.degree!=nill %}
           {{ ed.degree }},
         {% endif %}
@@ -198,8 +198,8 @@ permalink: /physics/
         <!-- <span style="font-size:90%">{{ ed.address }}</span> -->
         ({{ ed.address }})
       </div>
-      <div class="col-sm-12 col-md-5" style="text-align:right">
-        <span class="Consolas" style="font-stretch:25%; letter-spacing:-1px;">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span class="Consolas" style="font-stretch:25%; letter-spacing:-1px;">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
+      <div class="col-5" style="text-align:right">
+        <span class="Consolas">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span class="Consolas">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
       </div>
     </div>
     <hr style="visibility:hidden"/>
@@ -212,7 +212,7 @@ permalink: /physics/
 <div class="container">
   <p style="text-align:right;">
     Last Updated:
-    <font class="Consolas" style="font-stretch:25%;  letter-spacing:-1px;">
+    <font class="Consolas">
       {{ 'now' | date: "%m/%d/%Y"}}
     </font>
   </p>

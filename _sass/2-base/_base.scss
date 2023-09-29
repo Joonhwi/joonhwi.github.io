@@ -263,4 +263,10 @@ table td {
 }
 .Consolas {
     font-family: Consolas;
+    font-stretch:25%;  letter-spacing:-1px;
+}
+.ConsolasCond {
+    font-family: Consolas;
+    font-stretch:50%;  letter-spacing:-2px;
+    font-size:95%; 
 }
