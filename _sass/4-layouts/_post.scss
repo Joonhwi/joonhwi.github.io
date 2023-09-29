@@ -5,6 +5,12 @@
   margin: 0 auto 60px;
   color: var(--text-color);
 
+  //
+  @media only screen and (max-width: $mobile) {
+    font-size: 90%;
+  }
+  //
+
   a {
     font-weight: 500;
     border-bottom: 1px solid var(--border-color);
@@ -43,7 +49,6 @@
 
   @media only screen and (max-width: $mobile) {
     margin: 40px auto 32px;
-    font-size: 90%; //
   }
 }
 
