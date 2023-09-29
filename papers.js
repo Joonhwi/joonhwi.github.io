@@ -36,7 +36,7 @@ var papers = [
     released: 0
   },
   {
-    title: "Symplectic Perturbation Theory: Covariant Scheme",
+    title: "Covariant Symplectic Perturbation Theory",
     codename: "spt",
     arxivnumber: "2308.*****",
     released: 0
