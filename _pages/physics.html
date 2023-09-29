@@ -36,46 +36,46 @@ permalink: /physics/
 
     var tempstring0 = ``;
     if(serial<0){
-      tempstring0 += emptyspace.repeat(padding-1) + `<span class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring0 += emptyspace.repeat(padding-1) + `<p class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</p>`;
     } else if(serial<10){
-      tempstring0 += emptyspace.repeat(padding  ) + `<span class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring0 += emptyspace.repeat(padding  ) + `<p class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</p>`;
     } else if(serial<100){
-      tempstring0 += emptyspace.repeat(padding-1) + `<span class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring0 += emptyspace.repeat(padding-1) + `<p class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</p>`;
     } else if(serial<1000){
-      tempstring0 += emptyspace.repeat(padding-2) + `<span class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring0 += emptyspace.repeat(padding-2) + `<p class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</p>`;
     } else if(serial<10000){
-      tempstring0 += emptyspace.repeat(padding-3) + `<span class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring0 += emptyspace.repeat(padding-3) + `<p class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</p>`;
     } else{
-      tempstring0 += `<span class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring0 += `<p class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</p>`;
     }
-    tempstring0 +=  emptyspace;
+    tempstring0 += emptyspace;
 
     var tempstring1 = ``;
-    tempstring1 += `<span style="text-align:left; word-wrap:break-word;">`; //  word-break:break-all;
+    tempstring1 += `<p style="max-width:70%; word-wrap:break-word;">`; //  word-break:break-all;
     tempstring1 += paper.title; // `&nbsp;` + 
-    tempstring1 += `</span>`;
+    tempstring1 += `</p>`;
 
     var tempstring2 = ``;
-    tempstring2 += `<span class="Consolas" style="text-align:right; font-stretch:50%; letter-spacing:-1px;">`;
+    tempstring2 += `<p class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">`;
     if(paper.released<=0){
         tempstring2 += `arXiv:` + paper.arxivnumber;
     } else{
         tempstring2 += `<a href="http://arxiv.org/abs/` + paper.arxivnumber + `">arXiv:` + paper.arxivnumber + `</a>`;
     }
-    tempstring2 += `</span>`;
+    tempstring2 += `</p>`;
 
     tempstring = ``;
-    tempstring += `<div class="row" style="justify-content:space-between">`;
-      tempstring += `<div class="col-12 col-md-9">`;
-        tempstring += `<div class="row" style="justify-content:start; vertical-align: top;">`;
-          tempstring += `<div style="display:inline-block; vertical-align: top;">`;
-            tempstring += tempstring0 + `&nbsp`+ `&nbsp`;
-          tempstring += `</div>`;
-          // tempstring += `<div style="word-wrap:break-word; max-width:69%; display:inline-block; vertical-align: top;">`; //540px
-          //   tempstring += tempstring1;
-          // tempstring += `</div>`;
-        tempstring += `</div>`;
+    tempstring += `<div class="row">`;
+      tempstring += `<div class="col-12 col-md-1">`;
+        tempstring += tempstring0 + `&nbsp`+ `&nbsp`;
       tempstring += `</div>`;
+      tempstring += `<div class="col-12 col-md-8">`;
+        tempstring += tempstring1;
+      tempstring += `</div>`;
+      tempstring += `<div class="col-12 col-md-3">`;
+        tempstring += tempstring2;
+      tempstring += `</div>`;
+          // tempstring += `<div style="display:inline-block; vertical-align: top;">`;
       // tempstring += `<div class="col-12 col-md-9" style="vertical-align:top; text-align:left;">`;
       //   tempstring += `<div class="col-1" style="vertical-align:top; text-align:left;">`;
       //     tempstring += tempstring0;
@@ -84,14 +84,9 @@ permalink: /physics/
       //     tempstring += tempstring1;
       //   tempstring += `</div>`;
       // tempstring += `</div>`;
-      tempstring += `<div class="col-12 col-md-3" style="text-align:right>`;
-        // tempstring += `<div style="max-width:20%; text-align:right; display:inline-block; vertical-align: top;">`; //160px
-          tempstring += tempstring2;
-        // tempstring += `</div>`;
-      tempstring += `</div>`;
     tempstring += `</div>`;
 
-    tempstring += `<hr style="visibility:hidden"/>`
+    // tempstring += `<hr style="visibility:hidden"/>`
 
     htmlstring += tempstring;
   }
@@ -100,7 +95,7 @@ permalink: /physics/
 <div class="container">
   <div class="row align-items-bottom">
     <div class="col-sm-12 col-md-6">
-      <h3 style="margin-bottom:-11.5px;">Publications36</h3>
+      <h3 style="margin-bottom:-11.5px;">Publications38</h3>
     </div>
     <div class="col-sm-11 col-md-6" style="text-align:right;">
       <p style="font-size:95%; margin-top:14.35px; margin-bottom:14.5px;">
