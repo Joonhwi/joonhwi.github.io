@@ -34,7 +34,7 @@ permalink: /physics/
 
     var serial = plen-i+countfrom-1;
 
-    var tempstring1 = `<div class="col-sm-12 col-md-8" style="text-align:left;">`;
+    var tempstring1 = `<div class="col-sm-12 col-md-8" style="text-align:left; word-wrap=break-word;">`;
     if(serial<0){
       tempstring1 += emptyspace.repeat(padding-1) + `[<span style="font-family:'Consolas'; font-stretch:40%; letter-spacing:-2px;">` + serial + `</span>]`;
     } else if(serial<10){
