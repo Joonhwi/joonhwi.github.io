@@ -51,13 +51,13 @@ permalink: /physics/
       tempstring1 += `<span style="font-family:'Consolas'; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     }
     tempstring1 +=  emptyspace;
-    tempstring1 += `<div class="col-sm-10 col-md-10" style="text-align:left; word-wrap:break-word;">`;
+    tempstring1 += `<div class="col-sm-10 col-md-10" style="text-align:left; word-wrap:break-word; word-break:break-all;">`;
     tempstring1 += `&nbsp;` + paper.title;
     tempstring1 += `</div>`;
     tempstring1 += `</div>`;
     tempstring1 += `</div>`;
 
-    var tempstring2 = `<div class="col-sm-12 col-md-3" style="text-align:right; font-family:'Consolas'; font-stretch:50%; letter-spacing:-1px; word-break:break-all;">`;
+    var tempstring2 = `<div class="col-sm-12 col-md-3" style="text-align:right; font-family:'Consolas'; font-stretch:50%; letter-spacing:-1px;">`;
     if(paper.released<=0){
         tempstring2 += `arXiv:` + paper.arxivnumber;
     } else{
@@ -190,14 +190,6 @@ permalink: /physics/
     Last Updated:
     <font style="font-family:'Consolas'; font-stretch:25%;  letter-spacing:-1px;">
       {{ 'now' | date: "%m/%d/%Y"}}
-    </font>
-  </p>
-</div>
-
-<div class="container">
-  <p style="text-align:right;">
-    <font style="font-family:'Consolas'; font-stretch:25%;  letter-spacing:-1px;">
-      {{ 'now' | date: "%s"}}
     </font>
   </p>
 </div>
