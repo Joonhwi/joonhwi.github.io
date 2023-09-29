@@ -78,7 +78,13 @@ var papers = [
     released: 0
   },
   {
-    title: "Symplectic Perturbation Theory in Massive Twistor Space",
+    title: "Asymptotic Spinspacetime",
+    codename: "sst-asym",
+    arxivnumber: "2309.11886",
+    released: 1
+  },
+  {
+    title: "Symplectic Perturbation Theory in Massive Twistor Space: A Zig-Zag Theory of Massive Spinning Particles",
     codename: "ambikerr1",
     arxivnumber: "2301.06203",
     released: 1
