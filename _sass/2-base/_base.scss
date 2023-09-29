@@ -161,6 +161,10 @@ a {
     text-decoration: underline;
     color: var(--link-color-hover);
   }
+
+  &:selected {
+    text-decoration: underline;
+  }
 }
 
 hr {
