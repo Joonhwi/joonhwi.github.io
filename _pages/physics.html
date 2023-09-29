@@ -5,7 +5,7 @@ permalink: /physics/
 --- 
 
 <script type="text/javascript">
-  const reveal = 2;
+  const reveal = 1;
 </script>
 <script type="text/javascript" src="/papers.js"></script>
 <script type="text/javascript">
@@ -28,7 +28,7 @@ permalink: /physics/
   htmlstring = `<div class="row">`
   papers.forEach(myfunction)
   function myfunction(paper,i){
-    if(papers.released<reveal){
+    if(paper.released<reveal){
       return;
     }
 
