@@ -25,6 +25,8 @@
   --text-color: var(--black);
   --text-alt-color: var(--blue-gray);
   
+  --date-color: var(--light-gray);
+  
   --heading-font-color: var(--black);
 
   --link-color: var(--cal);
@@ -46,7 +48,7 @@
 :root[dark] {
   --white: #fff;
   --light-gray: #f0f0f0;
-  --white-alt: #c9c9c9;
+  --white-alt: #e1e1ee;
   // --gray: #cccccc;
   // --black: #111016;
   --black: #000000;
@@ -78,6 +80,8 @@
   
   --text-color: var(--white);
   --text-alt-color: var(--white-alt);
+  
+  --date-color: var(--white-alt);
   
   --heading-font-color: var(--white);
 
