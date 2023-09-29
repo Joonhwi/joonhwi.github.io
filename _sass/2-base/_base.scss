@@ -233,7 +233,8 @@ table td {
     background-color: var(--button-background-color);
 
     &:hover {
-      background: var(--button-background-hover);
+      // background: var(--button-background-hover);
+      background: var(--button-background-color);
     }
   }
 }
