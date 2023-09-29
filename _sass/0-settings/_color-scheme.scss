@@ -56,17 +56,18 @@
   --checker-red: #ea301f;
   --mint: #00c5f1;
   --dark-gray: hsl(191, 6%, 36%);
+  --deep-gray: #212122;
   //
   // --brand-color: #ea301f;
   --brand-color: var(--gamma-yellow);
   // --selection-color: #181c60;
   // --selection-color: rgb(7, 5, 81);
-  --selection-color: var(--dark-gray);
-  --selection-text-color: var(--checker-red);
+  --selection-color: var(--black);
+  --selection-text-color: var(--gamma-yellow);
   // --link: #ea301f;
   --link: var(--mint);
 
-  --background-color: var(--black);
+  --background-color: var(--deep-gray);
   --background-alt-color: #18181d;
   
   --text-color: var(--white);
