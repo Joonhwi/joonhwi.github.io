@@ -13,7 +13,7 @@ permalink: /physics/
   
   const countfrom = -2;
   const plen = papers.length;
-  const emptyspace = `<span style="font-family:'Azeret'; font-stretch:25%; letter-spacing:-1px;">&nbsp;</span>`;
+  const emptyspace = `<span style="font-family:Azeret; font-stretch:25%; letter-spacing:-1px;">&nbsp;</span>`;
   var padding = 0;
   // if(papers.length-3 < 10){
   //   padding += 1;
@@ -36,17 +36,17 @@ permalink: /physics/
 
     var tempstring0 = ``;
     if(serial<0){
-      tempstring0 += emptyspace.repeat(padding-1) + `<span style="font-family:'Azeret'; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring0 += emptyspace.repeat(padding-1) + `<span style="font-family:Azeret; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     } else if(serial<10){
-      tempstring0 += emptyspace.repeat(padding  ) + `<span style="font-family:'Azeret'; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring0 += emptyspace.repeat(padding  ) + `<span style="font-family:Azeret; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     } else if(serial<100){
-      tempstring0 += emptyspace.repeat(padding-1) + `<span style="font-family:'Azeret'; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring0 += emptyspace.repeat(padding-1) + `<span style="font-family:Azeret; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     } else if(serial<1000){
-      tempstring0 += emptyspace.repeat(padding-2) + `<span style="font-family:'Azeret'; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring0 += emptyspace.repeat(padding-2) + `<span style="font-family:Azeret; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     } else if(serial<10000){
-      tempstring0 += emptyspace.repeat(padding-3) + `<span style="font-family:'Azeret'; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring0 += emptyspace.repeat(padding-3) + `<span style="font-family:Azeret; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     } else{
-      tempstring0 += `<span style="font-family:'Azeret'; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
+      tempstring0 += `<span style="font-family:Azeret; font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     }
     tempstring0 +=  emptyspace;
 
@@ -56,7 +56,7 @@ permalink: /physics/
     tempstring1 += `</span>`;
 
     var tempstring2 = ``;
-    tempstring2 += `<span style="text-align:right; font-family:'Azeret'; font-stretch:50%; letter-spacing:-1px;">`;
+    tempstring2 += `<span style="text-align:right; font-family:Azeret; font-stretch:50%; letter-spacing:-1px;">`;
     if(paper.released<=0){
         tempstring2 += `arXiv:` + paper.arxivnumber;
     } else{
@@ -85,7 +85,7 @@ permalink: /physics/
 <div class="container">
   <div class="row align-items-bottom">
     <div class="col-sm-12 col-md-6">
-      <h3 style="margin-bottom:-11.5px;">Publications10</h3>
+      <h3 style="margin-bottom:-11.5px;">Publications11</h3>
     </div>
     <div class="col-sm-11 col-md-6" style="text-align:right;">
       <p style="font-size:95%; margin-top:14.35px; margin-bottom:14.5px;">
@@ -127,7 +127,7 @@ permalink: /physics/
       {% endif %} -->
     </div>
     <div class="col-sm-12 col-md-2" style="text-align:right;">
-      <span style="font-family:'Azeret'; font-stretch:25%; letter-spacing:-1px;">
+      <span style="font-family:Azeret; font-stretch:25%; letter-spacing:-1px;">
         {{ talk.date | date: "%m/%d/%Y" }}
       </span>
     </div>
@@ -161,7 +161,7 @@ permalink: /physics/
       {% endif %} -->
     </div>
     <div class="col-sm-12 col-md-2" style="text-align:right;">
-      <span style="font-family:'Azeret'; font-stretch:25%; letter-spacing:-1px;">
+      <span style="font-family:Azeret; font-stretch:25%; letter-spacing:-1px;">
         {{ talk.date | date: "%m/%d/%Y" }}
       </span>
     </div>
@@ -187,7 +187,7 @@ permalink: /physics/
         ({{ ed.address }})
       </div>
       <div class="col-sm-12 col-md-5" style="text-align:right">
-        <span style="font-family:'Azeret'; font-stretch:25%; letter-spacing:-1px;">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span style="font-family:'Azeret'; font-stretch:25%; letter-spacing:-1px;">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
+        <span style="font-family:Azeret; font-stretch:25%; letter-spacing:-1px;">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span style="font-family:Azeret; font-stretch:25%; letter-spacing:-1px;">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
       </div>
     </div>
     <hr style="visibility:hidden"/>
@@ -200,7 +200,7 @@ permalink: /physics/
 <div class="container">
   <p style="text-align:right;">
     Last Updated:
-    <font style="font-family:'Azeret'; font-stretch:25%;  letter-spacing:-1px;">
+    <font style="font-family:Azeret; font-stretch:25%;  letter-spacing:-1px;">
       {{ 'now' | date: "%m/%d/%Y"}}
     </font>
   </p>
