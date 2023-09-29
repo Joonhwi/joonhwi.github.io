@@ -83,6 +83,11 @@
             &::after {
               content: none;
             }
+            // No color when hovering on c
+            &:hover {
+              text-decoration: none;
+              color: var(--heading-font-color);
+            }
           }
         }
       }
@@ -105,7 +110,7 @@
     &::after {
       content: none;
     }    
-    // No color when hovering on current
+    // No color when hovering on c
     &:hover {
       text-decoration: none;
       color: var(--heading-font-color);
@@ -219,8 +224,8 @@
           transition: none;
           background: var(--heading-font-color);
         }
-        // No color when hovering on current
-        &::hover {
+        // No color when hovering on c
+        &:hover {
           text-decoration: none;
           color: var(--heading-font-color);
         }
