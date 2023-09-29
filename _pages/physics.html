@@ -36,33 +36,33 @@ permalink: /physics/
 
     var tempstring0 = ``;
     if(serial<0){
-      tempstring0 += emptyspace.repeat(padding-1) + `<p class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</p>`;
+      tempstring0 += emptyspace.repeat(padding-1) + `<span class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     } else if(serial<10){
-      tempstring0 += emptyspace.repeat(padding  ) + `<p class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</p>`;
+      tempstring0 += emptyspace.repeat(padding  ) + `<span class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     } else if(serial<100){
-      tempstring0 += emptyspace.repeat(padding-1) + `<p class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</p>`;
+      tempstring0 += emptyspace.repeat(padding-1) + `<span class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     } else if(serial<1000){
-      tempstring0 += emptyspace.repeat(padding-2) + `<p class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</p>`;
+      tempstring0 += emptyspace.repeat(padding-2) + `<span class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     } else if(serial<10000){
-      tempstring0 += emptyspace.repeat(padding-3) + `<p class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</p>`;
+      tempstring0 += emptyspace.repeat(padding-3) + `<span class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     } else{
-      tempstring0 += `<p class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</p>`;
+      tempstring0 += `<span class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">[` + serial + `]</span>`;
     }
     tempstring0 += emptyspace;
 
     var tempstring1 = ``;
-    tempstring1 += `<p style="max-width:70%; word-wrap:break-word;">`; //  word-break:break-all;
+    tempstring1 += `<span style="max-width:70%; word-wrap:break-word;">`; //  word-break:break-all;
     tempstring1 += paper.title; // `&nbsp;` + 
-    tempstring1 += `</p>`;
+    tempstring1 += `</span>`;
 
     var tempstring2 = ``;
-    tempstring2 += `<p class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">`;
+    tempstring2 += `<span class="Consolas" style="font-stretch:50%; letter-spacing:-2px;">`;
     if(paper.released<=0){
         tempstring2 += `arXiv:` + paper.arxivnumber;
     } else{
         tempstring2 += `<a href="http://arxiv.org/abs/` + paper.arxivnumber + `">arXiv:` + paper.arxivnumber + `</a>`;
     }
-    tempstring2 += `</p>`;
+    tempstring2 += `</span>`;
 
     tempstring = ``;
     tempstring += `<div class="row align-items-top">`;
