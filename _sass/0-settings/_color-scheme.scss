@@ -55,13 +55,14 @@
   --lime: rgb(192, 249, 146);
   --checker-red: #ea301f;
   --mint: #00c5f1;
+  --dark-gray: hsl(191, 6%, 36%);
   //
   // --brand-color: #ea301f;
   --brand-color: var(--gamma-yellow);
   // --selection-color: #181c60;
   // --selection-color: rgb(7, 5, 81);
-  --selection-color: var(--mint);
-  --selection-text-color: #fff;
+  --selection-color: var(--dark-gray);
+  --selection-text-color: var(--checker-red);
   // --link: #ea301f;
   --link: var(--mint);
 
