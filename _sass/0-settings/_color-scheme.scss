@@ -54,19 +54,21 @@
   --schutz: #7cb5ff;
   --lime: #c0f992;
   --lg: #B2E797;
+  --sel: #d5e176;
   --checker-red: #ea301f;
   --mint: #00c5f1;
   --mblue: #0072dc;
   --dark-shade: hsl(0, 14%, 1%);
   // --deep-gray: #0e0e10;
-  --deep-gray: #0f0f11;
+  --deep-gray: #15151a;
+  // --deep-gray: #0f0f11;
   //
   // --brand-color: #ea301f;
   --brand-color: var(--gamma-yellow);
   // --selection-color: #181c60;
   // --selection-color: rgb(7, 5, 81);
   --selection-color: var(--dark-shade);
-  --selection-text-color: var(--lime);
+  --selection-text-color: var(--sel);
   // --link: #ea301f;
   --link: var(--mint);
 
