@@ -52,7 +52,14 @@
   {{ include_to_scssify | scssify }}
   </style>
 
-  <style>
-    @font-face { font-family:Azeret; src:url('AzeretMono-Light.ttf'); } 
+  <meta charset="utf-8">
+  <style type="text/css" media="screen">
+    @font-face { 
+      font-family: 'Azeret';
+      src: url('fonts/AzeretMono-Light.ttf') format('truetype'); 
+    } 
+    .header {
+        font-family: Azeret;
+    }
   </style>
 </head>
