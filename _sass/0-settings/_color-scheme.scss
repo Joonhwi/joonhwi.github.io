@@ -46,6 +46,7 @@
 :root[dark] {
   --white: #fff;
   --light-gray: #f0f0f0;
+  --white-alt: #c9c9c9;
   // --gray: #cccccc;
   // --black: #111016;
   --black: #000000;
@@ -76,7 +77,7 @@
   --background-alt-color: #0F1119;
   
   --text-color: var(--white);
-  --text-alt-color: var(--white);
+  --text-alt-color: var(--white-alt);
   
   --heading-font-color: var(--white);
 
