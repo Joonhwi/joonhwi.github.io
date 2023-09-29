@@ -157,12 +157,11 @@ a {
   transition: $global-transition;
 
   &:hover {
-    // 
-    text-decoration: underline;
+    // text-decoration: underline;
     color: var(--link-color-hover);
   }
 
-  &:selected {
+  &::selection {
     text-decoration: underline;
   }
 }
