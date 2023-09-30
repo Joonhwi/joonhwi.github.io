@@ -23,7 +23,6 @@ $color-marker-bg: $color-primary;
   margin-top: 2em;
   position: absolute;
 
-
   &-markers {
     list-style: none;
     margin: 0;
@@ -34,7 +33,7 @@ $color-marker-bg: $color-primary;
     position: absolute;
 
     &:after {
-      animation-duration: 2.5s;
+      animation-duration: 3s;
       animation-iteration-count: infinite;
       animation-name: twinkle;
       border-radius: 50%;
