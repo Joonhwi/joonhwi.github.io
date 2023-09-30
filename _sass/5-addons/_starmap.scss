@@ -27,14 +27,13 @@ $color-marker-bg: $color-primary;
     list-style: none;
     margin: 0;
     padding: 0;
-    text-decoration: none;
   }
 
   &-marker {
     position: absolute;
 
     &:after {
-      animation-duration: 3s;
+      // animation-duration: 3s;
       animation-iteration-count: infinite;
       animation-name: twinkle;
       border-radius: 50%;
@@ -46,6 +45,7 @@ $color-marker-bg: $color-primary;
       position: absolute;
       top: -0.12em;
       width: 0.3em;
+      text-decoration: none;
     }
 
     &:hover {
@@ -68,7 +68,6 @@ $color-marker-bg: $color-primary;
       left: -5px;
       top: -5px;
       z-index: 100;
-      text-decoration: none;
     }
   }
 
