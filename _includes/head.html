@@ -51,5 +51,63 @@
   {% endcapture %}
   {{ include_to_scssify | scssify }}
   </style>
-  
+
+
+<!-- Interactive Star Map -->
+{% if page.title=="StarMap" %}
+  <link href="/fonts.css" rel="stylesheet"/>
+  <link href="/main.css?ver=2.8.26" rel="stylesheet"/>
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <meta name="description" content="Explore the deepest mysteries at the frontier of fundamental physics, and the most promising ideas put forth to solve them." />
+  <meta property="og:image" content="https://d2r55xnwy6nx47.cloudfront.net/uploads/2015/08/PM_613x343.jpg" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Theories of Everything, Mapped | Quanta Magazine" />
+  <meta property="og:description" content="Explore the deepest mysteries at the frontier of fundamental physics, and the most promising ideas put forth to solve them." />
+  <meta property="og:url" content="https://www.quantamagazine.org/theories-of-everything-mapped-20150803/" />
+  <meta property="og:site_name" content="Quanta Magazine" />
+  <meta property="og:updated_time" content="2022-09-14T18:26+00:00" />
+  <meta property="article:publisher" content="https://www.facebook.com/QuantaNews" />
+  <meta property="fb:app_id" content="533309373681765" />
+  <meta property="article:published_time" content="2015-08-03T15:48+00:00" />
+  <meta property="article:modified_time" content="2022-09-14T18:26+00:00" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@QuantaMagazine" />
+  <meta name="twitter:title" content="Theories of Everything, Mapped | Quanta Magazine" />
+  <meta name="twitter:description" content="Explore the deepest mysteries at the frontier of fundamental physics, and the most promising ideas put forth to solve them." />
+  <meta name="twitter:image" content="https://d2r55xnwy6nx47.cloudfront.net/uploads/2015/08/PM_613x343.jpg" />
+  <link rel="canonical" href="https://www.quantamagazine.org/theories-of-everything-mapped-20150803/" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://www.quantamagazine.org/","name":"Science and Math News"}},{"@type":"ListItem","position":2,"item":{"@id":"https://www.quantamagazine.org/multimedia/","name":"Multimedia"}},{"@type":"ListItem","position":3,"item":{"@id":"https://www.quantamagazine.org/theories-of-everything-mapped-20150803/","name":"Theories of Everything, Mapped"}}]}</script>
+
+  <script type="text/javascript">
+    if ('group' in window.console) {
+      console.groupCollapsed('Development by https://barrelny.com - @barrelny')
+      console.info('Built with React, React Router v3, Apollo GraphQL libraries, the Wordpress REST API, and coffee ☕️')
+      console.groupEnd()
+    } else {
+      console.info('Development by https://barrelny.com - @barrelny')
+    }
+  </script>
+  <style type="text/css">._hover_div-c-1a1a1a:hover div{color:#1a1a1a}._hover_div-opacity-1:hover div{opacity:1}._hover_svg-c-1a1a1a:hover svg{color:#1a1a1a}.c-ff8600{color:#ff8600}.c-1a1a1a{color:#1a1a1a}._hover-c-ff8600:hover{color:#ff8600}.c-999999{color:#999999}._16jm4kw:hover #logo__mark{color:#ff8600}._e16twb:hover #logo__mark__icon{color:#ff8600}.bc-efefef{background-color:#efefef}._hover-c-white:hover{color:white}._hover-bc-ff8600:hover{background-color:#ff8600}._hover_div-c-ff8600:hover div{color:#ff8600}._hover_svg-c-ff8600:hover svg{color:#ff8600}@media (min-width: 34em){._m32ct8{color:#1a1a1a}}</style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <noscript>
+    <style type="text/css">
+      noscript img {
+        display: block;
+      }
+    </style>
+  </noscript>
+  <script type="text/javascript">
+    /**
+     * Array.assign polyfill via MDN
+     */
+    if (typeof Object.assign != 'function') { Object.assign = function(target, varArgs) { 'use strict'; if (target == null) { throw new TypeError('Cannot convert undefined or null to object'); } var to = Object(target); for (var index = 1; index < arguments.length; index++) { var nextSource = arguments[index]; if (nextSource != null) { for (var nextKey in nextSource) { if (Object.prototype.hasOwnProperty.call(nextSource, nextKey)) { to[nextKey] = nextSource[nextKey]; } } } } return to; }; }
+    /**
+     * Array.findIndex polyfill via MDN
+     */
+    if (!Array.prototype.findIndex) { Object.defineProperty(Array.prototype, 'findIndex', { value: function(predicate) { if (this == null) { throw new TypeError('"this" is null or not defined'); } var o = Object(this); var len = o.length >>> 0; if (typeof predicate !== 'function') { throw new TypeError('predicate must be a function'); } var thisArg = arguments[1]; var k = 0; while (k < len) { var kValue = o[k]; if (predicate.call(thisArg, kValue, k, o)) { return k; } k++; } return -1; } }); }
+  </script>
+{% endif %}
+
 </head>
