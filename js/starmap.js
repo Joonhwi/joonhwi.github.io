@@ -1,6 +1,9 @@
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 const tooltip = document.getElementById('tooltip');
+let isDrawing = false;
+let lastX = 0;
+let lastY = 0;
 
 // Define an array to store star data
 const stars = [
@@ -8,6 +11,10 @@ const stars = [
     { x: 300, y: 150, name: 'Star 2', description: 'This is the second star.' },
     // Add more star data as needed
 ];
+
+// Set dimensions for the canvas
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 
 // Function to draw stars
 function drawStars() {
