@@ -37,15 +37,14 @@ $color-marker-bg: $color-primary;
       animation-iteration-count: infinite;
       animation-name: twinkle;
       border-radius: 50%;
-      border: 2.8px solid $color-primary;
+      border: 2.0px solid $color-primary;
       content: '';
-      height: 0.3em;
-      left: -0.12em;
       opacity: 1;
       position: absolute;
-      top: -0.12em;
+      height: 0.0em;
+      left:   0.0em;
+      top:   0.0em;
       width: 0.3em;
-      text-decoration: none;
     }
 
     &:hover {
