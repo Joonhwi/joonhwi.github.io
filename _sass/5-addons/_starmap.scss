@@ -76,7 +76,7 @@ $color-marker-bg: $color-primary;
   }
   &-marker-aldebaran {
     left: 80.88%;
-    top:  39.9%;
+    top:  -39.9%;
     &:after {
       animation-delay: 1s;
     }
@@ -109,13 +109,9 @@ $color-marker-bg: $color-primary;
       opacity: 0.95;
     }
 
-    h2 {
-      margin-bottom: 0;
-    }
-
     &-inner {
       border-radius: .5em;
-      box-shadow: 0 0 .25em rgba(0, 0, 0, .3);
+      box-shadow: 0 0 .25em rgba(100, 100, 100, 0.74);
       font-size: .875em;
 
       &:after {
