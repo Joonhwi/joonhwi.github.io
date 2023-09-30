@@ -1,0 +1,226 @@
+// Colors
+$color: #fff;
+$color-bg: #000;
+
+$color-primary: #fff;
+
+$color-link: $color-primary;
+$color-headings: #fff;
+
+$color-subline: #fff;
+
+$color-box-header: #fff;
+$color-box-header-bg: #000;
+$color-box-main: $color;
+$color-box-main-bg: #000;
+
+$color-marker-bg: $color-primary;
+
+
+// Map
+
+.map {
+  margin-top: 2em;
+  position: absolute;
+
+  &-markers {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &-marker {
+    position: absolute;
+
+    &:after {
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      animation-name: twinkle;
+      border-radius: 50%;
+      border: 2.1px solid $color-primary;
+      content: '';
+      opacity: 1;
+      position: absolute;
+      height: 0.25em;
+      width:  0.25em;
+      left:   40em;
+      top:   -40em;
+    }
+
+    &:hover {
+      .map-marker-info {
+        text-align: center;
+        opacity: 1;
+        z-index: 99;
+      }
+    }
+    
+    a {
+      background-color: $color-marker-bg;
+      opacity: 0;
+      border-radius: 50%;
+      height: .7em;
+      display: block;
+      // text-indent: -9999px;
+      width: .7em;
+      position: relative;
+      left: -5px;
+      top: -5px;
+      z-index: 100;
+    }
+  }
+
+  &-marker-Sirius {
+    left: -71.8%;
+    top:  58.15%;     
+  }
+  &-marker-aldebaran {
+    left: 80.88%;
+    top:  -39.9%;
+    &:after {
+      animation-delay: 1s;
+    }
+  }
+
+  &-marker-info {
+    display: none;
+    left: 50%;
+    position: absolute;
+    bottom: 0;
+    transform: translate(-50%, -2em);
+    width: 14em;
+    display: block;
+    transition:0.35s;
+    opacity: 0;
+    z-index: -1;
+    text-align:center;
+    
+    header {
+      border-radius:.5em .5em 0 0;
+      color: $color-box-header;
+      padding: .5em 1em;
+      opacity: 1;
+    }
+
+    main {
+      border-radius: 0 0 .5em .5em;
+      color: $color-box-main;
+      padding: .5em;
+      opacity: 0.95;
+    }
+
+    &-inner {
+      border-radius: .5em;
+      box-shadow: 0 0 .25em rgba(100, 100, 100, 0.74);
+      font-size: .875em;
+
+      &:after {
+        border-left: .75em solid transparent;
+        border-right: .75em solid transparent;
+        border-top: 1em solid #fff;
+        content: '';
+        height: 0;
+        left: 50%;
+        position: absolute;
+        top: 100%;
+        transform: translateX(-50%);
+        width: 0;
+        opacity: 0.01;
+      }
+    }
+  }
+}
+
+
+
+// Animations
+// .animate {
+//   animation-duration: 10s;
+// }
+
+
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  5% {
+    opacity: 0.95;
+  }
+  // 
+  10% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 0.98;
+  }
+  // 
+  20% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.97;
+  }
+  // 
+  30% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 0.99;
+  }
+  // 
+  40% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0.96;
+  }
+  // 
+  50% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 0.97;
+  }
+  // 
+  60% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 0.94;
+  }
+  // 
+  70% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.96;
+  }
+  // 
+  80% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 0.92;
+  }
+  // 
+  90% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 0.96;
+  }
+  // 
+  98% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.animate-twinkle {
+  animation-duration: 1s;
+  animation-name: twinkle;
+}
