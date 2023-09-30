@@ -18,6 +18,8 @@ menu__settings:
     #   url: '/about/'
     - title: 'Physics'
       url: '/physics/'
+    - title: 'StarMap'
+      url: '/starmap/'
     # - title: 'Art'
     #   url: '/art/'
     # - title: 'Contact'
