@@ -41,10 +41,10 @@ $color-marker-bg: $color-primary;
       content: '';
       opacity: 1;
       position: absolute;
-      height: 0.0em;
-      width:  0.0em;
-      left:   0.0em;
-      top:    0.0em;
+      height: 0.3em;
+      width: -0.12em;
+      left:   0.3em;
+      top:   -0.12em;
     }
 
     &:hover {
@@ -71,7 +71,7 @@ $color-marker-bg: $color-primary;
   }
 
   &-marker-Sirius {
-    left: 71.8%;
+    left: -71.8%;
     top:  58.15%;     
   }
   &-marker-aldebaran {
