@@ -1,19 +1,4 @@
-// Variables
-
-$font-family-fallback: sans-serif;
-$font-family: 'Josefin Sans';
-$font-size: 1em;
-$font-weight: 100;
-
-$line-height: 1.5em;
-
-$headings-font-weight: lighter;
-$h1-font-size: 2.5em;
-$h2-font-size: 1.25em;
-$h3-font-size: 1em;
-
 // Colors
-
 $color: #fff;
 $color-bg: #000;
 
@@ -31,90 +16,6 @@ $color-box-main-bg: #000;
 
 $color-marker-bg: $color-primary;
 
-// Base
-
-* {
-  box-sizing: border-box;
-
-  &:before,
-  &:after {
-    box-sizing: border-box;
-  }
-
-}
-
-body {
-  background-color: $color-bg;
-  color: $color;
-  font: $font-weight #{$font-size}/#{$line-height} $font-family, $font-family-fallback;
-  margin: 0;
-  padding-top: 0px;
-}
-
-a {
-  color: $color-link;
-}
-
-h1 {
-  font-weight: $headings-font-weight;
-  text-align: center;
-}
-h2 {  color: $color-headings;
-  font-weight: $headings-font-weight;
-  font-variant: small-caps;
-}
-
-h3 {
-  color: $color-headings;
-  font-weight: $headings-font-weight;
-}
-
-h1,
-.h1 {
-  font-size: $h1-font-size;
-  margin: 0 0 .2em;
-
-}
-
-h2,
-.h2 {
-  font-size: $h2-font-size;
-  margin: 0 0 .5em;
-}
-
-h3,
-.h3 {
-  font-size: $h3-font-size;
-  margin: 0 0 .5em;
-}
-
-p {
-  margin: .5em 0;
-}
-
-// Heplers
-
-.text-center {
-  text-align: center;
-}
-
-.subline {
-  color: $color-subline;
-  font-weight: normal;
-}
-
-// rid
-
-.container {
-  left: 50%;
-  max-width: 1034px;
-  position: absolute;
-  top: 15%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-}
-
-// Map
 
 // Map
 
