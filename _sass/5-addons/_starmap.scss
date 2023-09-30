@@ -67,6 +67,7 @@ $color-marker-bg: $color-primary;
       left: -5px;
       top: -5px;
       z-index: 100;
+      text-decoration: none;
     }
   }
 
@@ -82,58 +83,57 @@ $color-marker-bg: $color-primary;
     }
   }
 
-  // &-marker-info {
-  //   display: none;
-  //   left: 50%;
-  //   position: absolute;
-  //   bottom: 0;
-  //   transform: translate(-50%, -2em);
-  //   width: 14em;
-  //   display: block;
-  //   transition:0.35s;
-  //   opacity: 0;
-  //   z-index: -1;
-  //   text-align:center;
+  &-marker-info {
+    display: none;
+    left: 50%;
+    position: absolute;
+    bottom: 0;
+    transform: translate(-50%, -2em);
+    width: 14em;
+    display: block;
+    transition:0.35s;
+    opacity: 0;
+    z-index: -1;
+    text-align:center;
     
-  //   header {
-  //     border-radius:.5em .5em 0 0;
-  //     color: $color-box-header;
-  //     padding: .5em 1em;
-  //     opacity: 1;
+    header {
+      border-radius:.5em .5em 0 0;
+      color: $color-box-header;
+      padding: .5em 1em;
+      opacity: 1;
+    }
 
-  //   }
+    main {
+      border-radius: 0 0 .5em .5em;
+      color: $color-box-main;
+      padding: .5em;
+      opacity: 0.95;
+    }
 
-  //   main {
-  //     border-radius: 0 0 .5em .5em;
-  //     color: $color-box-main;
-  //     padding: .5em;
-  //     opacity: 0.95;
-  //   }
+    h2 {
+      margin-bottom: 0;
+    }
 
-  //   h2 {
-  //     margin-bottom: 0;
-  //   }
+    &-inner {
+      border-radius: .5em;
+      box-shadow: 0 0 .25em rgba(0, 0, 0, .3);
+      font-size: .875em;
 
-  //   &-inner {
-  //     border-radius: .5em;
-  //     box-shadow: 0 0 .25em rgba(0, 0, 0, .3);
-  //     font-size: .875em;
-
-  //     &:after {
-  //       border-left: .75em solid transparent;
-  //       border-right: .75em solid transparent;
-  //       border-top: 1em solid #fff;
-  //       content: '';
-  //       height: 0;
-  //       left: 50%;
-  //       position: absolute;
-  //       top: 100%;
-  //       transform: translateX(-50%);
-  //       width: 0;
-  //       opacity: 0.01;
-  //     }
-  //   }
-  // }
+      &:after {
+        border-left: .75em solid transparent;
+        border-right: .75em solid transparent;
+        border-top: 1em solid #fff;
+        content: '';
+        height: 0;
+        left: 50%;
+        position: absolute;
+        top: 100%;
+        transform: translateX(-50%);
+        width: 0;
+        opacity: 0.01;
+      }
+    }
+  }
 }
 
 
