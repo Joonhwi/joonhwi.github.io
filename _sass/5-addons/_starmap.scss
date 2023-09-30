@@ -33,7 +33,7 @@ $color-marker-bg: $color-primary;
     position: absolute;
 
     &:after {
-      // animation-duration: 3s;
+      animation-duration: 3s;
       animation-iteration-count: infinite;
       animation-name: twinkle;
       border-radius: 50%;
@@ -72,11 +72,11 @@ $color-marker-bg: $color-primary;
 
   &-marker-Sirius {
     left: 71.8%;
-    top: 58.15%;     
+    top:  58.15%;     
   }
   &-marker-aldebaran {
     left: 80.88%;
-    top: 39.9%;
+    top:  39.9%;
     &:after {
       animation-delay: 1s;
     }
