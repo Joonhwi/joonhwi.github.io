@@ -283,4 +283,8 @@ table td {
   font-size:95%; 
   color:var(--date-color);
 }
-
+.CConsolas {
+  font-family: Consolas;
+  font-stretch:25%;  letter-spacing:-1px;
+  color:var(--link-color);
+}
