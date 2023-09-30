@@ -291,12 +291,10 @@ $color-marker-bg: $color-primary;
     }
 
     main {
-
       border-radius: 0 0 .5em .5em;
       color: $color-box-main;
       padding: .5em;
       opacity: 0.95;
-      
     }
 
     h2 {
@@ -320,60 +318,45 @@ $color-marker-bg: $color-primary;
         transform: translateX(-50%);
         width: 0;
         opacity: 0.01;
-
       }
-
     }
-
   }
-  
 }
 
 
 
 // Animations
-
-.animate {
-  animation-duration: 2.5s;
-
-}
-
+// .animate {
+//   animation-duration: 10s;
+// }
 
 @keyframes twinkle {
   0% {
-  opacity: 0;
+    opacity: 0;
   }
-  
   15% {
-  opacity: 5;
+    opacity: 5;
   }
-  
-  
   20% {
-  opacity: 20;
+    opacity: 20;
   }
-  
   30% {
-  opacity: 25;
+    opacity: 25;
   }
-  
   40% {
-  opacity: 20;
+    opacity: 20;
   }
-  
   50% {
-  opacity: 10;
+    opacity: 10;
   }
-  
   75% {
-  opacity: 5;
- }
-  
+    opacity: 5;
+  }
   100% {
-  opacity: 0;
+    opacity: 0;
   }
 }
-.animate-twinkle  {
-  animation-duration: 2.5s;
+.animate-twinkle {
+  animation-duration: 10s;
   animation-name: twinkle;
 }
