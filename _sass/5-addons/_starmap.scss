@@ -34,7 +34,7 @@ $color-marker-bg: $color-primary;
     position: absolute;
 
     &:after {
-      animation-duration: 2.5s;
+      animation-duration: 3s;
       animation-iteration-count: infinite;
       animation-name: twinkle;
       border-radius: 50%;
@@ -330,30 +330,89 @@ $color-marker-bg: $color-primary;
 //   animation-duration: 10s;
 // }
 
+
 @keyframes twinkle {
   0% {
-    opacity: 0;
+    opacity: 1;
   }
+  5% {
+    opacity: 0.95;
+  }
+  // 
+  10% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 0.98;
+  }
+  // 
+  20% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.97;
+  }
+  // 
+  30% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 0.99;
+  }
+  // 
   40% {
-    opacity: 0;
+    opacity: 1;
   }
   45% {
-    opacity: 10;
+    opacity: 0.96;
   }
+  // 
   50% {
-    opacity: 20;
+    opacity: 1;
   }
   55% {
-    opacity: 10;
+    opacity: 0.97;
   }
+  // 
   60% {
-    opacity: 10;
+    opacity: 1;
+  }
+  65% {
+    opacity: 0.94;
+  }
+  // 
+  70% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.96;
+  }
+  // 
+  80% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 0.92;
+  }
+  // 
+  90% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 0.96;
+  }
+  // 
+  98% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0.5;
   }
   100% {
-    opacity: 0;
+    opacity: 1;
   }
 }
 .animate-twinkle {
-  animation-duration: 4s;
+  animation-duration: 3s;
   animation-name: twinkle;
 }
