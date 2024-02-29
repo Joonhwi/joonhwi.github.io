@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StarMap</title>
+    <style>
+        /* CSS for styling the canvas */
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        #canvas-container {
+            background-color: black;
+            position: relative;
+            display: inline-block;
+        }
+
+        #canvas {
+            background-color: transparent;
+        }
+
+        /* CSS for styling the stars */
+        .star-container {
+            width:  42.6px; 
+            height: 42.6px;
+            border-radius: 50%;
+            position: absolute;
+            background-color: rgba(30, 30, 30, 0.174);
+        }
+
+        .star {
+            animation: pulsate 10s ease-in-out, twinkle 3.13s linear;
+            animation-iteration-count: infinite, infinite;
+            /* animation-duration: 10s, 3.13s;
+            animation-iteration-count: infinite, infinite;
+            animation-name: pulsate, twinkle; */
+            width:  2.6px; 
+            height: 2.6px;
+            border-radius: 50%;
+            position: absolute;
+            left: 20px;
+            top:  20px;
+            transform-origin: center center; /* Set the transform origin to the center */
+            transition: transform 0.2s ease-in-out; /* Add a smooth transition effect */
+        }
+
+        /* Hover effect for stars */
+        .star-container:hover .star {
+            transform: scale(1.5); /* Adjusted hover scale */
+            z-index: 2; /* Move the hovered star to the front */
+        }
+
+        /* Text container for star info */
+        .star-info {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0);
+            color: rgba(255, 255, 255, 0.632);
+            padding: 6px;
+            border: none;
+            text-align: left; /* Adjusted text alignment to left */
+            white-space: nowrap; /* Prevent line breaks */
+            display: none; /* Initially hidden */
+            top: 50%; /* Position right next to the star */
+            left: 50%;
+            font-style: italic;
+        }
+
+        /* Show the star info on hover */
+        .star-container:hover .star-info {
+            display: block;
+        }
+
+        /* Style for the star title */
+        .star-title {
+            font-weight: bold;
+            color: white; /* Default color for star titles */
+            font-style:normal;
+            font-family: Cambria;
+            font-size: 105%;
+        }
+
+        @keyframes pulsate {
+            00% {
+                opacity: 1;
+            } 25% {
+                opacity: 0.95;
+            } 50% {
+                opacity: 0.7;
+            } 75% {
+                opacity: 0.95;
+            } 100% {
+                opacity: 1;
+            }
+        }
+        .animate-pulsate {
+            animation-duration: 1s;
+            animation-name: pulsate;
+        }
+
+        @keyframes twinkle {
+            00% {
+                transform: scale(1.00);
+            } 05% {
+                transform: scale(0.95);
+            } 10% {
+                transform: scale(1.01);
+            } 15% {
+                transform: scale(0.98);
+            } 20% {
+                transform: scale(1.03);
+            } 25% {
+                transform: scale(0.97);
+            } 30% {
+                transform: scale(1.05);
+            } 35% {
+                transform: scale(0.99);
+            } 40% {
+                transform: scale(1.02);
+            } 45% {
+                transform: scale(0.96);
+            } 50% {
+                transform: scale(1.02);
+            } 55% {
+                transform: scale(0.97);
+            } 60% {
+                transform: scale(1.01);
+            } 65% {
+                transform: scale(0.94);
+            } 70% {
+                transform: scale(1.02);
+            } 75% {
+                transform: scale(0.96);
+            } 80% {
+                transform: scale(1.01);
+            } 85% {
+                transform: scale(0.91);
+            } 90% {
+                transform: scale(1.02);
+            } 95% {
+                transform: scale(0.95);
+            } 100% {
+                transform: scale(1.00);
+            }
+        }
+        .animate-twinkle {
+            animation-duration: 1s;
+            animation-name: twinkle;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="constellation-map">
+        <div id="canvas-container">
+            <canvas id="canvas"></canvas>
+
+            <!-- <div class="star-container" data-name="Star 1" data-description="0yrs" data-years="0" style="left:00%; top:00%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div> -->
+            <div class="star-container" data-name="Star 0" data-description="0yrs" data-years="0" style="left: 0%; top: 0%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>
+            
+            <!-- <div class="star-container" data-name="Star 1" data-description="2.5yrs" data-years="2.5" style="left: 5%; top: 5%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div> -->
+            <div class="star-container" data-name="Star 1a" data-description="1yrs" data-years="1" style="left: 2%; top: 2%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>
+            <div class="star-container" data-name="Star 1b" data-description="2yrs" data-years="2" style="left: 4%; top: 4%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>
+            <div class="star-container" data-name="Star 1c" data-description="3yrs" data-years="3" style="left: 6%; top: 6%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>
+            <div class="star-container" data-name="Star 1d" data-description="4yrs" data-years="4" style="left: 8%; top: 8%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>
+
+            <div class="star-container" data-name="Star 2" data-description="5yrs" data-years="5.0" style="left: 10%; top: 10%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>
+            
+            <div class="star-container" data-name="Star 3" data-description="7.5yrs" data-years="7.5" style="left: 15%; top: 15%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>
+            
+            <!-- <div class="star-container" data-name="Star 4" data-description="10yrs" data-years="10.0" style="left: 20%; top: 20%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div> -->
+            <div class="star-container" data-name="Star 4a" data-description="8yrs" data-years="8" style="left: 17%; top: 17%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>
+            <div class="star-container" data-name="Star 4b" data-description="9yrs" data-years="9" style="left: 18.5%; top: 18.5%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>
+            <div class="star-container" data-name="Star 4c" data-description="10yrs" data-years="10" style="left: 20%; top: 20%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>
+            <div class="star-container" data-name="Star 4d" data-description="11yrs" data-years="11" style="left: 21.5%; top: 21.5%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>
+            <div class="star-container" data-name="Star 4e" data-description="12yrs" data-years="12" style="left: 23%; top: 23%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>
+
+            <div class="star-container" data-name="Star 5" data-description="12.5yrs" data-years="12.5" style="left: 25%; top: 25%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>
+            
+            <div class="star-container" data-name="Star 6" data-description="15yrs" data-years="15.0" style="left: 30%; top: 30%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>
+            
+            <div class="star-container" data-name="Star 7" data-description="17.5yrs" data-years="17.5" style="left: 35%; top: 35%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>
+            
+            <div class="star-container" data-name="Star 8" data-description="20yrs" data-years="20.0" style="left: 40%; top: 40%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>
+            
+            <div class="star-container" data-name="Star 9" data-description="22.5yrs" data-years="22.5" style="left: 45%; top: 45%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>
+            
+            <div class="star-container" data-name="Star 10" data-description="25yrs" data-years="25.0" style="left: 50%; top: 50%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>
+            
+            <div class="star-container" data-name="Star 11" data-description="27.5yrs" data-years="27.5" style="left: 55%; top: 55%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>
+            
+            <div class="star-container" data-name="Star 12" data-description="30yrs" data-years="30.0" style="left: 60%; top: 60%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>
+            
+            <div class="star-container" data-name="Star 13" data-description="32.5yrs" data-years="32.5" style="left: 65%; top: 65%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>
+            
+            <div class="star-container" data-name="Star 14" data-description="35yrs" data-years="35.0" style="left: 70%; top: 70%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>
+            
+            <div class="star-container" data-name="Star 15" data-description="37.5yrs" data-years="37.5" style="left: 75%; top: 75%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>
+            
+            <div class="star-container" data-name="Star 16" data-description="40yrs" data-years="40.0" style="left: 80%; top: 80%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>
+            
+            <div class="star-container" data-name="Star 17" data-description="42.5yrs" data-years="42.5" style="left: 85%; top: 85%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>
+            
+            <div class="star-container" data-name="Star 18" data-description="45yrs" data-years="45.0" style="left: 90%; top: 90%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>
+            
+            <div class="star-container" data-name="Star 19" data-description="47.5yrs" data-years="47.5" style="left: 95%; top: 95%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>
+            
+            <div class="star-container" data-name="Star 20" data-description="50yrs" data-years="50.0" style="left: 100%; top: 100%;">
+                <div class="star"></div>
+                <div class="star-info">
+                    <span class="star-title"></span>
+                </div>
+            </div>            
+
+            <!-- Add more star elements as needed -->
+        </div>
+    </div>
+
+    <script>
+        // Function to generate a random delay between minDelay and maxDelay (in seconds)
+        function getRandomDelay(minDelay, maxDelay) {
+          return Math.random() * (maxDelay - minDelay) + minDelay;
+        }
+      
+        // Function to generate a random duration between minDuration and maxDuration (in seconds)
+        function getRandomDuration(minDuration, maxDuration) {
+          return Math.random() * (maxDuration - minDuration) + minDuration;
+        }
+      
+        // Get all elements with the 'star' class
+        const stars = document.querySelectorAll('.star');
+      
+        // Apply different random delays and durations to both animations for each star
+        const minDelayPulsate = 0; 
+        const maxDelayPulsate = 15; 
+        const minDurationPulsate = 10;
+        const maxDurationPulsate = 20;
+
+        const minDelayTwinkle = 0;
+        const maxDelayTwinkle = 0.2;
+        const minDurationTwinkle = 3.1;
+        const maxDurationTwinkle = 3.3;
+      
+        stars.forEach((star) => {
+          const randomDelayPulsate = getRandomDelay(minDelayPulsate, maxDelayPulsate);
+          const randomDurationPulsate = getRandomDuration(minDurationPulsate, maxDurationPulsate);
+
+          const randomDelayTwinkle = getRandomDelay(minDelayTwinkle, maxDelayTwinkle);
+          const randomDurationTwinkle = getRandomDuration(minDurationTwinkle, maxDurationTwinkle);
+      
+          star.style.animationDelay = `${randomDelayPulsate}s, ${randomDelayTwinkle}s`;
+          star.style.animationDuration = `${randomDurationPulsate}s, ${randomDurationTwinkle}s`;
+        });
+      </script>
+          
+
+    <script>
+        const canvas = document.getElementById('canvas');
+        const starContainers = document.querySelectorAll('.star-container');
+
+        // Set canvas dimensions initially and on window resize
+        setCanvasDimensions();
+        window.addEventListener('resize', setCanvasDimensions);
+
+        // Function to set canvas dimensions based on viewport size
+        function setCanvasDimensions() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            // Set the title text for each star based on data-name
+            // Calculate and set the background color for each star based on data-years
+            starContainers.forEach(starContainer => {
+                const starInfo = starContainer.querySelector('.star-info');
+
+                const starTitle = starInfo.querySelector('.star-title');
+                const starNumber = parseInt(starContainer.getAttribute('data-years'));
+                const starColor = calculateStarColor(starNumber);
+                starTitle.textContent = starContainer.getAttribute('data-name');
+                starTitle.style.color = starColor;
+                starContainer.querySelector('.star').style.backgroundColor = starColor;
+
+                const starDescription = starContainer.getAttribute('data-description');
+                starInfo.innerHTML += `<br>` + starDescription; // Set the description as HTML content
+            });
+        }
+
+        // Function to calculate star color based on a blackbody radiation spectrum gradient
+        function calculateStarColor(years) {
+            // const [red,green,blue,alpha] = colorTemperatureToRGB(
+                // 6600*Math.exp(0.1*(10-years))
+                // 6600*Math.exp(0.1*(50-(1+Math.abs(2-years/50))*years))
+            // );
+            
+            const wh = 6600;
+            const x = 1-years/10.;
+            if ( x >= 0 ){
+                return colorTemperatureToRGB(wh*Math.exp(6.4*x*x));
+            } else {
+                return colorTemperatureToRGB(wh*Math.exp(x));
+            }
+        }
+        function colorTemperatureToRGB(kelvin){
+          var temp = kelvin / 100;
+          var red, green, blue;
+          var alpha = 1;
+
+          if( temp <= 0 ){
+            red = 255;
+            green = 0;
+            blue = 0;
+          } else {
+            if( temp <= 66 ){ 
+                red = 255; 
+                green = temp;
+                green = 99.4708025861 * Math.log(green) - 161.1195681661;
+                
+                if( temp <= 19 ){
+                    blue = 0;
+                    if( temp <= 10 ){
+                        alpha = Math.exp(0.027*(temp-19));
+                    }
+                } else {
+                    blue = temp-10;
+                    blue = 138.5177312231 * Math.log(blue) - 305.0447927307;
+                }
+            } else {
+                red = temp - 60;
+                red = 329.698727446 * Math.pow(red, -0.1332047592);
+                green = temp - 60;
+                green = 288.1221695283 * Math.pow(green, -0.0755148492 );
+                // green = 288.1221695283 * Math.pow(green, -0.0755148492 ) + 0.02*(temp-66);
+                blue = 255;
+            }
+          }
+
+          return rgbaformat(red,green,blue,alpha);
+        }
+
+        function rgbaformat(red,green,blue,alpha){
+            return `rgba(${
+                clamp(red,0,255)
+            }, ${
+                clamp(green,0,255)
+            }, ${
+                clamp(blue,0,255)
+            }, ${
+                clamp(alpha,0,1)
+            })`;
+        }
+        function clamp( x, min, max ) {
+            if(x<min){ return min; }
+            if(x>max){ return max; }
+            return x;
+        }
+    </script>
+</body>
+</html>
+<script>

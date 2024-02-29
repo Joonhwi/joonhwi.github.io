@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StarMap-Physics</title>
+    <style>
+        /* CSS for styling the canvas */
+        html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #ffffff;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .pan-wrapper {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .image-wrapper {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            @media screen and (min-aspect-ratio: 1920/1281) {
+                width: 110vw;
+                height: calc(110vw * 1281/1920);
+                // width: calc(100vw * 4/3);
+            }
+
+            @media screen and (max-aspect-ratio: 1920/1281) {
+                height: 110vh;
+                width: calc(110vh * 1920/1281);
+            }
+            
+            img {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        #star-map-container {
+            background-color: #000000;
+            position: absolute;
+            top: 0;
+            left: 0;
+            user-drag: none; /* Disable browser's default drag behavior */
+            /* cursor: grab; */ /* Change cursor to indicate grabbable element */
+            transform-origin: center center;
+            max-width: 1000px;
+        }
+
+        #constellation-map {
+            width: 4000px;
+            height: 4000px;
+            overflow: auto;
+        }
+
+        #canvas-container {
+            background-color: rgba(0, 0, 0, 0);
+            /* background-color: #0e0d0d; */
+            /* background-color: #000000; */
+            /* background-color: #15151a; */
+            /* background-color: #ffffff; */
+            position: relative;
+            display: inline-block;
+        }
+
+        #canvas {
+            background-color: transparent;
+        }
+
+        /* CSS for styling the stars */
+        .star {
+            animation: screening 10s ease-in-out infinite, twinkle 3.2s linear infinite;
+            /* animation-duration: 10s, 3.13s;
+            animation-iteration-count: infinite, infinite;
+            animation-name: screening, twinkle; */
+            width:  2.6px; 
+            height: 2.6px;
+            border-radius: 50%;
+            position: absolute;
+            left: 20px;
+            top:  20px;
+            transform-origin: center center; /* Set the transform origin to the center */
+            transition: transform 0.2s ease-in-out; /* Add a smooth transition effect */
+        }
+        
+        .star-container {
+            width:  42.6px; 
+            height: 42.6px;
+            border-radius: 50%;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.133);  
+            /* background-color: rgba(0, 0, 0, 0.048);   */
+            /* background-color: rgba(61, 61, 61, 0.705);  */
+            /* background-color: rgba(255, 255, 255, 0.705);   */
+        }
+        /* Hover effect */
+        /* .star-container:hover .star { */
+            /* transform: scale(1.5); */ /* Adjusted hover scale */
+            /* z-index: 2; */ /* Move the hovered star to the front */
+        /* } */
+        .star-container:hover .star-info {
+            visibility: visible;
+            opacity: 1;
+            z-index: 1;
+        }
+
+        /* Text container for star info */
+        .star-info {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0);
+            color: rgba(255, 255, 255, 0.7);
+            /* border: solid white; */
+
+            padding: 6px;
+            border: none;
+            top: 50%; /* Position right next to the star */
+            left: 50%;
+            text-align: left; /* Adjusted text alignment to left */
+            /* white-space: nowrap; */ /* Prevent line breaks */
+            font-style: italic;
+            width: 360px;
+            word-wrap: break-word;
+
+            visibility: hidden; /* Initially hidden */
+            opacity: 0;
+            transition: opacity 0.45s ease-in-out, visibility 0.45s ease-in-out;
+            
+            transform: scale(1); /* Add this line to counteract the zoom effect */
+            transform-origin: top left;
+        }
+
+        /* Style for the star title */
+        .star-title {
+            font-weight: bold;
+            color: white; /* Default color for star titles */
+            font-style:normal;
+            font-family: Cambria;
+            font-size: 105%;
+            text-decoration: none;
+            line-height: 1.0;
+        }
+
+        :root {
+            --screening-opacity: 1.0;
+        }
+        @keyframes screening {
+            00% {
+                opacity: var(--screening-opacity);
+            } 25% {
+                opacity: calc(0.95*var(--screening-opacity));
+            } 50% {
+                opacity: calc(0.6*var(--screening-opacity));
+            } 75% {
+                opacity: calc(0.95*var(--screening-opacity));
+            } 100% {
+                opacity: var(--screening-opacity);
+            }
+        }
+        .animate-screening {
+            animation-duration: 10s;
+            animation-name: screening;
+        }
+
+        :root {
+            --twinkle-amplitude: 0.1;
+        }
+        @keyframes twinkle {
+            00.0% {
+                transform: scale(1);
+            } 12.5% {
+                transform: scale(calc(1 - 0.8*var(--twinkle-amplitude)));
+            } 25.0% {
+                transform: scale(calc(1 - 0.33*0.8*var(--twinkle-amplitude)));
+            } 37.5% {
+                transform: scale(calc(1 - 0.8*var(--twinkle-amplitude)));
+            } 50.0% {
+                transform: scale(calc(1 + 1.20*var(--twinkle-amplitude)));
+            } 62.5% {
+                transform: scale(calc(1 - 0.8*var(--twinkle-amplitude)));
+            } 75.0% {
+                transform: scale(calc(1 - 0.33*0.8*var(--twinkle-amplitude)));
+            } 87.5% {
+                transform: scale(calc(1 - 0.8*var(--twinkle-amplitude)));
+            } 100.0% {
+                transform: scale(1);
+            }
+        }
+        .animate-twinkle {
+            animation-duration: 3.2s;
+            animation-name: twinkle;
+        }
+
+
+        #star-map-container.smooth-zoom {
+            transition: transform 2s ease-in-out;
+        }
+
+
+        /* Add this CSS code to your existing styles */
+        .magnifying-glass {
+            position: absolute;
+            width: 100px; /* Adjust the size of the magnifying glass */
+            height: 100px; /* Adjust the size of the magnifying glass */
+            border: 2px solid #000; /* Magnifying glass border style */
+            border-radius: 50%; /* Make it circular */
+            pointer-events: none; /* Allow mouse events to pass through */
+            background-color: rgba(255, 255, 255, 0.5); /* Background color with transparency */
+            transform: translate(-50%, -50%); /* Center the magnifying glass on the cursor */
+            z-index: 999; /* Ensure it's above other elements */
+            display: none; /* Initially hidden */
+        }
+    </style>
+</head>
+<body>
+    <div class="pan-wrapper">
+        <div class="image-wrapper">
+            <div id="star-map-container">    
+                <div id="constellation-map">
+                    <div id="canvas-container">
+                        <canvas id="canvas"></canvas>
+                        
+                        <div class="star-container" 
+                            data-name="
+                                Asymptotic Spinspacetime
+                            " data-description="
+                                Emergence of spacetime and spin from Poincaré symmetry and their complex-geometrical unification
+                            " data-arxivnumber="2309.11886" data-citations="0"
+                            data-x="430" data-y="250"
+                            style="left: 430px; top: 250px;"
+                        >
+                            <div class="star"></div>
+                            <div class="star-info">
+                                <a class="star-title" href="#" target="_blank"></a>
+                            </div>
+                        </div>
+
+                        <div class="star-container" 
+                            data-name="
+                                Symplectic Perturbation Theory in Massive Twistor Space: A Zig-Zag Theory of Massive Spinning Particles
+                            " data-description="
+                                Novel approach to 4d massive spinning particle dynamics based on a hidden Kähler geometry
+                            " data-arxivnumber="2301.06203" data-citations="1"
+                            data-x="400" data-y="290"
+                            style="left: 400px; top: 290px;"
+                        >
+                            <div class="star"></div>
+                            <div class="star-info">
+                                <a class="star-title" href="#" target="_blank"></a>
+                            </div>
+                        </div>
+
+                        <div class="star-container" 
+                            data-name="
+                                The Relativistic Spherical Top as a Massive Twistor
+                            " data-description="
+                                Proof of equivalence between two massive spinning particle models as constrained Hamiltonian systems
+                            " data-arxivnumber="2102.07063" data-citations="6"
+                            data-x="415" data-y="360"
+                            style="left: 415px; top: 360px;"
+                        >
+                            <div class="star"></div>
+                            <div class="star-info">
+                                <a class="star-title" href="#" target="_blank"></a>
+                            </div>
+                        </div>
+
+                        <!-- Add more star elements as needed -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Star Formatting -->
+    <script>
+        const canvas = document.getElementById('canvas');
+        const starContainers = document.querySelectorAll('.star-container');
+
+        // Initial Call
+        setCanvasDimensions(); // Set canvas dimensions initially and on window resize
+        window.addEventListener('resize', setCanvasDimensions);
+
+        // Function to set canvas dimensions based on viewport size
+        function setCanvasDimensions() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            updateStars();
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const starContainers = document.querySelectorAll('.star-container');
+            // Add an event listener for mouse movements
+            document.addEventListener('mousemove', function(event) {
+                // Call the function to update star positions with the event object
+                updateStarPosition(event);
+            });
+        });
+        function updateStarPosition(event) {
+            starContainers.forEach(starContainer => {
+                const star = starContainer.querySelector('.star');
+                const starX = starContainer.getAttribute('data-x');
+                const starY = starContainer.getAttribute('data-y');
+
+                const mouseX = event.clientX;
+                const mouseY = event.clientY;
+                const containerWidth = window.innerWidth;
+                const containerHeight = window.innerHeight;
+                const fisheyeStrength = 0; // Adjust the fisheye strength as needed
+                const dx = starX - mouseX; // Calculate the new positions using the fisheye effect
+                const dy = starY - mouseY;
+                const distance = Math.sqrt(dx*dx + dy*dy);
+                const distortionFactor = Math.exp(-distance / fisheyeStrength); // Apply fisheye effect to positions
+                const distortedX = mouseX + dx * distortionFactor;
+                const distortedY = mouseY + dy * distortionFactor;
+                // star.style.left = `${distortedX }px`; // Update the star positions
+                // star.style.top = `${distortedY }px`;
+                starContainer.getAttribute('style') = `left:${ distoretedX }px; top:${ distoretedY }px`;
+            });
+        }
+         
+        function updateStars() {
+            // Loop through each star container
+            // const stars = document.querySelectorAll('.star');
+            starContainers.forEach(starContainer => {
+                const star = starContainer.querySelector('.star');
+                const starInfo = starContainer.querySelector('.star-info');
+                const starTitle = starInfo.querySelector('.star-title');
+                const starDescription = starContainer.getAttribute('data-description');
+                const starNumber = starContainer.getAttribute('data-arxivnumber');
+                const starCitations = parseInt(starContainer.getAttribute('data-citations'));
+
+                // Star Color
+                const starArx = parseInt(starNumber);
+                const date = new Date();
+                const starYear = (date.getFullYear() - (2000 + Math.floor(starArx/100))) + ( 
+                    date.getMonth() + 1 - (starArx - 100*Math.floor(starArx/100))
+                )/12;
+                const starColor = calculateStarColor(starYear);
+                starTitle.textContent = starContainer.getAttribute('data-name');
+                starTitle.style.color = starColor;
+                star.style.backgroundColor = starColor;
+
+                // Star Size
+                // const starScale = 1 + 0.1*Math.log(1+starCitations);
+                // const starScale = 1 + 0.05*Math.pow(starCitations,1/2);
+                // const starScale = Math.pow(1+2*Math.log10(1+starCitations),0.5);
+                const starScale = Math.pow(
+                    1 + 1.2*Math.log10(1+0.04*starCitations)
+                ,0.5);
+                star.style.width  = `${3.0*starScale}px`;
+                star.style.height = `${3.0*starScale}px`;
+
+                // Star Animation Effects
+                // const op = ;
+                // star.style.opacity = op;
+                // star.style.setProperty('--screening-opacity', op);
+                star.style.setProperty('--twinkle-amplitude', 
+                    0.3*Math.pow(2,-starYear/10)*Math.pow(2,-starCitations/200)
+                );
+                star.style.animationDuration = `${ getRandom(10,12) }s, ${ 0.5*(1 + 0.5*Math.log(1+starYear)) }s`;
+                star.style.animationDelay = `${ getRandom(0,10) }s, ${ getRandom(0,0.5) }s`;
+
+                // Text
+                starTitle.href = `https://arxiv.org/abs/` + starNumber; // Set the link's href attribute
+                starInfo.innerHTML += `<br style="margin-bottom:5px;"><span>` + starDescription + `</span>`; // Set the description as HTML content
+            });
+        }
+
+        // Function to calculate star color
+        function calculateStarColor(years) {
+            // const [red,green,blue,alpha] = colorTemperatureToRGB(
+                // 6600*Math.exp(0.1*(10-years))
+                // 6600*Math.exp(0.1*(50-(1+Math.abs(2-years/50))*years))
+            // );
+            
+            const wh = 6600;
+            const x = 1-years/10.;
+            if ( x >= 0 ){
+                return colorTemperatureToRGB(wh*Math.exp(6.4*x*x));
+            } else {
+                return colorTemperatureToRGB(wh*Math.exp(x));
+            }
+        }
+        function colorTemperatureToRGB(kelvin){ // Planckian locus
+          var temp = kelvin / 100;
+          var red, green, blue;
+          var alpha = 1;
+
+          if( temp <= 0 ){
+            red = 255;
+            green = 0;
+            blue = 0;
+          } else {
+            if( temp <= 66 ){ 
+                red = 255; 
+                green = temp;
+                green = 99.4708025861 * Math.log(green) - 161.1195681661;
+                
+                if( temp <= 19 ){
+                    blue = 0;
+                    if( temp <= 10 ){
+                        alpha = Math.exp(0.027*(temp-19));
+                    }
+                } else {
+                    blue = temp-10;
+                    blue = 138.5177312231 * Math.log(blue) - 305.0447927307;
+                }
+            } else {
+                red = temp - 60;
+                red = 329.698727446 * Math.pow(red, -0.1332047592);
+                green = temp - 60;
+                green = 288.1221695283 * Math.pow(green, -0.0755148492 );
+                // green = 288.1221695283 * Math.pow(green, -0.0755148492 ) + 0.02*(temp-66);
+                // green = 288.1221695283 * Math.pow(green, -0.0755148492 ) + 0.0005*(temp-66);
+                // green = 288.1221695283 * Math.pow(green, -0.0755148492 ) + 0.000001*(temp-66);
+                blue = 255;
+            }
+          }
+
+          return rgbaformat(red,green,blue,alpha);
+        }
+        function rgbaformat(red,green,blue,alpha){
+            return `rgba(${
+                clamp(red,0,255)
+            }, ${
+                clamp(green,0,255)
+            }, ${
+                clamp(blue,0,255)
+            }, ${
+                clamp(alpha,0,1)
+            })`;
+        }
+        function clamp( x, min, max ) {
+            if(x<min){ return min; }
+            if(x>max){ return max; }
+            return x;
+        }
+
+        // Functino to get random float number
+        function getRandom(min, max) {
+          return Math.random() * (max - min) + min;
+        }
+    </script>
+
+    <!-- Pan -->
+    <!-- <script>
+        class MousePan {
+            constructor(options) {
+                this.resize = this.resize.bind(this);
+                this.onMousemove = this.onMousemove.bind(this);
+                this.tick = this.tick.bind(this);
+                this.$wrapper = options.el;
+                this.ease = options.ease || .08;
+                this.init();
+            }
+
+            init() {
+                this.position = {
+                    x: 0,
+                    y: 0
+                };
+
+                this.destination = {
+                    x: 0,
+                    y: 0
+                };
+
+                this.size = {
+                    x: 0,
+                    y: 0,
+                    offsetX: 0,
+                    offsetY: 0,
+
+                };
+
+                this.resize();
+                this.bindEvents();
+                this.tick();
+            }
+
+            resize() {
+                this.setWrapperSize();
+                this.setWrapperPosition();
+            }
+
+            bindEvents() {
+                window.addEventListener('mousemove', this.onMousemove);
+                window.addEventListener('resize', this.resize);
+            }
+
+            /**
+             * Sets the wrapper size based on its taller and wider childrens
+             */
+            setWrapperSize() {
+                this.size = [].slice.call(this.$wrapper.childNodes).reduce(this.getMaxSize);
+                this.size.offsetX = this.size.w - window.innerWidth;
+                this.size.offsetY = this.size.h - window.innerHeight;
+                this.$wrapper.style.width = `${this.size.w}px`;
+                this.$wrapper.style.height = `${this.size.h}px`;
+            }
+
+            /**
+             * Returns the max width and height between two objects
+             * @param  {[type]} acc [description]
+             * @param  {[type]} cur [description]
+             * @return {[type]}     [description]
+             */
+            getMaxSize(a, b) {
+                a.w = a.nodeType !== undefined ? a.offsetWidth : a.w;
+                a.h = a.nodeType !== undefined ? a.offsetHeight : a.h;
+                a.w = a.w || 0;
+                a.h = a.h || 0;
+                const w = b.offsetWidth || 0;
+                const h = b.offsetHeight || 0;
+                return {
+                    w: Math.max(a.w, w),
+                    h: Math.max(a.h, h),
+                };
+            }
+
+            /**
+             * Centers wrapper
+             * @return {[type]} [description]
+             */
+            setWrapperPosition() {
+                this.destination.x = .5 * this.size.offsetX;
+                this.destination.y = .5 * this.size.offsetY;
+            }
+
+            onMousemove(e) {
+                const x = e.clientX;
+                const y = e.clientY;
+                // Map destination x to the overflowing width;
+                this.destination.x = this.size.offsetX > 0 ? this.map(x, 0, window.innerWidth, 0, this.size.offsetX) : 0;
+                // Map destination y to the overflowing height;
+                this.destination.y = this.size.offsetY > 0 ? this.map(y, 0, window.innerHeight, 0, this.size.offsetY) : 0;
+            }
+
+            tick() {
+                // Put motion in the displacement of the wrapper
+                // Instead of setting position = destination
+                // We add the distance between the destination and the position to the position
+                this.movePosition();
+                this.$wrapper.style.transform = `translate3d(-${this.position.x}px, -${this.position.y}px, 0)`;
+                window.requestAnimationFrame(this.tick);
+            }
+
+            /**
+             * Calculates the new position based on the distance between the destination and the current position
+             * We add a percentage to add the easing effect
+             * https://codepen.io/rachsmith/post/animation-tip-lerp
+             * @return {[type]} [description]
+             */
+            movePosition() {
+                this.position.x += (this.destination.x - this.position.x) * .08;
+                this.position.y += (this.destination.y - this.position.y) * .08;
+            }
+
+            // Utils
+            map(val, oldMin, oldMax, newMin, newMax) {
+                return newMin + (val - oldMin) * (newMax - newMin) / (oldMax - oldMin);
+            }
+        }
+
+        new MousePan({
+            el: document.querySelector('.pan-wrapper'),
+            ease: .05
+        });
+    </script> -->
+
+    <!-- Zoom -->
+    <script>
+        starMapContainer.addEventListener('wheel', (event) => {
+            if (event.deltaY > 0) {
+                // Min zoom out
+                currentScale = Math.max(currentScale - 0.05, 0.5);
+            } else {
+                // Max zoom in
+                currentScale = Math.min(currentScale + 0.05, 2.0);
+            }
+
+            // Apply the current scale to the container
+            starMapContainer.style.transform = `scale(${currentScale})`;
+            
+            // Counteract the zoom effect on star-info
+            // const starInfoElements = document.querySelectorAll('.star-info');
+            // starInfoElements.forEach((starInfo) => {
+            //     starInfo.style.transform = `scale(${1 / currentScale})`;
+            // });
+            const starContainerElements = document.querySelectorAll('.star-container');
+            starContainerElements.forEach((starContainer) => {
+                starContainer.style.transform = `scale(${1 / currentScale})`;
+            });
+
+            event.preventDefault();
+        });
+
+        // Key press zoom control
+        document.addEventListener('keydown', (event) => {
+            // if(event.key == "B" && event.shiftKey) {
+            //     currentScale = 0.1;
+            // }
+            if (event.key === '1') {
+                currentScale = 1.0;
+            } else if (event.key === '2') {
+                currentScale = 2.0;
+            } else if (event.key === '`') {
+                currentScale = 0.5; // Zoom to x0.5 when `
+            } else if (event.key === '-'){
+                currentScale = 0.2;
+            }
+            const starContainerElements = document.querySelectorAll('.star-container');
+            starContainerElements.forEach((starContainer) => {
+                starContainer.style.transform = `scale(${1 / currentScale})`;
+            });
+            starMapContainer.style.transform = `scale(${currentScale})`;
+        });
+
+        // Smoothen zoom
+        starMapContainer.classList.add('smooth-zoom');
+    </script>
+</body>
+</html>
+<script>

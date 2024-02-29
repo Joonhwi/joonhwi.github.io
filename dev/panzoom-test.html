@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<title>Online HTML Editor</title>
+<head>
+</head>
+<body>
+<h1>Online HTML EditorOnline HTML EditorOnline HTML EditorOnline HTML Editor</h1>
+<div>This is real time online HTML Editor
+
+<script src='https://unpkg.com/panzoom@9.4.0/dist/panzoom.min.js'></script>
+
+<!-- this is your html file with svg -->
+
+  <svg>
+    <!-- this is the draggable root -->
+    <g id='scene'> 
+      <circle cx='50' cy='50' r='15' fill='pink'></circle>
+    </g>
+  </svg>
+  
+</div>
+
+<script>
+    
+    // In the browser panzoom is already on the
+// window. If you are in common.js world, then 
+// var panzoom = require('panzoom'
+
+// grab the DOM SVG element that you want to be draggable/zoomable:
+var element = document.getElementById('scene')
+
+// and forward it it to panzoom.
+panzoom(element)
+
+var instance = panzoom(element)
+// do work
+// ...
+// then at some point you decide you don't need this anymore:
+instance.dispose()
+
+panzoom(element, {
+  zoomSpeed: 0.035 // 6.5% per mouse wheel event
+});
+
+panzoom(element, {
+  // now all zoom operations will happen based on the center of the screen
+  transformOrigin: {x: 0.5, y: 0.5}
+});
+
+</script>
+
+<div>This is real time online HTML Editor</div>
+
+</body>
+</html>

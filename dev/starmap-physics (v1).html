@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StarMap-Physics</title>
+    <style>
+        /* CSS for styling the canvas */
+        html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        #constellation-map {
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+        }
+
+        #canvas-container {
+            background-color: #15151a;
+            position: relative;
+            display: inline-block;
+        }
+
+        #canvas {
+            background-color: transparent;
+        }
+
+        /* CSS for styling the stars */
+        .star {
+            animation: pulsate 10s ease-in-out, twinkle 3.13s linear;
+            animation-iteration-count: infinite, infinite;
+            /* animation-duration: 10s, 3.13s;
+            animation-iteration-count: infinite, infinite;
+            animation-name: pulsate, twinkle; */
+            width:  2.5px; 
+            height: 2.5px;
+            border-radius: 50%;
+            position: absolute;
+            left: 20px;
+            top:  20px;
+            transform-origin: center center; /* Set the transform origin to the center */
+            transition: transform 0.2s ease-in-out; /* Add a smooth transition effect */
+        }
+        
+        .star-container {
+            width:  42.6px; 
+            height: 42.6px;
+            border-radius: 50%;
+            position: absolute;
+            /* background-color: rgba(0, 0, 0, 0.048);   */
+            background-color: rgba(61, 61, 61, 0.705);  
+        }
+        /* Hover effect for stars */
+        .star-container:hover .star {
+            transform: scale(1.5); /* Adjusted hover scale */
+            z-index: 2; /* Move the hovered star to the front */
+        }
+        .star-container:hover .star-info {
+            visibility: visible;
+            opacity: 1;
+            z-index: 1;
+        }
+
+        /* Text container for star info */
+        .star-info {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0);
+            color: rgba(255, 255, 255, 0.7);
+            /* border: solid white; */
+
+            padding: 6px;
+            border: none;
+            top: 50%; /* Position right next to the star */
+            left: 50%;
+            text-align: left; /* Adjusted text alignment to left */
+            /* white-space: nowrap; */ /* Prevent line breaks */
+            font-style: italic;
+            width: 360px;
+            word-wrap: break-word;
+
+            visibility: hidden; /* Initially hidden */
+            opacity: 0;
+            transition: opacity 0.45s ease-in-out, visibility 0.45s ease-in-out;
+        }
+
+        /* Style for the star title */
+        .star-title {
+            font-weight: bold;
+            color: white; /* Default color for star titles */
+            font-style:normal;
+            font-family: Cambria;
+            font-size: 105%;
+            text-decoration: none;
+            line-height: 1.0;
+        }
+
+        @keyframes pulsate {
+            00% {
+                opacity: 1;
+            } 25% {
+                opacity: 0.95;
+            } 50% {
+                opacity: 0.7;
+            } 75% {
+                opacity: 0.95;
+            } 100% {
+                opacity: 1;
+            }
+        }
+        .animate-pulsate {
+            animation-duration: 1s;
+            animation-name: pulsate;
+        }
+
+        @keyframes twinkle {
+            00.000% {
+                transform: scale(1.00);
+            } 12.500% {
+                transform: scale(0.90);
+            } 25.000% {
+                transform: scale(0.95);
+            } 37.500% {
+                transform: scale(0.90);
+            } 50.000% {
+                transform: scale(1.10);
+            } 62.500% {
+                transform: scale(0.90);
+            } 75.000% {
+                transform: scale(0.95);
+            } 87.500% {
+                transform: scale(0.90);
+            } 100.000% {
+                transform: scale(1.00);
+            }
+        }
+        .animate-twinkle {
+            animation-duration: 1s;
+            animation-name: twinkle;
+        }
+    </style>
+</head>
+<body>
+    <div id="constellation-map">
+        <div id="canvas-container">
+            <canvas id="canvas"></canvas>
+            
+            <div class="star-container" 
+                data-name="
+                    Asymptotic Spinspacetime
+                " data-description="
+                    Emergence of spacetime and spin from Poincaré symmetry and their complex-geometrical unification
+                " data-arxivnumber="2309.11886" data-citations="0"
+                style="left: 40%; top: 40%;"
+            >
+                <div class="star"></div>
+                <div class="star-info">
+                    <a class="star-title" href="#" target="_blank"></a>
+                </div>
+            </div>
+
+            <div class="star-container" 
+                data-name="
+                    Symplectic Perturbation Theory in Massive Twistor Space: A Zig-Zag Theory of Massive Spinning Particles
+                " data-description="
+                    Novel approach to 4d massive spinning particle dynamics based on a hidden Kähler geometry
+                " data-arxivnumber="2301.06203" data-citations="100"
+                style="left: 50%; top: 50%;"
+            >
+                <div class="star"></div>
+                <div class="star-info">
+                    <a class="star-title" href="#" target="_blank"></a>
+                </div>
+            </div>
+
+            <div class="star-container" 
+                data-name="
+                    The Relativistic Spherical Top as a Massive Twistor
+                " data-description="
+                    Proof of equivalence between two massive spinning particle models as constrained Hamiltonian systems
+                " data-arxivnumber="1102.07063" data-citations="1000"
+                style="left: 55%; top: 60%;"
+            >
+                <div class="star"></div>
+                <div class="star-info">
+                    <a class="star-title" href="#" target="_blank"></a>
+                </div>
+            </div>
+
+            <div class="star-container" 
+                data-name="
+                    The Relativistic Spherical Top as a Massive Twistor
+                " data-description="
+                    Proof of equivalence between two massive spinning particle models as constrained Hamiltonian systems
+                " data-arxivnumber="0102.07063" data-citations="10000"
+                style="left: 65%; top: 70%;"
+            >
+                <div class="star"></div>
+                <div class="star-info">
+                    <a class="star-title" href="#" target="_blank"></a>
+                </div>
+            </div>
+
+            <!-- Add more star elements as needed -->
+        </div>
+    </div>
+
+    <script>
+        // Function to generate a random delay between minDelay and maxDelay (in seconds)
+        function getRandomDelay(minDelay, maxDelay) {
+          return Math.random() * (maxDelay - minDelay) + minDelay;
+        }
+      
+        // Function to generate a random duration between minDuration and maxDuration (in seconds)
+        function getRandomDuration(minDuration, maxDuration) {
+          return Math.random() * (maxDuration - minDuration) + minDuration;
+        }
+      
+        // Get all elements with the 'star' class
+        const stars = document.querySelectorAll('.star');
+      
+        // Apply different random delays and durations to both animations for each star
+        const minDelayPulsate = 0; 
+        const maxDelayPulsate = 15; 
+        const minDurationPulsate = 10;
+        const maxDurationPulsate = 20;
+
+        const minDelayTwinkle = 0;
+        const maxDelayTwinkle = 0.2;
+        const minDurationTwinkle = 3.1;
+        const maxDurationTwinkle = 3.3;
+      
+        stars.forEach((star) => {
+          const randomDelayPulsate = getRandomDelay(minDelayPulsate, maxDelayPulsate);
+          const randomDurationPulsate = getRandomDuration(minDurationPulsate, maxDurationPulsate);
+
+          const randomDelayTwinkle = getRandomDelay(minDelayTwinkle, maxDelayTwinkle);
+          const randomDurationTwinkle = getRandomDuration(minDurationTwinkle, maxDurationTwinkle);
+      
+          star.style.animationDelay = `${randomDelayPulsate}s, ${randomDelayTwinkle}s`;
+          star.style.animationDuration = `${randomDurationPulsate}s, ${randomDurationTwinkle}s`;
+        });
+    </script>
+
+    <script>
+        const canvas = document.getElementById('canvas');
+        const starContainers = document.querySelectorAll('.star-container');
+
+        // Set canvas dimensions initially and on window resize
+        setCanvasDimensions();
+        window.addEventListener('resize', setCanvasDimensions);
+
+        // Function to set canvas dimensions based on viewport size
+        function setCanvasDimensions() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            // Loop through each star container
+            starContainers.forEach(starContainer => {
+                const starInfo = starContainer.querySelector('.star-info');
+
+                // Title
+                const starTitle = starInfo.querySelector('.star-title');
+                const starNumber = starContainer.getAttribute('data-arxivnumber');
+                starTitle.href = `https://arxiv.org/abs/` + starNumber; // Set the link's href attribute
+
+                // Star formatting: Color, Size
+                star = starContainer.querySelector('.star');
+                
+                const starArx = parseInt(starNumber);
+                const date = new Date();
+                const starYear = (date.getFullYear() - (2000 + Math.floor(starArx/100))) + ( 
+                    date.getMonth() + 1 - (starArx - 100*Math.floor(starArx/100))
+                )/12;
+                const starColor = calculateStarColor(starYear);
+                starTitle.textContent = starContainer.getAttribute('data-name');
+                starTitle.style.color = starColor;
+                star.style.backgroundColor = starColor;
+
+                const citations = parseInt(starContainer.getAttribute('data-citations'), 10);
+                const starScale = calculateStarScale(citations);
+                // star.style.transform = `scale(${starScale})`;
+                star.style.width = `${2.5*starScale}px`;
+                star.style.height = `${2.5*starScale}px`;
+
+                // Description
+                const starDescription = starContainer.getAttribute('data-description');
+                starInfo.innerHTML += `<br style="margin-bottom:5px;"><span>` + starDescription + `</span>`; // Set the description as HTML content
+            });
+        }
+
+        // Function to calculate star color
+        function calculateStarColor(years) {
+            // const [red,green,blue,alpha] = colorTemperatureToRGB(
+                // 6600*Math.exp(0.1*(10-years))
+                // 6600*Math.exp(0.1*(50-(1+Math.abs(2-years/50))*years))
+            // );
+            
+            const wh = 6600;
+            const x = 1-years/10.;
+            if ( x >= 0 ){
+                return colorTemperatureToRGB(wh*Math.exp(6.4*x*x));
+            } else {
+                return colorTemperatureToRGB(wh*Math.exp(x));
+            }
+        }
+        function colorTemperatureToRGB(kelvin){ // Planckian locus
+          var temp = kelvin / 100;
+          var red, green, blue;
+          var alpha = 1;
+
+          if( temp <= 0 ){
+            red = 255;
+            green = 0;
+            blue = 0;
+          } else {
+            if( temp <= 66 ){ 
+                red = 255; 
+                green = temp;
+                green = 99.4708025861 * Math.log(green) - 161.1195681661;
+                
+                if( temp <= 19 ){
+                    blue = 0;
+                    if( temp <= 10 ){
+                        alpha = Math.exp(0.027*(temp-19));
+                    }
+                } else {
+                    blue = temp-10;
+                    blue = 138.5177312231 * Math.log(blue) - 305.0447927307;
+                }
+            } else {
+                red = temp - 60;
+                red = 329.698727446 * Math.pow(red, -0.1332047592);
+                green = temp - 60;
+                green = 288.1221695283 * Math.pow(green, -0.0755148492 );
+                // green = 288.1221695283 * Math.pow(green, -0.0755148492 ) + 0.02*(temp-66);
+                blue = 255;
+            }
+          }
+
+          return rgbaformat(red,green,blue,alpha);
+        }
+        function rgbaformat(red,green,blue,alpha){
+            return `rgba(${
+                clamp(red,0,255)
+            }, ${
+                clamp(green,0,255)
+            }, ${
+                clamp(blue,0,255)
+            }, ${
+                clamp(alpha,0,1)
+            })`;
+        }
+        function clamp( x, min, max ) {
+            if(x<min){ return min; }
+            if(x>max){ return max; }
+            return x;
+        }
+
+        // Function to calculate star size based on data-citations
+        function calculateStarScale(citations) {
+            // const scale = 1 + 0.1*Math.log(1+citations);
+            const scale = 1 + 0.05*Math.pow(citations,1/2);
+            return scale;
+        }
+    </script>
+</body>
+</html>
+<script>

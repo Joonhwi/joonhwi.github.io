@@ -1,0 +1,45 @@
+        @keyframes twinkle {
+            00% {
+                transform: scale(1.00);
+            } 05% {
+                transform: scale(0.95);
+            } 10% {
+                transform: scale(1.01);
+            } 15% {
+                transform: scale(0.98);
+            } 20% {
+                transform: scale(1.03);
+            } 25% {
+                transform: scale(0.97);
+            } 30% {
+                transform: scale(1.05);
+            } 35% {
+                transform: scale(0.99);
+            } 40% {
+                transform: scale(1.02);
+            } 45% {
+                transform: scale(0.96);
+            } 50% {
+                transform: scale(1.02);
+            } 55% {
+                transform: scale(0.97);
+            } 60% {
+                transform: scale(1.01);
+            } 65% {
+                transform: scale(0.94);
+            } 70% {
+                transform: scale(1.02);
+            } 75% {
+                transform: scale(0.96);
+            } 80% {
+                transform: scale(1.01);
+            } 85% {
+                transform: scale(0.91);
+            } 90% {
+                transform: scale(1.02);
+            } 95% {
+                transform: scale(0.95);
+            } 100% {
+                transform: scale(1.00);
+            }
+        }

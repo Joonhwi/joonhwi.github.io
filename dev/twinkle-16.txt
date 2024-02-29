@@ -1,0 +1,20 @@
+
+            00.0% {
+                transform: scale(1);
+            } 12.5% {
+                transform: scale(calc(1 - 0.8*var(--twinkle-amplitude)));
+            } 25.0% {
+                transform: scale(calc(1 - 0.33*0.8*var(--twinkle-amplitude)));
+            } 37.5% {
+                transform: scale(calc(1 - 0.8*var(--twinkle-amplitude)));
+            } 50.0% {
+                transform: scale(calc(1 + 1.20*var(--twinkle-amplitude)));
+            } 62.5% {
+                transform: scale(calc(1 - 0.8*var(--twinkle-amplitude)));
+            } 75.0% {
+                transform: scale(calc(1 - 0.33*0.8*var(--twinkle-amplitude)));
+            } 87.5% {
+                transform: scale(calc(1 - 0.8*var(--twinkle-amplitude)));
+            } 100.0% {
+                transform: scale(1);
+            }
