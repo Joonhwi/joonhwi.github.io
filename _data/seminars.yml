@@ -1,3 +1,12 @@
+- type: "talk"
+  date: 2023-11-17
+  topic: "Twistor Particle Programme Rebooted: A Zig-Zag Theory of Massive Spinning Particles"
+  link-topic: 
+  event: "Ma148 final presentation"
+  link-event: 
+  institution: "Oxford QFT-Relativity Seminars"
+  address:
+
 - type: "seminar"
   date: 2022-12-01
   topic: "Yang-Mills as “Quantized” Gravity: Color-Kinematics Duality from Non-Commutative Geometry"
