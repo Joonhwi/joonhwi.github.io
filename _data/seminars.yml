@@ -31,7 +31,16 @@
   date: 2024-03-11
   topic: "Line Singularities in Gravity"
   link-topic: 
-  event:
+  event: "Birthday lecture"
+  link-event: 
+  institution: "Caltech"
+  address: "Pasadena, CA, USA"
+
+- type: "informal"
+  date: 2023-03-06
+  topic: "Newman-Janis Algorithm and Complex Spacetime"
+  link-topic: 
+  event: "ARC seminar / Birthday lecture"
   link-event: 
   institution: "Caltech"
   address: "Pasadena, CA, USA"
