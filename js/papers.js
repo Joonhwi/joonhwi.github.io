@@ -1,5 +1,11 @@
 var papers = [
   {
+    title: "Generalized Symmetry in Dynamical Gravity",
+    codename: "gensymgrav",
+    arxivnumber: "2403.01837",
+    released: 1
+  },
+  {
     title: "Worldline QFT with Phase Space Actions",
     codename: "feynmanbracket",
     arxivnumber: "24**.*****",
