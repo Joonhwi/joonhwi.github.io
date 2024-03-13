@@ -7,16 +7,45 @@
   institution: 
   address:
 
-- type: "seminar"
-  date: 2022-12-01
-  topic: "Yang-Mills as “Quantized” Gravity: Color-Kinematics Duality from Non-Commutative Geometry"
+- type: "talk"
+  date: 2023-03-31
+  topic: "Spinspacetime: Unification of Spacetime and Spin into a Complex Geometry"
   link-topic: 
-  event: "Ma148 final presentation"
+  event: "39th Pacific Coast Gravity Meeting"
+  link-event: "http://www.tapir.caltech.edu/~pcgm39/"
+  institution: 
+  address:
+
+- type: "talk"
+  date: 2023-03-12
+  topic: "Symplectic Perturbation Theory"
+  link-topic: 
+  event: "California Amplitudes Meeting 2023"
+  link-event: "https://sites.google.com/view/ca-amps-ucsd/home"
+  institution: 
+  address:
+
+
+
+- type: "informal"
+  date: 2024-03-11
+  topic: "Line Singularities in Gravity"
+  link-topic: 
+  event:
   link-event: 
   institution: "Caltech"
   address: "Pasadena, CA, USA"
 
-- type: "seminar"
+- type: "informal"
+  date: 2022-12-01
+  topic: "Yang-Mills as “Quantized” Gravity: Color-Kinematics Duality from Non-Commutative Geometry"
+  link-topic: 
+  event: "Ma148"
+  link-event: 
+  institution: "Caltech"
+  address: "Pasadena, CA, USA"
+
+- type: "informal"
   date: 2022-10-25
   topic: "Twistor Theory: a “Quantum Particle Theory” Perspective"
   link-topic: # "/files/(221025) Twistor Theory QPT.pdf"

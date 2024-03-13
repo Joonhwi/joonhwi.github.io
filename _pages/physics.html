@@ -120,7 +120,7 @@ permalink: /physics/
 
 <hr style="visibility:hidden"/><hr/><hr style="visibility:hidden"/>
 
-<h3>Talks</h3>
+<h3>Seminars</h3>
 
 <div class="container">
 {% capture datenow %}{{'now' | date: '%s'}}{% endcapture %}
@@ -153,13 +153,13 @@ permalink: /physics/
 
 <hr style="visibility:hidden"/><hr/><hr style="visibility:hidden"/>
 
-<h3>Seminars</h3>
+<h3>Informal Talks</h3>
 
 <div class="container">
 {% capture datenow %}{{'now' | date: '%s'}}{% endcapture %}
 {% for talk in site.data.seminars %}
 {% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %}
-{% if talkdate < datenow and talk.type == "seminar" %}
+{% if talkdate < datenow and talk.type == "informal" %}
   <div class="row">
     <div class="col-10" style="word-wrap:break-word; max-width:75%;">
       {% if talk.link-topic!=nil %}
