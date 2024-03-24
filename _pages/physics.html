@@ -168,7 +168,7 @@ permalink: /physics/
         <em>{{ talk.topic }}</em>
       {% endif %}
       <br/>
-      {% if talk.link-event!=nil %}<a href="{{ talk.link-event }}">{{ talk.event }}</a>{% else %}{% if talk.event!=nil %}{{ talk.event }}{% endif %}{% endif %}{% if talk.institution!=nill %}, {{ talk.institution }}{% endif %}
+      {% if talk.link-event!=nil %}<a href="{{ talk.link-event }}">{{ talk.event }}</a>{% else %}{% if talk.event!=nil %}{{ talk.event }}{% endif %}{% endif %}{% if talk.institution!=nill %}{% if talk.event!=nil %} ,{% endif %}{{ talk.institution }}{% endif %}
       <!-- {% if talk.address!=nil %}
         ({{ talk.address }})
       {% endif %} -->
