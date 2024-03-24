@@ -5,34 +5,19 @@ permalink: /physics/
 --- 
 
 <!-- Cards -->
-<section class="hero">
-  <div class="container">
-    <div class="row">
-      <div class="col col-10 col-d-12">
-        <div class="hero__inner">
-          {% if page.title %}
-            <h1 class="hero__title">{{ page.title }}</h1>
-          {% endif %}
-          {% if page.description %}
-            <p class="hero__description">{{ page.description }}</p>
-          {% endif %}
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <div class="container">
-  <div class="row animate">
-    {% if site.posts.size > 0 %}
-      {% for post in paginator.posts %}
-        {% include article.html %}
-      {% endfor %}
-    {% endif %}
+  <div class="row align-items-bottom">
+    <div class="col-sm-12 col-md-6">
+      <h3 style="margin-bottom:-11.5px;">Featured</h3>
+    </div>
+    <div class="scroll-container">
+      <img src="img_5terre.jpg" alt="Cinque Terre">
+      <img src="img_forest.jpg" alt="Forest">
+      <img src="img_lights.jpg" alt="Northern Lights">
+      <img src="img_mountains.jpg" alt="Mountains">
+    </div> 
   </div>
 </div>
-
-{% include pagination.html %}
 
 <!-- --------------------------------------------- -->
 
