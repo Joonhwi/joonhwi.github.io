@@ -12,8 +12,8 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    # - title: 'Blog'
-    #   url: '/blog/'
+    - title: 'Blog'
+      url: '/blog/'
     # - title: 'About'
     #   url: '/about/'
     - title: 'Physics'
@@ -23,9 +23,9 @@ menu__settings:
     # - title: 'Art'
     #   url: '/art/'
     # - title: 'Contact'
-    #   url: '/contact/'
-    # - title: 'Elements'
-    #   url: '/elements/'
+      # url: '/contact/'
+    - title: 'Elements'
+      url: '/elements/'
 
 
 #-------------------------------
