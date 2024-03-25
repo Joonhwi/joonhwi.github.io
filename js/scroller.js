@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', function() {
     "https://media.gcflearnfree.org/ctassets/topics/246/share_size_large.jpg",
     "/images/phys-cards/test.jpg",
     "https://media.gcflearnfree.org/ctassets/topics/246/share_size_large.jpg",
-    // Add more image URLs as needed
   ];
 
   const captions = [
@@ -16,8 +15,8 @@ document.addEventListener('DOMContentLoaded', function() {
   ];
 
   const messages = [
-    "<b><i>Spinspacetime</i></b> is a ...",
-    "Message for the second card",
+    "<b><i>Spinspacetime</i></b> opens up a new chapter in relativity by unifying spacetime and spin into a complex geometry, concretely realizing Newman's ideas in the 70s.",
+    "<b><i>Zig-zag theory of massive spinning particles</i></b> aims to reboot twistor particle programme ",
   ];
 
   const gallery = document.getElementById('gallery');
@@ -40,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const back = document.createElement('div');
     back.classList.add('back');
     // back.textContent = captions[index]; // Set the caption text from the captions array
-    back.innerHTML = '<p style="text-align:center;">' + captions[index] + '</p>';
+    // back.innerHTML = `<p style="text-align:center;">` + captions[index] + `</p>`;
 
     front.appendChild(img);
     card.appendChild(front);
