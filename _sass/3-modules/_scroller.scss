@@ -1,15 +1,95 @@
-div.scroll-container {
-  background-color: #333;
-  overflow: auto;
-  white-space: nowrap;
-  padding: 10px;
+.scr-thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Align thumbnails to the start of the container */
 }
 
-div.scroll-container img {
-  padding: 10px;
+.scr-thumbnail {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  position: relative;
+  perspective: 1000px; /* Adding perspective for 3D effect */
 }
 
-img.scroll-card img {
-  height: 150px;
+.scr-card {
+  width: 200px; /* Set width to match thumbnail width */
+  height: 200px; /* Set height to match thumbnail height */
+  position: absolute;
+  transform-style: preserve-3d; /* Ensures child elements are rendered in 3D */
+  transition: transform 4s;
+}
+
+.scr-front, .scr-back {
   width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden; /* Prevents the back side from being visible */
 }
+
+.scr-front img {
+  width: 100%; /* Set image width to fill the entire card */
+  height: 100%; /* Set image height to fill the entire card */
+  object-fit: cover; /* Crop the image to cover the entire card */
+  object-position: center; /* Center align the image within the card */
+}
+
+.scr-front {
+  transform: rotateY(0deg); /* Initially, show the front side (image) of the card */
+}
+
+.scr-back {
+  background: rgba(0, 0, 0, 0.971);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotateY(180deg); /* Initially, hide the back side (caption) of the card */
+}
+
+.scr-back img {
+  width: 100%;
+  height: 100%; /* Match the size of the back side of the card */
+}
+
+/* Define CSS animation for flipping */
+@keyframes flip {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(180deg);
+  }
+}
+
+.scr-thumbnail:hover .scr-card {
+  transform: rotateY(180deg); /* Flip the card on hover */
+  transition: transform 1.0s;
+}
+
+
+
+.scr-message-container {
+  padding: 10px; /* Add padding to the message container */
+}
+
+.scr-message {
+  /* background-color: #f0f0f0; */
+  /* padding: 10px; */
+  /* border: 1px solid #ccc; */
+  /* border-radius: 5px; */
+}
+
+/* .message {
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 38px;
+  padding: 10px;
+  text-align: center;
+  z-index: 999;
+  display: none; 
+} */
