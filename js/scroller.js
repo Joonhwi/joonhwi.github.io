@@ -18,15 +18,18 @@ document.addEventListener('DOMContentLoaded', function() {
   const messages = [
       `<b><i>Spinspacetime</i></b>`
       + ` opens up a new chapter in relativity by unifying spacetime and spin into a complex geometry, concretely realizing Newman's curious ideas in the 70s.`
+      + `<br>[2]`
     ,
       `<b><i>Zig-zag theory of massive spinning particles</i></b>`
       + ` aims to reboot twistor particle programme with a great emphasis on the hidden Kähler geometry (dubbed “zig-zag structure”) of massive spinning particles.`
+      + `<br>[0,1,2]`
     ,
       `<b><i>Zig-zag approach to spinning black holes</i></b>`
       // + `proposes to study spinning black holes in four dimensions from the angle of their factorization into chiral dyons in the chiral sectors.`
       // + `proposes to study spinning black holes in four dimensions with their “factorized” form, into chiral dyons in chiral sectors.`
       // + `proposes to study the dynamics of spinning black holes in four dimensions with their factorization into chiral dyons.`
       + ` proposes that chiral dyons should be used as elementary building blocks for studying the dynamics of spinning black holes in four dimensions.`
+      + `<br>`
     ,
   ];
 
