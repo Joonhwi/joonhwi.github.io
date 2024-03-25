@@ -61,7 +61,11 @@ document.addEventListener('DOMContentLoaded', function() {
         activeThumbnail = thumbnail;
       }
       // message.textContent = messages[index];
-      message.innerHTML = messages[index];
+      // message.innerHTML = messages[index];
+      const messageContent = document.createElement('div');
+      messageContent.innerHTML = messages[index];
+      message.appendChild(messageContent);
+      
       message.style.display = 'block';
     });
   });
