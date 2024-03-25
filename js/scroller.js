@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ,
       `<b><i>Zig-zag theory of massive spinning particles</i></b>`
       // + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry (“dubbed zig-zag structure”) of massive spinning particles.`
-      + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry (“zig-zag structure”) of massive spinning particles.`
+      + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry of massive spinning particles.`
       + ` [0,1,2]`
     ,
       `<b><i>Zig-zag approach to spinning black holes</i></b>`
