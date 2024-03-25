@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "/images/phys-cards/lcdx.png",
     "/images/phys-cards/zig-bowtie-indigo.png",
     "/images/phys-cards/flying-discs_rendered.jpg",
-    "/images/phys-cards/ck-tshirt.png",
+    "/images/phys-cards/ck-tshirt-signed.png",
     // "https://media.gcflearnfree.org/ctassets/topics/246/share_size_large.jpg",
     // "/images/phys-cards/test.jpg",
   ];
