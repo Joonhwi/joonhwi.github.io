@@ -57,24 +57,24 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
 
-  // const thumbnails = document.querySelectorAll('.scr-thumbnail');
-  // const message = document.getElementById('message');
-  // let activeThumbnail = null;
-  // // message.textContent = 'Click cards to see descriptions';
-  // message.innerHTML = 'Click cards to see descriptions';
+  const thumbnails = document.querySelectorAll('.scr-thumbnail');
+  const message = document.getElementById('message');
+  let activeThumbnail = null;
+  // message.textContent = 'Click cards to see descriptions';
+  message.innerHTML = 'Click cards to see descriptions';
 
-  // thumbnails.forEach(function(thumbnail, index) {
-  //   thumbnail.addEventListener('click', function() {
-  //     if (activeThumbnail !== thumbnail) {
-  //       // Hide message if another thumbnail is clicked
-  //       message.style.display = 'none';
-  //       activeThumbnail = thumbnail;
-  //     }
-  //     // message.textContent = messages[index];
-  //     message.innerHTML = messages[index];
-  //     message.style.display = 'block';
-  //   });
-  // });
+  thumbnails.forEach(function(thumbnail, index) {
+    thumbnail.addEventListener('click', function() {
+      if (activeThumbnail !== thumbnail) {
+        // Hide message if another thumbnail is clicked
+        message.style.display = 'none';
+        activeThumbnail = thumbnail;
+      }
+      // message.textContent = messages[index];
+      message.innerHTML = messages[index];
+      message.style.display = 'block';
+    });
+  });
 
   // // Polyfill for closest() function
   // if (!Element.prototype.closest) {
