@@ -13,13 +13,11 @@ document.addEventListener('DOMContentLoaded', function() {
   const captions = [
     "Caption for the first image",
     "Caption for the second image",
-    // Add more captions as needed
   ];
 
   const messages = [
-    "Message for the first card",
+    "<b><i>Spinspacetime</i></b> is a ...",
     "Message for the second card",
-    // Add more messages for each card as needed
   ];
 
   const gallery = document.getElementById('gallery');
