@@ -4,7 +4,9 @@
   overflow-x: auto; 
   // justify-content: flex-start; /* Align thumbnails to the start of the container */
   // flex-grow: 1;
-  min-height: 170px;
+  // min-height: 170px;
+  max-height: 170px;
+  min-width: 100%;
   display: table-cell; 
   vertical-align: middle;
 }
