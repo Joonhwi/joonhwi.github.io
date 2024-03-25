@@ -13,7 +13,9 @@
 }
 
 .scr-thumbnail-image {
-  pointer-events: none; /* Disable pointer events */
+  user-select: none; /* Disable text selection */
+  -webkit-touch-callout: none; /* Disable touch callout */
+  -webkit-user-drag: none; /* Disable user dragging */
 }
 
 .scr-card {
