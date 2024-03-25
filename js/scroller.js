@@ -60,7 +60,8 @@ document.addEventListener('DOMContentLoaded', function() {
         message.style.display = 'none';
         activeThumbnail = thumbnail;
       }
-      message.textContent = messages[index];
+      // message.textContent = messages[index];
+      message.innerHTML = messages[index];
       message.style.display = 'block';
     });
   });
