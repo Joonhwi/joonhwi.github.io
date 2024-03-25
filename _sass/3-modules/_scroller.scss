@@ -78,6 +78,18 @@
   height: 100%; /* Match the size of the back side of the card */
 }
 
+.scr-backtext {
+  text-align: center;
+  font-size: 110%;
+  display: table-cell; 
+  width: 150px; 
+  height: 150px; 
+  vertical-align: middle; 
+  margin: 0px; 
+  transform: scale(-1, 1);
+  border: 0.7px solid --text-color;
+}
+
 /* Define CSS animation for flipping */
 @keyframes flip {
   from {
