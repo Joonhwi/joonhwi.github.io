@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const back = document.createElement('div');
     back.classList.add('back');
     // back.textContent = captions[index]; // Set the caption text from the captions array
-    back.innerHTML = `<p style="text-align:center; font-size:120%; display:table-cell; height:150px; vertical-align: middle; margin: 0px; transform: scale(-1, 1);">` + captions[index] +  `</p>`;
+    back.innerHTML = `<p style="text-align:center; font-size:110%; display:table-cell; height:150px; vertical-align: middle; margin: 0px; transform: scale(-1, 1);">` + captions[index] +  `</p>`;
     // back.textContent = captions[index];
 
     front.appendChild(img);
