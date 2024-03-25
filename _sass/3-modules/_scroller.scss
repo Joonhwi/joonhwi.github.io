@@ -16,11 +16,11 @@
 .scr-thumbnail-image {
 }
 
-#scr-gallery {
-  display: flex;
-  overflow-x: auto; /* Enable horizontal scrolling */
-  white-space: nowrap; /* Prevent images from wrapping to the next line */
-}
+// #scr-gallery {
+//   display: flex;
+//   overflow-x: auto; /* Enable horizontal scrolling */
+//   white-space: nowrap; /* Prevent images from wrapping to the next line */
+// }
 
 .scr-card {
   width: 150px; /* Set width to match thumbnail width */
