@@ -16,6 +16,12 @@
 .scr-thumbnail-image {
 }
 
+#scr-gallery {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent images from wrapping to the next line */
+}
+
 .scr-card {
   width: 150px; /* Set width to match thumbnail width */
   height: 150px; /* Set height to match thumbnail height */
@@ -77,6 +83,7 @@
 
 .scr-message-container {
   padding: 10px; /* Add padding to the message container */
+  text-align: left;
 }
 
 .scr-message {
