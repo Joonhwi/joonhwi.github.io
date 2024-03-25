@@ -9,15 +9,24 @@ document.addEventListener('DOMContentLoaded', function() {
     "/images/phys-cards/flying-discs.jpg",
     // "/images/phys-cards/test.jpg",
     // "https://media.gcflearnfree.org/ctassets/topics/246/share_size_large.jpg",
+    "/images/phys-cards/higher-bubblegum.jpg",
   ];
 
   const captions = [
+    "Generalized Symmetry in Gravity",
     "Spinspacetime",
     "Zig-Zag Theory of Massive Spinning Particles",
     "Zig-Zag Approach to Spinning Black Holes",
   ];
 
   const messages = [
+      `<b><i>Generalized Symmetry in Gravity</i></b>`
+      // + `proposes to study spinning black holes in four dimensions from the angle of their factorization into chiral dyons in the chiral sectors.`
+      // + `proposes to study spinning black holes in four dimensions with their “factorized” form, into chiral dyons in chiral sectors.`
+      // + `proposes to study the dynamics of spinning black holes in four dimensions with their factorization into chiral dyons.`
+      + ` reveals new symmetry in nature and explores a novel interpretation of gravitational singularities as topological operators.`
+      + ` [3]`
+    ,
       `<b><i>Spinspacetime</i></b>`
       + ` opens up a new chapter in relativity by unifying spacetime and spin into a complex geometry, concretely realizing Newman's curious ideas in the 70s.`
       + ` [2]`
@@ -26,14 +35,14 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry (“dubbed zig-zag structure”) of massive spinning particles.`
       + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry of massive spinning particles.`
       + ` [1], [0,2]`
-    ,
-      `<b><i>Zig-zag approach to spinning black holes</i></b>`
-      // + `proposes to study spinning black holes in four dimensions from the angle of their factorization into chiral dyons in the chiral sectors.`
-      // + `proposes to study spinning black holes in four dimensions with their “factorized” form, into chiral dyons in chiral sectors.`
-      // + `proposes to study the dynamics of spinning black holes in four dimensions with their factorization into chiral dyons.`
-      + ` proposes that chiral dyons should be used as elementary building blocks for studying the dynamics of spinning black holes in four dimensions.`
-      + ` `
-    ,
+      ,
+        `<b><i>Zig-zag approach to spinning black holes</i></b>`
+        // + `proposes to study spinning black holes in four dimensions from the angle of their factorization into chiral dyons in the chiral sectors.`
+        // + `proposes to study spinning black holes in four dimensions with their “factorized” form, into chiral dyons in chiral sectors.`
+        // + `proposes to study the dynamics of spinning black holes in four dimensions with their factorization into chiral dyons.`
+        + ` proposes that chiral dyons should be used as elementary building blocks for studying the dynamics of spinning black holes in four dimensions.`
+        + ` `
+      ,
   ];
 
   const gallery = document.getElementById('gallery');
