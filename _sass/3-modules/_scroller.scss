@@ -39,6 +39,7 @@
   transform-style: preserve-3d; /* Ensures child elements are rendered in 3D */
   transition: transform 3.5s;
   user-select: none; /* Disable text selection */
+  border-radius: 2px;
 }
 
 .scr-front, .scr-back {
