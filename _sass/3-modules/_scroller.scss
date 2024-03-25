@@ -50,7 +50,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: rotateY(180deg) scaleX(-1);
+  transform: rotateY(180deg) scaleX(-1); /* Initially, hide the back side (caption) of the card */
 }
 
 .scr-back img {
