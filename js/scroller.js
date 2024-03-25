@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   const images = [
-    "/images/phys-cards/higher-bubblegum.jpg",
+    "/images/phys-cards/higher-bubblegum.png",
     "/images/phys-cards/lcdx.png",
     "/images/phys-cards/zig-bowtie.png",
     "/images/phys-cards/flying-discs.jpg",
