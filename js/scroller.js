@@ -39,7 +39,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const back = document.createElement('div');
     back.classList.add('back');
-    back.textContent = captions[index]; // Set the caption text from the captions array
+    // back.textContent = captions[index]; // Set the caption text from the captions array
+    back.innerHTML = '<p style="text-align:center;">' + captions[index] + '</p>';
 
     front.appendChild(img);
     card.appendChild(front);
