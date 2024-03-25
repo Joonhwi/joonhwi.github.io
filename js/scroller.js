@@ -15,8 +15,12 @@ document.addEventListener('DOMContentLoaded', function() {
   ];
 
   const messages = [
-    "<b><i>Spinspacetime</i></b> opens up a new chapter in relativity by unifying spacetime and spin into a complex geometry, concretely realizing Newman's ideas in the 70s.",
-    "<b><i>Zig-zag theory of massive spinning particles</i></b> aims to reboot twistor particle programme ",
+      `<b><i>Spinspacetime</i></b>` 
+      + `opens up a new chapter in relativity by unifying spacetime and spin into a complex geometry, concretely realizing Newman's ideas in the 70s.`
+    ,
+      `<b><i>Zig-zag theory of massive spinning particles</i></b>`
+      + `aims to reboot twistor particle programme with an emphasis on the Kahler geometry`
+    ,
   ];
 
   const gallery = document.getElementById('gallery');
@@ -80,11 +84,12 @@ document.addEventListener('DOMContentLoaded', function() {
     };
   }
 
-  Reset message when clicking outside of cards
+  // Reset message when clicking outside of cards
   document.addEventListener('click', function(event) {
     if (!event.target.closest('.scr-thumbnail')) {
       message.textContent = 'Click cards to see descriptions';
       // message.innerHTML = 'Click cards to see descriptions';
     }
   });
+  
 });
