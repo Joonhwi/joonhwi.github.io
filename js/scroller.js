@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
   ];
 
   const messages = [
-      `<i>Generalized Symmetry in Gravity</i>`
+      `<b><i>Generalized Symmetry in Gravity</i></b>`
       // `<b><i>Higher-Form Symmetry in Gravity</i></b>`
       // + `proposes to study spinning black holes in four dimensions from the angle of their factorization into chiral dyons in the chiral sectors.`
       // + `proposes to study spinning black holes in four dimensions with their “factorized” form, into chiral dyons in chiral sectors.`
@@ -28,16 +28,16 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` offers an explanation of why fermions exist in our universe and reveals a novel interpretation of gravitational singularities as topological operators.`
       + ` [3]`
     ,
-      `<i>Spinspacetime</i>`
+      `<b><i>Spinspacetime</i></b>`
       + ` opens up a new chapter in relativity by unifying spacetime and spin into a complex geometry, concretely realizing Newman's curious ideas in the 70s.`
       + ` [2]`
     ,
-      `<i>Zig-zag theory of massive spinning particles</i>`
+      `<b><i>Zig-zag theory of massive spinning particles</i></b>`
       // + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry (“dubbed zig-zag structure”) of massive spinning particles.`
       + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry of massive spinning particles.`
       + ` [1], [0,2]`
     ,
-      `<i>Zig-zag approach to spinning black holes</i>`
+      `<b><i>Zig-zag approach to spinning black holes</i></b>`
       // + `proposes to study spinning black holes in four dimensions from the angle of their factorization into chiral dyons in the chiral sectors.`
       // + `proposes to study spinning black holes in four dimensions with their “factorized” form, into chiral dyons in chiral sectors.`
       // + `proposes to study the dynamics of spinning black holes in four dimensions with their factorization into chiral dyons.`
