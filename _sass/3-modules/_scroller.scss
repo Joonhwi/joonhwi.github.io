@@ -9,9 +9,14 @@
 .scr-thumbnail {
   width: 150px;
   height: 150px;
-  margin: 5px;
+  flex: 0 0 auto;
+  margin-right: 10px;
   position: relative;
-  perspective: 900px; /* Adding perspective for 3D effect */
+  perspective: 1000px; /* Adding perspective for 3D effect */
+}
+
+.scr-thumbnail:last-child {
+  margin-right: 0; /* Remove margin from the last thumbnail to prevent extra space */
 }
 
 .scr-thumbnail-image {
@@ -28,7 +33,7 @@
   height: 150px; /* Set height to match thumbnail height */
   position: absolute;
   transform-style: preserve-3d; /* Ensures child elements are rendered in 3D */
-  transition: transform 4s;
+  transition: transform 3.5s;
   user-select: none; /* Disable text selection */
 }
 
