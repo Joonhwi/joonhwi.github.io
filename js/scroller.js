@@ -52,8 +52,8 @@ document.addEventListener('DOMContentLoaded', function() {
   const thumbnails = document.querySelectorAll('.scr-thumbnail');
   const message = document.getElementById('message');
   let activeThumbnail = null;
-  message.textContent = 'Click card to see description';
-  // message.innerHTML = 'Click card to see description';
+  // message.textContent = 'Click card to see description';
+  message.innerHTML = 'Click card to see description';
 
   thumbnails.forEach(function(thumbnail, index) {
     thumbnail.addEventListener('click', function() {
@@ -81,10 +81,10 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // Reset message when clicking outside of cards
-  document.addEventListener('click', function(event) {
-    if (!event.target.closest('.scr-thumbnail')) {
-      message.textContent = 'Click card to see description';
+  // document.addEventListener('click', function(event) {
+    // if (!event.target.closest('.scr-thumbnail')) {
+      // message.textContent = 'Click card to see description';
       // message.innerHTML = 'Click card to see description';
-    }
-  });
+    // }
+  // });
 });
