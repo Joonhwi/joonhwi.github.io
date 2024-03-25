@@ -12,6 +12,10 @@
   perspective: 1000px; /* Adding perspective for 3D effect */
 }
 
+.scr-thumbnail-image {
+  pointer-events: none; /* Disable pointer events */
+}
+
 .scr-card {
   width: 200px; /* Set width to match thumbnail width */
   height: 200px; /* Set height to match thumbnail height */
