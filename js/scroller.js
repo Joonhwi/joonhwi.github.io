@@ -9,16 +9,16 @@ document.addEventListener('DOMContentLoaded', function() {
   ];
 
   const captions = [
-    // "Generalized Symmetry in Gravity",
-    "Higher-Form Symmetry in Gravity",
+    "Generalized Symmetry in Gravity",
+    // "Higher-Form Symmetry in Gravity",
     "Spinspacetime",
     "Zig-Zag Theory of Massive Spinning Particles",
     "Zig-Zag Approach to Spinning Black Holes",
   ];
 
   const messages = [
-      // `<b><i>Generalized Symmetry in Gravity</i></b>`
-      `<b><i>Higher-Form Symmetry in Gravity</i></b>`
+      `<b><i>Generalized Symmetry in Gravity</i></b>`
+      // `<b><i>Higher-Form Symmetry in Gravity</i></b>`
       // + `proposes to study spinning black holes in four dimensions from the angle of their factorization into chiral dyons in the chiral sectors.`
       // + `proposes to study spinning black holes in four dimensions with their “factorized” form, into chiral dyons in chiral sectors.`
       // + `proposes to study the dynamics of spinning black holes in four dimensions with their factorization into chiral dyons.`
