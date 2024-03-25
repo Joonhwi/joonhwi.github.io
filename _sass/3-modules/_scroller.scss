@@ -51,12 +51,13 @@
 }
 
 .scr-back {
-  background: rgba(0, 0, 0, 0.971);
-  color: #fff;
+  // background: rgba(0, 0, 0, 0.971);
+  // color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   transform: rotateY(180deg) scaleX(-1); /* Initially, hide the back side (caption) of the card */
+  text-align: center; /* Align text in the center */
 }
 
 .scr-back img {
