@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
       + `opens up a new chapter in relativity by unifying spacetime and spin into a complex geometry, concretely realizing Newman's ideas in the 70s.`
     ,
       `<b><i>Zig-zag theory of massive spinning particles</i></b>`
-      + `aims to reboot twistor particle programme with an emphasis on the Kahler geometry`
+      + `aims to reboot twistor particle programme with an emphasis on a hidden Kähler geometry (dubbed “zig-zag structure”) of massive spinning particles.`
     ,
   ];
 
@@ -53,43 +53,43 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
 
-  const thumbnails = document.querySelectorAll('.scr-thumbnail');
-  const message = document.getElementById('message');
-  let activeThumbnail = null;
-  // message.textContent = 'Click cards to see descriptions';
-  message.innerHTML = 'Click cards to see descriptions';
+  // const thumbnails = document.querySelectorAll('.scr-thumbnail');
+  // const message = document.getElementById('message');
+  // let activeThumbnail = null;
+  // // message.textContent = 'Click cards to see descriptions';
+  // message.innerHTML = 'Click cards to see descriptions';
 
-  thumbnails.forEach(function(thumbnail, index) {
-    thumbnail.addEventListener('click', function() {
-      if (activeThumbnail !== thumbnail) {
-        // Hide message if another thumbnail is clicked
-        message.style.display = 'none';
-        activeThumbnail = thumbnail;
-      }
-      // message.textContent = messages[index];
-      message.innerHTML = messages[index];
-      message.style.display = 'block';
-    });
-  });
+  // thumbnails.forEach(function(thumbnail, index) {
+  //   thumbnail.addEventListener('click', function() {
+  //     if (activeThumbnail !== thumbnail) {
+  //       // Hide message if another thumbnail is clicked
+  //       message.style.display = 'none';
+  //       activeThumbnail = thumbnail;
+  //     }
+  //     // message.textContent = messages[index];
+  //     message.innerHTML = messages[index];
+  //     message.style.display = 'block';
+  //   });
+  // });
 
-  // Polyfill for closest() function
-  if (!Element.prototype.closest) {
-    Element.prototype.closest = function(s) {
-      let el = this;
-      do {
-        if (el.matches(s)) return el;
-        el = el.parentElement || el.parentNode;
-      } while (el !== null && el.nodeType === 1);
-      return null;
-    };
-  }
+  // // Polyfill for closest() function
+  // if (!Element.prototype.closest) {
+  //   Element.prototype.closest = function(s) {
+  //     let el = this;
+  //     do {
+  //       if (el.matches(s)) return el;
+  //       el = el.parentElement || el.parentNode;
+  //     } while (el !== null && el.nodeType === 1);
+  //     return null;
+  //   };
+  // }
 
-  // Reset message when clicking outside of cards
-  document.addEventListener('click', function(event) {
-    if (!event.target.closest('.scr-thumbnail')) {
-      message.textContent = 'Click cards to see descriptions';
-      // message.innerHTML = 'Click cards to see descriptions';
-    }
-  });
-  
+  // // Reset message when clicking outside of cards
+  // document.addEventListener('click', function(event) {
+  //   if (!event.target.closest('.scr-thumbnail')) {
+  //     message.textContent = 'Click cards to see descriptions';
+  //     // message.innerHTML = 'Click cards to see descriptions';
+  //   }
+  // });
+
 });
