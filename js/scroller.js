@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   const images = [
-    "/images/phys-cards/lcdx.png",
+    // "/images/phys-cards/lcdx.png",
     "https://media.gcflearnfree.org/ctassets/topics/246/share_size_large.jpg",
     "/images/phys-cards/test.jpg",
     "https://media.gcflearnfree.org/ctassets/topics/246/share_size_large.jpg",
