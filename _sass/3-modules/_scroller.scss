@@ -4,6 +4,7 @@
   overflow-x: auto; 
   justify-content: flex-start; /* Align thumbnails to the start of the container */
   flex-grow: 1;
+  min-height: 160px;
 }
 
 .scr-thumbnail {
