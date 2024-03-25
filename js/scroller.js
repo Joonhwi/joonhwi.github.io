@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "/images/phys-cards/lcdx.png",
     "/images/phys-cards/zig-bowtie-indigo.png",
     "/images/phys-cards/flying-discs_rendered.jpg",
+    "/images/phys-cards/ck-tshirt.png",
     // "https://media.gcflearnfree.org/ctassets/topics/246/share_size_large.jpg",
     // "/images/phys-cards/test.jpg",
   ];
@@ -14,6 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "Spinspacetime",
     "Zig-Zag Theory of Massive Spinning Particles",
     "Zig-Zag Approach to Spinning Black Holes",
+    "Color-Kinematics Duality",
   ];
 
   const messages = [
@@ -42,6 +44,10 @@ document.addEventListener('DOMContentLoaded', function() {
       // + `proposes to study spinning black holes in four dimensions with their “factorized” form, into chiral dyons in chiral sectors.`
       // + `proposes to study the dynamics of spinning black holes in four dimensions with their factorization into chiral dyons.`
       + ` proposes that chiral dyons should be used as elementary building blocks for studying the dynamics of spinning black holes in four dimensions.`
+      + ` `
+    ,
+      `<b><i>Color-Kinematics Duality</i></b>`
+      + ` suggests that there exists a mystery infinite-dimensional Lie algebra at the heart of perturbative quantum gravity, somehow different than the diffeomorphism algebra.`
       + ` `
     ,
   ];
