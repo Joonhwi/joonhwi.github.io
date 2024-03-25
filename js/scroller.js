@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
       + ` `
     ,
   ];
-
+  
   const gallery = document.getElementById('gallery');
 
   images.forEach(function(imageSrc, index) {
