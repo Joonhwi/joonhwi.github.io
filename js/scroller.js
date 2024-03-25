@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // "/images/phys-cards/test.jpg",
     "/images/phys-cards/zig-bowtie.png",
     // "https://media.gcflearnfree.org/ctassets/topics/246/share_size_large.jpg",
-    "/images/phys-cards/int1-real_cut.jpg",
+    // "/images/phys-cards/int1-real_cut.jpg",
+    "/images/phys-cards/flying-discs.jpg",
     // "/images/phys-cards/test.jpg",
     // "https://media.gcflearnfree.org/ctassets/topics/246/share_size_large.jpg",
   ];
