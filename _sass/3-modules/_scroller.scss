@@ -1,9 +1,9 @@
 .scr-thumbnails {
-  display: flex;
-  flex-wrap: nowrap;
+  // display: flex;
+  // flex-wrap: nowrap;
   overflow-x: auto; 
   justify-content: flex-start; /* Align thumbnails to the start of the container */
-  flex-grow: 1;
+  // flex-grow: 1;
 }
 
 .scr-thumbnail {
