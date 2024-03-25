@@ -10,8 +10,9 @@ document.addEventListener('DOMContentLoaded', function() {
   ];
 
   const captions = [
-    "Caption for the first image",
-    "Caption for the second image",
+    "Spinspacetime",
+    "Zig-Zag Theory of Massive Spinning Particles",
+    "Zig-Zag Approach to Spinning Black Holes",
   ];
 
   const messages = [
@@ -19,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
       + `opens up a new chapter in relativity by unifying spacetime and spin into a complex geometry, concretely realizing Newman's curious ideas in the 70s.`
     ,
       `<b><i>Zig-zag theory of massive spinning particles</i></b>`
-      + `aims to reboot twistor particle programme with a huge emphasis on the hidden Kähler geometry (dubbed “zig-zag structure”) of massive spinning particles.`
+      + `aims to reboot twistor particle programme with a great emphasis on the hidden Kähler geometry (dubbed “zig-zag structure”) of massive spinning particles.`
     ,
       `<b><i>Zig-zag approach to spinning black holes</i></b>`
       // + `proposes to study spinning black holes in four dimensions from the angle of their factorization into chiral dyons in the chiral sectors.`
@@ -49,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const back = document.createElement('div');
     back.classList.add('back');
     // back.textContent = captions[index]; // Set the caption text from the captions array
-    // back.innerHTML = `<p style="text-align:center;">` + captions[index] + `</p>`;
+    back.innerHTML = `<p style="text-align:center;">` + captions[index] + `</p>`;
 
     front.appendChild(img);
     card.appendChild(front);
