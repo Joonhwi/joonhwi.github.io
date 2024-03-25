@@ -2,9 +2,9 @@ document.addEventListener('DOMContentLoaded', function() {
   const images = [
     // "/images/phys-cards/lcdx.png",
     "https://media.gcflearnfree.org/ctassets/topics/246/share_size_large.jpg",
-    "/images/phys-cards/test.jpg",
+    // "/images/phys-cards/test.jpg",
     "https://media.gcflearnfree.org/ctassets/topics/246/share_size_large.jpg",
-    // "https://media.gcflearnfree.org/ctassets/topics/246/share_size_large.jpg",
+    "https://media.gcflearnfree.org/ctassets/topics/246/share_size_large.jpg",
     // "/images/phys-cards/test.jpg",
     // "https://media.gcflearnfree.org/ctassets/topics/246/share_size_large.jpg",
   ];
@@ -17,16 +17,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const messages = [
       `<b><i>Spinspacetime</i></b>`
-      + `opens up a new chapter in relativity by unifying spacetime and spin into a complex geometry, concretely realizing Newman's curious ideas in the 70s.`
+      + ` opens up a new chapter in relativity by unifying spacetime and spin into a complex geometry, concretely realizing Newman's curious ideas in the 70s.`
     ,
       `<b><i>Zig-zag theory of massive spinning particles</i></b>`
-      + `aims to reboot twistor particle programme with a great emphasis on the hidden Kähler geometry (dubbed “zig-zag structure”) of massive spinning particles.`
+      + ` aims to reboot twistor particle programme with a great emphasis on the hidden Kähler geometry (dubbed “zig-zag structure”) of massive spinning particles.`
     ,
       `<b><i>Zig-zag approach to spinning black holes</i></b>`
       // + `proposes to study spinning black holes in four dimensions from the angle of their factorization into chiral dyons in the chiral sectors.`
       // + `proposes to study spinning black holes in four dimensions with their “factorized” form, into chiral dyons in chiral sectors.`
       // + `proposes to study the dynamics of spinning black holes in four dimensions with their factorization into chiral dyons.`
-      + `proposes that chiral dyons should be used as elementary building blocks for studying the dynamics of spinning black holes in four dimensions.`
+      + ` proposes that chiral dyons should be used as elementary building blocks for studying the dynamics of spinning black holes in four dimensions.`
     ,
   ];
 
@@ -49,8 +49,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const back = document.createElement('div');
     back.classList.add('back');
-    back.textContent = captions[index]; // Set the caption text from the captions array
-    // back.innerHTML = `<p style="text-align:center;">` + captions[index] + `</p>`;
+    // back.textContent = captions[index]; // Set the caption text from the captions array
+    back.innerHTML = `<p style="text-align:center; font-size:120%; display:table-cell; height:150px; vertical-align: middle; margin: 0px; transform: scale(-1, 1);">` + captions[index] +  `</p>`;
+    // back.textContent = captions[index];
 
     front.appendChild(img);
     card.appendChild(front);
@@ -60,43 +61,43 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
 
-  // const thumbnails = document.querySelectorAll('.scr-thumbnail');
-  // const message = document.getElementById('message');
-  // let activeThumbnail = null;
-  // // message.textContent = 'Click cards to see descriptions';
-  // message.innerHTML = 'Click cards to see descriptions';
+  const thumbnails = document.querySelectorAll('.scr-thumbnail');
+  const message = document.getElementById('message');
+  let activeThumbnail = null;
+  // message.textContent = 'Click cards to see descriptions';
+  message.innerHTML = 'Click cards to see descriptions';
 
-  // thumbnails.forEach(function(thumbnail, index) {
-  //   thumbnail.addEventListener('click', function() {
-  //     if (activeThumbnail !== thumbnail) {
-  //       // Hide message if another thumbnail is clicked
-  //       message.style.display = 'none';
-  //       activeThumbnail = thumbnail;
-  //     }
-  //     // message.textContent = messages[index];
-  //     message.innerHTML = messages[index];
-  //     message.style.display = 'block';
-  //   });
-  // });
+  thumbnails.forEach(function(thumbnail, index) {
+    thumbnail.addEventListener('click', function() {
+      if (activeThumbnail !== thumbnail) {
+        // Hide message if another thumbnail is clicked
+        message.style.display = 'none';
+        activeThumbnail = thumbnail;
+      }
+      // message.textContent = messages[index];
+      message.innerHTML = messages[index];
+      message.style.display = 'block';
+    });
+  });
 
   // Polyfill for closest() function
-  // if (!Element.prototype.closest) {
-  //   Element.prototype.closest = function(s) {
-  //     let el = this;
-  //     do {
-  //       if (el.matches(s)) return el;
-  //       el = el.parentElement || el.parentNode;
-  //     } while (el !== null && el.nodeType === 1);
-  //     return null;
-  //   };
-  // }
+  if (!Element.prototype.closest) {
+    Element.prototype.closest = function(s) {
+      let el = this;
+      do {
+        if (el.matches(s)) return el;
+        el = el.parentElement || el.parentNode;
+      } while (el !== null && el.nodeType === 1);
+      return null;
+    };
+  }
 
   // Reset message when clicking outside of cards
-  // document.addEventListener('click', function(event) {
-  //   if (!event.target.closest('.scr-thumbnail')) {
-  //     // message.textContent = 'Click cards to see descriptions';
-  //     message.innerHTML = 'Click cards to see descriptions';
-  //   }
-  // });
+  document.addEventListener('click', function(event) {
+    if (!event.target.closest('.scr-thumbnail')) {
+      // message.textContent = 'Click cards to see descriptions';
+      message.innerHTML = 'Click cards to see descriptions';
+    }
+  });
 
 });
