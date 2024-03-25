@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const images = [
     "/images/phys-cards/higher-bubblegum-UW.png",
     "/images/phys-cards/lcdx.png",
-    "/images/phys-cards/zig-bowtie.png",
+    "/images/phys-cards/zig-bowtie-indigo.png",
     "/images/phys-cards/flying-discs_rendered.jpg",
     // "https://media.gcflearnfree.org/ctassets/topics/246/share_size_large.jpg",
     // "/images/phys-cards/test.jpg",
