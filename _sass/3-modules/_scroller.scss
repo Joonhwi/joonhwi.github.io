@@ -2,13 +2,14 @@
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto; 
+  width: 100%;
   // justify-content: flex-start; /* Align thumbnails to the start of the container */
   // flex-grow: 1;
   // min-height: 170px;
-  max-height: 170px;
-  min-width: 100%;
-  display: table-cell; 
-  vertical-align: middle;
+  // max-height: 170px;
+  // min-width: 100%;
+  // display: table-cell; 
+  // vertical-align: middle;
 }
 
 .scr-thumbnail {
