@@ -4,6 +4,7 @@
   overflow-x: auto; 
   // justify-content: flex-start; /* Align thumbnails to the start of the container */
   // flex-grow: 1;
+  min-height: 151px;
 }
 
 .scr-thumbnail {
@@ -11,6 +12,9 @@
   height: 150px;
   flex: 0 0 auto;
   margin-right: 10px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   position: relative;
   perspective: 1000px; /* Adding perspective for 3D effect */
 }
