@@ -10,7 +10,7 @@
   height: 150px;
   margin: 5px;
   position: relative;
-  perspective: 1000px; /* Adding perspective for 3D effect */
+  perspective: 900px; /* Adding perspective for 3D effect */
 }
 
 .scr-thumbnail-image {
@@ -37,7 +37,7 @@
   height: 100%; /* Set image height to fill the entire card */
   object-fit: cover; /* Crop the image to cover the entire card */
   object-position: center; /* Center align the image within the card */
-  // pointer-events: none;
+  pointer-events: none;
 }
 
 .scr-front {
