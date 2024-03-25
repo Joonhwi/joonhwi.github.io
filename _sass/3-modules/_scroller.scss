@@ -44,7 +44,8 @@
   transform-style: preserve-3d; /* Ensures child elements are rendered in 3D */
   transition: transform 3.5s;
   user-select: none; /* Disable text selection */
-  border-radius: 1px;
+  // border-radius: 1px;
+  border-radius: 0px;
 }
 
 .scr-front, .scr-back {
@@ -84,12 +85,12 @@
 
 .scr-backtext {
   text-align: center;
-  font-size: 110%;
+  font-size: 105%;
   display: table-cell; 
   width: 150px; 
   height: 150px; 
   vertical-align: middle; 
-  margin: 0px; 
+  margin: 5px; 
   transform: scale(-1, 1);
   // border: 0.7px solid --text-color;
 }
