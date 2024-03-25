@@ -14,8 +14,6 @@
 
 .scr-thumbnail-image {
   user-select: none; /* Disable text selection */
-  -webkit-touch-callout: none; /* Disable touch callout */
-  -webkit-user-drag: none; /* Disable user dragging */
 }
 
 .scr-card {
@@ -38,6 +36,9 @@
   height: 100%; /* Set image height to fill the entire card */
   object-fit: cover; /* Crop the image to cover the entire card */
   object-position: center; /* Center align the image within the card */
+  user-select: none; /* Disable text selection */
+  -webkit-touch-callout: none; /* Disable touch callout */
+  -webkit-user-drag: none; /* Disable user dragging */
 }
 
 .scr-front {
