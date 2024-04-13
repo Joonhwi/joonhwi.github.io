@@ -161,7 +161,7 @@ permalink: /physics/
 {% capture datenow %}{{'now' | date: '%s'}}{% endcapture %}
 {% for talk in site.data.seminars %}
 {% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %}
-{% if talk.type == "invited-talk" %}
+{% if talk.type == "invited talk" %}
 <!-- {% if talkdate <= datenow and talk.type == "talk" %} -->
   <div class="row">
     <div class="col-10" style="word-wrap:break-word; max-width:75%;">
