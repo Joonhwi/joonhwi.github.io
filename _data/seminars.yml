@@ -1,4 +1,14 @@
 - type: "talk"
+  date: 2024-04-18
+  topic: "One-Form Symmetry in Dynamical Gravity"
+  link-topic: 
+  event: "UCLA"
+  link-event: ""
+  institution: 
+  address:
+  invited: True
+
+- type: "talk"
   date: 2023-11-17
   topic: "Twistor Particle Programme Rebooted: A Zig-Zag Theory of Massive Spinning Particles"
   link-topic: 
@@ -6,6 +16,7 @@
   link-event: "https://www.maths.ox.ac.uk/node/66122"
   institution: 
   address:
+  invited: True
 
 - type: "talk"
   date: 2023-03-31
