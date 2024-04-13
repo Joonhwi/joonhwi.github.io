@@ -1,47 +1,49 @@
-- type: "talk"
-  date: 2024-04-18
-  topic: "One-Form Symmetry in Dynamical Gravity"
-  link-topic: 
-  event: "UCLA"
-  link-event: ""
-  institution: 
-  address:
-  invited: True
-
-- type: "talk"
-  date: 2023-11-17
-  topic: "Twistor Particle Programme Rebooted: A Zig-Zag Theory of Massive Spinning Particles"
-  link-topic: 
-  event: "Oxford QFT-Relativity Seminars"
-  link-event: "https://www.maths.ox.ac.uk/node/66122"
-  institution: 
-  address:
-  invited: True
 
 - type: "talk"
   date: 2023-03-31
-  topic: "Spinspacetime: Unification of Spacetime and Spin into a Complex Geometry"
-  link-topic: 
+  title: ""
+  event: "California Amplitudes Meeting 2024"
+  link-event: ""
+  link-file: 
+
+- type: "talk"
+  date: 2024-04-18
+  title: "One-Form Symmetry in Dynamical Gravity"
+  event: "UCLA"
+  link-event: ""
+  invited: True
+  link-file: 
+
+- type: "talk"
+  date: 2023-11-17
+  title: "Twistor Particle Programme Rebooted: A Zig-Zag Theory of Massive Spinning Particles"
+  event: "Oxford QFT-Relativity Seminars"
+  link-event: "https://www.maths.ox.ac.uk/node/66122"
+  invited: True
+  link-file: 
+
+- type: "talk"
+  date: 2023-03-31
+  title: "Spinspacetime: Unification of Spacetime and Spin into a Complex Geometry"
   event: "39th Pacific Coast Gravity Meeting"
   link-event: "http://www.tapir.caltech.edu/~pcgm39/"
-  institution: 
-  address:
+  link-file: 
 
 - type: "talk"
   date: 2023-03-12
-  topic: "Symplectic Perturbation Theory"
-  link-topic: 
+  title: "Symplectic Perturbation Theory"
   event: "California Amplitudes Meeting 2023"
   link-event: "https://sites.google.com/view/ca-amps-ucsd/home"
-  institution: 
-  address:
+  link-file: 
+
+
 
 
 
 - type: "informal"
   date: 2024-03-11
-  topic: "Line Singularities in Gravity"
-  link-topic: 
+  title: "Line Singularities in Gravity"
+  link-file: 
   event: 
   link-event: 
   institution: "Caltech"
@@ -49,8 +51,8 @@
 
 - type: "informal"
   date: 2023-03-06
-  topic: "Newman-Janis Algorithm and Complex Spacetime"
-  link-topic: 
+  title: "Newman-Janis Algorithm and Complex Spacetime"
+  link-file: 
   event: "ARC seminar"
   link-event: 
   institution: "Caltech"
@@ -58,8 +60,8 @@
 
 - type: "informal"
   date: 2022-12-01
-  topic: "Yang-Mills as “Quantized” Gravity: Color-Kinematics Duality from Non-Commutative Geometry"
-  link-topic: 
+  title: "Yang-Mills as “Quantized” Gravity: Color-Kinematics Duality from Non-Commutative Geometry"
+  link-file: 
   event: "Ma148"
   link-event: 
   institution: "Caltech"
@@ -67,8 +69,8 @@
 
 - type: "informal"
   date: 2022-10-25
-  topic: "Twistor Theory: a “Quantum Particle Theory” Perspective"
-  link-topic: # "/files/(221025) Twistor Theory QPT.pdf"
+  title: "Twistor Theory: a “Quantum Particle Theory” Perspective"
+  link-file: # "/files/(221025) Twistor Theory QPT.pdf"
   event: "Graduate student journal club"
   link-event: 
   institution: "Caltech"
@@ -76,8 +78,8 @@
 
 # - type: "conference"
 #   date: 2022-08-12
-#   topic: "Quantizing the Nonlinear Graviton"
-#   link-topic: "https://youtu.be/SC6WE4wPhqw?t=23755"
+#   title: "Quantizing the Nonlinear Graviton"
+#   link-file: "https://youtu.be/SC6WE4wPhqw?t=23755"
 #   event: "Amplitudes 2022"
 #   link-event: "https://indico.cern.ch/event/1101193/"
 #   institution: "Charles University"
