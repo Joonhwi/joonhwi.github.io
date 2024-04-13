@@ -26,7 +26,8 @@ document.addEventListener('DOMContentLoaded', function() {
       // + `proposes to study the dynamics of spinning black holes in four dimensions with their factorization into chiral dyons.`
       // + ` reveals new symmetry in nature and explores a novel interpretation of gravitational singularities as topological operators.`
       // + ` reveals new symmetry in nature that could explain why fermions exist and also a novel interpretation of gravitational singularities as topological operators.`
-      + ` has taught us why fermions should exist in our universe and revealed a novel interpretation of gravitational singularities as topological operators.`
+      // + ` has taught us why fermions exist in our universe and revealed a novel interpretation of gravitational singularities as topological operators.`
+      + ` has shed an interesting insight on why fermions exist and revealed a novel interpretation of gravitational singularities as topological operators.`
       // + ` offers an explanation of why fermions exist in our universe and reveals a novel interpretation of gravitational singularities as topological operators.`
       + ` [3]`
     ,
