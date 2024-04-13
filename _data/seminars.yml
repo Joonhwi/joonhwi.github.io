@@ -6,20 +6,18 @@
   link-event: ""
   link-file: 
 
-- type: "talk"
+- type: "invited-talk"
   date: 2024-04-18
   title: "One-Form Symmetry in Dynamical Gravity"
   event: "UCLA"
   link-event: ""
-  invited: True
   link-file: 
 
-- type: "talk"
+- type: "invited-talk"
   date: 2023-11-17
   title: "Twistor Particle Programme Rebooted: A Zig-Zag Theory of Massive Spinning Particles"
   event: "Oxford QFT-Relativity Seminars"
   link-event: "https://www.maths.ox.ac.uk/node/66122"
-  invited: True
   link-file: 
 
 - type: "talk"
