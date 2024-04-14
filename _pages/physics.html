@@ -158,9 +158,7 @@ permalink: /physics/
 <h3>Invited Talks</h3>
 
 <div class="container">
-{% capture datenow %}{{'now' | date: '%s'}}{% endcapture %}
 {% for talk in site.data.seminars %}
-{% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %}
 {% if talk.type == "invited" %}
   <div class="row">
     <div class="col-10" style="word-wrap:break-word; max-width:75%;">
@@ -188,9 +186,9 @@ permalink: /physics/
 <h3>Seminars, Colloquia, etc.</h3>
 
 <div class="container">
-{% capture datenow %}{{'now' | date: '%s'}}{% endcapture %}
+<!-- {% capture datenow %}{{'now' | date: '%s'}}{% endcapture %} -->
 {% for talk in site.data.seminars %}
-{% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %}
+<!-- {% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %} -->
 {% if talk.type == "talk" %}
 <!-- {% if talkdate <= datenow and talk.type == "talk" %} -->
   <div class="row">
