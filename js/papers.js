@@ -84,6 +84,18 @@ var papers = [
   //   released: 0
   // },
   {
+    title: "Massive Twistor Worldline in Electromagnetic Fields",
+    codename: "wqft-em",
+    arxivnumber: "2405.17056",
+    released: 1
+  },
+  {
+    title: "Note on the Taub-NUT Instanton Metric",
+    codename: "tnks-note",
+    arxivnumber: "2405.09518",
+    released: 1
+  },
+  {
     title: "Asymptotic Spinspacetime",
     codename: "sst-asym",
     arxivnumber: "2309.11886",
