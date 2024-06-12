@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` reveals new symmetry in nature that could explain why fermions exist and also a novel interpretation of gravitational singularities as topological operators.`
       // + ` has taught us why fermions exist in our universe and revealed a novel interpretation of gravitational singularities as topological operators.`
       // + ` has shed an interesting insight on why fermions exist and revealed a novel interpretation of gravitational singularities as topological operators.`
-      + ` has revealed a new symmetry in our universe below the scale of the lightest neutrino and illuminated a novel interpretation of gravitational singularities as topological operators.`
+      + ` reveals a new symmetry in our universe below the scale of the lightest neutrino and also illuminates a novel interpretation of gravitational singularities as topological operators.`
       // + ` offers an explanation of why fermions exist in our universe and reveals a novel interpretation of gravitational singularities as topological operators.`
       + ` [3]`
     ,
