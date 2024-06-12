@@ -27,7 +27,8 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` reveals new symmetry in nature and explores a novel interpretation of gravitational singularities as topological operators.`
       // + ` reveals new symmetry in nature that could explain why fermions exist and also a novel interpretation of gravitational singularities as topological operators.`
       // + ` has taught us why fermions exist in our universe and revealed a novel interpretation of gravitational singularities as topological operators.`
-      + ` has shed an interesting insight on why fermions exist and revealed a novel interpretation of gravitational singularities as topological operators.`
+      // + ` has shed an interesting insight on why fermions exist and revealed a novel interpretation of gravitational singularities as topological operators.`
+      + ` has revealed a new symmetry in our universe below the scale of the lightest neutrino and illuminated a novel interpretation of gravitational singularities as topological operators.`
       // + ` offers an explanation of why fermions exist in our universe and reveals a novel interpretation of gravitational singularities as topological operators.`
       + ` [3]`
     ,
@@ -38,14 +39,14 @@ document.addEventListener('DOMContentLoaded', function() {
       `<b><i>Zig-zag theory of massive spinning particles</i></b>`
       // + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry (“dubbed zig-zag structure”) of massive spinning particles.`
       + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry of massive spinning particles.`
-      + ` [1], [0,2]`
+      + ` [1], [0,2,5]`
     ,
       `<b><i>Zig-zag approach to spinning black holes</i></b>`
       // + `proposes to study spinning black holes in four dimensions from the angle of their factorization into chiral dyons in the chiral sectors.`
       // + `proposes to study spinning black holes in four dimensions with their “factorized” form, into chiral dyons in chiral sectors.`
       // + `proposes to study the dynamics of spinning black holes in four dimensions with their factorization into chiral dyons.`
       + ` proposes that chiral dyons should be used as elementary building blocks for studying the dynamics of spinning black holes in four dimensions.`
-      + ` `
+      + ` [4]`
     ,
       `<b><i>Color-Kinematics Duality</i></b>`
       // + ` suggests that there exists a mystery infinite-dimensional Lie algebra at the heart of perturbative quantum gravity, somehow different than the diffeomorphism algebra.`
