@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ,
       `<b><i>Spinspacetime</i></b>`
       + ` opens up a new chapter in relativity by unifying spacetime and spin into a complex geometry, concretely realizing Newman's curious ideas in the 70s.`
-      + ` [2]`
+      + ` [2,5]`
     ,
       `<b><i>Zig-zag theory of massive spinning particles</i></b>`
       // + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry (“dubbed zig-zag structure”) of massive spinning particles.`
