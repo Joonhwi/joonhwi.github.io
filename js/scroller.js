@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` has shed an interesting insight on why fermions exist and revealed a novel interpretation of gravitational singularities as topological operators.`
       // + ` reveals a new symmetry in our universe below the scale of the lightest neutrino and also illuminates a novel interpretation of gravitational singularities as topological operators.`
       // + ` offers an explanation of why fermions exist in our universe and reveals a novel interpretation of gravitational singularities as topological operators.`
-      + ` has offered an interesting angle on why fermions exist and revealed a novel interpretation of gravitational singularities as topological operators.`
+      + ` has offered an interesting angle on why fermions exist and revealed an intriguing interpretation of gravitational singularities as topological operators.`
       + ` [3]`
     ,
       `<b><i>Spinspacetime</i></b>`
