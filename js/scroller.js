@@ -39,14 +39,14 @@ document.addEventListener('DOMContentLoaded', function() {
     ,
       `<b><i>Zig-zag theory of massive spinning particles</i></b>`
       // + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry (“dubbed zig-zag structure”) of massive spinning particles.`
-      + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry of massive spinning particles [1].`
+      + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry of massive spinning particles in four dimensions [1].`
       + ` [0,1,2,5]`
     ,
       `<b><i>Zig-zag approach to spinning black holes</i></b>`
       // + `proposes to study spinning black holes in four dimensions from the angle of their factorization into chiral dyons in the chiral sectors.`
       // + `proposes to study spinning black holes in four dimensions with their “factorized” form, into chiral dyons in chiral sectors.`
       // + `proposes to study the dynamics of spinning black holes in four dimensions with their factorization into chiral dyons.`
-      + ` proposes that chiral dyons should be used as elementary building blocks for studying the dynamics of spinning black holes in four dimensions.`
+      + ` proposes that chiral dyons (Taub-NUT instantons) should be used as elementary building blocks for studying the dynamics of spinning black holes in four dimensions.`
       + ` [4]`
     ,
       `<b><i>Color-Kinematics Duality</i></b>`
