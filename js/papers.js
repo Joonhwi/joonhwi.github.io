@@ -112,17 +112,17 @@ var papers = [
     codename: "ambikerr0",
     arxivnumber: "2102.07063",
     released: 1
-  },
-  {
-    title: "Thermodynamic Identities with Sunray Diagrams",
-    codename: "sunray",
-    arxivnumber: "1912.11485",
-    released: 1
-  },
-  {
-    title: "Boosting Vector Calculus with the Graphical Notation",
-    codename: "graphical",
-    arxivnumber: "1911.00892",
-    released: 1
   }
+  // {
+  //   title: "Thermodynamic Identities with Sunray Diagrams",
+  //   codename: "sunray",
+  //   arxivnumber: "1912.11485",
+  //   released: 1
+  // },
+  // {
+  //   title: "Boosting Vector Calculus with the Graphical Notation",
+  //   codename: "graphical",
+  //   arxivnumber: "1911.00892",
+  //   released: 1
+  // }
 ];
