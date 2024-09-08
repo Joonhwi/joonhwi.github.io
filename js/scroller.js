@@ -37,7 +37,8 @@ document.addEventListener('DOMContentLoaded', function() {
       + ` [4]`
     ,
       `<b><i>Spinspacetime</i></b>`
-      + ` opens up a new chapter in relativity by unifying spacetime and spin into a complex geometry, concretely realizing Newman's curious ideas in the 70s.`
+      // + ` opens up a new chapter in relativity by unifying spacetime and spin into a complex geometry, concretely realizing Newman's curious ideas in the 70s.`
+      + ` opens up a new chapter in relativity by unifying spacetime and spin into a complex geometry, finally realizing Ezra Ted Newman's dream from the 70s.`
       // + ` [2,5]`
       + ` [2,3]`
     ,
