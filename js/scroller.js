@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
       `<b><i>Zig-zag twistor particle program</i></b>`
       // + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry (“dubbed zig-zag structure”) of massive spinning particles.`
       // + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry of massive spinning particles in four dimensions [1].`
-      + ` aims to reboot the twistor particle program with an emphasis on the hidden Kähler geometry of massive spinning particles in four dimensions [1].`
+      + ` aims to reboot the twistor particle program with an emphasis on the hidden Kähler geometry of massive spinning particles in four dimensions.`
       // + ` [0,1,2,5]`
       + ` [1,2,3,6]`
     ,
