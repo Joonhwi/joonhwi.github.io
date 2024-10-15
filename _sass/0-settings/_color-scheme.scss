@@ -92,8 +92,8 @@
   --drop-dark: #1f1f26;
   // 
   //
-  --theme: var(--candy-mint);
-  --selec: var(--olivelgr);
+  --theme: var(--light-yellow);
+  --selec: var(--gamma-yellow);
   --dimmer: var(--drop-dark); // dark-alt
   --button: var(--olivelgr);
   // 
@@ -121,7 +121,7 @@
   --link-color: var(--theme);
   --link-color-hover: var(--theme);
 
-  --button-color: var(--white);
+  --button-color: var(--black);
   --button-background-color: var(--button);
   --button-background-hover: var(--button);
 
