@@ -35,7 +35,7 @@
   --selection-text-color: var(--black);
 
   --background-color: var(--white);
-  --background-alt-color: var(--button); // used for scroll up button (scroll-button-top.scss)
+  --background-alt-color: var(--dimmer); 
   
   --text-color: var(--black);
   --text-alt-color: var(--blue-gray);
@@ -48,7 +48,7 @@
   --link-color-hover: var(--theme);
 
   --button-color: var(--white);
-  --button-background-color: var(--theme);
+  --button-background-color: var(--button); // used for scroll up button (scroll-button-top.scss)
   --button-background-hover: #4f31c7;
 
   --border-color: var(--dimmer);
