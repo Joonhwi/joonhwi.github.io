@@ -24,6 +24,7 @@
   --theme: var(--starr);
   --light-theme: var(--light-cloud);
   --selec: var(--cloud);
+  --dimmer: var(--schutz);
   // 
   // 
   // --brand-color: #5e3aee;
@@ -32,7 +33,7 @@
   --selection-text-color: var(--black);
 
   --background-color: var(--white);
-  --background-alt-color: var(--light-blue);
+  --background-alt-color: var(--dimmer);
   
   --text-color: var(--black);
   --text-alt-color: var(--blue-gray);
@@ -48,8 +49,8 @@
   --button-background-color: var(--theme);
   --button-background-hover: #4f31c7;
 
-  --border-color: var(--light-blue);
-  --border-color-alt: var(--light-blue);
+  --border-color: var(--dimmer);
+  --border-color-alt: var(--dimmer);
 
   --th-color: var(--light-gray);
   --tr-color: var(--light-gray);
