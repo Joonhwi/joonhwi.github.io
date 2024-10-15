@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
   ];
 
   const messages = [
-      `<b><i>Generalized Symmetry in Gravity</i></b>`
+      `<span class="EmphBI">Generalized Symmetry in Gravity</span>`
       // `<b><i>Higher-Form Symmetry in Gravity</i></b>`
       // + `proposes to study spinning black holes in four dimensions from the angle of their factorization into chiral dyons in the chiral sectors.`
       // + `proposes to study spinning black holes in four dimensions with their “factorized” form, into chiral dyons in chiral sectors.`
@@ -36,21 +36,21 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` [3]`
       + ` [4]`
     ,
-      `<b><i>Spinspacetime</i></b>`
+      `<span class="EmphBI">Spinspacetime</span>`
       // + ` opens up a new chapter in relativity by unifying spacetime and spin into a complex geometry, concretely realizing Newman's curious ideas in the 70s.`
       + ` opens up a new chapter in relativity by unifying spacetime and spin into a complex geometry, which finally realizes Ezra Ted Newman's forgotten dream in the 70s.`
       // + ` [2,5]`
       + ` [2,3]`
     ,
       // `<b><i>Zig-zag theory of massive spinning particles</i></b>`
-      `<b><i>Zig-zag twistor particle program</i></b>`
+      `<span class="EmphBI">Zig-zag twistor particle program</span>`
       // + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry (“dubbed zig-zag structure”) of massive spinning particles.`
       // + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry of massive spinning particles in four dimensions [1].`
       + ` aims to reboot the twistor particle program with an emphasis on the hidden Kähler geometry of massive spinning particles in four dimensions.`
       // + ` [0,1,2,5]`
       + ` [1,2,3,6]`
     ,
-      `<b><i>Zig-zag program for spinning black holes</i></b>`
+      `<span class="EmphBI">Zig-zag program for spinning black holes</span>`
       // + `proposes to study spinning black holes in four dimensions from the angle of their factorization into chiral dyons in the chiral sectors.`
       // + `proposes to study spinning black holes in four dimensions with their “factorized” form, into chiral dyons in chiral sectors.`
       // + `proposes to study the dynamics of spinning black holes in four dimensions with their factorization into chiral dyons.`
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` [4]`
       + ` [3,5]`
     ,
-      `<b><i>Color-Kinematics Duality</i></b>`
+      `<span class="EmphBI">Color-Kinematics Duality</span>`
       // + ` suggests that there exists a mystery infinite-dimensional Lie algebra at the heart of perturbative quantum gravity, somehow different than the diffeomorphism algebra.`
       // + ` suggests that there exists a mystery infinite-dimensional Lie algebra at the heart of perturbative quantum gravity, which somehow isn't the diffeomorphism algebra.`
       + ` suggests that there exists a mystery infinite-dimensional Lie algebra at the heart of perturbative quantum gravity, which somehow isn't simply the diffeomorphism algebra in spacetime.`
