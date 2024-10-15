@@ -130,8 +130,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Reset message when clicking outside of cards
   document.addEventListener('click', function(event) {
     if (!event.target.closest('.scr-thumbnail')) {
-      // message.textContent = '(Click cards to see descriptions)';
-      message.innerHTML = '(Click cards to see descriptions)';
+      // message.innerHTML = '(Click cards to see descriptions)';
     }
   });
 
