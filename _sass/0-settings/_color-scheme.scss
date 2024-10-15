@@ -25,6 +25,7 @@
   --light-theme: var(--light-cloud);
   --selec: var(--cloud);
   --dimmer: var(--schutz);
+  --button: var(--pepper);
   // 
   // 
   // --brand-color: #5e3aee;
@@ -33,7 +34,7 @@
   --selection-text-color: var(--black);
 
   --background-color: var(--white);
-  --background-alt-color: var(--dimmer);
+  --background-alt-color: var(--button); // used for scroll up button (scroll-button-top.scss)
   
   --text-color: var(--black);
   --text-alt-color: var(--blue-gray);
