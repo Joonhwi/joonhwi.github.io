@@ -64,7 +64,8 @@
 .pagination__next,
 .pagination__prev {
   &:hover {
-    color: var(--heading-font-color);
+    // color: var(--heading-font-color);
+    color: var(--button-color);
   }
 
   i {
