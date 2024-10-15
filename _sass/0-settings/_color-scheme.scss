@@ -24,10 +24,11 @@
   --gamma-yellow: #ffd94e;
   --light-yellow: #ffeeb1;
   --schutz: #7cb5ff;
+  --schutz-tinted: #68aaff;
   --pepper: #d62010;
   // 
   //
-  --theme: var(--schutz);
+  --theme: var(--schutz-tinted);
   --selec: var(--cloud);
   --dimmer: var(--dim-brown);
   --button: var(--warm-cloth-light);
