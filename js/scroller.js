@@ -10,32 +10,14 @@ document.addEventListener('DOMContentLoaded', function() {
   ];
 
   const captions = [
-    "Generalized Symmetry in Gravity",
-    // "Higher-Form Symmetry in Gravity",
     "Spinspacetime",
     "Zig-Zag Theory of Massive Spinning Particles",
     "Zig-Zag Approach to Spinning Black Holes",
     "Color-Kinematics Duality",
+    "Generalized Symmetry in Gravity",
   ];
 
   const messages = [
-      `<b><i>Generalized Symmetry in Gravity</i></b>`
-      // `<b><i>Higher-Form Symmetry in Gravity</i></b>`
-      // + `proposes to study spinning black holes in four dimensions from the angle of their factorization into chiral dyons in the chiral sectors.`
-      // + `proposes to study spinning black holes in four dimensions with their “factorized” form, into chiral dyons in chiral sectors.`
-      // + `proposes to study the dynamics of spinning black holes in four dimensions with their factorization into chiral dyons.`
-      // + ` reveals new symmetry in nature and explores a novel interpretation of gravitational singularities as topological operators.`
-      // + ` reveals new symmetry in nature that could explain why fermions exist and also a novel interpretation of gravitational singularities as topological operators.`
-      // + ` has taught us why fermions exist in our universe and revealed a novel interpretation of gravitational singularities as topological operators.`
-      // + ` has shed an interesting insight on why fermions exist and revealed a novel interpretation of gravitational singularities as topological operators.`
-      // + ` reveals a new symmetry in our universe below the scale of the lightest neutrino and also illuminates a novel interpretation of gravitational singularities as topological operators.`
-      // + ` offers an explanation of why fermions exist in our universe and reveals a novel interpretation of gravitational singularities as topological operators.`
-      // + ` has offered an interesting angle on why fermions exist and revealed an intriguing interpretation of gravitational singularities as topological operators.`
-      // + ` reveals an intriguing interpretation of gravitational singularities as topological operators while also offering new insights on the standard model.`
-      + ` reinterprets gravitational singularities as topological operators and sheds new insights on the standard model.`
-      // + ` [3]`
-      + ` [4]`
-    ,
       `<b><i>Spinspacetime</i></b>`
       // + ` opens up a new chapter in relativity by unifying spacetime and spin into a complex geometry, concretely realizing Newman's curious ideas in the 70s.`
       + ` opens up a new chapter in relativity by unifying spacetime and spin into a complex geometry, finally realizing Ezra Ted Newman's lost dream in the 70s.`
@@ -63,6 +45,23 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` suggests that there exists a mystery infinite-dimensional Lie algebra at the heart of perturbative quantum gravity, which somehow isn't the diffeomorphism algebra.`
       + ` suggests that there exists a mystery infinite-dimensional Lie algebra at the heart of perturbative quantum gravity, which somehow isn't simply the diffeomorphism algebra in spacetime.`
       + ` `
+    ,
+      `<b><i>Generalized Symmetry in Gravity</i></b>`
+      // `<b><i>Higher-Form Symmetry in Gravity</i></b>`
+      // + `proposes to study spinning black holes in four dimensions from the angle of their factorization into chiral dyons in the chiral sectors.`
+      // + `proposes to study spinning black holes in four dimensions with their “factorized” form, into chiral dyons in chiral sectors.`
+      // + `proposes to study the dynamics of spinning black holes in four dimensions with their factorization into chiral dyons.`
+      // + ` reveals new symmetry in nature and explores a novel interpretation of gravitational singularities as topological operators.`
+      // + ` reveals new symmetry in nature that could explain why fermions exist and also a novel interpretation of gravitational singularities as topological operators.`
+      // + ` has taught us why fermions exist in our universe and revealed a novel interpretation of gravitational singularities as topological operators.`
+      // + ` has shed an interesting insight on why fermions exist and revealed a novel interpretation of gravitational singularities as topological operators.`
+      // + ` reveals a new symmetry in our universe below the scale of the lightest neutrino and also illuminates a novel interpretation of gravitational singularities as topological operators.`
+      // + ` offers an explanation of why fermions exist in our universe and reveals a novel interpretation of gravitational singularities as topological operators.`
+      // + ` has offered an interesting angle on why fermions exist and revealed an intriguing interpretation of gravitational singularities as topological operators.`
+      // + ` reveals an intriguing interpretation of gravitational singularities as topological operators while also offering new insights on the standard model.`
+      + ` reinterprets gravitational singularities as topological operators and sheds new insights on the standard model.`
+      // + ` [3]`
+      + ` [4]`
     ,
   ];
   
