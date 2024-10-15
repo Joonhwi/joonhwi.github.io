@@ -12,6 +12,7 @@
   // --dark-blue: #1e2740;
   // --light-cal: #ffa879;
   // --cal: #FF6E1E;
+  --light-cloud: #e3ecf5;
   --cloud: #D2DCE6;
   --light-star: #8a9aed;
   --star: #6072d1;
@@ -23,8 +24,7 @@
   // 
   //
   --theme: var(--starr);
-  --light-theme: var(--light-cloud);
-  --selec: var(--cloud);
+  --selec: var(--light-cloud);
   --dimmer: var(--dim-brown);
   --button: var(--pepper);
   // 
@@ -40,7 +40,7 @@
   --text-color: var(--black);
   --text-alt-color: var(--blue-gray);
   
-  --date-color: var(--light-theme);
+  --date-color: var(--pepper);
   
   --heading-font-color: var(--black);
 
