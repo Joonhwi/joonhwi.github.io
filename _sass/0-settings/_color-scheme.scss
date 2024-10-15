@@ -11,15 +11,23 @@
   // --dark-blue: #1e2740;
   // --light-cal: #ffa879;
   // --cal: #FF6E1E;
-  --light-theme: #8a9aed;
-  --theme: #6072d1;
+  --cloud: #D2DCE6;
+  --light-star: #8a9aed;
+  --star: #6072d1;
+  --starr: #566ee8;
   --gamma-yellow: #ffd94e;
   --light-yellow: #ffeeb1;
   --schutz: #7cb5ff;
+  // 
   //
+  --theme: var(--starr);
+  --light-theme: var(--light-cloud);
+  --selec: var(--cloud);
+  // 
+  // 
   // --brand-color: #5e3aee;
   --brand-color: var(--theme);
-  --selection-color: #D2DCE6;
+  --selection-color: var(--selec);
   --selection-text-color: var(--black);
 
   --background-color: var(--white);
@@ -36,7 +44,7 @@
   --link-color-hover: var(--theme);
 
   --button-color: var(--white);
-  --button-background-color: var(--brand-color);
+  --button-background-color: var(--theme);
   --button-background-hover: #4f31c7;
 
   --border-color: var(--light-blue);
@@ -60,7 +68,7 @@
   --schutz: #7cb5ff;
   --lime: #c0f992;
   --lg: #B2E797;
-  --sel: #d5e176;
+  --olivelgr: #d5e176;
   --checker-red: #ea301f;
   --light-mint: #d7f2f8;
   --mint: #00c5f1;
@@ -69,15 +77,21 @@
   // --deep-gray: #0e0e10;
   --deep-gray: #15151a;
   // --deep-gray: #0f0f11;
+  // 
   //
+  --theme: var(--mint);
+  --light-theme: var(--light-mint);
+  --selec: var(--olivelgr);
+  // 
+  // 
   // --brand-color: #ea301f;
   --brand-color: var(--gamma-yellow);
   // --selection-color: #181c60;
   // --selection-color: rgb(7, 5, 81);
   --selection-color: var(--dark-shade);
-  --selection-text-color: var(--sel);
+  --selection-text-color: var(--selec);
   // --link: #ea301f;
-  --link: var(--mint);
+  // --link: var(--mint);
 
   --background-color: var(--deep-gray);
   --background-alt-color: #0F1119;
@@ -85,12 +99,12 @@
   --text-color: var(--white);
   --text-alt-color: var(--white-alt);
   
-  --date-color: var(--light-mint);
+  --date-color: var(--light-theme);
   
   --heading-font-color: var(--white);
 
-  --link-color: var(--link);
-  --link-color-hover: var(--link);
+  --link-color: var(--theme);
+  --link-color-hover: var(--theme);
 
   --button-color: var(--white);
   --button-background-color: var(--brand-color);
