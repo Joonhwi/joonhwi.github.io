@@ -293,3 +293,9 @@ table td {
 .Serif {
   font-family: 'Baskerville', 'Georgia', 'Times New Roman', 'Palatino', serif;
 }
+.Tag {
+  font-family: Consolas;
+  font-size:90%; 
+  font-stretch:90%;  letter-spacing:-0.5px;
+  color:var(--date-color);
+}
