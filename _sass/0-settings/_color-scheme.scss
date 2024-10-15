@@ -50,7 +50,7 @@
 
   --button-color: var(--white);
   --button-background-color: var(--button); // used for scroll up button (scroll-button-top.scss)
-  --button-background-hover: #4f31c7;
+  --button-background-hover: var(--button);
 
   --border-color: var(--dimmer);
   --border-color-alt: var(--dimmer);
@@ -84,13 +84,14 @@
   // --deep-gray: #0f0f11;
   // 
   //
-  --theme: var(--mint);
-  --light-theme: var(--light-mint);
-  --selec: var(--olivelgr);
+  --theme: var(--gamma-yellow);
+  --selec: var(--light-yellow);
+  --dimmer: var(--dim-brown);
+  --button: var(--gamma-yellow);
   // 
   // 
   // --brand-color: #ea301f;
-  --brand-color: var(--gamma-yellow);
+  --brand-color: var(--theme);
   // --selection-color: #181c60;
   // --selection-color: rgb(7, 5, 81);
   --selection-color: var(--dark-shade);
@@ -104,7 +105,7 @@
   --text-color: var(--white);
   --text-alt-color: var(--white-alt);
   
-  --date-color: var(--light-theme);
+  --date-color: var(--pepper);
   
   --heading-font-color: var(--white);
 
@@ -112,8 +113,8 @@
   --link-color-hover: var(--theme);
 
   --button-color: var(--white);
-  --button-background-color: var(--brand-color);
-  --button-background-hover: #4f31c7;
+  --button-background-color: var(--button);
+  --button-background-hover: var(--button);
 
   --border-color: #252629;
   --border-color-alt: #080b12;
