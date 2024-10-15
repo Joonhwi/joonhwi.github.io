@@ -9,14 +9,16 @@
   --black: #000000;
   // --dark: #0c101a;
   // --dark-blue: #1e2740;
-  --light-cal: #ffa879;
-  --cal: #FF6E1E;
+  // --light-cal: #ffa879;
+  // --cal: #FF6E1E;
+  --light-theme: #6072d1;
+  --theme: #225db6;
   --gamma-yellow: #ffd94e;
   --light-yellow: #ffeeb1;
   --schutz: #7cb5ff;
   //
   // --brand-color: #5e3aee;
-  --brand-color: var(--cal);
+  --brand-color: var(--theme);
   --selection-color: var(--light-yellow);
   --selection-text-color: var(--black);
 
@@ -26,12 +28,12 @@
   --text-color: var(--black);
   --text-alt-color: var(--blue-gray);
   
-  --date-color: var(--light-cal);
+  --date-color: var(--light-theme);
   
   --heading-font-color: var(--black);
 
-  --link-color: var(--cal);
-  --link-color-hover: var(--cal);
+  --link-color: var(--theme);
+  --link-color-hover: var(--theme);
 
   --button-color: var(--white);
   --button-background-color: var(--brand-color);
