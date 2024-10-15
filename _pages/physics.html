@@ -198,7 +198,7 @@ permalink: /physics/
       {% if talk.link-file!=nil %}
         <a href="{{ talk.link-file }}"><em>{{ talk.title }}</em></a>
       {% else %}
-        <em>{{ talk.title }}</em>
+        {{ talk.title }}
       {% endif %}
       <br/>
       {% if talk.link-event!=nil %}<a href="{{ talk.link-event }}">{{ talk.event }}</a>{% else %}{{ talk.event }}{% endif %}
@@ -263,6 +263,10 @@ permalink: /physics/
         {{ ed.institution }}
         <!-- <span style="font-size:90%">{{ ed.address }}</span> -->
         ({{ ed.address }})
+        {% if ed.note!=nill %}
+          \n
+          {{ ed.note }}
+        {% endif %}
       </div>
       <div class="col-3" style="text-align:right">
         <span class="Date">{% if ed.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span class="Date">{% if ed.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>

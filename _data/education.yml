@@ -1,8 +1,9 @@
-- degree: "PhD Candidate (candidated '24)"
+- degree: "PhD Candidate"
   institution: "California Institute of Technology"
   address: "Pasadena,&nbsp;CA,&nbsp;USA"
   start: 2021-09-27
   end:
+  note: "Candidated '24"
 
 - degree: "BS in Physics"
   institution: "Seoul National University"
