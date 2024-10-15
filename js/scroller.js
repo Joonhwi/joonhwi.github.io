@@ -65,6 +65,15 @@ document.addEventListener('DOMContentLoaded', function() {
       + ` `
     ,
   ];
+
+  //
+  const scrollContainer = document.querySelector('.scroll-thumbnails');
+
+  scrollContainer.addEventListener('wheel', (event) => {
+      event.preventDefault(); // Prevent vertical scroll
+      scrollContainer.scrollLeft += event.deltaY; // Scroll horizontally based on vertical scroll
+  });
+  //  
   
   const gallery = document.getElementById('gallery');
 
