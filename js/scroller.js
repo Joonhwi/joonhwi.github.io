@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "Generalized Symmetry in Gravity",
     "Spinspacetime",
     "Zig-Zag Theory of Massive Spinning Particles",
-    "Zig-Zag Approach to Spinning Black Holes",
+    "Zig-Zag Program for Spinning Black Holes",
     "Color-Kinematics Duality",
   ];
 
