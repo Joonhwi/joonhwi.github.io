@@ -100,8 +100,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const thumbnails = document.querySelectorAll('.scr-thumbnail');
   const message = document.getElementById('message');
   let activeThumbnail = null;
-  // message.textContent = '(Click cards to see descriptions)';
-  message.innerHTML = '(Click cards to see descriptions)';
+  // message.innerHTML = '(Click cards to see descriptions)';
 
   thumbnails.forEach(function(thumbnail, index) {
     thumbnail.addEventListener('click', function() {
