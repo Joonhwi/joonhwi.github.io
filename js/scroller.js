@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
   ];
 
   //
-  const scrollContainer = document.querySelector('.scroll-thumbnails');
+  const scrollContainer = document.querySelector('.scr-thumbnails');
 
   scrollContainer.addEventListener('wheel', (event) => {
       event.preventDefault(); // Prevent vertical scroll
