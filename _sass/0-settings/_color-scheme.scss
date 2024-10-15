@@ -19,7 +19,8 @@
   --star: #6072d1;
   --starr: #5a73f4;
   --warm-cloth: #b19b8c;
-  --warm-cloth-light: #E4E0DC;
+  // --warm-cloth-light: #E4E0DC;
+  --warm-cloth-light: #c7bbb0;
   // --starr: #566ee8;
   --gamma-yellow: #ffd94e;
   --light-yellow: #ffeeb1;
@@ -53,7 +54,7 @@
   --link-color-hover: var(--theme);
 
   --button-color: var(--white);
-  --button-font-color: var(--black);
+  --button-font-color: var(--white);
   --button-background-color: var(--button); // used for scroll up button (scroll-button-top.scss)
   --button-background-hover: var(--button);
 
