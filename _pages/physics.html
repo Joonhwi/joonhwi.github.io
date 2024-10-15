@@ -164,12 +164,12 @@ permalink: /physics/
   <div class="row">
     <div class="col-10" style="word-wrap:break-word; max-width:75%;">
       {% if talk.link-file!=nil %}
-        <a href="{{ talk.link-file }}"><em>{{ talk.title }}</em></a>
+        <a href="{{ talk.link-file }}">{{ talk.title }}</a>
       {% else %}
-        <em>{{ talk.title }}</em>
+        {{ talk.title }}
       {% endif %}
       <br/>
-      {% if talk.link-event!=nil %}<a href="{{ talk.link-event }}">{{ talk.event }}</a>{% else %}{{ talk.event }}{% endif %}
+      {% if talk.link-event!=nil %}<em><a href="{{ talk.link-event }}">{{ talk.event }}</a>{% else %}{{ talk.event }}</em>{% endif %}
     </div>
     <div class="col-2" style="text-align:right;">
       <span class="ConsolasCond">
@@ -201,7 +201,7 @@ permalink: /physics/
         {{ talk.title }}
       {% endif %}
       <br/>
-      {% if talk.link-event!=nil %}<a href="{{ talk.link-event }}">{{ talk.event }}</a>{% else %}{{ talk.event }}{% endif %}
+      {% if talk.link-event!=nil %}<em><a href="{{ talk.link-event }}">{{ talk.event }}</a>{% else %}{{ talk.event }}</em>{% endif %}
       <!-- {% if talk.institution!=nill %}, {{ talk.institution }}{% endif %} -->
       <!-- {% if talk.address!=nil %}
         ({{ talk.address }})
