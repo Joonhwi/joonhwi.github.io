@@ -82,6 +82,7 @@
   // --deep-gray: #0e0e10;
   --deep-gray: #15151a;
   // --deep-gray: #0f0f11;
+  --hazy-night: #3C5759;
   // 
   //
   --theme: var(--gamma-yellow);
@@ -99,7 +100,8 @@
   // --link: #ea301f;
   // --link: var(--mint);
 
-  --background-color: var(--deep-gray);
+  // --background-color: var(--deep-gray);
+  --background-color: var(--hazy-night);
   --background-alt-color: #0F1119;
   
   --text-color: var(--white);
