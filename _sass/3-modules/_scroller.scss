@@ -100,10 +100,10 @@
 /* Define CSS animation for flipping */
 @keyframes flip {
   from {
-    transform: rotateY(0deg);
+    transform: rotateX(0deg);
   }
   to {
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
   }
 }
 
