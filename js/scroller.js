@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const captions = [
     "Generalized Symmetry in Gravity",
     "Spinspacetime",
-    "Zig-Zag Theory of Massive Spinning Particles",
+    ">Zig-zag Twistor Particle Program",
     "Zig-Zag Program for Spinning Black Holes",
     "Color-Kinematics Duality",
   ];
