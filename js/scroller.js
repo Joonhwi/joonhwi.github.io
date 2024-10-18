@@ -24,7 +24,6 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` opens up a new chapter in relativity by unifying spacetime and spin into a complex geometry, finally realizing Ezra Ted Newman's forgotten dream in the 70s.`
       // + ` opens up a new chapter in relativity by realizing Ezra Ted Newman's forgotten dream of unifying spacetime and spin into a complex geometry.`
       + ` realizes Ezra Ted Newman's dream of unifying spacetime and spin into a complex geometry and opens up a new chapter in relativity.`
-      // + ` [2,5]`
       + ` [2,3]`
     ,
       // `<b><i>Zig-zag theory of massive spinning particles</i></b>`
@@ -32,8 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry (“dubbed zig-zag structure”) of massive spinning particles.`
       // + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry of massive spinning particles in four dimensions [1].`
       // + ` aims to reboot the twistor particle program with an emphasis on the hidden Kähler geometry of massive spinning particles in four dimensions.`
-      + ` aims to reboot the twistor particle program, with an emphasis on the hidden Kähler geometry of massive spinning particles in four dimensions.`
-      // + ` [0,1,2,5]`
+      + ` aims to reboot the twistor particle program, with an emphasis on the Kähler geometry of the massive twistor space.`
       + ` [1,2,3,6]`
     ,
     //   // `<span class="EmphBI">Zig-zag program for spinning black holes</span>`
