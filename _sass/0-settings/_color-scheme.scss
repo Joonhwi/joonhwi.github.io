@@ -106,6 +106,7 @@
   --bright-red: #fb6153;
   --greenish: #e1e652;
   --more-olives: #a1bc24;
+  --background-pblue: #171b42;
   // 
   //
   // --theme: var(--glowing-green);
@@ -114,7 +115,8 @@
   // --button: var(--checker-red);
   // --theme: var(--trafficlight-lgreen);
   --theme: var(--bright-red);
-  --selec: var(--olivelgr);
+  // --selec: var(--olivelgr);
+  --selec: var(--light-yellow);
   // --dimmer: var(--drop-dark); // dark-alt
   --button: var(--mint);
   // 
@@ -124,7 +126,8 @@
   // --selection-color: #181c60;
   // --selection-color: rgb(7, 5, 81);
   // --selection-color: var(--dark-shade);
-  --selection-color: var(--black);
+  // --selection-color: var(--black);
+  --selection-color: var(--background-pblue);
   --selection-text-color: var(--selec);
   // --link: #ea301f;
   // --link: var(--mint);
