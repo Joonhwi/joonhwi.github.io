@@ -42,7 +42,8 @@ document.addEventListener('DOMContentLoaded', function() {
       // + `proposes to study spinning black holes in four dimensions with their “factorized” form, into chiral dyons in chiral sectors.`
       // + `proposes to study the dynamics of spinning black holes in four dimensions with their factorization into chiral dyons.`
       // + ` proposes that chiral dyons (Taub-NUT instantons, dubbed “zig” and “zag”) should be used as elementary building blocks for studying the dynamics of spinning black holes in four dimensions.`
-      + ` proposes that self-dual and anti-self-dual Taub-NUT instantons (dubbed “zig” and “zag”) should be used as “atoms” for studying the physics of spinning black holes in four dimensions.`
+      // + ` proposes that self-dual and anti-self-dual Taub-NUT instantons (dubbed “zig” and “zag”) should be used as “atoms” for studying the physics of spinning black holes in four dimensions.`
+      + ` understands the physics of spinning black holes in four dimensions by using self-dual and anti-self-dual Taub-NUT instantons (dubbed “zig” and “zag”) as elementary building blocks or “atoms”.`
       // + ` [4]`
       + ` [3,5]`
     ,
