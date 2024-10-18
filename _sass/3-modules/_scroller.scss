@@ -108,7 +108,7 @@
 }
 
 .scr-thumbnail:hover .scr-card {
-  transform: rotateY(180deg); /* Flip the card on hover */
+  transform: rotateX(180deg); /* Flip the card on hover */
   transition: transform 1.0s;
 }
 
