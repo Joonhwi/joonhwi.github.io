@@ -24,8 +24,10 @@ $base-font-family: Noto Sans, Segoe UI, Arial, sans-serif;
 // $base-font-family: 'DM Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
 // $base-font-family: 'Baskerville', 'Georgia', 'Times New Roman', 'Palatino', serif;
 $base-line-height: 1.4;
-$base-letter-spacing: -0.5px;
-$base-font-stretch: 95%;
+// $base-letter-spacing: -0.5px;
+// $base-font-stretch: 95%;
+$base-letter-spacing: -0.4px;
+$base-font-stretch: 98%;
 
 // Headings
 $heading-font-weight: 700;
@@ -33,6 +35,8 @@ $heading-font-family: Noto Sans, Segoe UI, Arial, sans-serif;
 // $heading-font-family: Aptos, Helvetica Neue, Helvetica, Arial, sans-serif;
 // $heading-font-family: 'Josefin Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
 // $heading-font-family: 'Baskerville', 'Georgia', 'Times New Roman', 'Palatino', serif;
+$heading-letter-spacing: 0px;
+$heading-font-stretch: 100%;
 
 $font-size-h1:  30px;
 $font-size-h2:  26px;
