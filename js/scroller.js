@@ -32,7 +32,8 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` has offered an interesting angle on why fermions exist and revealed an intriguing interpretation of gravitational singularities as topological operators.`
       // + ` reveals an intriguing interpretation of gravitational singularities as topological operators while also offering new insights on the standard model.`
       // + ` reinterprets gravitational singularities as topological operators and sheds new insights on the standard model.`
-      + ` offers an interesting reinterpretation of gravitational singularities as topological operators and sheds an intriguing insight on how fermions exist in our universe.`
+      // + ` offers an interesting reinterpretation of gravitational singularities as topological operators and sheds an intriguing insight on how fermions exist in our universe.`
+      + ` offers an interesting reinterpretation of gravitational singularities as topological operators and reveals a new symmetry in the standard model.`
       // + ` [3]`
       + ` [4]`
     ,
