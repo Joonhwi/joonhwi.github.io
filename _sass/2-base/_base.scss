@@ -16,16 +16,12 @@ body {
   }
 }
 
-// *::selection {
-//   // color: var(--white);
-//   // color: var(--text-color);
-//   // color: #000000;
-//   color: var(--selection-text-color);
-//   background-color: var(--selection-color);
-// }
 *::selection {
-  color: var(--white);
-  background-color: linear-gradient(90deg, #ff7eb3, #7585ff);
+  // color: var(--white);
+  // color: var(--text-color);
+  // color: #000000;
+  color: var(--selection-text-color);
+  background-color: var(--selection-color);
 }
 
 h1,
