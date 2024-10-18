@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', function() {
   const captions = [
     "Generalized Symmetry in Gravity",
     "Spinspacetime",
-    ">Zig-zag Twistor Particle Program",
-    "Zig-Zag Program for Spinning Black Holes",
+    "Zig-zag Twistor Particle Program",
+    "Black Hole Zig-Zag Program",
     "Color-Kinematics Duality",
   ];
 
@@ -55,7 +55,8 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` [0,1,2,5]`
       + ` [1,2,3,6]`
     ,
-      `<span class="EmphBI">Zig-zag program for spinning black holes</span>`
+      // `<span class="EmphBI">Zig-zag program for spinning black holes</span>`
+      `<span class="EmphBI">Black hole zig-zag program</span>`
       // + `proposes to study spinning black holes in four dimensions from the angle of their factorization into chiral dyons in the chiral sectors.`
       // + `proposes to study spinning black holes in four dimensions with their “factorized” form, into chiral dyons in chiral sectors.`
       // + `proposes to study the dynamics of spinning black holes in four dimensions with their factorization into chiral dyons.`
