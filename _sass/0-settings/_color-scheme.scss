@@ -108,6 +108,7 @@
   --more-olives: #a1bc24;
   --background-pblue: #1a205a;
   --lighting-yellow: #f4d455;
+  --saturated-copper: #bc3b24;
   // 
   //
   // --theme: var(--glowing-green);
@@ -117,7 +118,9 @@
   // --theme: var(--trafficlight-lgreen);
   --theme: var(--bright-red);
   // --selec: var(--olivelgr);
-  --selec: var(--lighting-yellow);
+  // --selec: var(--lighting-yellow);
+  // --selec: var(--more-olives);
+  --selec: var(--black);
   // --dimmer: var(--drop-dark); // dark-alt
   --button: var(--more-olives);
   // 
@@ -128,7 +131,8 @@
   // --selection-color: rgb(7, 5, 81);
   // --selection-color: var(--dark-shade);
   // --selection-color: var(--black);
-  --selection-color: var(--background-pblue);
+  // --selection-color: var(--background-pblue);
+  --selection-color: var(--white);
   --selection-text-color: var(--selec);
   // --link: #ea301f;
   // --link: var(--mint);
