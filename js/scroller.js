@@ -94,11 +94,11 @@ document.addEventListener('DOMContentLoaded', function() {
     `2301.06203`,
     `2309.11886`,
     `2405.09518`,
-    `2405.17056`
+    `2405.17056`,
   ];
   function getArxivLink(no) {
     return `<a href="http://arxiv.org/abs/` + arxivnumbers[no] + `">` + toString(no) + `</a>`;
-}
+  };
 
   //
   const scrollContainer = document.querySelector('.scr-thumbnails');
