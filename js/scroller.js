@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function() {
     `2405.17056`,
   ];
   function getArxivLink(no) {
-    return `<a href="http://arxiv.org/abs/` + arxivnumbers[no] + `">` + no + `</a>`;
+    return `<a href="http://arxiv.org/abs/` + arxivnumbers[no-1] + `">` + no + `</a>`;
   };
 
   //
