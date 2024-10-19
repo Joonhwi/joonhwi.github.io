@@ -93,7 +93,8 @@
   height: 150px; 
   vertical-align: middle; 
   margin: 5px; 
-  transform: scale(-1, 1);
+  // transform: scale(-1, 1);
+  transform: rotateX(180deg);
   // border: 0.7px solid --text-color;
 }
 
