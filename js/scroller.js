@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', function() {
     `2405.17056`,
   ];
   function getArxivLink(no) {
-    return `<a href="http://arxiv.org/abs/` + arxivnumbers[no-1] + `">` + no + `</a>`;
+    return `<span class="ConsolasCond"><a href="http://arxiv.org/abs/` + arxivnumbers[no-1] + `">` + no + `</a></span>`;
   };
-  
+
   const images = [
     "/images/phys-cards/lcdx.png",
     "/images/phys-cards/zig-bowtie-indigo.png",
