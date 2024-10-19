@@ -23,7 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` opens up a new chapter in relativity by unifying spacetime and spin into a complex geometry, which finally realizes Ezra Ted Newman's forgotten dream in the 70s.`
       // + ` opens up a new chapter in relativity by unifying spacetime and spin into a complex geometry, finally realizing Ezra Ted Newman's forgotten dream in the 70s.`
       // + ` opens up a new chapter in relativity by realizing Ezra Ted Newman's forgotten dream of unifying spacetime and spin into a complex geometry.`
-      + ` realizes Ezra Ted Newman's dream of unifying spacetime and spin into a complex geometry and opens up a new chapter in relativity.`
+      // + ` realizes Ezra Ted Newman's dream of unifying spacetime and spin into a complex geometry and opens up a new chapter in relativity.`
+      + ` opens up a new chapter in relativity, by realizing Ezra Ted Newman's dream of unifying spacetime and spin into a complex geometry.`
       + ` [2,3]`
     ,
       // `<b><i>Zig-zag theory of massive spinning particles</i></b>`
@@ -41,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // + `proposes to study the dynamics of spinning black holes in four dimensions with their factorization into chiral dyons.`
       // + ` proposes that chiral dyons (Taub-NUT instantons, dubbed “zig” and “zag”) should be used as elementary building blocks for studying the dynamics of spinning black holes in four dimensions.`
       // + ` proposes that self-dual and anti-self-dual Taub-NUT instantons (dubbed “zig” and “zag”) should be used as “atoms” for studying the physics of spinning black holes in four dimensions.`
-      + ` understands the physics of spinning black holes in four dimensions by using self-dual and anti-self-dual Taub-NUT instantons (dubbed “zig” and “zag”) as elementary building blocks or “atoms”.`
+      + ` understands the physics of spinning black holes in four dimensions by using self-dual and anti-self-dual Taub-NUT instantons (dubbed “zig” and “zag”) as elementary building blocks (or “atoms”).`
       // + ` [4]`
       + ` [3,5]`
     ,
@@ -49,7 +50,8 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` suggests that there exists a mystery infinite-dimensional Lie algebra at the heart of perturbative quantum gravity, somehow different than the diffeomorphism algebra.`
       // + ` suggests that there exists a mystery infinite-dimensional Lie algebra at the heart of perturbative quantum gravity, which somehow isn't the diffeomorphism algebra.`
       // + ` suggests that there exists a mystery infinite-dimensional Lie algebra at the heart of perturbative quantum gravity, which somehow isn't simply the diffeomorphism algebra in spacetime.`
-      + ` suggests that there exists a mystery infinite-dimensional Lie algebra at the heart of perturbative quantum gravity.`
+      + ` suggests that there lies a mystery infinite-dimensional Lie algebra at the heart of perturbative quantum gravity.`
+      // + ` suggests that gravitons are gluons with a mystery infinite-dimensional Lie algebra.`
       + ` `
     ,
       `<span class="EmphBI">Generalized Symmetry in Gravity</span>`
