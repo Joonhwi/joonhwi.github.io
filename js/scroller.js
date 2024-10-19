@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     `2405.17056`,
   ];
   function getArxivLink(no) {
-    return `<a target="_blank" href="http://arxiv.org/abs/` + arxivnumbers[no-1] + `">` + no + `</a>`;
+    return `<a href="http://arxiv.org/abs/` + arxivnumbers[no-1] + `">` + no + `</a>`;
   };
 
   const images = [
