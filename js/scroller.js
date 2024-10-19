@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
       + ` [`
       + `<a href="http://arxiv.org/abs/` + arxivnumber[2] + `">` + 2 + `</a>`
       + `<a href="http://arxiv.org/abs/` + arxivnumber[3] + `">` + 3 + `</a>`
-      + `]`
+      + `]` 
     ,
       // `<b><i>Zig-zag theory of massive spinning particles</i></b>`
       `<span class="EmphBI">Zig-zag twistor particle program</span>`
