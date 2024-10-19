@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` realizes Ezra Ted Newman's dream of unifying spacetime and spin into a complex geometry and opens up a new chapter in relativity.`
       + ` opens up a new chapter in relativity, by realizing Ezra Ted Newman's dream of unifying spacetime and spin into a complex geometry.`
       + ` [`
-        + getArxivLink(2)
+        + getArxivLink(2) + `,`
         + getArxivLink(3)
       + `]`
     ,
@@ -37,9 +37,9 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` aims to reboot the twistor particle program with an emphasis on the hidden Kähler geometry of massive spinning particles in four dimensions.`
       + ` aims to reboot the twistor particle program, with an emphasis on the Kähler geometry of the massive twistor space.`
       + ` [`
-        + getArxivLink(1)
-        + getArxivLink(2)
-        + getArxivLink(3)
+        + getArxivLink(1) + `,`
+        + getArxivLink(2) + `,`
+        + getArxivLink(3) + `,`
         + getArxivLink(6)
       + `]`
     ,
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
       + ` understands the physics of spinning black holes in four dimensions by using self-dual and anti-self-dual Taub-NUT instantons (dubbed “zig” and “zag”) as elementary building blocks (or “atoms”).`
       // + ` [4]`
       + ` [`
-        + getArxivLink(3)
+        + getArxivLink(3) + `,`
         + getArxivLink(5)
     + `]`
     ,
