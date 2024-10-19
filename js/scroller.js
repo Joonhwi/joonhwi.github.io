@@ -26,9 +26,9 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` realizes Ezra Ted Newman's dream of unifying spacetime and spin into a complex geometry and opens up a new chapter in relativity.`
       + ` opens up a new chapter in relativity, by realizing Ezra Ted Newman's dream of unifying spacetime and spin into a complex geometry.`
       + ` [`
-      + `<a href="http://arxiv.org/abs/` + arxivnumber[2] + `">` + 2 + `</a>`
-      + `<a href="http://arxiv.org/abs/` + arxivnumber[3] + `">` + 3 + `</a>`
-      + `]` 
+        + getArxivLink(2)
+        + getArxivLink(3)
+      + `]`
     ,
       // `<b><i>Zig-zag theory of massive spinning particles</i></b>`
       `<span class="EmphBI">Zig-zag twistor particle program</span>`
@@ -79,13 +79,16 @@ document.addEventListener('DOMContentLoaded', function() {
     ,
   ];
 
-  const arxivnumber = [
+  const arxivnumbers = [
     `2102.07063`,
     `2301.06203`,
     `2309.11886`,
     `2405.09518`,
     `2405.17056`
   ];
+  function getArxivLink(no) {
+    return `<a href="http://arxiv.org/abs/` + arxivnumbers[no] + `">` + toString(no) + `</a>`;
+}
 
   //
   const scrollContainer = document.querySelector('.scr-thumbnails');
