@@ -48,12 +48,12 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry of massive spinning particles in four dimensions [1].`
       // + ` aims to reboot the twistor particle program with an emphasis on the hidden Kähler geometry of massive spinning particles in four dimensions.`
       + ` aims to reboot the twistor particle program, with an emphasis on the Kähler geometry of the massive twistor space.`
-      + ` [`
+      + ` <span class="ConsolasCond">[`
         + getArxivLink(1) + `,`
         + getArxivLink(2) + `,`
         + getArxivLink(3) + `,`
         + getArxivLink(6)
-      + `]`
+      + `]</span>`
     ,
       // `<span class="EmphBI">Zig-zag program for spinning black holes</span>`
       `<span class="EmphBI">Black hole zig-zag program</span>`
@@ -64,10 +64,10 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` proposes that self-dual and anti-self-dual Taub-NUT instantons (dubbed “zig” and “zag”) should be used as “atoms” for studying the physics of spinning black holes in four dimensions.`
       + ` understands the physics of spinning black holes in four dimensions by using self-dual and anti-self-dual Taub-NUT instantons (dubbed “zig” and “zag”) as elementary building blocks (or “atoms”).`
       // + ` [4]`
-      + ` [`
+      + ` <span class="ConsolasCond">[`
         + getArxivLink(3) + `,`
         + getArxivLink(5)
-    + `]`
+      + `]</span>`
     ,
       `<span class="EmphBI">Color-Kinematics Duality</span>`
       // + ` suggests that there exists a mystery infinite-dimensional Lie algebra at the heart of perturbative quantum gravity, somehow different than the diffeomorphism algebra.`
@@ -95,9 +95,9 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` offers an interesting reinterpretation of gravitational singularities as topological operators and reveals a new symmetry in the standard model.`
       + ` reveals a new symmetry in the standard model while offering an interesting reinterpretation of gravitational singularities as topological operators.`
       // + ` [3]`
-      + ` [`
+      + ` <span class="ConsolasCond">[`
         + getArxivLink(4)
-    + `]`
+      + `]</span>`
     ,
   ];
 
