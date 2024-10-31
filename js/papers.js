@@ -1,5 +1,11 @@
 var papers = [
   {
+    title: "Classical Eikonal from Magnus Expansion",
+    codename: "wqft-magnus",
+    arxivnumber: "2410.22988",
+    released: 1
+  },
+  {
     title: "Generalized Symmetry in Dynamical Gravity",
     codename: "gensymgrav",
     arxivnumber: "2403.01837",
