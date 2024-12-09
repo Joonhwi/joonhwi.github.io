@@ -1,3 +1,17 @@
+- type: "visit"
+  date: 2024-06-12
+  title: "IHES"
+  event: "Amplitudes 2024 (Gong Show)"
+  link-event: "https://www.ias.edu/sns/amplitudes-2024-gong-show-slides-conference"
+  link-file: 
+
+# - type: "talk"
+#   date: 2024-05-12
+#   title: "Spinning Black Holes and the Dirac String"
+#   event: "California Amplitudes Meeting 2024"
+#   link-event: 
+#   link-file: 
+
 - type: "talk"
   date: 2024-06-12
   title: "Spinning Black Hole Amplitudes from Complexified Equivalence Principle"

@@ -222,6 +222,43 @@ permalink: /physics/
 
 <hr style="visibility:hidden"/><hr/><hr style="visibility:hidden"/>
 
+<h3>Conferences and Visits</h3>
+<!-- <h3>Seminars and Colloquia</h3> -->
+
+<div class="container">
+<!-- {% capture datenow %}{{'now' | date: '%s'}}{% endcapture %} -->
+{% for talk in site.data.seminars %}
+<!-- {% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %} -->
+{% if talk.type == "visit" %}
+<!-- {% if talkdate <= datenow and talk.type == "talk" %} -->
+  <div class="row">
+    <div class="col-10" style="word-wrap:break-word; max-width:75%;">
+      {% if talk.link-file!=nil %}
+        <a href="{{ talk.link-file }}"><em>{{ talk.title }}</em></a>
+      {% else %}
+        {{ talk.title }}
+      {% endif %}
+      <br/>
+      {% if talk.link-event!=nil %}<em><a href="{{ talk.link-event }}">{{ talk.event }}</a></em>{% else %}<em>{{ talk.event }}</em>{% endif %}
+      <!-- {% if talk.institution!=nill %}, {{ talk.institution }}{% endif %} -->
+      <!-- {% if talk.address!=nil %}
+        ({{ talk.address }})
+      {% endif %} -->
+    </div>
+    <div class="col-2" style="text-align:right;">
+      <span class="ConsolasCond">
+        {{ talk.date | date: "%m/%d/%Y" }}
+      </span>
+    </div>
+  </div>
+  <hr style="visibility:hidden"/>
+  <!-- {% endif %} -->
+{% endif %}
+{% endfor %}
+</div>
+
+<hr style="visibility:hidden"/><hr/><hr style="visibility:hidden"/>
+
 <!-- <h3>Informal Talks</h3>
 
 <div class="container">
