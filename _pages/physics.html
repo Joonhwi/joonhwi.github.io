@@ -295,14 +295,14 @@ permalink: /physics/
 {% for travel in site.data.travels %}
   <div class="row">
     <div class="col-9" style="word-wrap:break-word; max-width:75%;">
-      {% if travel.type == "conference" %}
-        {{ travel.event }}
-        <br/>
-      {% endif %}
       {{ travel.institute }}
       ({{ travel.address }})
-      {% if travel.host!=nill %}
-        <font class="Note"><em>{{ travel.host }}</em></font>
+      {% if travel.type == "conference" %}
+        <br/>
+        {{ travel.event }}
+      {% else if travel.host!=nill %}
+        <br/>
+        <font class="Note"><em>Host: {{ travel.host }}</em></font>
       {% endif %}
     </div>
     <div class="col-3" style="text-align:right">
