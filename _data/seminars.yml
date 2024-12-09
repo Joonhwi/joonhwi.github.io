@@ -1,8 +1,10 @@
 - type: "visit"
-  date: 2024-06-12
-  title: "IHES"
-  event: "Amplitudes 2024 (Gong Show)"
-  link-event: "https://www.ias.edu/sns/amplitudes-2024-gong-show-slides-conference"
+  start: 2024-06-10
+  end: 2024-06-21
+  event: "Amplitudes 2024"
+  institute: "Institute for Advanced Study (IAS)"
+  address: "Princeton, New Jersey, USA"
+  link-event: "https://www.ias.edu/amplitudes2024"
   link-file: 
 
 # - type: "talk"
