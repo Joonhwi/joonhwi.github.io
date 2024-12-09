@@ -299,7 +299,11 @@ permalink: /physics/
       ({{ travel.address }})
       {% if travel.type == "conference" %}
         <br/>
-        {{ travel.event }}
+        {% if travel.link-event!=nil %}
+          <a href="{{ travel.link-event }}"><em>{{ talk.event }}</em></a>
+        {% else %}
+          <em>{{ travel.event }}</em>
+        {% endif %}
       {% else if travel.host!=nill %}
         <br/>
         <font class="Note"><em>Host: {{ travel.host }}</em></font>
