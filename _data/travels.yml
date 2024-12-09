@@ -8,6 +8,16 @@
   link-event: "https://www.ias.edu/amplitudes2024"
   link-file: 
 
+- type: "school"
+  host: 
+  start: 2024-06-24
+  end: 2024-07-05
+  institute: "Institut des Hautes Études Scientifiques (IHES)"
+  address: "Bures-sur-Yvette,&nbsp;France"
+  event: "2024 IHES Summer School - Symmetries and Anomalies: a modern take"
+  link-event: "https://indico.math.cnrs.fr/event/11080/"
+  link-file: 
+
 - type: "conference"
   host: 
   start: 2024-06-10
