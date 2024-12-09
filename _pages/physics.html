@@ -37,7 +37,7 @@ permalink: /physics/
 
 <hr style="visibility:hidden"/><hr/><hr style="visibility:hidden"/>
 
-<!-- --------------------------------------------- -->
+<!-- ################################################################################ -->
 
 <!-- Algorithm for Publications -->
 <script type="text/javascript">
@@ -157,6 +157,8 @@ permalink: /physics/
 
 <hr style="visibility:hidden"/><hr/><hr style="visibility:hidden"/>
 
+<!-- ################################################################################ -->
+
 <h3>Invited Talks</h3>
 
 <div class="container">
@@ -184,6 +186,8 @@ permalink: /physics/
 </div>
 
 <hr style="visibility:hidden"/><hr/><hr style="visibility:hidden"/>
+
+<!-- ################################################################################ -->
 
 <h3>Seminars, Colloquia, etc.</h3>
 <!-- <h3>Seminars and Colloquia</h3> -->
@@ -222,34 +226,7 @@ permalink: /physics/
 
 <hr style="visibility:hidden"/><hr/><hr style="visibility:hidden"/>
 
-<h3>Conferences and Visits</h3>
-<!-- <h3>Seminars and Colloquia</h3> -->
-
-<div class="container">
-<!-- {% capture datenow %}{{'now' | date: '%s'}}{% endcapture %} -->
-{% for talk in site.data.seminars %}
-<!-- {% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %} -->
-{% if talk.type == "visit" %}
-<!-- {% if talkdate <= datenow and talk.type == "talk" %} -->
-  <div class="row">
-    <div class="col-9" style="word-wrap:break-word; max-width:75%;">
-      {{ talk.institute }}
-      {{ talk.address }}
-      {% if talk.host!=nill %}
-        <font class="Note"><em>{{ talk.host }}</em></font>
-      {% endif %}
-    </div>
-    <div class="col-3" style="text-align:right">
-      <span class="Date">{% if talk.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span class="Date">{% if talk.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
-    </div>
-  </div>
-  <hr style="visibility:hidden"/>
-  <!-- {% endif %} -->
-{% endif %}
-{% endfor %}
-</div>
-
-<hr style="visibility:hidden"/><hr/><hr style="visibility:hidden"/>
+<!-- ################################################################################ -->
 
 <!-- <h3>Informal Talks</h3>
 
@@ -281,6 +258,8 @@ permalink: /physics/
 
 <hr style="visibility:hidden"/><hr/><hr style="visibility:hidden"/> -->
 
+<!-- ################################################################################ -->
+
 <h3>Education</h3>
 
 <div class="container">
@@ -307,6 +286,39 @@ permalink: /physics/
 </div>
 
 <hr style="visibility:hidden"/><hr/><hr style="visibility:hidden"/>
+
+<!-- ################################################################################ -->
+
+<h3>Conferences and Visits</h3>
+<!-- <h3>Seminars and Colloquia</h3> -->
+
+<div class="container">
+<!-- {% capture datenow %}{{'now' | date: '%s'}}{% endcapture %} -->
+{% for talk in site.data.seminars %}
+<!-- {% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %} -->
+{% if talk.type == "visit" %}
+<!-- {% if talkdate <= datenow and talk.type == "talk" %} -->
+  <div class="row">
+    <div class="col-9" style="word-wrap:break-word; max-width:75%;">
+      {{ talk.institute }}
+      {{ talk.address }}
+      {% if talk.host!=nill %}
+        <font class="Note"><em>{{ talk.host }}</em></font>
+      {% endif %}
+    </div>
+    <div class="col-3" style="text-align:right">
+      <span class="Date">{% if talk.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span class="Date">{% if talk.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
+    </div>
+  </div>
+  <hr style="visibility:hidden"/>
+  <!-- {% endif %} -->
+{% endif %}
+{% endfor %}
+</div>
+
+<hr style="visibility:hidden"/><hr/><hr style="visibility:hidden"/>
+
+<!-- ################################################################################ -->
 
 <br/>
 <div class="container">
