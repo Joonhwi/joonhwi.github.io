@@ -289,29 +289,31 @@ permalink: /physics/
 
 <!-- ################################################################################ -->
 
-<!-- <h3>Conferences and Visits</h3>
+<h3>Conferences and Visits</h3>
 
 <div class="container">
-{% for talk in site.data.seminars %}
-{% if talk.type == "visit" %}
+{% for visit in site.data.visits %}
   <div class="row">
     <div class="col-9" style="word-wrap:break-word; max-width:75%;">
-      {{ talk.institute }}
-      {{ talk.address }}
-      {% if talk.host!=nill %}
-        <font class="Note"><em>{{ talk.host }}</em></font>
+      {% if visit.type == "conference" %}
+        {{ visit.event }}
+        <br/>
+      {% endif %}
+      {{ visit.institute }}
+      {{ visit.address }}
+      {% if visit.host!=nill %}
+        <font class="Note"><em>{{ visit.host }}</em></font>
       {% endif %}
     </div>
     <div class="col-3" style="text-align:right">
-      <span class="Date">{% if talk.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span class="Date">{% if talk.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
+      <span class="Date">{% if visit.start!=nill %}{{ ed.start | date: "%m/%Y" }}{% endif %}</span>–<span class="Date">{% if visit.end!=nill %}{{ ed.end | date: "%m/%Y" }}{% endif %}</span>
     </div>
   </div>
   <hr style="visibility:hidden"/>
-{% endif %}
 {% endfor %}
 </div>
 
-<hr style="visibility:hidden"/><hr/><hr style="visibility:hidden"/> -->
+<hr style="visibility:hidden"/><hr/><hr style="visibility:hidden"/>
 
 <!-- ################################################################################ -->
 
