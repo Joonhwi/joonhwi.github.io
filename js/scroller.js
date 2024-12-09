@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
       + `]</span>`
     ,
       // `<b><i>Zig-zag theory of massive spinning particles</i></b>`
-      `<span class="EmphBI">Zig-Zag twistor particle program</span>`
+      `<span class="EmphBI">Zig-Zag Twistor Particle Program</span>`
       // + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry (“dubbed zig-zag structure”) of massive spinning particles.`
       // + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry of massive spinning particles in four dimensions [1].`
       // + ` aims to reboot the twistor particle program with an emphasis on the hidden Kähler geometry of massive spinning particles in four dimensions.`
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
       + `]</span>`
     ,
       // `<span class="EmphBI">Zig-zag program for spinning black holes</span>`
-      `<span class="EmphBI">Black hole zig-zag program</span>`
+      `<span class="EmphBI">Black Hole Zig-Zag Program</span>`
       // + `proposes to study spinning black holes in four dimensions from the angle of their factorization into chiral dyons in the chiral sectors.`
       // + `proposes to study spinning black holes in four dimensions with their “factorized” form, into chiral dyons in chiral sectors.`
       // + `proposes to study the dynamics of spinning black holes in four dimensions with their factorization into chiral dyons.`
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` understands the physics of spinning black holes in four dimensions by using self-dual and anti-self-dual Taub-NUT instantons (dubbed “zig” and “zag”) as elementary building blocks (or “atoms”).`
       // + ` deciphers the physics of spinning black holes in four dimensions by using Taub-NUT instantons—dubbed “zig” and “zag”—as elementary building blocks.`
       // + ` deciphers the physics of spinning black holes in four dimensions by viewing them as “molecules” built out of Taub-NUT instantons, dubbed “zig” (anti-self-dual) and “zag” (self-dual).`
-      + ` deciphers the physics of spinning black holes in four dimensions by viewing them as “molecules” built out of self-dual and anti-self-dual Taub-NUT instantons, dubbed “zig” and “zag.”`
+      + ` deciphers the physics of spinning black holes in four dimensions by viewing them as “molecules” built out of self-dual and anti-self-dual Taub-NUT instantons (dubbed “zig” and “zag”).`
       // + ` [4]`
       + ` <span class="ConsolasCond">[`
         + getArxivLink(3) + `,`
