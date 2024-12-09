@@ -289,7 +289,7 @@ permalink: /physics/
 
 <!-- ################################################################################ -->
 
-<h3>Conferences and Visits</h3>
+<h3>Conferences, Visits, etc.</h3>
 
 <div class="container">
 {% for travel in site.data.travels %}
@@ -297,7 +297,7 @@ permalink: /physics/
     <div class="col-9" style="word-wrap:break-word; max-width:75%;">
       {{ travel.institute }}
       ({{ travel.address }})
-      {% if travel.type == "conference" %}
+      {% if travel.type == "conference" || travel.type == "school" %}
         <br/>
         {% if travel.link-event!=nil %}
           <a href="{{ travel.link-event }}"><em>{{ talk.event }}</em></a>
