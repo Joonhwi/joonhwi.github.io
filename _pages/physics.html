@@ -289,15 +289,11 @@ permalink: /physics/
 
 <!-- ################################################################################ -->
 
-<h3>Conferences and Visits</h3>
-<!-- <h3>Seminars and Colloquia</h3> -->
+<!-- <h3>Conferences and Visits</h3>
 
 <div class="container">
-<!-- {% capture datenow %}{{'now' | date: '%s'}}{% endcapture %} -->
 {% for talk in site.data.seminars %}
-<!-- {% capture talkdate %}{{ talk.date | date: '%s'}}{% endcapture %} -->
 {% if talk.type == "visit" %}
-<!-- {% if talkdate <= datenow and talk.type == "talk" %} -->
   <div class="row">
     <div class="col-9" style="word-wrap:break-word; max-width:75%;">
       {{ talk.institute }}
@@ -311,12 +307,11 @@ permalink: /physics/
     </div>
   </div>
   <hr style="visibility:hidden"/>
-  <!-- {% endif %} -->
 {% endif %}
 {% endfor %}
 </div>
 
-<hr style="visibility:hidden"/><hr/><hr style="visibility:hidden"/>
+<hr style="visibility:hidden"/><hr/><hr style="visibility:hidden"/> -->
 
 <!-- ################################################################################ -->
 
