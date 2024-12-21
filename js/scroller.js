@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const captions = [
     "Spinspacetime",
-    "Zig-zag Twistor Particle Program",
+    "Zig-Zag Twistor Particle Program",
     "Black Hole Zig-Zag Program",
     "Color-Kinematics Duality",
     "Generalized Symmetry in Gravity",
