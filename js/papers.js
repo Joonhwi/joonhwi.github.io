@@ -96,7 +96,8 @@ var papers = [
     released: 1
   },
   {
-    title: "Note on the Taub-NUT Instanton Metric",
+    // title: "Note on the Taub-NUT Instanton Metric",
+    title: "Single Kerr-Schild Metric for Taub-NUT Instanton",
     codename: "tnks-note",
     arxivnumber: "2405.09518",
     released: 1
