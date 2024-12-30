@@ -1,5 +1,11 @@
 var papers = [
   {
+    title: "Newman-Janis Algorithm from Taub-NUT Instantons",
+    codename: "nja",
+    arxivnumber: "2412.19611",
+    released: 1
+  },
+  {
     title: "Classical Eikonal from Magnus Expansion",
     codename: "wqft-magnus",
     arxivnumber: "2410.22988",
