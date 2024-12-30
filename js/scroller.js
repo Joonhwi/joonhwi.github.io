@@ -7,6 +7,8 @@ document.addEventListener('DOMContentLoaded', function() {
     `2403.01837`,
     `2405.09518`,
     `2405.17056`,
+    `2410.22988`,
+    `2412.19611`,
   ];
   function getArxivLink(no) {
     return `<a target="_blank" href="http://arxiv.org/abs/` + arxivnumbers[no-1] + `">` + no + `</a>`;
@@ -14,8 +16,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const images = [
     "/images/phys-cards/lcdx.png",
-    "/images/phys-cards/zig-bowtie-indigo.png",
     "/images/phys-cards/flying-discs_rendered.jpg",
+    "/images/phys-cards/zig-bowtie-indigo.png",
     "/images/phys-cards/ck-tshirt-signed.png",
     "/images/phys-cards/higher-pop.png",
     // "https://media.gcflearnfree.org/ctassets/topics/246/share_size_large.jpg",
