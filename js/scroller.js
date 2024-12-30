@@ -39,7 +39,6 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` realizes Ezra Ted Newman's dream of unifying spacetime and spin into a complex geometry and opens up a new chapter in relativity.`
       + ` opens up a new chapter in relativity, by realizing Ezra Ted Newman's dream of unifying spacetime and spin into a complex geometry.`
       + ` <span class="ConsolasCond">[`
-        + getArxivLink(2) + `,`
         + getArxivLink(3)
       + `]</span>`
     ,
