@@ -42,21 +42,6 @@ document.addEventListener('DOMContentLoaded', function() {
         + getArxivLink(3)
       + `]</span>`
     ,
-      // `<b><i>Zig-zag theory of massive spinning particles</i></b>`
-      `<span class="EmphBI">Zig-Zag Twistor Particle Program</span>`
-      // + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry (“dubbed zig-zag structure”) of massive spinning particles.`
-      // + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry of massive spinning particles in four dimensions [1].`
-      // + ` aims to reboot the twistor particle program with an emphasis on the hidden Kähler geometry of massive spinning particles in four dimensions.`
-      // + ` aims to reboot the twistor particle program, with an emphasis on the Kähler geometry of the massive twistor space.`
-      // + ` aims to reboot the twistor particle program, with an emphasis on the physical implications of the Kähler geometry of massive twistor space.`
-      + ` aims to reboot the twistor particle program, with an emphasis on the physical significance of the Kähler geometry of massive twistor space.`
-      + ` <span class="ConsolasCond">[`
-        + getArxivLink(1) + `,`
-        + getArxivLink(2) + `,`
-        + getArxivLink(3) + `,`
-        + getArxivLink(6)
-      + `]</span>`
-    ,
       // `<span class="EmphBI">Zig-zag program for spinning black holes</span>`
       `<span class="EmphBI">Black Hole Zig-Zag Program</span>`
       // + `proposes to study spinning black holes in four dimensions from the angle of their factorization into chiral dyons in the chiral sectors.`
@@ -73,6 +58,21 @@ document.addEventListener('DOMContentLoaded', function() {
         + getArxivLink(3) + `,`
         + getArxivLink(5) + `,`
         + getArxivLink(8)
+      + `]</span>`
+    ,
+      // `<b><i>Zig-zag theory of massive spinning particles</i></b>`
+      `<span class="EmphBI">Zig-Zag Twistor Particle Program</span>`
+      // + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry (“dubbed zig-zag structure”) of massive spinning particles.`
+      // + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry of massive spinning particles in four dimensions [1].`
+      // + ` aims to reboot the twistor particle program with an emphasis on the hidden Kähler geometry of massive spinning particles in four dimensions.`
+      // + ` aims to reboot the twistor particle program, with an emphasis on the Kähler geometry of the massive twistor space.`
+      // + ` aims to reboot the twistor particle program, with an emphasis on the physical implications of the Kähler geometry of massive twistor space.`
+      + ` aims to reboot the twistor particle program, with an emphasis on the physical significance of the Kähler geometry of massive twistor space.`
+      + ` <span class="ConsolasCond">[`
+        + getArxivLink(1) + `,`
+        + getArxivLink(2) + `,`
+        + getArxivLink(3) + `,`
+        + getArxivLink(6)
       + `]</span>`
     ,
       `<span class="EmphBI">Color-Kinematics Duality</span>`
