@@ -72,7 +72,8 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` [4]`
       + ` <span class="ConsolasCond">[`
         + getArxivLink(3) + `,`
-        + getArxivLink(5)
+        + getArxivLink(5) + `,`
+        + getArxivLink(8)
       + `]</span>`
     ,
       `<span class="EmphBI">Color-Kinematics Duality</span>`
