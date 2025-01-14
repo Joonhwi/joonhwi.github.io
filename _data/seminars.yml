@@ -5,6 +5,13 @@
 #   link-event: 
 #   link-file: 
 
+- type: "invited"
+  date: 2025-01-15
+  title: "Newman-Janis Shift and Beyond"
+  event: "IHÉS"
+  link-event: 
+  link-file: 
+
 - type: "talk"
   date: 2024-06-12
   title: "Spinning Black Hole Amplitudes from Complexified Equivalence Principle"
