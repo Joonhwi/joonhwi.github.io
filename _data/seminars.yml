@@ -8,8 +8,9 @@
 - type: "invited"
   date: 2025-01-15
   title: "Newman-Janis Shift and Beyond"
-  event: "Séminaire Amplitudes et Gravitation sur l’Yvette (IHES/IPhT)"
-  link-event: "https://www.ihes.fr/event_categories/seminaire-de-physique-theorique/"
+  event: "IHÉS/IPhT: Séminaire de Physique Théorique"
+  # link-event: "https://www.ihes.fr/event_categories/seminaire-de-physique-theorique/"
+  link-event: "https://indico.math.cnrs.fr/event/13703/"
   link-file: 
 
 - type: "talk"
@@ -29,14 +30,14 @@
 - type: "invited"
   date: 2024-04-18
   title: "One-Form Symmetry in Dynamical Gravity"
-  event: "Theoretical Elementary Particle Physics Seminar (UCLA)"
+  event: "UCLA: Theoretical Elementary Particle Physics Seminar"
   link-event: "https://tep.physics.ucla.edu/seminars.html"
   link-file: 
 
 - type: "invited"
   date: 2023-11-17
   title: "Twistor Particle Programme Rebooted: A Zig-Zag Theory of Massive Spinning Particles"
-  event: "QFT-Relativity Seminars (Oxford)"
+  event: "Oxford: QFT-Relativity Seminars"
   link-event: "https://www.maths.ox.ac.uk/node/66122"
   link-file: 
 
