@@ -29,14 +29,14 @@
 - type: "invited"
   date: 2024-04-18
   title: "One-Form Symmetry in Dynamical Gravity"
-  event: "UCLA Theoretical Elementary Particle (TEP) Physics Seminar"
-  link-event: 
+  event: "Theoretical Elementary Particle Physics Seminar (UCLA)"
+  link-event: "https://tep.physics.ucla.edu/seminars.html"
   link-file: 
 
 - type: "invited"
   date: 2023-11-17
   title: "Twistor Particle Programme Rebooted: A Zig-Zag Theory of Massive Spinning Particles"
-  event: "Oxford QFT-Relativity Seminars"
+  event: "QFT-Relativity Seminars (Oxford)"
   link-event: "https://www.maths.ox.ac.uk/node/66122"
   link-file: 
 
