@@ -8,8 +8,9 @@
 - type: "invited"
   date: 2025-01-15
   title: "Newman-Janis Shift and Beyond"
+  # institute: "IHES/IPhT"
   # event: "IHES/IPhT (Séminaire de Physique Théorique)"
-  event: "Séminaire Amplitudes et Gravitation sur l'Yvette, IHES/IPhT"
+  event: "IHES/IPhT: Séminaire Amplitudes et Gravitation sur l'Yvette"
   # link-event: "https://www.ihes.fr/event_categories/seminaire-de-physique-theorique/"
   link-event: "https://indico.math.cnrs.fr/event/13703/"
   link-file: 
@@ -17,7 +18,8 @@
 - type: "talk"
   date: 2024-06-12
   title: "Spinning Black Hole Amplitudes from Complexified Equivalence Principle"
-  event: "Amplitudes 2024 Gong Show, IAS"
+  # institute: "IAS"
+  event: "Amplitudes 2024 Gong Show (IAS)"
   link-event: "https://www.ias.edu/sns/amplitudes-2024-gong-show-slides-conference"
   link-file: 
 
@@ -31,70 +33,37 @@
 - type: "invited"
   date: 2024-04-18
   title: "One-Form Symmetry in Dynamical Gravity"
-  event: "Theoretical Elementary Particle Physics Seminar, UCLA"
+  # institute: "UCLA"
+  event: "UCLA: Theoretical Elementary Particle Physics Seminar"
   link-event: "https://tep.physics.ucla.edu/seminars.html"
   link-file: 
 
 - type: "invited"
   date: 2023-11-17
   title: "Twistor Particle Programme Rebooted: A Zig-Zag Theory of Massive Spinning Particles"
-  event: "QFT-Relativity Seminars, Oxford"
+  # institute: "Oxford"
+  event: "Oxford: QFT-Relativity Seminars"
   link-event: "https://www.maths.ox.ac.uk/node/66122"
   link-file: 
 
 - type: "talk"
   date: 2023-03-31
   title: "Spinspacetime: Unification of Spacetime and Spin into a Complex Geometry"
-  event: "39th Pacific Coast Gravity Meeting, Caltech"
+  # institute: "Caltech"
+  event: "39th Pacific Coast Gravity Meeting (Caltech)"
   link-event: "http://www.tapir.caltech.edu/~pcgm39/"
   link-file: 
 
 - type: "talk"
   date: 2023-03-12
   title: "Symplectic Perturbation Theory"
-  event: "California Amplitudes Meeting 2023, UCSD"
+  # instittue: "UCSD"
+  event: "California Amplitudes Meeting 2023 (UCSD)"
   link-event: "https://sites.google.com/view/ca-amps-ucsd/home"
   link-file: 
 
 
 
-
-
-- type: "informal"
-  date: 2024-03-11
-  title: "Line Singularities in Gravity"
-  link-file: 
-  event: 
-  link-event: 
-  institution: "Caltech"
-  address: "Pasadena, CA, USA"
-
-- type: "informal"
-  date: 2023-03-06
-  title: "Newman-Janis Algorithm and Complex Spacetime"
-  link-file: 
-  event: "ARC seminar"
-  link-event: 
-  institution: "Caltech"
-  address: "Pasadena, CA, USA"
-
-- type: "informal"
-  date: 2022-12-01
-  title: "Yang-Mills as “Quantized” Gravity: Color-Kinematics Duality from Non-Commutative Geometry"
-  link-file: 
-  event: "Ma148"
-  link-event: 
-  institution: "Caltech"
-  address: "Pasadena, CA, USA"
-
-- type: "informal"
-  date: 2022-10-25
-  title: "Twistor Theory: a “Quantum Particle Theory” Perspective"
-  link-file: # "/files/(221025) Twistor Theory QPT.pdf"
-  event: "Graduate student journal club"
-  link-event: 
-  institution: "Caltech"
-  address: "Pasadena, CA, USA"
 
 # - type: "conference"
 #   date: 2022-08-12
