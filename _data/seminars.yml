@@ -9,7 +9,7 @@
   date: 2025-01-15
   title: "Newman-Janis Shift and Beyond"
   # event: "IHES/IPhT (Séminaire de Physique Théorique)"
-  event: "(IHES/IPhT) Séminaire Amplitudes et Gravitation sur l'Yvette"
+  event: "Séminaire Amplitudes et Gravitation sur l'Yvette, IHES/IPhT"
   # link-event: "https://www.ihes.fr/event_categories/seminaire-de-physique-theorique/"
   link-event: "https://indico.math.cnrs.fr/event/13703/"
   link-file: 
@@ -17,7 +17,7 @@
 - type: "talk"
   date: 2024-06-12
   title: "Spinning Black Hole Amplitudes from Complexified Equivalence Principle"
-  event: "IAS (Amplitudes 2024 Gong Show)"
+  event: "Amplitudes 2024 Gong Show, IAS"
   link-event: "https://www.ias.edu/sns/amplitudes-2024-gong-show-slides-conference"
   link-file: 
 
@@ -31,28 +31,28 @@
 - type: "invited"
   date: 2024-04-18
   title: "One-Form Symmetry in Dynamical Gravity"
-  event: "UCLA (Theoretical Elementary Particle Physics Seminar)"
+  event: "Theoretical Elementary Particle Physics Seminar, UCLA"
   link-event: "https://tep.physics.ucla.edu/seminars.html"
   link-file: 
 
 - type: "invited"
   date: 2023-11-17
   title: "Twistor Particle Programme Rebooted: A Zig-Zag Theory of Massive Spinning Particles"
-  event: "Oxford (QFT-Relativity Seminars)"
+  event: "QFT-Relativity Seminars, Oxford"
   link-event: "https://www.maths.ox.ac.uk/node/66122"
   link-file: 
 
 - type: "talk"
   date: 2023-03-31
   title: "Spinspacetime: Unification of Spacetime and Spin into a Complex Geometry"
-  event: "Caltech (39th Pacific Coast Gravity Meeting)"
+  event: "39th Pacific Coast Gravity Meeting, Caltech"
   link-event: "http://www.tapir.caltech.edu/~pcgm39/"
   link-file: 
 
 - type: "talk"
   date: 2023-03-12
   title: "Symplectic Perturbation Theory"
-  event: "UCSD (California Amplitudes Meeting 2023)"
+  event: "California Amplitudes Meeting 2023, UCSD"
   link-event: "https://sites.google.com/view/ca-amps-ucsd/home"
   link-file: 
 
