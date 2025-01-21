@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` deciphers the physics of spinning black holes in four dimensions by using Taub-NUT instantons—dubbed “zig” and “zag”—as elementary building blocks.`
       // + ` deciphers the physics of spinning black holes in four dimensions by viewing them as “molecules” built out of Taub-NUT instantons, dubbed “zig” (anti-self-dual) and “zag” (self-dual).`
       // + ` deciphers mysteries of spinning black holes in four dimensions by viewing them as “molecules” built out of Taub-NUT instantons (nicknamed “zig” and “zag”, for anti-self-dual and self-dual).`
-      + ` investigates spinning black holes in four dimensions by viewing them as “molecules” built out of Taub-NUT instantons (nicknamed “zig” and “zag”, for anti-self-dual and self-dual).`
+      + ` systematically investigates spinning black holes in four dimensions by viewing them as “molecules” built out of Taub-NUT instantons (nicknamed “zig” and “zag”, for anti-self-dual and self-dual).`
       // + ` [4]`
       + ` <span class="ConsolasCond">[`
         + getArxivLink(3) + `,`
@@ -70,7 +70,8 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` aims to reboot the twistor particle program with an emphasis on the hidden Kähler geometry of massive spinning particles in four dimensions.`
       // + ` aims to reboot the twistor particle program, with an emphasis on the Kähler geometry of the massive twistor space.`
       // + ` aims to reboot the twistor particle program, with an emphasis on the physical implications of the Kähler geometry of massive twistor space.`
-      + ` aims to reboot the twistor particle program, with an emphasis on the physical significance of the Kähler geometry of massive twistor space (nicknamed “zig-zag structure”).`
+      // + ` aims to reboot the twistor particle program, with an emphasis on the physical significance of the Kähler geometry of massive twistor space (nicknamed “zig-zag structure”).`
+      + ` aims to reboot the twistor particle program of the 70s, with an emphasis on the physical significance of the Kähler geometry of massive twistor space (nicknamed “zig-zag structure”).`
       + ` <span class="ConsolasCond">[`
         + getArxivLink(1) + `,`
         + getArxivLink(2) + `,`
