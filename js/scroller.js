@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
     "/images/phys-cards/lcdx.png",
     "/images/phys-cards/flying-discs_rendered.jpg",
     "/images/phys-cards/zig-bowtie-indigo.png",
-    "/images/phys-cards/ck-tshirt-signed.png",
     "/images/phys-cards/higher-pop.png",
+    "/images/phys-cards/ck-tshirt-signed.png",
     // "https://media.gcflearnfree.org/ctassets/topics/246/share_size_large.jpg",
     // "/images/phys-cards/test.jpg",
   ];
@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded', function() {
     "Spinspacetime",
     "Black Hole Zig-Zag Program",
     "Zig-Zag Twistor Particle Program",
-    "Color-Kinematics Duality",
     "Generalized Symmetry in Gravity",
+    "Color-Kinematics Duality",
   ];
 
   const messages = [
@@ -71,21 +71,14 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` aims to reboot the twistor particle program, with an emphasis on the Kähler geometry of the massive twistor space.`
       // + ` aims to reboot the twistor particle program, with an emphasis on the physical implications of the Kähler geometry of massive twistor space.`
       // + ` aims to reboot the twistor particle program, with an emphasis on the physical significance of the Kähler geometry of massive twistor space (nicknamed “zig-zag structure”).`
-      + ` aims to reboot the twistor particle program of the 70s, with an emphasis on the physical significance of the Kähler geometry of massive twistor space (nicknamed “zig-zag structure”).`
+      // + ` aims to reboot the twistor particle program of the 70s, with an emphasis on the physical significance of the Kähler geometry of massive twistor space (nicknamed “zig-zag structure”).`
+      + ` aims to reboot the '70s twistor particle program, by putting emphasis on the Kähler geometry of massive twistor space (nicknamed “zig-zag structure”) and its physical significance.`
       + ` <span class="ConsolasCond">[`
         + getArxivLink(1) + `,`
         + getArxivLink(2) + `,`
         + getArxivLink(3) + `,`
         + getArxivLink(6)
       + `]</span>`
-    ,
-      `<span class="EmphBI">Color-Kinematics Duality</span>`
-      // + ` suggests that there exists a mystery infinite-dimensional Lie algebra at the heart of perturbative quantum gravity, somehow different than the diffeomorphism algebra.`
-      // + ` suggests that there exists a mystery infinite-dimensional Lie algebra at the heart of perturbative quantum gravity, which somehow isn't the diffeomorphism algebra.`
-      // + ` suggests that there exists a mystery infinite-dimensional Lie algebra at the heart of perturbative quantum gravity, which somehow isn't simply the diffeomorphism algebra in spacetime.`
-      + ` suggests that there lies a mystery infinite-dimensional Lie algebra at the heart of perturbative quantum gravity.`
-      // + ` suggests that gravitons are gluons with a mystery infinite-dimensional Lie algebra.`
-      + ` `
     ,
       `<span class="EmphBI">Generalized Symmetry in Gravity</span>`
       // `<b><i>Higher-Form Symmetry in Gravity</i></b>`
@@ -108,6 +101,14 @@ document.addEventListener('DOMContentLoaded', function() {
       + ` <span class="ConsolasCond">[`
         + getArxivLink(4)
       + `]</span>`
+    ,
+      `<span class="EmphBI">Color-Kinematics Duality</span>`
+      // + ` suggests that there exists a mystery infinite-dimensional Lie algebra at the heart of perturbative quantum gravity, somehow different than the diffeomorphism algebra.`
+      // + ` suggests that there exists a mystery infinite-dimensional Lie algebra at the heart of perturbative quantum gravity, which somehow isn't the diffeomorphism algebra.`
+      // + ` suggests that there exists a mystery infinite-dimensional Lie algebra at the heart of perturbative quantum gravity, which somehow isn't simply the diffeomorphism algebra in spacetime.`
+      + ` suggests that there lies a mystery infinite-dimensional Lie algebra at the heart of perturbative quantum gravity.`
+      // + ` suggests that gravitons are gluons with a mystery infinite-dimensional Lie algebra.`
+      + ` `
     ,
   ];
 
