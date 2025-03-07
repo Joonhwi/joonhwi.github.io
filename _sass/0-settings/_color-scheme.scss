@@ -116,10 +116,12 @@
   --K-gold: #d6b688;
   --bluegray: #1d1f30;
   --K-dark: #1c0e0d;
+
+  --P-dark: #191926;
   // 
-  --theme: var(--K-gold);
+  --theme: var(--more-olives);
   --selec: var(--black);
-  --button: var(--K-gold);
+  --button: var(--more-olives);
   // 
   
   --brand-color: var(--theme);
@@ -127,7 +129,7 @@
   --selection-color: var(--white);
   --selection-text-color: var(--selec);
   
-  --background-color: var(--K-dark);
+  --background-color: var(--P-dark);
   --background-alt-color: #0F1119;
   
   --text-color: var(--white);
