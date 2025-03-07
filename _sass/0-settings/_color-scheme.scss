@@ -115,27 +115,19 @@
   --gold-ivory: #FCF0DC;
   --K-gold: #d6b688;
   --bluegray: #1d1f30;
+  --K-dark: #1c0e0d;
   // 
   --theme: var(--K-gold);
   --selec: var(--black);
   --button: var(--K-gold);
   // 
-  // 
-  // --brand-color: #ea301f;
+  
   --brand-color: var(--theme);
-  // --selection-color: #181c60;
-  // --selection-color: rgb(7, 5, 81);
-  // --selection-color: var(--dark-shade);
-  // --selection-color: var(--black);
-  // --selection-color: var(--background-pblue);
+  
   --selection-color: var(--white);
   --selection-text-color: var(--selec);
-  // --link: #ea301f;
-  // --link: var(--mint);
-
-  // --background-color: #1d1d27;
-  // --background-alt-color: #21212d;
-  --background-color: var(--bluegray);
+  
+  --background-color: var(--K-dark);
   --background-alt-color: #0F1119;
   
   --text-color: var(--white);
