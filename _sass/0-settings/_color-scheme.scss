@@ -81,6 +81,7 @@
   --gamma-yellow: #ffd94e;
   --light-yellow: #ffeeb1;
   --schutz: #7cb5ff;
+  --schutz-tinted: #4c99ff;
   --lime: #c0f992;
   --lg: #B2E797;
   --olivelgr: #d5e176;
@@ -117,27 +118,30 @@
   --bluegray: #1d1f30;
   --K-dark: #1c0e0d;
 
-  --P-dark: #191926;
+  --P-darknavy: #121825;
+  --P-charcoal: #0f172a;
+  --P-lighternavy: #1e293b;
+  --soft-white: #f1f5f9;
   // 
-  --theme: var(--more-olives);
+  --theme: var(--schutz-tinted);
   --selec: var(--black);
-  --button: var(--more-olives);
+  --button: var(--schutz-tinted);
   // 
   
   --brand-color: var(--theme);
   
-  --selection-color: var(--white);
+  --selection-color: var(--soft-white);
   --selection-text-color: var(--selec);
   
-  --background-color: var(--P-dark);
+  --background-color: var(--P-charcoal);
   --background-alt-color: #0F1119;
   
-  --text-color: var(--white);
+  --text-color: var(--soft-white);
   --text-alt-color: var(--white-alt);
   
   --date-color: var(--pepper);
   
-  --heading-font-color: var(--white);
+  --heading-font-color: var(--soft-white);
 
   --link-color: var(--theme);
   --link-color-hover: var(--theme);
