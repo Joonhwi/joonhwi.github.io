@@ -68,101 +68,8 @@
   --syntax-highlighting-background: #f3f3f3;
 }
 
-:root[dark] {
-  --forest-dark: #28302a;
-  // --white: #fff;
-  --white: #ffffff;
-  --light-gray: #f0f0f0;
-  --white-alt: #e1e1ee;
-  --dark-alt: #0F1119;
-  // --gray: #cccccc;
-  // --black: #111016;
-  --black: #000000;
-  --gamma-yellow: #ffd94e;
-  --light-yellow: #ffeeb1;
-  --schutz: #7cb5ff;
-  --schutz-tinted: #4c99ff;
-  --lime: #c0f992;
-  --lg: #B2E797;
-  --olivelgr: #d5e176;
-  --checker-red: #ea301f;
-  --light-mint: #d7f2f8;
-  --mint: #00c5f1;
-  --mblue: #0072dc;
-  --dark-shade: hsl(0, 14%, 1%);
-  // --deep-gray: #0e0e10;
-  --deep-gray: #15151a;
-  // --deep-gray: #0f0f11;
-  --hazy-night: #3C5759;
-  --sergei: #0cea91;
-  // 
-  --candy-mint: #5DC8E4;
-  --magenta: #DC3E9A;
-  --peach: #F8B172;
-  --drop-dark: #1f1f26;
-  // 
-  --glowing-green: #2adc51;
-  --cerulean: #0099ff;
-  --trafficlight-green: #5eff00;
-  --trafficlight-lgreen: #d0ff00;
-  --chocolate: #ce8376;
-  --candy-red: #fb6153;
-  --greenish: #e1e652;
-  --more-olives: #a1bc24;
-  --background-pblue: #1a205a;
-  --lighting-yellow: #f4d455;
-  --saturated-copper: #bc3b24;
-  --burgundy: #5D313F;
-  --gold-ivory: #FCF0DC;
-  --K-gold: #d6b688;
-  --bluegray: #1d1f30;
-  --K-dark: #1c0e0d;
-
-  --P-darknavy: #121825;
-  --P-charcoal: #0f172a;
-  --P-lighternavy: #1e293b;
-  --soft-white: #f1f5f9;
-  // 
-  --theme: var(--schutz-tinted);
-  --selec: var(--black);
-  --button: var(--schutz-tinted);
-  // 
-  
-  --brand-color: var(--theme);
-  
-  --selection-color: var(--soft-white);
-  --selection-text-color: var(--selec);
-  
-  --background-color: var(--P-charcoal);
-  --background-alt-color: #0F1119;
-  
-  --text-color: var(--soft-white);
-  --text-alt-color: var(--white-alt);
-  
-  --date-color: var(--pepper);
-  
-  --heading-font-color: var(--soft-white);
-
-  --link-color: var(--theme);
-  --link-color-hover: var(--theme);
-
-  --button-color: var(--black);
-  --button-font-color: var(--black);
-  --button-background-color: var(--button);
-  --button-background-hover: var(--button);
-
-  --border-color: #252629;
-  --border-color-alt: #080b12;
-
-  --th-color: #18181d;;
-  --tr-color: #080b12;
-
-  --syntax-highlighting-background: #080b12;
-}
-
-
-// 2024 ver
 // :root[dark] {
+//   --forest-dark: #28302a;
 //   // --white: #fff;
 //   --white: #ffffff;
 //   --light-gray: #f0f0f0;
@@ -174,6 +81,7 @@
 //   --gamma-yellow: #ffd94e;
 //   --light-yellow: #ffeeb1;
 //   --schutz: #7cb5ff;
+//   --schutz-tinted: #4c99ff;
 //   --lime: #c0f992;
 //   --lg: #B2E797;
 //   --olivelgr: #d5e176;
@@ -204,45 +112,36 @@
 //   --background-pblue: #1a205a;
 //   --lighting-yellow: #f4d455;
 //   --saturated-copper: #bc3b24;
-//   // 
-//   //
-//   // --theme: var(--glowing-green);
-//   // --selec: var(--olivelgr);
-//   // // --dimmer: var(--drop-dark); // dark-alt
-//   // --button: var(--checker-red);
-//   // --theme: var(--trafficlight-lgreen);
-//   --theme: var(--candy-red);
-//   // --selec: var(--olivelgr);
-//   // --selec: var(--lighting-yellow);
-//   // --selec: var(--more-olives);
-//   --selec: var(--black);
-//   // --dimmer: var(--drop-dark); // dark-alt
-//   --button: var(--candy-red);
-//   // 
-//   // 
-//   // --brand-color: #ea301f;
-//   --brand-color: var(--theme);
-//   // --selection-color: #181c60;
-//   // --selection-color: rgb(7, 5, 81);
-//   // --selection-color: var(--dark-shade);
-//   // --selection-color: var(--black);
-//   // --selection-color: var(--background-pblue);
-//   --selection-color: var(--white);
-//   --selection-text-color: var(--selec);
-//   // --link: #ea301f;
-//   // --link: var(--mint);
+//   --burgundy: #5D313F;
+//   --gold-ivory: #FCF0DC;
+//   --K-gold: #d6b688;
+//   --bluegray: #1d1f30;
+//   --K-dark: #1c0e0d;
 
-//   // --background-color: #1d1d27;
-//   // --background-alt-color: #21212d;
-//   --background-color: var(--deep-gray);
+//   --P-darknavy: #121825;
+//   --P-charcoal: #0f172a;
+//   --P-lighternavy: #1e293b;
+//   --soft-white: #f1f5f9;
+//   // 
+//   --theme: var(--schutz-tinted);
+//   --selec: var(--black);
+//   --button: var(--schutz-tinted);
+//   // 
+  
+//   --brand-color: var(--theme);
+  
+//   --selection-color: var(--soft-white);
+//   --selection-text-color: var(--selec);
+  
+//   --background-color: var(--P-charcoal);
 //   --background-alt-color: #0F1119;
   
-//   --text-color: var(--white);
+//   --text-color: var(--soft-white);
 //   --text-alt-color: var(--white-alt);
   
 //   --date-color: var(--pepper);
   
-//   --heading-font-color: var(--white);
+//   --heading-font-color: var(--soft-white);
 
 //   --link-color: var(--theme);
 //   --link-color-hover: var(--theme);
@@ -260,3 +159,104 @@
 
 //   --syntax-highlighting-background: #080b12;
 // }
+
+
+// 2024 ver
+:root[dark] {
+  // --white: #fff;
+  --white: #ffffff;
+  --light-gray: #f0f0f0;
+  --white-alt: #e1e1ee;
+  --dark-alt: #0F1119;
+  // --gray: #cccccc;
+  // --black: #111016;
+  --black: #000000;
+  --gamma-yellow: #ffd94e;
+  --light-yellow: #ffeeb1;
+  --schutz: #7cb5ff;
+  --lime: #c0f992;
+  --lg: #B2E797;
+  --olivelgr: #d5e176;
+  --checker-red: #ea301f;
+  --light-mint: #d7f2f8;
+  --mint: #00c5f1;
+  --mblue: #0072dc;
+  --dark-shade: hsl(0, 14%, 1%);
+  // --deep-gray: #0e0e10;
+  --deep-gray: #15151a;
+  // --deep-gray: #0f0f11;
+  --hazy-night: #3C5759;
+  --sergei: #0cea91;
+  // 
+  --candy-mint: #5DC8E4;
+  --magenta: #DC3E9A;
+  --peach: #F8B172;
+  --drop-dark: #1f1f26;
+  // 
+  --glowing-green: #2adc51;
+  --cerulean: #0099ff;
+  --trafficlight-green: #5eff00;
+  --trafficlight-lgreen: #d0ff00;
+  --chocolate: #ce8376;
+  --candy-red: #fb6153;
+  --greenish: #e1e652;
+  --more-olives: #a1bc24;
+  --background-pblue: #1a205a;
+  --lighting-yellow: #f4d455;
+  --saturated-copper: #bc3b24;
+  // 
+  //
+  // --theme: var(--glowing-green);
+  // --selec: var(--olivelgr);
+  // // --dimmer: var(--drop-dark); // dark-alt
+  // --button: var(--checker-red);
+  // --theme: var(--trafficlight-lgreen);
+  --theme: var(--candy-red);
+  // --selec: var(--olivelgr);
+  // --selec: var(--lighting-yellow);
+  // --selec: var(--more-olives);
+  --selec: var(--black);
+  // --dimmer: var(--drop-dark); // dark-alt
+  --button: var(--candy-red);
+  // 
+  // 
+  // --brand-color: #ea301f;
+  --brand-color: var(--theme);
+  // --selection-color: #181c60;
+  // --selection-color: rgb(7, 5, 81);
+  // --selection-color: var(--dark-shade);
+  // --selection-color: var(--black);
+  // --selection-color: var(--background-pblue);
+  --selection-color: var(--white);
+  --selection-text-color: var(--selec);
+  // --link: #ea301f;
+  // --link: var(--mint);
+
+  // --background-color: #1d1d27;
+  // --background-alt-color: #21212d;
+  --background-color: var(--deep-gray);
+  --background-alt-color: #0F1119;
+  
+  --text-color: var(--white);
+  --text-alt-color: var(--white-alt);
+  
+  --date-color: var(--pepper);
+  
+  --heading-font-color: var(--white);
+
+  --link-color: var(--theme);
+  --link-color-hover: var(--theme);
+
+  --button-color: var(--black);
+  --button-font-color: var(--black);
+  --button-background-color: var(--button);
+  --button-background-hover: var(--button);
+
+  --border-color: #252629;
+  --border-color-alt: #080b12;
+
+  --th-color: #18181d;;
+  --tr-color: #080b12;
+
+  --syntax-highlighting-background: #080b12;
+}
