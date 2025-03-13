@@ -215,6 +215,10 @@
   --schutz-tinted: #4c99ff;
   --schutz-light: #cfe4ff;
   // 
+  --light-cloud: #e3ecf5;
+  --mute-cloud: #d8e0e8;
+  --cloud: #D2DCE6;
+  // 
   //
   // --theme: var(--glowing-green);
   // --selec: var(--olivelgr);
@@ -227,7 +231,7 @@
   // --selec: var(--lighting-yellow);
   // --selec: var(--more-olives);
   // --selec: var(--black);
-  --selec: var(--schutz-light);
+  --selec: var(--cloud);
   --select: var(--drop-dark);
   --dimmer: var(--drop-dark); // dark-alt
   // --button: var(--candy-red);
