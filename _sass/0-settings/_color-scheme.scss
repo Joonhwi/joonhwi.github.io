@@ -219,6 +219,8 @@
   --mute-cloud: #d8e0e8;
   --cloud: #D2DCE6;
   // 
+  --raspberry: #b91279;
+  // 
   //
   // --theme: var(--glowing-green);
   // --selec: var(--olivelgr);
@@ -232,7 +234,7 @@
   // --selec: var(--more-olives);
   --selec: #10101a;
   // --selec: #29293e;
-  --select: #b91279;
+  --select: var(--raspberry);
   // --button: var(--candy-red);
   --button: var(--schutz);
   // 
