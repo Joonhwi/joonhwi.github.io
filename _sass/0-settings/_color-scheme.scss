@@ -233,7 +233,6 @@
   --selec: var(--black);
   // --selec: #29293e;
   --select: --light-star;
-  --dimmer: #29293e; // dark-alt
   // --button: var(--candy-red);
   --button: var(--schutz);
   // 
@@ -248,7 +247,9 @@
   --selection-color: var(--selec);
   --selection-text-color: var(--cloud);
   --text-main: var(--cloud);
-  --bkg: #29293e;
+  // --bkg: #29293e;
+  --bkg: #232338;
+  --dimmer: var(--bkg); // dark-alt
   // --link: #ea301f;
   // --link: var(--mint);
 
