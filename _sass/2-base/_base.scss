@@ -265,16 +265,19 @@ table td {
     font-family: Azeret;
 }
 .Consolas {
-    font-family: 'Aptos Mono', 'Consolas', 'Helvetica Neue', 'Helvetica';
+    // font-family: 'Aptos Mono', 'Consolas', 'Helvetica Neue', 'Helvetica';
+  font-family: 'Aptos Mono', 'Lucida Console', 'Monaco', Monospace;
     font-stretch:25%;  letter-spacing:-1px;
 }
 .ConsolasCond {
-    font-family: 'Aptos Mono', 'Consolas', 'Helvetica Neue', 'Helvetica';
+    // font-family: 'Aptos Mono', 'Consolas', 'Helvetica Neue', 'Helvetica';
+  font-family: 'Aptos Mono', 'Lucida Console', 'Monaco', Monospace;
     font-stretch:50%;  letter-spacing:-1.5px;
     font-size:95%; 
 }
 .Date {
-  font-family: 'Aptos Mono', 'Consolas', 'Helvetica Neue', 'Helvetica';
+  // font-family: 'Aptos Mono', 'Consolas', 'Helvetica Neue', 'Helvetica';
+  font-family: 'Aptos Mono', 'Lucida Console', 'Monaco', Monospace;
   font-stretch:50%;  letter-spacing:-1.5px;
   font-size:95%; 
   // color:var(--date-color);
@@ -284,7 +287,8 @@ table td {
   // color:var(--date-color);
 }
 .CConsolas {
-  font-family: 'Aptos Mono', 'Consolas', 'Helvetica Neue', 'Helvetica';
+  // font-family: 'Aptos Mono', 'Consolas', 'Helvetica Neue', 'Helvetica';
+  font-family: 'Aptos Mono', 'Lucida Console', 'Monaco', Monospace;
   font-stretch:25%;  letter-spacing:-1px;
   font-size:110%; 
   font-weight: bold;
@@ -294,7 +298,8 @@ table td {
   font-family: 'Baskerville', 'Georgia', 'Times New Roman', 'Palatino', serif;
 }
 .Tag {
-  font-family: 'Aptos Mono', 'Consolas', 'Helvetica Neue', 'Helvetica';
+  // font-family: 'Aptos Mono', 'Consolas', 'Helvetica Neue', 'Helvetica';
+  font-family: 'Aptos Mono', 'Lucida Console', 'Monaco', Monospace;
   font-size:90%; 
   font-stretch:90%;  letter-spacing:-0.5px;
   // color:var(--link-color);
