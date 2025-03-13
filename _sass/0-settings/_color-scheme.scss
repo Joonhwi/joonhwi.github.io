@@ -213,6 +213,7 @@
   --light-yellow: #ffeeb1;
   --schutz: #7cb5ff;
   --schutz-tinted: #4c99ff;
+  --schutz-light: #cfe4ff;
   // 
   //
   // --theme: var(--glowing-green);
@@ -226,6 +227,8 @@
   // --selec: var(--lighting-yellow);
   // --selec: var(--more-olives);
   // --selec: var(--black);
+  --selec: var(--schutz-light);
+  --select: var(--drop-dark);
   --dimmer: var(--drop-dark); // dark-alt
   // --button: var(--candy-red);
   --button: var(--schutz);
@@ -238,8 +241,8 @@
   // --selection-color: var(--dark-shade);
   // --selection-color: var(--black);
   // --selection-color: var(--background-pblue);
-  --selection-color: var(--white);
-  --selection-text-color: var(--selec);
+  --selection-color: var(--selec);
+  --selection-text-color: var(--select);
   // --link: #ea301f;
   // --link: var(--mint);
 
