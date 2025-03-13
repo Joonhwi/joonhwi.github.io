@@ -248,13 +248,14 @@
   --selection-color: var(--selec);
   --selection-text-color: var(--cloud);
   --text-main: var(--cloud);
+  --bkg: var(--drop-dark);
   // --link: #ea301f;
   // --link: var(--mint);
 
   // --background-color: #1d1d27;
   // --background-alt-color: #21212d;
-  --background-color: var(--deep-gray);
-  --background-alt-color: #0F1119;
+  --background-color: var(--bkg);
+  --background-alt-color: var(--bkg);
   
   --text-color: var(--text-main);
   --text-alt-color: var(--text-main);
