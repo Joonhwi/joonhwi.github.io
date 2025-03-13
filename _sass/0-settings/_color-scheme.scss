@@ -246,7 +246,8 @@
   // --selection-color: var(--black);
   // --selection-color: var(--background-pblue);
   --selection-color: var(--selec);
-  --selection-text-color: var(--select);
+  --selection-text-color: var(--cloud);
+  --text-main: var(--cloud);
   // --link: #ea301f;
   // --link: var(--mint);
 
@@ -255,8 +256,8 @@
   --background-color: var(--deep-gray);
   --background-alt-color: #0F1119;
   
-  --text-color: var(--white);
-  --text-alt-color: var(--white-alt);
+  --text-color: var(--text-main);
+  --text-alt-color: var(--text-main);
   
   --date-color: var(--pepper);
   
