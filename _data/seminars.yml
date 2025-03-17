@@ -5,11 +5,11 @@
 #   link-event: 
 #   link-file: 
 
-- type: "talk"
-  date: 2025-05
+  - type: "talk"
+  date: 2023-05
   title: "Spinning Black Holes as Molecules of Chiral Dyons"
-  event: "California Amplitudes Meeting 2025 (UCSD)"
-  link-event: 
+  event: "California Amplitudes Meeting 2025 (UC Davis)"
+  link-event: "https://qmap.ucdavis.edu/california-amplitudes-meeting-2025"
   link-file: 
 
 - type: "invited"
@@ -25,7 +25,7 @@
   # title: "Newman-Janis Algorithm from Taub-NUT Instantons"
   # title: "Kerr Black Hole as a Pair of Taub-NUT Instantons"
   title: "Building Black Holes from Taub-NUT Instantons"
-  event: "University of Southampton: Self-Force Seminars"
+  event: "University of Southampton: Self-Force Seminar"
   link-event: 
   link-file: 
 
