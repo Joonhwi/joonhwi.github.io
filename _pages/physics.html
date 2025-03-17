@@ -174,7 +174,7 @@ permalink: /physics/
         {{ talk.title }}
       {% endif %}
       <br/>
-      {% if talk.link-event!=nil %}<em><a href="{{ talk.link-event }}">{{ talk.event }}</a></em>{% else %}<em>{{ talk.event }}</em>{% endif %}
+      {% if talk.link-event!=nil %}<em><a href="{{ talk.link-event }}">{{ talk.event }}</a></em>{% else %}<span class="its">{{ talk.event }}</span>{% endif %}
     </div>
     <div class="col-2" style="text-align:right;">
       <span class="ConsolasCond">
