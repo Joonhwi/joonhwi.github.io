@@ -6,10 +6,17 @@
 #   link-file: 
 
   - type: "talk"
-  date: "05/**/2025"
+  date: 2025-05-31
   title: "Spinning Black Holes as Molecules of Chiral Dyons"
   event: "California Amplitudes Meeting 2025 (UC Davis)"
   link-event: "https://qmap.ucdavis.edu/california-amplitudes-meeting-2025"
+  link-file: 
+
+  - type: "talk"
+  date: 2025-04-04
+  title: "Newman-Janis Algorithm from Taub-NUT Instantons"
+  event: "41st Pacific Coast Gravity Meeting (CSUF)"
+  link-event: "https://physics.fullerton.edu/gwpac/pcgm41.php"
   link-file: 
 
 - type: "invited"
