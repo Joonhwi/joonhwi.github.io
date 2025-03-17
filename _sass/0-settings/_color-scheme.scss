@@ -15,6 +15,8 @@
   --light-cloud: #e3ecf5;
   --mute-cloud: #d8e0e8;
   --cloud: #D2DCE6;
+  --cloud-glow: #d2e3f5;
+  --cloud-g2: #b2beca;
   --light-star: #8a9aed;
   --star: #6072d1;
   --starr: #5a73f4;
@@ -253,7 +255,6 @@
   // --selection-color: var(--background-pblue);
   --selection-color: var(--selec);
   --selection-text-color: var(--select);
-  --text-main: var(--cloud);
   // --bkg: #29293e;
   --bkg: #232338;
   --dimmer: var(--bkg); // dark-alt
@@ -265,8 +266,8 @@
   --background-color: var(--bkg);
   --background-alt-color: var(--bkg);
   
-  --text-color: var(--text-main);
-  --text-alt-color: var(--text-main);
+  --text-color: var(--cloud-glow);
+  --text-alt-color: var(--cloud-g2);
   
   --date-color: var(--pepper);
   
