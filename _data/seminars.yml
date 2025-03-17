@@ -20,7 +20,7 @@
   link-file: 
 
 - type: "invited"
-  date: "05/**/2025"
+  date: 2025-05-**
   title: "Newman-Janis Algorithm Demystified"
   event: "Center for Quantum Spacetime, Seoul"
   link-event: 
