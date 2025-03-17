@@ -22,6 +22,7 @@
   // --warm-cloth-light: #E4E0DC;
   // --warm-cloth-light: #c7bbb0;
   --warm-cloth-light: #c9c1b9;
+  --warm-cloth-xlight: #f2f0ee;
   // --starr: #566ee8;
   --gamma-yellow: #ffd94e;
   --light-yellow: #ffeeb1;
@@ -41,7 +42,8 @@
   --selection-color: var(--selec);
   --selection-text-color: var(--black);
 
-  --background-color: var(--white);
+  // --background-color: var(--white);
+  --background-color: var(--warm-cloth-xlight);
   --background-alt-color: var(--dimmer); 
   
   --text-color: var(--black);
@@ -221,6 +223,8 @@
   // 
   --raspberry: #b91279;
   --raspberry-light: #e155ab;
+  --raspberry-tint: #ed40ab;
+  --schutz-tint: #61a6ff;
   // 
   //
   // --theme: var(--glowing-green);
@@ -229,13 +233,13 @@
   // --button: var(--checker-red);
   // --theme: var(--trafficlight-lgreen);
   // --theme: var(--candy-red);
-  --theme: var(--schutz);
+  --theme: var(--schutz-tint);
   // --selec: var(--olivelgr);
   // --selec: var(--lighting-yellow);
   // --selec: var(--more-olives);
   --selec: #10101a;
   // --selec: #29293e;
-  --select: var(--raspberry-light);
+  --select: var(--raspberry-tint);
   // --button: var(--candy-red);
   --button: var(--schutz);
   // 
