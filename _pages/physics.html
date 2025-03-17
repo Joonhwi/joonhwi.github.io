@@ -174,7 +174,7 @@ permalink: /physics/
         {{ talk.title }}
       {% endif %}
       <br/>
-      {% if talk.link-event!=nil %}<em><a href="{{ talk.link-event }}">{{ talk.event }}</a></em>{% else %}<span class="its">{{ talk.event }}</span>{% endif %}
+      {% if talk.link-event!=nil %}<em><a href="{{ talk.link-event }}">{{ talk.event }}</a></em>{% else %}<font class="its">{{ talk.event }}</font>{% endif %}
     </div>
     <div class="col-2" style="text-align:right;">
       <span class="ConsolasCond">
@@ -204,7 +204,7 @@ permalink: /physics/
         {{ talk.title }}
       {% endif %}
       <br/>
-      {% if talk.link-event!=nil %}<em><a href="{{ talk.link-event }}">{{ talk.event }}</a></em>{% else %}<span class="its">{{ talk.event }}</span>{% endif %}
+      {% if talk.link-event!=nil %}<em><a href="{{ talk.link-event }}">{{ talk.event }}</a></em>{% else %}<font class="its">{{ talk.event }}</font>{% endif %}
     </div>
     <div class="col-2" style="text-align:right;">
       <span class="ConsolasCond">
@@ -264,10 +264,12 @@ permalink: /physics/
         {% endif %}
         {{ ed.institution }}
         <!-- <span style="font-size:90%">{{ ed.address }}</span> -->
-        ({{ ed.address }})
+        <!-- ({{ ed.address }}) -->
+          
+        <font class="its">{{ ed.address }}</font>
         
         {% if ed.note!=nill %}
-          <font class="Note"><em>{{ ed.note }}</em></font>
+          <font class="its">{{ ed.note }}</font>
         {% endif %}
       </div>
       <div class="col-3" style="text-align:right">
