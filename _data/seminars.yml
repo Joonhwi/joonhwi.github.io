@@ -5,6 +5,20 @@
 #   link-event: 
 #   link-file: 
 
+- type: "talk"
+  date: 2025-05-**
+  title: "Spinning Black Holes as Molecules of Chiral Dyons"
+  event: "California Amplitudes Meeting 2025 (UCSD)"
+  link-event: 
+  link-file: 
+
+- type: "invited"
+  date: 2025-05-**
+  title: "Newman-Janis Algorithm Demystified"
+  event: "Center for Quantum Spacetime, Seoul"
+  link-event: 
+  link-file: 
+
 - type: "invited"
   date: 2025-02-05
   # title: "Kerr Black Hole as a Pair of Chiral Dyons"
