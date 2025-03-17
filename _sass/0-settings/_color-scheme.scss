@@ -229,8 +229,8 @@
   --cloud: #D2DCE6;
   // 
   --raspberry: #b91279;
-  --raspberry-light: #e155ab;
   --raspberry-tint: #ed40ab;
+  --raspberry-light: #e155ab;
   --schutz-tint: #61a6ff;
   // 
   //
@@ -240,13 +240,15 @@
   // --button: var(--checker-red);
   // --theme: var(--trafficlight-lgreen);
   // --theme: var(--candy-red);
-  --theme: var(--schutz-tint);
+  // --theme: var(--schutz-tint);
+  --theme: var(--schutz);
   // --selec: var(--olivelgr);
   // --selec: var(--lighting-yellow);
   // --selec: var(--more-olives);
   --selec: #10101a;
   // --selec: #29293e;
-  --select: var(--raspberry-tint);
+  // --select: var(--raspberry-tint);
+  --select: var(--raspberry-light);
   // --button: var(--candy-red);
   --button: var(--schutz);
   // 
