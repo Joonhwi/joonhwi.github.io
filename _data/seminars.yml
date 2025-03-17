@@ -8,14 +8,14 @@
 - type: "talk"
   date: 2025-05-31
   title: "Spinning Black Holes as Molecules of Chiral Dyons"
-  event: "California Amplitudes Meeting 2025 (UC Davis)"
+  event: "California Amplitudes Meeting 2025, UC Davis"
   link-event: "https://qmap.ucdavis.edu/california-amplitudes-meeting-2025"
   link-file: 
 
 - type: "talk"
   date: 2025-04-04
   title: "Newman-Janis Algorithm from Taub-NUT Instantons"
-  event: "41st Pacific Coast Gravity Meeting (CSUF)"
+  event: "41st Pacific Coast Gravity Meeting, CSUF"
   link-event: "https://physics.fullerton.edu/gwpac/pcgm41.php"
   link-file: 
 
@@ -32,7 +32,7 @@
   # title: "Newman-Janis Algorithm from Taub-NUT Instantons"
   # title: "Kerr Black Hole as a Pair of Taub-NUT Instantons"
   title: "Building Black Holes from Taub-NUT Instantons"
-  event: "University of Southampton: Self-Force Seminar"
+  event: "University of Southampton (Self-Force Seminar)"
   link-event: 
   link-file: 
 
@@ -41,7 +41,7 @@
   title: "Newman-Janis Shift and Beyond"
   # institute: "IHES/IPhT"
   # event: "IHES/IPhT (Séminaire de Physique Théorique)"
-  event: "IHÉS/IPhT: Séminaire Amplitudes et Gravitation sur l'Yvette"
+  event: "IHÉS/IPhT (Séminaire Amplitudes et Gravitation sur l'Yvette)"
   # link-event: "https://www.ihes.fr/event_categories/seminaire-de-physique-theorique/"
   link-event: "https://indico.math.cnrs.fr/event/13703/"
   link-file: 
@@ -51,7 +51,7 @@
   # title: "Spinning Black Hole Amplitudes from Complexified Equivalence Principle"
   title: "Spinning Black Hole Amplitudes from Complexified On-Shell Kinematics"
   # institute: "IAS"
-  event: "Amplitudes 2024 Gong Show (IAS)"
+  event: "Amplitudes 2024 Gong Show, IAS"
   link-event: "https://www.ias.edu/sns/amplitudes-2024-gong-show-slides-conference"
   link-file: 
 
@@ -74,7 +74,7 @@
   date: 2023-11-17
   title: "Twistor Particle Programme Rebooted: A Zig-Zag Theory of Massive Spinning Particles"
   # institute: "Oxford"
-  event: "Oxford: QFT-Relativity Seminars"
+  event: "Oxford (QFT-Relativity Seminars)"
   link-event: "https://www.maths.ox.ac.uk/node/66122"
   link-file: 
 
@@ -82,7 +82,7 @@
   date: 2023-03-31
   title: "Spinspacetime: Unification of Spacetime and Spin into a Complex Geometry"
   # institute: "Caltech"
-  event: "39th Pacific Coast Gravity Meeting (Caltech)"
+  event: "39th Pacific Coast Gravity Meeting, Caltech"
   link-event: "http://www.tapir.caltech.edu/~pcgm39/"
   link-file: 
 
@@ -90,7 +90,7 @@
   date: 2023-03-12
   title: "Symplectic Perturbation Theory"
   # instittue: "UCSD"
-  event: "California Amplitudes Meeting 2023 (UCSD)"
+  event: "California Amplitudes Meeting 2023, UCSD"
   link-event: "https://sites.google.com/view/ca-amps-ucsd/home"
   link-file: 
 
