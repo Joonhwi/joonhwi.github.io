@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` deciphers the physics of spinning black holes in four dimensions by viewing them as “molecules” built out of Taub-NUT instantons, dubbed “zig” (anti-self-dual) and “zag” (self-dual).`
       // + ` deciphers mysteries of spinning black holes in four dimensions by viewing them as “molecules” built out of Taub-NUT instantons (nicknamed “zig” and “zag”, for anti-self-dual and self-dual).`
       // + ` systematically investigates spinning black holes in four dimensions by viewing them as “molecules” built out of Taub-NUT instantons (nicknamed “zig” and “zag”, for anti-self-dual and self-dual).`
-      + ` is a systematic investigation of four-dimensional black holes as “molecules” built out of Taub-NUT instantons (nicknamed “zig” and “zag” for the two chiralities).`
+      + ` is a systematic study of four-dimensional black holes as “molecules” built out of Taub-NUT instantons (nicknamed “zig” and “zag” for the two chiralities).`
       // + ` [4]`
       + ` <span class="ConsolasCond">[`
         + getArxivLink(3) + `,`
