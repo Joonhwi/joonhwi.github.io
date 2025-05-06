@@ -39,7 +39,8 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` opens up a new chapter in relativity by unifying spacetime and spin into a complex geometry, finally realizing Ezra Ted Newman's forgotten dream in the 70s.`
       // + ` opens up a new chapter in relativity by realizing Ezra Ted Newman's forgotten dream of unifying spacetime and spin into a complex geometry.`
       // + ` realizes Ezra Ted Newman's dream of unifying spacetime and spin into a complex geometry and opens up a new chapter in relativity.`
-      + ` opens up a new chapter in relativity, by realizing Ezra Ted Newman's dream of unifying spacetime and spin into a complex geometry.`
+      // + ` opens up a new chapter in relativity, by realizing Ezra Ted Newman's dream of unifying spacetime and spin into a complex geometry.`
+      + ` opens up a new chapter in relativity by resurrecting Ezra Ted Newman's curious idea of unifying spacetime and spin into a complex four-manifold.`
       + ` <span class="ConsolasCond">[`
         + getArxivLink(3)
       + `]</span>`
@@ -55,7 +56,8 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` deciphers the physics of spinning black holes in four dimensions by using Taub-NUT instantons—dubbed “zig” and “zag”—as elementary building blocks.`
       // + ` deciphers the physics of spinning black holes in four dimensions by viewing them as “molecules” built out of Taub-NUT instantons, dubbed “zig” (anti-self-dual) and “zag” (self-dual).`
       // + ` deciphers mysteries of spinning black holes in four dimensions by viewing them as “molecules” built out of Taub-NUT instantons (nicknamed “zig” and “zag”, for anti-self-dual and self-dual).`
-      + ` systematically investigates spinning black holes in four dimensions by viewing them as “molecules” built out of Taub-NUT instantons (nicknamed “zig” and “zag”, for anti-self-dual and self-dual).`
+      // + ` systematically investigates spinning black holes in four dimensions by viewing them as “molecules” built out of Taub-NUT instantons (nicknamed “zig” and “zag”, for anti-self-dual and self-dual).`
+      + ` is a systematic investigation of four-dimensional black holes as “molecules” built out of Taub-NUT instantons (nicknamed “zig” and “zag” for the two chiralities).`
       // + ` [4]`
       + ` <span class="ConsolasCond">[`
         + getArxivLink(3) + `,`
@@ -72,7 +74,8 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` aims to reboot the twistor particle program, with an emphasis on the physical implications of the Kähler geometry of massive twistor space.`
       // + ` aims to reboot the twistor particle program, with an emphasis on the physical significance of the Kähler geometry of massive twistor space (nicknamed “zig-zag structure”).`
       // + ` aims to reboot the twistor particle program of the 70s, with an emphasis on the physical significance of the Kähler geometry of massive twistor space (nicknamed “zig-zag structure”).`
-      + ` aims to reboot the '70s twistor particle program, by putting emphasis on the Kähler geometry of massive twistor space (nicknamed “zig-zag structure”) and its physical significance.`
+      // + ` aims to reboot the '70s twistor particle program, by putting emphasis on the Kähler geometry of massive twistor space (nicknamed “zig-zag structure”) and its physical significance.`
+      + ` is a reboot of the '70s twistor particle program with an emphasis on the physical significance of the Kähler geometry in massive twistor space (nicknamed “zig-zag structure”).`
       + ` <span class="ConsolasCond">[`
         + getArxivLink(1) + `,`
         + getArxivLink(2) + `,`
@@ -96,7 +99,9 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` reinterprets gravitational singularities as topological operators and sheds new insights on the standard model.`
       // + ` offers an interesting reinterpretation of gravitational singularities as topological operators and sheds an intriguing insight on how fermions exist in our universe.`
       // + ` offers an interesting reinterpretation of gravitational singularities as topological operators and reveals a new symmetry in the standard model.`
-      + ` reveals a new symmetry in the standard model while offering an interesting reinterpretation of gravitational singularities as topological operators.`
+      // + ` reveals a new symmetry in the standard model while offering an interesting reinterpretation of gravitational singularities as topological operators.`
+      // + ` reveals new symmetries in our universe while offering reinterpretations of gravitational singularities as topological operators.`
+      + ` reveals new symmetries in the standard model while offering reinterpretations of gravitational singularities as topological operators.`
       // + ` [3]`
       + ` <span class="ConsolasCond">[`
         + getArxivLink(4)
