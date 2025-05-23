@@ -19,12 +19,12 @@
   link-event: "https://physics.fullerton.edu/gwpac/pcgm41.php"
   link-file: 
 
-# - type: "invited"
-#   date: 2025-05-**
-#   title: "Newman-Janis Algorithm Demystified"
-#   event: "Center for Quantum Spacetime, Seoul"
-#   link-event: 
-#   link-file: 
+- type: "invited"
+  date: TBA
+  title: "Newman-Janis Algorithm Demystified"
+  event: "Center for Quantum Spacetime, Seoul"
+  link-event: 
+  link-file: 
 
 - type: "invited"
   date: 2025-02-05
