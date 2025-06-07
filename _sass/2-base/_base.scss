@@ -90,6 +90,11 @@ blockquote {
     margin-bottom: 10px;
   }
 
+  ps {
+    margin-bottom: 10px;
+    line-height: $base-line-height;
+  }
+
   cite {
     display: inline-block;
     margin-top: 8px;
