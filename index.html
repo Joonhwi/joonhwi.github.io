@@ -128,10 +128,11 @@ title: Joonhwi
       <div class="row">
         <div class="col-10" style="word-wrap:break-word; max-width:75%;">
           {% if proj.link!=nil %}
-            <a href="{{ proj.link }}">{{ proj.title }}</a>
+            <a href="{{ proj.link }}">»&nbsp;&nbsp;</a>
           {% else %}
-            {{ proj.title }}
+            »&nbsp;&nbsp;
           {% endif %}
+          {{ proj.title }}
         </div>
       <hr style="visibility:hidden"/>
     {% endfor %}
