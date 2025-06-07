@@ -24,7 +24,9 @@ body {
   background-color: var(--selection-color);
 }
 
-h1,
+h1 {
+  line-height: $macro-line-height;
+},
 h2,
 h3,
 h4,
