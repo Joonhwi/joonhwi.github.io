@@ -28,19 +28,18 @@ const captions2 = [
 
 document.addEventListener("DOMContentLoaded", () => {
   const holder = document.getElementById("summary-phd");
+  if (!holder) return;
 
-  // build each line
   const html = captions1
     .map((c1, i) => {
-      // const c2 = captions2[i] || "";        // guard in case captions2 is shorter
+      const c2 = captions2[i] || "";   // ← grab the matching “extra” HTML
       return `
         <hr style="visibility:hidden"/>
-        &nbsp;&nbsp; » ${c1}
+        &nbsp;&nbsp; » <em>${c1}</em>
         ${c2}
       `;
     })
     .join("");
 
-  // inject into the placeholder
   holder.innerHTML = html;
 });
