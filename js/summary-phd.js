@@ -8,9 +8,18 @@ const arxivnumbers = [
   `2410.22988`,
   `2412.19611`,
 ];
+
 function getArxivLink(no) {
   return `<a target="_blank" href="http://arxiv.org/abs/` + arxivnumbers[no-1] + `">` + no + `</a>`;
 };
+
+function getArxivRefs(...nums) {
+  // map each index to its <a> tag, then join with commas
+  const links = nums.map(n => getArxivLink(n)).join(",");
+  return `<span class="ConsolasCond">[${links}]</span>`;
+}
+
+// 
 
 const captions1 = [
   "Massive Twistor Theory",
@@ -20,10 +29,10 @@ const captions1 = [
 ];
 
 const captions2 = [
-  getArxivLink(1) + getArxivLink(2)  + getArxivLink(3) ,
-  getArxivLink(1) + getArxivLink(2)  + getArxivLink(3) + getArxivLink(6)  + getArxivLink(7) ,
-  getArxivLink(5) + getArxivLink(8) ,
-  getArxivLink(4) ,
+  getArxivRefs(1,2,3),
+  getArxivRefs(1,2,3,6,7),
+  getArxivRefs(5,8),
+  getArxivRefs(4),
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
