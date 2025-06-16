@@ -21,7 +21,7 @@ const captions1 = [
 
 const captions2 = [
   getArxivLink(1) + getArxivLink(2)  + getArxivLink(3) ,
-  getArxivLink(3) + getArxivLink(6)  + getArxivLink(7) ,
+  getArxivLink(1) + getArxivLink(2)  + getArxivLink(3) + getArxivLink(6)  + getArxivLink(7) ,
   getArxivLink(5) + getArxivLink(8) ,
   getArxivLink(4) ,
 ];
