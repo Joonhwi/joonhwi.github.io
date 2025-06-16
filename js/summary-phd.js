@@ -32,11 +32,11 @@ document.addEventListener("DOMContentLoaded", () => {
   // build each line
   const html = captions1
     .map((c1, i) => {
-      const c2 = captions2[i] || "";        // guard in case captions2 is shorter
+      // const c2 = captions2[i] || "";        // guard in case captions2 is shorter
       return `
         <hr style="visibility:hidden"/>
-        &nbsp;&nbsp; » <em>${c1}</em>
-        <span class="c2"> ${c2}</span>
+        &nbsp;&nbsp; » ${c1}
+        ${c2}
       `;
     })
     .join("");
