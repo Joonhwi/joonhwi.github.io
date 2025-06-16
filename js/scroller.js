@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
   };
 
   const images = [
-    "/images/phys-cards/lcdx.png",
+    "/images/phys-cards/lcdx-new.png",
     "/images/phys-cards/flying-discs_rendered.jpg",
     "/images/phys-cards/zig-bowtie-indigo.png",
     "/images/phys-cards/higher-pop.png",
