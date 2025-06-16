@@ -13,6 +13,11 @@ document.addEventListener('DOMContentLoaded', function() {
   function getArxivLink(no) {
     return `<a target="_blank" href="http://arxiv.org/abs/` + arxivnumbers[no-1] + `">` + no + `</a>`;
   };
+  function getArxivRefs(...nums) {
+    // map each index to its <a> tag, then join with commas
+    const links = nums.map(n => getArxivLink(n)).join(",");
+    return `<span class="ConsolasCond">[${links}]</span>`;
+  }
 
   const images = [
     "/images/phys-cards/lcdx-new.png",
