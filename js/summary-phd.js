@@ -12,22 +12,33 @@ function getArxivLink(no) {
   return `<a target="_blank" href="http://arxiv.org/abs/` + arxivnumbers[no-1] + `">` + no + `</a>`;
 };
 
-const captions = [
-  "Massive Twistor Theory for Post-Minkowskian Gravity to All Orders in Spin",
+const captions1 = [
+  "Massive Twistor Theory",
+  "Post-Minkowskian Gravity to All Orders in Spin",
   "Gravitational instantons and double copy",
   "Generalized symmetry in gravity",
+];
+
+const captions2 = [
+  "[1,2,3]",
+  "[4,6,7]",
+  "[5]",
+  "[8]",
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
   const holder = document.getElementById("summary-phd");
 
-  // build each line (with the invisible <hr> + arrow + emphasized text)
-  const html = captions
-    .map(
-      c =>
-        `<hr style="visibility:hidden"/>&nbsp;&nbsp;` +
-        `» <em>${c}</em>`
-    )
+  // build each line
+  const html = captions1
+    .map((c1, i) => {
+      const c2 = captions2[i] || "";        // guard in case captions2 is shorter
+      return `
+        <hr style="visibility:hidden"/>
+        &nbsp;&nbsp; » <em>${c1}</em>
+        <span class="c2"> ${c2}</span>
+      `;
+    })
     .join("");
 
   // inject into the placeholder
