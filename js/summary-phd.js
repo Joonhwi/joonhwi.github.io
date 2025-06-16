@@ -20,10 +20,10 @@ const captions1 = [
 ];
 
 const captions2 = [
-  "[1,2,3]",
-  "[4,6,7]",
-  "[5]",
-  "[8]",
+  getArxivLink(1) + getArxivLink(2)  + getArxivLink(3) ,
+  getArxivLink(3) + getArxivLink(6)  + getArxivLink(7) ,
+  getArxivLink(5) + getArxivLink(8) ,
+  getArxivLink(4) ,
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
