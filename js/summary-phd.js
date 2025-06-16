@@ -44,8 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const c2 = captions2[i] || "";   // ← grab the matching “extra” HTML
       return `
         <hr style="visibility:hidden"/>
-        &nbsp;&nbsp; » ${c1}
-        ${c2}
+        &nbsp;&nbsp; » ${c1} ${c2}
       `;
     })
     .join("");
