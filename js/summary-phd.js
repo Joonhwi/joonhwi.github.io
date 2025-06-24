@@ -26,7 +26,7 @@ const captions1 = [
   "Post-Minkowskian Gravity to All Orders in Spin",
   "Gravitational Instantons and Double Copy",
   "Generalized Symmetry in Gravity",
-  "Color-Kinematics Duality and Deformation Quantization",
+  "Color-Kinematics Duality",
 ];
 
 const captions2 = [
