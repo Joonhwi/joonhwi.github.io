@@ -24,7 +24,7 @@ function getArxivRefs(...nums) {
 const captions1 = [
   "Massive Twistor Theory",
   "Post-Minkowskian Gravity to All Orders in Spin",
-  "Gravitational Instantons and Double Copy",
+  "Classical Double Copy and Gravitational Instantons",
   "Generalized Symmetry in Gravity",
   "Color-Kinematics Duality",
 ];
