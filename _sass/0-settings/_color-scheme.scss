@@ -169,8 +169,6 @@
 //   --syntax-highlighting-background: #080b12;
 // }
 
-
-// 2024 ver
 :root[dark] {
   // --white: #fff;
   --white: #ffffff;
@@ -242,14 +240,16 @@
   // --theme: var(--trafficlight-lgreen);
   // --theme: var(--candy-red);
   // --theme: var(--schutz-tint);
-  --theme: var(--schutz);
+  // --theme: var(--schutz);
+  --select: var(--raspberry-pink);
   // --selec: var(--olivelgr);
   // --selec: var(--lighting-yellow);
   // --selec: var(--more-olives);
   --selec: #10101a;
   // --selec: #29293e;
   // --select: var(--raspberry-tint);
-  --select: var(--raspberry-light);
+  // --select: var(--raspberry-light);
+  --select: var(--olivelgr);
   // --button: var(--candy-red);
   --button: var(--schutz);
   // 
@@ -264,7 +264,8 @@
   --selection-color: var(--selec);
   --selection-text-color: var(--select);
   // --bkg: #29293e;
-  --bkg: #232338;
+  // --bkg: #232338;
+  --bkg: #403e3d;
   --dimmer: var(--bkg); // dark-alt
   // --link: #ea301f;
   // --link: var(--mint);
