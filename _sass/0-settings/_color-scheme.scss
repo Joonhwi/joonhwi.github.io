@@ -250,8 +250,8 @@
   // --selec: #29293e;
   // --select: var(--raspberry-tint);
   // --select: var(--raspberry-light);
-  --select: var(--mint);
-  --button: var(--candy-red);
+  --select: var(--candy-mint);
+  --button: var(--theme);
   // --button: var(--schutz);
   // 
   // 
@@ -266,7 +266,8 @@
   --selection-text-color: var(--select);
   // --bkg: #29293e;
   // --bkg: #232338;
-  --bkg: #292726;
+  // --bkg: #292726;
+  --bkg: #232221;
   --dimmer: var(--bkg); // dark-alt
   // --link: #ea301f;
   // --link: var(--mint);
