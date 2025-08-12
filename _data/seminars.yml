@@ -7,8 +7,8 @@
 
 - type: "invited"
   date: TBA
-  # title: "Post-Minkowskian Gravity to All Orders in Spin: Physics, Formalism, Output"
-  title: "The Zig-Zag Road to All-Orders-in-Spin Post-Minkowskian Gravity"
+  title: "Post-Minkowskian Gravity to All Orders in Spin: Physics, Formalism, Output"
+  # title: "The Zig-Zag Road to All-Orders-in-Spin Post-Minkowskian Gravity"
   # title: "The Zig-Zag Theory of Spinning Black Holes"
   # title: "Dynamics of Kerr Black Holes to All Orders in Spin"
   event: "UCLA"
@@ -29,12 +29,12 @@
   link-event: "https://physics.fullerton.edu/gwpac/pcgm41.php"
   link-file: 
 
-- type: "invited"
-  date: TBA
-  title: "Newman-Janis Algorithm Demystified"
-  event: "Center for Quantum Spacetime, Seoul"
-  link-event: 
-  link-file: 
+#- type: "invited"
+#  date: TBA
+#  title: "Newman-Janis Algorithm Demystified"
+#  event: "Center for Quantum Spacetime, Seoul"
+#  link-event: 
+#  link-file: 
 
 - type: "invited"
   date: 2025-02-05
