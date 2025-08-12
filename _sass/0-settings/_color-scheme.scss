@@ -47,8 +47,7 @@
   // 
   // --brand-color: #5e3aee;
   --brand-color: var(--theme);
-  // --selection-color: var(--selec);
-  --selection-color:rgb(210, 207, 203)9;
+  --selection-color: var(--selec);
   --selection-text-color: var(--black);
 
   --background-color: var(--white);
