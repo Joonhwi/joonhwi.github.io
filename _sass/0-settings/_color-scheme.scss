@@ -243,8 +243,8 @@
   // --theme: var(--candy-red);
   // --theme: var(--schutz-tint);
   // --theme: var(--schutz);
-  // --theme: var(--raspberry-light);
-  --theme: var(--candy-red);
+  --theme: var(--raspberry-light);
+  // --theme: var(--candy-red);
   // --selec: var(--olivelgr);
   // --selec: var(--lighting-yellow);
   // --selec: var(--more-olives);
@@ -281,7 +281,8 @@
   
   --text-color:  #def0f6;
   // --text-alt-color: #fb6153;
-  --text-alt-color: #f99b93;
+  // --text-alt-color: #f99b93;
+  --text-alt-color: var(--lighting-yellow);
   
   --date-color: var(--pepper);
   
