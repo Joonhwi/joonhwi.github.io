@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` aims to reboot the twistor particle program of the 70s, with an emphasis on the physical significance of the Kähler geometry of massive twistor space (nicknamed “zig-zag structure”).`
       // + ` aims to reboot the '70s twistor particle program, by putting emphasis on the Kähler geometry of massive twistor space (nicknamed “zig-zag structure”) and its physical significance.`
       // + ` is a reboot of the '70s twistor particle program with an emphasis on the physical significance of the Kähler geometry in massive twistor space (nicknamed “zig-zag structure”).`
-      + ` reboots the '70s twistor particle program and extends its scope to astrophysical bodies, yielding an all-orders-in-spin framework for post-Minkowskian gravity.`
+      + ` reboots the '70s twistor particle program and extends its scope to astrophysical objects, yielding an all-orders-in-spin framework for post-Minkowskian gravity.`
       + ` <span class="ConsolasCond">[`
         + getArxivLink(1) + `,`
         + getArxivLink(2) + `,`
