@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   const images = [
-    "/images/phys-cards/lcdx-new.png",
     "/images/phys-cards/flying-discs_rendered.jpg",
     "/images/phys-cards/zig-bowtie-indigo.png",
     "/images/phys-cards/higher-pop.png",
@@ -30,38 +29,14 @@ document.addEventListener('DOMContentLoaded', function() {
   ];
 
   const captions = [
-    "Spinspacetime",
     "Black Hole Zig-Zag Program",
-    "Zig-Zag Twistor Particle Program",
+    "Massive Twistor Theory",
     "Generalized Symmetry in Gravity",
     "Color-Kinematics Duality",
   ];
 
   const messages = [
-      `<span class="EmphBI">Spinspacetime</span>`
-      // + ` opens up a new chapter in relativity by unifying spacetime and spin into a complex geometry, concretely realizing Newman's curious ideas in the 70s.`
-      // + ` opens up a new chapter in relativity by unifying spacetime and spin into a complex geometry, which finally realizes Ezra Ted Newman's forgotten dream in the 70s.`
-      // + ` opens up a new chapter in relativity by unifying spacetime and spin into a complex geometry, finally realizing Ezra Ted Newman's forgotten dream in the 70s.`
-      // + ` opens up a new chapter in relativity by realizing Ezra Ted Newman's forgotten dream of unifying spacetime and spin into a complex geometry.`
-      // + ` realizes Ezra Ted Newman's dream of unifying spacetime and spin into a complex geometry and opens up a new chapter in relativity.`
-      // + ` opens up a new chapter in relativity, by realizing Ezra Ted Newman's dream of unifying spacetime and spin into a complex geometry.`
-      + ` opens up a new chapter in relativity by resurrecting Ezra Ted Newman's curious idea of unifying spacetime and spin into a complex four-manifold.`
-      + ` <span class="ConsolasCond">[`
-        + getArxivLink(3)
-      + `]</span>`
-    ,
-      // `<span class="EmphBI">Zig-zag program for spinning black holes</span>`
       `<span class="EmphBI">Black Hole Zig-Zag Program</span>`
-      // + `proposes to study spinning black holes in four dimensions from the angle of their factorization into chiral dyons in the chiral sectors.`
-      // + `proposes to study spinning black holes in four dimensions with their “factorized” form, into chiral dyons in chiral sectors.`
-      // + `proposes to study the dynamics of spinning black holes in four dimensions with their factorization into chiral dyons.`
-      // + ` proposes that chiral dyons (Taub-NUT instantons, dubbed “zig” and “zag”) should be used as elementary building blocks for studying the dynamics of spinning black holes in four dimensions.`
-      // + ` proposes that self-dual and anti-self-dual Taub-NUT instantons (dubbed “zig” and “zag”) should be used as “atoms” for studying the physics of spinning black holes in four dimensions.`
-      // + ` understands the physics of spinning black holes in four dimensions by using self-dual and anti-self-dual Taub-NUT instantons (dubbed “zig” and “zag”) as elementary building blocks (or “atoms”).`
-      // + ` deciphers the physics of spinning black holes in four dimensions by using Taub-NUT instantons—dubbed “zig” and “zag”—as elementary building blocks.`
-      // + ` deciphers the physics of spinning black holes in four dimensions by viewing them as “molecules” built out of Taub-NUT instantons, dubbed “zig” (anti-self-dual) and “zag” (self-dual).`
-      // + ` deciphers mysteries of spinning black holes in four dimensions by viewing them as “molecules” built out of Taub-NUT instantons (nicknamed “zig” and “zag”, for anti-self-dual and self-dual).`
-      // + ` systematically investigates spinning black holes in four dimensions by viewing them as “molecules” built out of Taub-NUT instantons (nicknamed “zig” and “zag”, for anti-self-dual and self-dual).`
       + ` is a systematic study of four-dimensional black holes as “molecules” built out of Taub-NUT instantons (nicknamed “zig” and “zag” for the two chiralities).`
       // + ` [4]`
       + ` <span class="ConsolasCond">[`
@@ -70,8 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
         + getArxivLink(8)
       + `]</span>`
     ,
-      // `<b><i>Zig-zag theory of massive spinning particles</i></b>`
-      `<span class="EmphBI">Zig-Zag Twistor Particle Program</span>`
+      `<span class="EmphBI">Massive Twistor Theory</span>`
       // + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry (“dubbed zig-zag structure”) of massive spinning particles.`
       // + ` aims to reboot twistor particle programme with an emphasis on the hidden Kähler geometry of massive spinning particles in four dimensions [1].`
       // + ` aims to reboot the twistor particle program with an emphasis on the hidden Kähler geometry of massive spinning particles in four dimensions.`
@@ -80,7 +54,8 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` aims to reboot the twistor particle program, with an emphasis on the physical significance of the Kähler geometry of massive twistor space (nicknamed “zig-zag structure”).`
       // + ` aims to reboot the twistor particle program of the 70s, with an emphasis on the physical significance of the Kähler geometry of massive twistor space (nicknamed “zig-zag structure”).`
       // + ` aims to reboot the '70s twistor particle program, by putting emphasis on the Kähler geometry of massive twistor space (nicknamed “zig-zag structure”) and its physical significance.`
-      + ` is a reboot of the '70s twistor particle program with an emphasis on the physical significance of the Kähler geometry in massive twistor space (nicknamed “zig-zag structure”).`
+      // + ` is a reboot of the '70s twistor particle program with an emphasis on the physical significance of the Kähler geometry in massive twistor space (nicknamed “zig-zag structure”).`
+      + ` reboots the '70s twistor particle program and extends its scope to astrophysical bodies, yielding an all-orders-in-spin framework for post-Minkowskian gravity.`
       + ` <span class="ConsolasCond">[`
         + getArxivLink(1) + `,`
         + getArxivLink(2) + `,`
@@ -106,7 +81,8 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` offers an interesting reinterpretation of gravitational singularities as topological operators and reveals a new symmetry in the standard model.`
       // + ` reveals a new symmetry in the standard model while offering an interesting reinterpretation of gravitational singularities as topological operators.`
       // + ` reveals new symmetries in our universe while offering reinterpretations of gravitational singularities as topological operators.`
-      + ` reveals new symmetries in the standard model while offering reinterpretations of gravitational singularities as topological operators.`
+      // + ` reveals new symmetries in the standard model while offering reinterpretations of gravitational singularities as topological operators.`
+      + ` reveals new symmetries in the standard model while offering an interesting perspective on massless gravitational defects as topological operators.`
       // + ` [3]`
       + ` <span class="ConsolasCond">[`
         + getArxivLink(4)
