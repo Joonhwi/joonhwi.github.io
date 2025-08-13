@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const messages = [
       `<span class="EmphBI">Black Hole Zig-Zag Program</span>`
-      + ` is a systematic study of four-dimensional black holes as “molecules” built out of Taub-NUT instantons (nicknamed “zig” and “zag” for the two chiralities).`
+      + ` is a systematic study of four-dimensional black holes as “molecules” built out of Taub-NUT instantons, nicknamed “zig” and “zag” for the two chiralities.`
       // + ` [4]`
       + ` <span class="ConsolasCond">[`
         + getArxivLink(3) + `,`
