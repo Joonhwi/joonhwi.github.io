@@ -1,5 +1,11 @@
 var papers = [
   {
+    title: "Worldline Formalism in Phase Space",
+    codename: "wqft-spt",
+    arxivnumber: "2509.06058",
+    released: 1
+  },
+  {
     title: "Newman-Janis Algorithm from Taub-NUT Instantons",
     codename: "nja",
     arxivnumber: "2412.19611",
