@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const captions = [
     "Black Hole Zig-Zag Program",
-    "Massive Twistor Theory",
+    "Zig-Zag Twistor Particle Program",
     "Generalized Symmetry in Gravity",
     "Color-Kinematics Duality",
   ];
