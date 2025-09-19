@@ -15,6 +15,13 @@
   link-event: 
   link-file: 
 
+- type: "invited"
+  date: TBA
+  title: "Worldline Formalism in Phase Space"
+  event: "Worldline Seminars"
+  link-event: "https://sites.google.com/view/worldlineseminars/home"
+  link-file: 
+
 - type: "talk"
   date: 2025-05-31
   title: "Spinning Black Holes as Molecules of Chiral Dyons"
