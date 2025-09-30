@@ -1,5 +1,11 @@
 var papers = [
   {
+    title: "Geodesic Deviation to All Orders via a Tangent Bundle Formalism",
+    codename: "gde",
+    arxivnumber: "2509.23600",
+    released: 1
+  },
+  {
     title: "Worldline Formalism in Phase Space",
     codename: "wqft-spt",
     arxivnumber: "2509.06058",
