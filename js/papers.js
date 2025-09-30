@@ -127,7 +127,7 @@ var papers = [
     released: 1
   },
   {
-    title: "Symplectic Perturbations in Massive Twistor Space: A Zig-Zag Theory of Massive Spinning Particles",
+    title: "Symplectic Perturbation Theory in Massive Twistor Space: A Zig-Zag Theory of Massive Spinning Particles",
     codename: "ambikerr1",
     arxivnumber: "2301.06203",
     released: 1
