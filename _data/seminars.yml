@@ -5,6 +5,13 @@
 #   link-event: 
 #   link-file: 
 
+- type: "talk"
+  date: 2025-11-08
+  title: "Color-Kinematics Duality from Ambitwistor Space"
+  event: "California Amplitudes Meeting 2025 (UC Davis)"
+  link-event: "https://qmap.ucdavis.edu/california-amplitudes-meeting-2025"
+  link-file: 
+
 - type: "invited"
   date: TBA
   title: "Post-Minkowskian Gravity to All Orders in Spin: Physics, Formalism, Output"
