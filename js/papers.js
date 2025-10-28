@@ -1,5 +1,11 @@
 var papers = [
   {
+    title: "Double Copy and the Double Poisson Bracket",
+    codename: "dpb",
+    arxivnumber: "2510.23080",
+    released: 1
+  },
+  {
     title: "Geodesic Deviation to All Orders via a Tangent Bundle Formalism",
     codename: "gde",
     arxivnumber: "2509.23600",
