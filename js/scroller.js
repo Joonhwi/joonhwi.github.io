@@ -9,6 +9,9 @@ document.addEventListener('DOMContentLoaded', function() {
     `2405.17056`,
     `2410.22988`,
     `2412.19611`,
+    "2509.06058",
+    "2509.23600",
+    "2510.23080"
   ];
   function getArxivLink(no) {
     return `<a target="_blank" href="http://arxiv.org/abs/` + arxivnumbers[no-1] + `">` + no + `</a>`;
@@ -94,7 +97,9 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` suggests that there exists a mystery infinite-dimensional Lie algebra at the heart of perturbative quantum gravity, which somehow isn't simply the diffeomorphism algebra in spacetime.`
       + ` suggests that there lies a mystery infinite-dimensional Lie algebra at the heart of perturbative quantum gravity.`
       // + ` suggests that gravitons are gluons with a mystery infinite-dimensional Lie algebra.`
-      + ` `
+      + ` <span class="ConsolasCond">[`
+        + getArxivLink(11)
+      + `]</span>`
     ,
   ];
 
