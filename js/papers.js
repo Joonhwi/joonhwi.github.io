@@ -1,6 +1,6 @@
 var papers = [
   {
-    title: "Double copy and the double poisson bracket",
+    title: "Double copy and the double Poisson bracket",
     codename: "dpb",
     arxivnumber: "2510.23080",
     released: 1
