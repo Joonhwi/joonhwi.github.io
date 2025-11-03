@@ -1,36 +1,36 @@
 var papers = [
   {
-    title: "Double Copy and the Double Poisson Bracket",
+    title: "Double copy and the double poisson bracket",
     codename: "dpb",
     arxivnumber: "2510.23080",
     released: 1
   },
   {
-    title: "Geodesic Deviation to All Orders via a Tangent Bundle Formalism",
+    title: "Geodesic deviation to all orders via a tangent bundle formalism",
     codename: "gde",
     arxivnumber: "2509.23600",
     released: 1
   },
   {
-    title: "Worldline Formalism in Phase Space",
+    title: "Worldline formalism in phase space",
     codename: "wqft-spt",
     arxivnumber: "2509.06058",
     released: 1
   },
   {
-    title: "Newman-Janis Algorithm from Taub-NUT Instantons",
+    title: "Newman-Janis algorithm from Taub-NUT instantons",
     codename: "nja",
     arxivnumber: "2412.19611",
     released: 1
   },
   {
-    title: "Classical Eikonal from Magnus Expansion",
+    title: "Classical eikonal from Magnus expansion",
     codename: "wqft-magnus",
     arxivnumber: "2410.22988",
     released: 1
   },
   {
-    title: "Generalized Symmetry in Dynamical Gravity",
+    title: "Generalized symmetry in dynamical gravity",
     codename: "gensymgrav",
     arxivnumber: "2403.01837",
     released: 1
@@ -114,32 +114,32 @@ var papers = [
   //   released: 0
   // },
   {
-    title: "Massive Twistor Worldline in Electromagnetic Fields",
+    title: "Massive twistor worldline in electromagnetic fields",
     codename: "wqft-em",
     arxivnumber: "2405.17056",
     released: 1
   },
   {
     // title: "Note on the Taub-NUT Instanton Metric",
-    title: "Single Kerr-Schild Metric for Taub-NUT Instanton",
+    title: "Single Kerr-Schild metric for Taub-NUT instanton",
     codename: "tnks-note",
     arxivnumber: "2405.09518",
     released: 1
   },
   {
-    title: "Asymptotic Spinspacetime",
+    title: "Asymptotic spinspacetime",
     codename: "sst-asym",
     arxivnumber: "2309.11886",
     released: 1
   },
   {
-    title: "Symplectic Perturbation Theory in Massive Twistor Space: A Zig-Zag Theory of Massive Spinning Particles",
+    title: "Symplectic perturbation theory in massive twistor space: a zig-zag theory of massive spinning particles",
     codename: "ambikerr1",
     arxivnumber: "2301.06203",
     released: 1
   },
   {
-    title: "The Relativistic Spherical Top as a Massive Twistor",
+    title: "The relativistic spherical top as a massive twistor",
     codename: "ambikerr0",
     arxivnumber: "2102.07063",
     released: 1
