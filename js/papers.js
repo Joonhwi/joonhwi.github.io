@@ -1,5 +1,11 @@
 var papers = [
   {
+    title: "Manifest symplecticity in classical scattering,
+    codename: "sympc",
+    arxivnumber: "2511.07387",
+    released: 1
+  },
+  {
     title: "Double copy and the double Poisson bracket",
     codename: "dpb",
     arxivnumber: "2510.23080",
