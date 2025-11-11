@@ -1,6 +1,6 @@
 var papers = [
   {
-    title: "Manifest symplecticity in classical scattering,
+    title: "Manifest symplecticity in classical scattering",
     codename: "sympc",
     arxivnumber: "2511.07387",
     released: 1
