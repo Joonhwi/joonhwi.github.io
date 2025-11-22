@@ -260,6 +260,12 @@ table td {
   color: var(--link-color);
 }
 
+.container ul{
+  width: 80%;
+  overflow: hidden;
+  list-style-position: inside;
+}
+
 
 
 @font-face { 
