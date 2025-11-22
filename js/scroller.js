@@ -73,6 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
       + ` opens up a new chapter in relativity by unifying space, time, and spin altogether.`
       + ` This program resummoned Newman's provisional insights in the '70s into a rigorous framework and has advanced our understandings on relativistic spinning particle mechanics.`
       + ` <span class="ConsolasCond">[`
+        + getArxivLink(2) + `,`
         + getArxivLink(3)
       + `]</span>`
     ,
