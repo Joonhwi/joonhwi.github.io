@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const images = [
     "/images/phys-cards/flying-discs_rendered.jpg",
     "/images/phys-cards/zig-bowtie-indigo.png",
+    "/images/phys-cards/lcdx-new.png",
     "/images/phys-cards/higher-pop.png",
     "/images/phys-cards/ck-tshirt-signed.png",
     // "https://media.gcflearnfree.org/ctassets/topics/246/share_size_large.jpg",
@@ -34,6 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const captions = [
     "Black Hole Zig-Zag Program",
     "Zig-Zag Twistor Particle Program",
+    "Spinspacetime",
     "Generalized Symmetry in Gravity",
     "Color-Kinematics Duality",
   ];
@@ -67,6 +69,13 @@ document.addEventListener('DOMContentLoaded', function() {
         + getArxivLink(6)
       + `]</span>`
     ,
+      `<span class="EmphBI">Spinspacetime</span>`
+      + ` opens up a new chapter in relativity by unifying space, time, and spin altogether.`
+      + ` This program resummoned Newman's provisional insights in the '70s into a rigorous framework and has advanced our understandings on relativistic spinning particle mechanics.`
+      + ` <span class="ConsolasCond">[`
+        + getArxivLink(3)
+      + `]</span>`
+    ,
       `<span class="EmphBI">Generalized Symmetry in Gravity</span>`
       // `<b><i>Higher-Form Symmetry in Gravity</i></b>`
       // + `proposes to study spinning black holes in four dimensions from the angle of their factorization into chiral dyons in the chiral sectors.`
@@ -86,7 +95,8 @@ document.addEventListener('DOMContentLoaded', function() {
       // + ` reveals a new symmetry in the standard model while offering an interesting reinterpretation of gravitational singularities as topological operators.`
       // + ` reveals new symmetries in our universe while offering reinterpretations of gravitational singularities as topological operators.`
       // + ` reveals new symmetries in the standard model while offering reinterpretations of gravitational singularities as topological operators.`
-      + ` reveals new symmetries in the standard model while offering an interesting perspective on massless gravitational defects as topological operators.`
+      // + ` reveals new symmetries in the standard model while offering an interesting perspective on massless gravitational defects as topological operators.`
+      + ` reveals new symmetries in the standard model while reinterpreting massless gravitational defects as topological operators.`
       // + ` [3]`
       + ` <span class="ConsolasCond">[`
         + getArxivLink(4)
