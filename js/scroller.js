@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const images = [
     "/images/phys-cards/flying-discs_rendered.jpg",
     "/images/phys-cards/zig-bowtie-indigo.png",
-    "/images/phys-cards/lcdx-new-pencil.png",
+    "/images/phys-cards/lcdx-new-pencil.jpg",
     "/images/phys-cards/higher-pop.png",
     "/images/phys-cards/ck-tshirt-signed.png",
     // "https://media.gcflearnfree.org/ctassets/topics/246/share_size_large.jpg",
