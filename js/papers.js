@@ -1,5 +1,11 @@
 var papers = [
   {
+    title: "Twisted Feynman Integrals: from generating functions to spin-resummed post-Minkowskian dynamics",
+    codename: "tficollab",
+    arxivnumber: "2512.21210",
+    released: 1
+  },
+  {
     title: "Manifest symplecticity in classical scattering",
     codename: "sympc",
     arxivnumber: "2511.07387",
