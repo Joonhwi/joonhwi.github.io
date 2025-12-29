@@ -1,10 +1,22 @@
 var papers = [
-  // {
-  //   title: "Twisted Feynman Integrals: from generating functions to spin-resummed post-Minkowskian dynamics",
-  //   codename: "tficollab",
-  //   arxivnumber: "2512.21210",
-  //   released: 1
-  // },
+  {
+    title: "Note on the Kerr spinning-particle metric",
+    codename: "probe-nj",
+    arxivnumber: "2512.*****",
+    released: 1
+  },
+  {
+    title: "Phase space formulation of S-matrix",
+    codename: "psfor-s",
+    arxivnumber: "2512.*****",
+    released: 1
+  },
+  {
+    title: "Twisted Feynman integrals: from generating functions to spin-resummed post-Minkowskian dynamics",
+    codename: "tficollab",
+    arxivnumber: "2512.21210",
+    released: 1
+  },
   {
     title: "Manifest symplecticity in classical scattering",
     codename: "sympc",
