@@ -1,6 +1,6 @@
 var papers = [
   {
-    title: "Note on the Kerr spinning-particle metric",
+    title: "Note on the Kerr spinning-particle equations of motion",
     codename: "probe-nj",
     arxivnumber: "2512.*****",
     released: 1
