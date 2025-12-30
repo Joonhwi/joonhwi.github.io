@@ -12,15 +12,15 @@
   link-event: "https://bhaumik-institute.physics.ucla.edu/index.php/conferences-workshops"
   link-file: 
 
-- type: "invited"
-  date: TBA
-  title: "Post-Minkowskian Gravity to All Orders in Spin: Physics, Formalism, Output"
-  # title: "The Zig-Zag Road to All-Orders-in-Spin Post-Minkowskian Gravity"
-  # title: "The Zig-Zag Theory of Spinning Black Holes"
-  # title: "Dynamics of Kerr Black Holes to All Orders in Spin"
-  event: "UCLA"
-  link-event: 
-  link-file: 
+# - type: "invited"
+#   date: TBA
+#   title: "Post-Minkowskian Gravity to All Orders in Spin: Physics, Formalism, Output"
+#   # title: "The Zig-Zag Road to All-Orders-in-Spin Post-Minkowskian Gravity"
+#   # title: "The Zig-Zag Theory of Spinning Black Holes"
+#   # title: "Dynamics of Kerr Black Holes to All Orders in Spin"
+#   event: "UCLA"
+#   link-event: 
+#   link-file: 
 
 - type: "invited"
   date: 2025-10-28
