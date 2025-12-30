@@ -2,13 +2,13 @@ var papers = [
   {
     title: "Note on the Kerr spinning-particle equations of motion",
     codename: "probe-nj",
-    arxivnumber: "2512.*****",
+    arxivnumber: "2512.23697",
     released: 1
   },
   {
     title: "Phase space formulation of S-matrix",
     codename: "psfor-s",
-    arxivnumber: "2512.*****",
+    arxivnumber: "2512.23100",
     released: 1
   },
   {
