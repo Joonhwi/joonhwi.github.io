@@ -1,5 +1,11 @@
 var papers = [
   {
+    title: "The Kerr two-twistor particle",
+    codename: "njmagic",
+    arxivnumber: "2602.19495",
+    released: 1
+  },
+  {
     title: "Note on the Kerr spinning-particle equations of motion",
     codename: "probe-nj",
     arxivnumber: "2512.23697",
