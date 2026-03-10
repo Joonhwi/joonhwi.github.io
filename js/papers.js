@@ -1,5 +1,11 @@
 var papers = [
   {
+    title: "The Kerr-Newman two-twistor particle",
+    codename: "njmagic-KN",
+    arxivnumber: "2603.07537",
+    released: 1
+  },
+  {
     title: "The Kerr two-twistor particle",
     codename: "njmagic",
     arxivnumber: "2602.19495",
