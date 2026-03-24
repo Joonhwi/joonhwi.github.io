@@ -1,13 +1,19 @@
 var papers = [
   {
+    title: "Covariant Symplectic Geometry of Classical Particles",
+    codename: "csg",
+    arxivnumber: "2603.21934",
+    released: 1
+  },
+  {
     title: "The Kerr-Newman two-twistor particle",
-    codename: "njmagic-KN",
+    codename: "njmagic.11",
     arxivnumber: "2603.07537",
     released: 1
   },
   {
     title: "The Kerr two-twistor particle",
-    codename: "njmagic",
+    codename: "njmagic.1",
     arxivnumber: "2602.19495",
     released: 1
   },
