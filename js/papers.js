@@ -1,6 +1,6 @@
 var papers = [
   {
-    title: "Covariant Symplectic Geometry of Classical Particles",
+    title: "Covariant symplectic geometry of classical particles",
     codename: "csg",
     arxivnumber: "2603.21934",
     released: 1
