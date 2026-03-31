@@ -1,5 +1,11 @@
 var papers = [
   {
+    title: "Universality in relativistic spinning particle models",
+    codename: "univ",
+    arxivnumber: "2603.27353",
+    released: 1
+  },
+  {
     title: "Covariant symplectic geometry of classical particles",
     codename: "csg",
     arxivnumber: "2603.21934",
