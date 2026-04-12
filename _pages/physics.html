@@ -216,12 +216,12 @@ permalink: /physics/
     </div>
     <div class="col-2" style="text-align:right;">
       <span class="ConsolasCond">
-        {% if talk.link-file!=nil %}
+        <!-- {% if talk.link-file!=nil %}
           <a href="{{ talk.link-file }}">{{ talk.date | date: "%m/%d/%Y" }}</a>
         {% else %}
           {{ talk.date | date: "%m/%d/%Y" }}
-        {% endif %}
-        <!-- {{ talk.date | date: "%m/%d/%Y" }} -->
+        {% endif %} -->
+        {{ talk.date | date: "%m/%d/%Y" }}
       </span>
     </div>
   </div>
