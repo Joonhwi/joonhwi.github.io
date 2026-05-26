@@ -1,5 +1,11 @@
 var papers = [
   {
+    title: "The diagrammar of quantum Magnusian",
+    codename: "",
+    arxivnumber: "2605.25473",
+    released: 1
+  },
+  {
     title: "Universality in relativistic spinning particle models",
     codename: "univ",
     arxivnumber: "2603.27353",
