@@ -38,11 +38,17 @@
   --pepper: #d62010;
   // 
   //
-  --theme: var(--schutz-tinted);
+  --theme: #605d62;
   // --selec: var(--cloud);
   --selec: var(--warm-cloth-slight);
   --dimmer: var(--dim-brown);
   --button: var(--warm-cloth-light);
+  // 
+  // --theme: var(--schutz-tinted);
+  // // --selec: var(--cloud);
+  // --selec: var(--warm-cloth-slight);
+  // --dimmer: var(--dim-brown);
+  // --button: var(--warm-cloth-light);
   // 
   // 
   // --brand-color: #5e3aee;
@@ -249,11 +255,11 @@
   // --selec: var(--olivelgr);
   // --selec: var(--lighting-yellow);
   // --selec: var(--more-olives);
-  --selec: #10101a;
+  --selec: hsl(240, 20%, 40%);
   // --selec: #29293e;
   // --select: var(--raspberry-tint);
   // --select: var(--raspberry-light);
-  --select: #8c5bbe;
+  --select: #cec1db;
   // --select: var(--candy-mint);
   --button: var(--theme);
   // --button: var(--schutz);
