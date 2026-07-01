@@ -2,8 +2,7 @@
   institution: "California Institute of Technology"
   address: "Pasadena,&nbsp;California,&nbsp;USA"
   start: 2021-09-27
-  end:
-  note: "Candidated June 2024"
+  end: 2026-06-29
 
 - degree: "BS in Physics"
   institution: "Seoul National University"
@@ -11,8 +10,8 @@
   start: 2017-03-02
   end: 2021-02-26
 
-- degree:
-  institution: "Seoul Science High School for the Gifted"
-  address: "Seoul, Korea"
-  start: 2014-02-19
-  end: 2017-02-14
+# - degree:
+#   institution: "Seoul Science High School for the Gifted"
+#   address: "Seoul, Korea"
+#   start: 2014-02-19
+#   end: 2017-02-14
