@@ -28,6 +28,7 @@ defaults:
 
 include:
   - _pages
+  - files
 
 sass:
   sass_dir: _sass
