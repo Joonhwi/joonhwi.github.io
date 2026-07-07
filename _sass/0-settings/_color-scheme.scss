@@ -38,31 +38,23 @@
   --pepper: #d62010;
   // 
   //
-  --theme: #667190;
-  --selec: #cdd3e3;
-  --select: #202f52; // #262f44;
-  --dimmer: #e7eff9;
-  // --dimmer: #d2e6ff;
-  --button: var(--selec);
-  // 
-  // --theme: var(--schutz-tinted);
-  // // --selec: var(--cloud);
-  // --selec: var(--warm-cloth-slight);
-  // --dimmer: var(--dim-brown);
-  // --button: var(--warm-cloth-light);
+  --theme: var(--schutz-tinted);
+  // --selec: var(--cloud);
+  --selec: var(--warm-cloth-slight);
+  --dimmer: var(--dim-brown);
+  --button: var(--warm-cloth-light);
   // 
   // 
   // --brand-color: #5e3aee;
   --brand-color: var(--theme);
   --selection-color: var(--selec);
-  --selection-text-color: var(--select);
+  --selection-text-color: var(--black);
 
-  // --background-color: var(--white);
-  // --background-color: #e7eef5;
-  --background-color: #f1f5f8;
+  --background-color: var(--white);
+  // --background-color: #f5f7f9;
   --background-alt-color: var(--dimmer); 
   
-  --text-color: #161719;
+  --text-color: var(--black);
   // --text-alt-color: #292966;
   --text-alt-color: #464646;
   
@@ -249,19 +241,17 @@
   // --button: var(--checker-red);
   // --theme: var(--trafficlight-lgreen);
   // --theme: var(--candy-red);
-  // --theme: var(--schutz-tint);
+  --theme: var(--schutz-tint);
   // --theme: var(--schutz);
   // --theme: var(--raspberry-light);
   // --theme: var(--candy-red);
   // --selec: var(--olivelgr);
   // --selec: var(--lighting-yellow);
   // --selec: var(--more-olives);
-  --theme: #8eaac9;
-  --selec: #52527a;
-  --select: #cec1db;
+  --selec: #10101a;
   // --selec: #29293e;
   // --select: var(--raspberry-tint);
-  // --select: var(--raspberry-light);
+  --select: var(--raspberry-light);
   // --select: var(--candy-mint);
   --button: var(--theme);
   // --button: var(--schutz);
@@ -291,12 +281,10 @@
   
   // --text-color:  #def0f6;
   // --text-color:  #def6ef;
-  // --text-color: #edf5f7;
-  --text-color: #d1dce8;
-  --text-alt-color: #95a08b;
+  --text-color: #edf5f7;
   // --text-alt-color: #fb6153;
   // --text-alt-color: #f99b93;
-  // --text-alt-color: var(--light-yellow);
+  --text-alt-color: var(--light-yellow);
   // --text-alt-color: var(--lighting-yellow);
   
   --date-color: var(--pepper);
